@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import questionsJson from "../practice_questions.json";
 
 type Question = {
@@ -17,8 +17,25 @@ export default function Home() {
   const [theme, setTheme] = useState<"light" | "dark">("light");
   const [index, setIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
+  const [pageInput, setPageInput] = useState("1");
 
   const totalQuestions = questions.length;
+
+  useEffect(() => {
+    setPageInput(String(index + 1));
+  }, [index]);
+
+  const goToQuestion = (value: string) => {
+    const n = parseInt(value, 10);
+    if (!Number.isNaN(n)) {
+      const clamped = Math.max(1, Math.min(totalQuestions, n));
+      setIndex(clamped - 1);
+      setSelectedOption(null);
+      setPageInput(String(clamped));
+    } else {
+      setPageInput(String(index + 1));
+    }
+  };
 
   const currentQuestion = useMemo(
     () => questions[index],
@@ -42,17 +59,6 @@ export default function Home() {
     if (index === totalQuestions - 1) return;
     setIndex((prev) => prev + 1);
     setSelectedOption(null);
-  };
-
-  const handleGoToQuestion = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const form = e.currentTarget;
-    const input = form.elements.namedItem("questionNum") as HTMLInputElement;
-    const num = parseInt(input.value, 10);
-    if (num >= 1 && num <= totalQuestions) {
-      setIndex(num - 1);
-      setSelectedOption(null);
-    }
   };
 
   const isCorrectSelection =
@@ -90,8 +96,26 @@ export default function Home() {
             <h1 className="text-lg font-semibold tracking-tight sm:text-xl">
               Practice Questions
             </h1>
-            <p className="text-xs text-zinc-500 sm:text-sm">
-              Question {index + 1} of {totalQuestions}
+            <p className="flex items-center gap-1.5 text-xs text-zinc-500 sm:text-sm">
+              Question{" "}
+              <input
+                type="number"
+                min={1}
+                max={totalQuestions}
+                value={pageInput}
+                onChange={(e) => setPageInput(e.target.value)}
+                onBlur={() => goToQuestion(pageInput)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") goToQuestion(pageInput);
+                }}
+                className={`w-14 rounded border px-2 py-0.5 text-center text-xs tabular-nums sm:text-sm [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none ${
+                  theme === "dark"
+                    ? "border-zinc-600 bg-zinc-800 text-zinc-100"
+                    : "border-zinc-300 bg-zinc-50 text-zinc-900"
+                }`}
+                aria-label="Question number"
+              />{" "}
+              of {totalQuestions}
             </p>
           </div>
 
@@ -208,39 +232,27 @@ export default function Home() {
             <span>Previous</span>
           </button>
 
-          <form
-            onSubmit={handleGoToQuestion}
-            className="flex items-center gap-2 text-xs sm:text-sm"
-          >
-            <label htmlFor="questionNum" className="text-zinc-500">
-              Go to
-            </label>
+          <div className="flex items-center gap-1.5 text-xs text-zinc-500 sm:text-sm">
+            Question{" "}
             <input
-              id="questionNum"
-              name="questionNum"
               type="number"
               min={1}
               max={totalQuestions}
-              defaultValue={index + 1}
-              key={index}
-              className={`w-14 rounded-lg border px-2 py-1.5 text-center text-sm font-medium focus:outline-none focus:ring-2 focus:ring-zinc-400/70 ${
+              value={pageInput}
+              onChange={(e) => setPageInput(e.target.value)}
+              onBlur={() => goToQuestion(pageInput)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") goToQuestion(pageInput);
+              }}
+              className={`w-14 rounded border px-2 py-0.5 text-center text-xs tabular-nums sm:text-sm [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none ${
                 theme === "dark"
-                  ? "border-zinc-700 bg-zinc-900 text-zinc-100"
-                  : "border-zinc-200 bg-white text-zinc-900"
+                  ? "border-zinc-600 bg-zinc-800 text-zinc-100"
+                  : "border-zinc-300 bg-zinc-50 text-zinc-900"
               }`}
-            />
-            <span className="text-zinc-500">of {totalQuestions}</span>
-            <button
-              type="submit"
-              className={`rounded-lg border px-2 py-1.5 text-xs font-medium transition-colors ${
-                theme === "dark"
-                  ? "border-zinc-700 bg-zinc-800 hover:bg-zinc-700"
-                  : "border-zinc-200 bg-zinc-50 hover:bg-zinc-100"
-              }`}
-            >
-              Go
-            </button>
-          </form>
+              aria-label="Question number"
+            />{" "}
+            of {totalQuestions}
+          </div>
 
           <button
             type="button"
