@@ -1,64 +1,222 @@
-import Image from "next/image";
+"use client";
+
+import { useMemo, useState } from "react";
+import questionsJson from "../practice_questions.json";
+
+type Question = {
+  id: number;
+  question: string;
+  options: Record<string, string>;
+  answerKey: string[];
+};
+
+const questions: Question[] = (questionsJson as { questions: Question[] })
+  .questions;
 
 export default function Home() {
+  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [index, setIndex] = useState(0);
+  const [selectedOption, setSelectedOption] = useState<string | null>(null);
+
+  const totalQuestions = questions.length;
+
+  const currentQuestion = useMemo(
+    () => questions[index],
+    [index]
+  );
+
+  const hasAnswered = selectedOption !== null;
+
+  const handleSelect = (optionKey: string) => {
+    if (!currentQuestion) return;
+    setSelectedOption(optionKey);
+  };
+
+  const handlePrev = () => {
+    if (index === 0) return;
+    setIndex((prev) => prev - 1);
+    setSelectedOption(null);
+  };
+
+  const handleNext = () => {
+    if (index === totalQuestions - 1) return;
+    setIndex((prev) => prev + 1);
+    setSelectedOption(null);
+  };
+
+  const isCorrectSelection =
+    selectedOption && currentQuestion.answerKey.includes(selectedOption);
+
+  const correctAnswers = currentQuestion.answerKey;
+
+  if (!totalQuestions) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-zinc-50 text-zinc-900">
+        <p className="text-sm text-zinc-600">
+          No questions available. Please check your questions file.
+        </p>
+      </div>
+    );
+  }
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <div
+      className={`flex min-h-screen items-center justify-center px-4 py-10 transition-colors ${
+        theme === "dark"
+          ? "bg-zinc-950 text-zinc-100"
+          : "bg-zinc-50 text-zinc-900"
+      }`}
+    >
+      <main
+        className={`w-full max-w-2xl rounded-3xl border px-5 py-6 shadow-sm sm:px-8 sm:py-8 transition-colors ${
+          theme === "dark"
+            ? "border-zinc-800 bg-zinc-900/60"
+            : "border-zinc-200 bg-white/80"
+        }`}
+      >
+        <header className="mb-6 flex items-center justify-between gap-4">
+          <div className="space-y-1">
+            <h1 className="text-lg font-semibold tracking-tight sm:text-xl">
+              Practice Questions
+            </h1>
+            <p className="text-xs text-zinc-500 sm:text-sm">
+              Question {index + 1} of {totalQuestions}
+            </p>
+          </div>
+
+          <button
+            type="button"
+            onClick={() =>
+              setTheme((prev) => (prev === "light" ? "dark" : "light"))
+            }
+            className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors sm:text-sm ${
+              theme === "dark"
+                ? "border-zinc-700 bg-zinc-900 text-zinc-100 hover:border-zinc-500 hover:bg-zinc-800"
+                : "border-zinc-200 bg-zinc-50 text-zinc-800 hover:border-zinc-300 hover:bg-zinc-100"
+            }`}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+            <span
+              className={`h-2 w-2 rounded-full ${
+                theme === "dark" ? "bg-zinc-300" : "bg-zinc-900"
+              }`}
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            {theme === "dark" ? "Dark mode" : "Light mode"}
+          </button>
+        </header>
+
+        <section className="mb-6 space-y-3">
+          <p className="text-xs font-medium uppercase tracking-[0.18em] text-zinc-500">
+            Question {currentQuestion.id}
+          </p>
+          <h2 className="text-base font-medium leading-relaxed sm:text-lg">
+            {currentQuestion.question}
+          </h2>
+        </section>
+
+        <section className="space-y-3">
+          {Object.entries(currentQuestion.options)
+            .sort(([keyA], [keyB]) => keyA.localeCompare(keyB))
+            .map(([key, label]) => {
+              const isSelected = selectedOption === key;
+              const isCorrect = correctAnswers.includes(key);
+
+              let optionClasses =
+                "w-full rounded-2xl border px-4 py-3 text-left text-sm sm:text-base transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400/70 disabled:cursor-not-allowed";
+
+              if (!hasAnswered) {
+                optionClasses +=
+                  theme === "dark"
+                    ? " border-zinc-700 bg-zinc-900/80 hover:border-zinc-500 hover:bg-zinc-800"
+                    : " border-zinc-200 bg-white hover:border-zinc-400 hover:bg-zinc-50";
+              } else if (isSelected && isCorrect) {
+                optionClasses +=
+                  theme === "dark"
+                    ? " border-emerald-500 bg-emerald-900/30 text-emerald-100"
+                    : " border-emerald-500 bg-emerald-50 text-emerald-900";
+              } else if (isSelected && !isCorrect) {
+                optionClasses +=
+                  theme === "dark"
+                    ? " border-rose-500 bg-rose-900/30 text-rose-100"
+                    : " border-rose-500 bg-rose-50 text-rose-900";
+              } else if (!isSelected && isCorrect && hasAnswered) {
+                optionClasses +=
+                  theme === "dark"
+                    ? " border-emerald-500/70 bg-emerald-900/20"
+                    : " border-emerald-400/70 bg-emerald-50/70";
+              } else {
+                optionClasses += " opacity-80";
+              }
+
+              return (
+                <button
+                  key={key}
+                  type="button"
+                  onClick={() => handleSelect(key)}
+                  className={optionClasses}
+                >
+                  <span className="flex items-start gap-3">
+                    <span className="mt-0.5 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border text-xs font-semibold">
+                      {key}
+                    </span>
+                    <span className="flex-1 text-left">{label}</span>
+                  </span>
+                </button>
+              );
+            })}
+        </section>
+
+        {hasAnswered && (
+          <section className="mt-5 rounded-2xl border px-4 py-3 text-xs sm:text-sm">
+            <p className="mb-1 font-medium">
+              {isCorrectSelection ? "Correct!" : "Not quite."}
+            </p>
+            <p className="text-zinc-500">
+              Correct answer
+              {correctAnswers.length > 1 ? "s" : ""}:{" "}
+              {correctAnswers
+                .map((key) => `${key}. ${currentQuestion.options[key]}`)
+                .join(" · ")}
+            </p>
+          </section>
+        )}
+
+        <footer className="mt-7 flex items-center justify-between gap-4">
+          <button
+            type="button"
+            onClick={handlePrev}
+            disabled={index === 0}
+            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
+              index === 0
+                ? "cursor-not-allowed opacity-40"
+                : theme === "dark"
+                  ? "border-zinc-700 bg-zinc-900 hover:border-zinc-500 hover:bg-zinc-800"
+                  : "border-zinc-200 bg-white hover:border-zinc-400 hover:bg-zinc-50"
+            }`}
           >
-            Documentation
-          </a>
-        </div>
+            <span aria-hidden="true">←</span>
+            <span>Previous</span>
+          </button>
+
+          <div className="text-xs text-zinc-500 sm:text-sm">
+            Question {index + 1} of {totalQuestions}
+          </div>
+
+          <button
+            type="button"
+            onClick={handleNext}
+            disabled={index === totalQuestions - 1}
+            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
+              index === totalQuestions - 1
+                ? "cursor-not-allowed opacity-40"
+                : theme === "dark"
+                  ? "border-zinc-700 bg-zinc-900 hover:border-zinc-500 hover:bg-zinc-800"
+                  : "border-zinc-200 bg-white hover:border-zinc-400 hover:bg-zinc-50"
+            }`}
+          >
+            <span>Next</span>
+            <span aria-hidden="true">→</span>
+          </button>
+        </footer>
       </main>
     </div>
   );
