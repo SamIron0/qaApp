@@ -123,14 +123,14 @@ export default function Home() {
 
   return (
     <div
-      className={`flex min-h-screen items-center justify-center px-4 py-10 transition-colors ${
+      className={`flex min-h-0 h-full min-h-[100dvh] flex-col items-center justify-center px-4 py-4 sm:py-10 transition-colors ${
         theme === "dark"
           ? "bg-zinc-950 text-zinc-100"
           : "bg-zinc-50 text-zinc-900"
       }`}
     >
       <main
-        className={`w-full max-w-2xl rounded-3xl border px-5 py-6 shadow-sm sm:px-8 sm:py-8 transition-colors ${
+        className={`w-full max-w-2xl max-h-full min-h-0 overflow-y-auto rounded-3xl border px-5 py-6 shadow-sm sm:px-8 sm:py-8 transition-colors ${
           theme === "dark"
             ? "border-zinc-800 bg-zinc-900/60"
             : "border-zinc-200 bg-white/80"
