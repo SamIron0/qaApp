@@ -14,6 +14,7 @@ const questions: Question[] = (questionsJson as { questions: Question[] })
   .questions;
 
 const STORAGE_KEY = "qaApp.currentQuestionIndex";
+const THEME_STORAGE_KEY = "qaApp.theme";
 
 export default function Home() {
   const [theme, setTheme] = useState<"light" | "dark">("light");
@@ -22,6 +23,25 @@ export default function Home() {
   const [pageInput, setPageInput] = useState("1");
 
   const totalQuestions = questions.length;
+
+  useEffect(() => {
+    try {
+      const storedTheme = window.localStorage.getItem(THEME_STORAGE_KEY);
+      if (storedTheme === "light" || storedTheme === "dark") {
+        setTheme(storedTheme);
+      }
+    } catch {
+      // ignore localStorage errors
+    }
+  }, []);
+
+  useEffect(() => {
+    try {
+      window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+    } catch {
+      // ignore localStorage errors
+    }
+  }, [theme]);
 
   useEffect(() => {
     try {
