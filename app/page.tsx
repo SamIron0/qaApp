@@ -44,6 +44,17 @@ export default function Home() {
     setSelectedOption(null);
   };
 
+  const handleGoToQuestion = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const input = form.elements.namedItem("questionNum") as HTMLInputElement;
+    const num = parseInt(input.value, 10);
+    if (num >= 1 && num <= totalQuestions) {
+      setIndex(num - 1);
+      setSelectedOption(null);
+    }
+  };
+
   const isCorrectSelection =
     selectedOption && currentQuestion.answerKey.includes(selectedOption);
 
@@ -197,9 +208,39 @@ export default function Home() {
             <span>Previous</span>
           </button>
 
-          <div className="text-xs text-zinc-500 sm:text-sm">
-            Question {index + 1} of {totalQuestions}
-          </div>
+          <form
+            onSubmit={handleGoToQuestion}
+            className="flex items-center gap-2 text-xs sm:text-sm"
+          >
+            <label htmlFor="questionNum" className="text-zinc-500">
+              Go to
+            </label>
+            <input
+              id="questionNum"
+              name="questionNum"
+              type="number"
+              min={1}
+              max={totalQuestions}
+              defaultValue={index + 1}
+              key={index}
+              className={`w-14 rounded-lg border px-2 py-1.5 text-center text-sm font-medium focus:outline-none focus:ring-2 focus:ring-zinc-400/70 ${
+                theme === "dark"
+                  ? "border-zinc-700 bg-zinc-900 text-zinc-100"
+                  : "border-zinc-200 bg-white text-zinc-900"
+              }`}
+            />
+            <span className="text-zinc-500">of {totalQuestions}</span>
+            <button
+              type="submit"
+              className={`rounded-lg border px-2 py-1.5 text-xs font-medium transition-colors ${
+                theme === "dark"
+                  ? "border-zinc-700 bg-zinc-800 hover:bg-zinc-700"
+                  : "border-zinc-200 bg-zinc-50 hover:bg-zinc-100"
+              }`}
+            >
+              Go
+            </button>
+          </form>
 
           <button
             type="button"
