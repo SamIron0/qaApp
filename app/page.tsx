@@ -78,16 +78,18 @@ export default function Home() {
 
   return (
     <div
-      className={`flex min-h-screen items-center justify-center px-4 py-10 transition-colors ${theme === "dark"
+      className={`flex min-h-screen items-center justify-center px-4 py-10 transition-colors ${
+        theme === "dark"
           ? "bg-zinc-950 text-zinc-100"
           : "bg-zinc-50 text-zinc-900"
-        }`}
+      }`}
     >
       <main
-        className={`w-full max-w-2xl rounded-3xl border px-5 py-6 shadow-sm sm:px-8 sm:py-8 transition-colors ${theme === "dark"
+        className={`w-full max-w-2xl rounded-3xl border px-5 py-6 shadow-sm sm:px-8 sm:py-8 transition-colors ${
+          theme === "dark"
             ? "border-zinc-800 bg-zinc-900/60"
             : "border-zinc-200 bg-white/80"
-          }`}
+        }`}
       >
         <header className="mb-6 flex items-center justify-between gap-4">
           <div className="space-y-1">
@@ -95,6 +97,7 @@ export default function Home() {
               Practice Questions
             </h1>
             <p className="flex items-center gap-1.5 text-xs text-zinc-500 sm:text-sm">
+              Question{" "}
               <input
                 type="number"
                 min={1}
@@ -105,13 +108,14 @@ export default function Home() {
                 onKeyDown={(e) => {
                   if (e.key === "Enter") goToQuestion(pageInput);
                 }}
-                className={`w-14 rounded border px-2 py-0.5 text-center text-xs tabular-nums sm:text-sm [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none ${theme === "dark"
+                className={`w-14 rounded border px-2 py-0.5 text-center text-xs tabular-nums sm:text-sm [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none ${
+                  theme === "dark"
                     ? "border-zinc-600 bg-zinc-800 text-zinc-100"
                     : "border-zinc-300 bg-zinc-50 text-zinc-900"
-                  }`}
+                }`}
                 aria-label="Question number"
               />{" "}
-              {totalQuestions}
+              of {totalQuestions}
             </p>
           </div>
 
@@ -120,14 +124,16 @@ export default function Home() {
             onClick={() =>
               setTheme((prev) => (prev === "light" ? "dark" : "light"))
             }
-            className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors sm:text-sm ${theme === "dark"
+            className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors sm:text-sm ${
+              theme === "dark"
                 ? "border-zinc-700 bg-zinc-900 text-zinc-100 hover:border-zinc-500 hover:bg-zinc-800"
                 : "border-zinc-200 bg-zinc-50 text-zinc-800 hover:border-zinc-300 hover:bg-zinc-100"
-              }`}
+            }`}
           >
             <span
-              className={`h-2 w-2 rounded-full ${theme === "dark" ? "bg-zinc-300" : "bg-zinc-900"
-                }`}
+              className={`h-2 w-2 rounded-full ${
+                theme === "dark" ? "bg-zinc-300" : "bg-zinc-900"
+              }`}
             />
             {theme === "dark" ? "Dark mode" : "Light mode"}
           </button>
@@ -214,19 +220,19 @@ export default function Home() {
             type="button"
             onClick={handlePrev}
             disabled={index === 0}
-            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${index === 0
+            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
+              index === 0
                 ? "cursor-not-allowed opacity-40"
                 : theme === "dark"
                   ? "border-zinc-700 bg-zinc-900 hover:border-zinc-500 hover:bg-zinc-800"
                   : "border-zinc-200 bg-white hover:border-zinc-400 hover:bg-zinc-50"
-              }`}
+            }`}
           >
             <span aria-hidden="true">←</span>
             <span>Previous</span>
           </button>
 
           <div className="flex items-center gap-1.5 text-xs text-zinc-500 sm:text-sm">
-            Question{" "}
             <input
               type="number"
               min={1}
@@ -237,10 +243,11 @@ export default function Home() {
               onKeyDown={(e) => {
                 if (e.key === "Enter") goToQuestion(pageInput);
               }}
-              className={`w-14 rounded border px-2 py-0.5 text-center text-xs tabular-nums sm:text-sm [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none ${theme === "dark"
+              className={`w-14 rounded border px-2 py-0.5 text-center text-xs tabular-nums sm:text-sm [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none ${
+                theme === "dark"
                   ? "border-zinc-600 bg-zinc-800 text-zinc-100"
                   : "border-zinc-300 bg-zinc-50 text-zinc-900"
-                }`}
+              }`}
               aria-label="Question number"
             />{" "}
             of {totalQuestions}
@@ -250,12 +257,13 @@ export default function Home() {
             type="button"
             onClick={handleNext}
             disabled={index === totalQuestions - 1}
-            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${index === totalQuestions - 1
+            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
+              index === totalQuestions - 1
                 ? "cursor-not-allowed opacity-40"
                 : theme === "dark"
                   ? "border-zinc-700 bg-zinc-900 hover:border-zinc-500 hover:bg-zinc-800"
                   : "border-zinc-200 bg-white hover:border-zinc-400 hover:bg-zinc-50"
-              }`}
+            }`}
           >
             <span>Next</span>
             <span aria-hidden="true">→</span>
