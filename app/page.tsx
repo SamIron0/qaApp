@@ -123,7 +123,7 @@ export default function Home() {
 
   return (
     <div
-      className={`flex min-h-0 h-full min-h-[100dvh] flex-col items-center justify-center px-4 py-4 sm:py-10 transition-colors ${
+      className={`flex h-[100dvh] min-h-0 flex-col items-center justify-center px-4 py-4 sm:py-10 transition-colors ${
         theme === "dark"
           ? "bg-zinc-950 text-zinc-100"
           : "bg-zinc-50 text-zinc-900"
