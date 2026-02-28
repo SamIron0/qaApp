@@ -149,7 +149,7 @@ export default function Home() {
                 max={totalQuestions}
                 value={pageInput}
                 onChange={(e) => setPageInput(e.target.value)}
-                onBlur={() => goToQuestion(pageInput)}
+                onBlur={(e) => goToQuestion(e.currentTarget.value)}
                 onKeyDown={(e) => {
                   if (e.key === "Enter") goToQuestion(pageInput);
                 }}
@@ -284,7 +284,7 @@ export default function Home() {
               max={totalQuestions}
               value={pageInput}
               onChange={(e) => setPageInput(e.target.value)}
-              onBlur={() => goToQuestion(pageInput)}
+              onBlur={(e) => goToQuestion(e.currentTarget.value)}
               onKeyDown={(e) => {
                 if (e.key === "Enter") goToQuestion(pageInput);
               }}
