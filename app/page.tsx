@@ -13,6 +13,8 @@ type Question = {
 const questions: Question[] = (questionsJson as { questions: Question[] })
   .questions;
 
+const STORAGE_KEY = "qaApp.currentQuestionIndex";
+
 export default function Home() {
   const [theme, setTheme] = useState<"light" | "dark">("light");
   const [index, setIndex] = useState(0);
@@ -20,6 +22,29 @@ export default function Home() {
   const [pageInput, setPageInput] = useState("1");
 
   const totalQuestions = questions.length;
+
+  useEffect(() => {
+    try {
+      const stored = window.localStorage.getItem(STORAGE_KEY);
+      if (stored !== null) {
+        const parsed = parseInt(stored, 10);
+        if (!Number.isNaN(parsed)) {
+          const clamped = Math.max(0, Math.min(totalQuestions - 1, parsed));
+          setIndex(clamped);
+        }
+      }
+    } catch {
+      // ignore localStorage errors
+    }
+  }, [totalQuestions]);
+
+  useEffect(() => {
+    try {
+      window.localStorage.setItem(STORAGE_KEY, String(index));
+    } catch {
+      // ignore localStorage errors
+    }
+  }, [index]);
 
   useEffect(() => {
     setPageInput(String(index + 1));
