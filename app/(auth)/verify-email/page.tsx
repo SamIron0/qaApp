@@ -65,7 +65,7 @@ export default function VerifyEmailPage() {
               type: "signup",
               email: email.trim(),
               options: {
-                emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent("/dashboard")}`,
+                emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent("/")}`,
               },
             });
             setLoading(false);

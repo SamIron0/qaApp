@@ -9,7 +9,7 @@ function isQuizSessionPath(pathname: string): boolean {
 }
 
 function resolveSafeNextPath(request: NextRequest, raw: string | null, fallback: string): string {
-  if (!raw || !raw.startsWith("/")) return fallback;
+  if (!raw || !raw.startsWith("/") || raw.startsWith("//")) return fallback;
   try {
     const origin = request.nextUrl.origin;
     const u = new URL(raw, origin);

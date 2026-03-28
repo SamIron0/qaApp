@@ -17,7 +17,7 @@ export function LoginForm() {
   const searchParams = useSearchParams();
   const next = useMemo(() => {
     const n = searchParams.get("next");
-    if (n && n.startsWith("/")) return n;
+    if (n && n.startsWith("/") && !n.startsWith("//")) return n;
     return "/";
   }, [searchParams]);
 
