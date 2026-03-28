@@ -127,7 +127,7 @@ export function QuizClient({
 
   return (
     <div
-      className={`flex h-[100dvh] min-h-0 flex-col items-center justify-center px-4 py-4 sm:py-10 transition-colors ${
+      className={`flex min-h-0 flex-1 flex-col items-center justify-center px-4 py-4 sm:py-10 transition-colors ${
         theme === "dark"
           ? "bg-zinc-950 text-zinc-100"
           : "bg-zinc-50 text-zinc-900"
@@ -143,7 +143,7 @@ export function QuizClient({
         <header className="mb-6 flex flex-col gap-3">
           <div className="flex items-center justify-between gap-3">
             <Link
-              href={`/dashboard/${courseId}`}
+              href={`/courses/${courseId}`}
               className={`text-xs transition-colors hover:underline ${
                 theme === "dark"
                   ? "text-zinc-500 hover:text-zinc-300"

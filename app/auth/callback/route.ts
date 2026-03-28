@@ -7,16 +7,16 @@ import { getSupabaseAnonKey, getSupabaseUrl } from "@/utils/supabase/env";
 export async function GET(request: NextRequest) {
   const { searchParams, origin } = new URL(request.url);
   const code = searchParams.get("code");
-  const nextRaw = searchParams.get("next") ?? "/dashboard";
+  const nextRaw = searchParams.get("next") ?? "/";
 
-  let nextPath = "/dashboard";
+  let nextPath = "/";
   try {
     const parsed = new URL(nextRaw, origin);
     if (parsed.origin === origin && parsed.pathname.startsWith("/")) {
       nextPath = `${parsed.pathname}${parsed.search}${parsed.hash}`;
     }
   } catch {
-    nextPath = "/dashboard";
+    nextPath = "/";
   }
 
   if (code) {

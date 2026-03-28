@@ -35,7 +35,7 @@ export default function VerifyEmailPage() {
         <p className="text-sm leading-relaxed text-[#4A4A5C]">
           We sent a confirmation link to{" "}
           <span className="font-medium text-[#1A1A2E]">{email || "your inbox"}</span>. Open it to
-          activate your account — the link will bring you straight to your dashboard.
+          activate your account — the link will bring you back to the app when you&apos;re ready.
         </p>
 
         {sent ? (

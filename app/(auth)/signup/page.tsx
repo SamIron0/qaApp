@@ -76,7 +76,7 @@ export default function SignupPage() {
               password,
               options: {
                 data: { full_name: fullName.trim() },
-                emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent("/dashboard")}`,
+                emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent("/")}`,
               },
             });
 

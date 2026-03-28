@@ -1,78 +1,71 @@
 import Link from "next/link";
+import { Playfair_Display } from "next/font/google";
 
-export default function HomePage() {
+import { BrowseShell } from "@/components/layout/BrowseShell";
+import { COURSES, courseBanksPath } from "@/lib/courses";
+import { createClient } from "@/utils/supabase/server";
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+});
+
+export default async function HomePage() {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
   return (
-    <div className="relative min-h-[100dvh] overflow-x-hidden bg-[#FAFAF8] text-[#1A1A2E]">
-      <div
-        className="pointer-events-none absolute inset-0 opacity-[0.4]"
-        style={{
-          backgroundImage:
-            "radial-gradient(circle at 1px 1px, rgba(26,26,46,0.08) 1px, transparent 0)",
-          backgroundSize: "28px 28px",
-        }}
-      />
-      <header className="relative z-10 mx-auto flex max-w-5xl items-center justify-between px-6 py-6">
-        <span className="text-sm font-semibold tracking-tight">Practice Q&amp;A</span>
-        <div className="flex items-center gap-3">
-          <Link
-            href="/login"
-            className="rounded-full px-4 py-2 text-sm font-medium text-[#1A1A2E] transition-colors hover:bg-black/[0.04]"
-          >
-            Sign in
-          </Link>
-          <Link
-            href="/signup"
-            className="rounded-full bg-[#1A1A2E] px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-[#2a2a44]"
-          >
-            Get started
-          </Link>
-        </div>
-      </header>
-
-      <main className="relative z-10 mx-auto flex max-w-5xl flex-col gap-12 px-6 pb-20 pt-10 sm:pt-16">
-        <div className="max-w-2xl space-y-6">
-          <p className="text-xs font-medium uppercase tracking-[0.3em] text-[#8B7340]">
-            Academic practice
+    <BrowseShell>
+      <main className="mx-auto max-w-5xl px-4 py-10 sm:px-6">
+        <div className="mb-8 max-w-2xl space-y-2">
+          <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Choose a course</h1>
+          <p className="text-sm text-zinc-600 dark:text-zinc-400">
+            Select where you want to practice. You&apos;ll pick a question bank on the next step.
           </p>
-          <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
-            Master the material. Own the exam.
-          </h1>
-          <p className="text-lg leading-relaxed text-[#4A4A5C]">
-            Curated multiple-choice questions with instant feedback — built for focused study sessions
-            and the pace of real assessments.
-          </p>
-          <div className="flex flex-wrap gap-3 pt-2">
-            <Link
-              href="/signup"
-              className="btn-auth-primary inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold"
-            >
-              Create free account
-            </Link>
-            <Link
-              href="/login"
-              className="inline-flex items-center justify-center rounded-full border border-[#E2DDD5] bg-white px-6 py-3 text-sm font-semibold text-[#1A1A2E] shadow-sm transition-colors hover:border-[#C9A84C]/50"
-            >
-              I already have an account
-            </Link>
-          </div>
+          {!user ? (
+            <p className="pt-1 text-sm text-zinc-500 dark:text-zinc-500">
+              Browse freely. Sign in when you&apos;re ready to start practicing.
+            </p>
+          ) : null}
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-3">
-          {[
-            { t: "250+ questions", d: "Organized for systematic review." },
-            { t: "Instant feedback", d: "See correctness as you learn." },
-            { t: "Session-ready UI", d: "Minimal noise, maximum focus." },
-          ].map((item) => (
-            <div
-              key={item.t}
-              className="rounded-2xl border border-[#E8E4DD] bg-white/80 p-5 shadow-sm"
-            >
-              <p className="text-sm font-semibold text-[#1A1A2E]">{item.t}</p>
-              <p className="mt-2 text-sm text-[#6B6B7A]">{item.d}</p>
-            </div>
-          ))}
-        </div>
+        <ul className="grid gap-4 sm:grid-cols-2">
+          {COURSES.map((course) => {
+            const bankCount = course.banks.length;
+            const bankLabel =
+              bankCount === 1 ? "1 question bank" : `${bankCount} question banks`;
+
+            return (
+              <li key={course.id}>
+                <Link
+                  href={courseBanksPath(course.id)}
+                  className="group flex h-full flex-col rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm transition-colors hover:border-zinc-300 hover:bg-zinc-50/80 dark:border-zinc-800 dark:bg-zinc-900/40 dark:hover:border-zinc-600 dark:hover:bg-zinc-900/70"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <h2
+                      className={`${playfair.className} text-lg font-semibold leading-snug tracking-tight text-zinc-900 dark:text-zinc-50`}
+                    >
+                      {course.name}
+                    </h2>
+                    <span
+                      className="mt-0.5 shrink-0 text-zinc-400 transition-transform group-hover:translate-x-0.5 dark:text-zinc-500"
+                      aria-hidden
+                    >
+                      →
+                    </span>
+                  </div>
+                  <span className="mt-3 inline-flex w-fit rounded-full border border-zinc-200 bg-zinc-50 px-2.5 py-0.5 text-xs font-medium text-zinc-700 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200">
+                    {course.code}
+                  </span>
+                  <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">{course.department}</p>
+                  <p className="mt-4 text-xs text-zinc-500 dark:text-zinc-500">{bankLabel}</p>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </main>
-    </div>
+    </BrowseShell>
   );
 }

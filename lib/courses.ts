@@ -47,6 +47,16 @@ export const COURSES: Course[] = [
   },
 ];
 
+/** Public URL for question bank selection for a course */
+export function courseBanksPath(courseId: string): string {
+  return `/courses/${courseId}`;
+}
+
+/** URL for an authenticated quiz session (middleware-enforced) */
+export function quizSessionPath(courseId: string, bankId: string): string {
+  return `/courses/${courseId}/${bankId}`;
+}
+
 export function getCourseById(courseId: string): Course | undefined {
   return COURSES.find((c) => c.id === courseId);
 }

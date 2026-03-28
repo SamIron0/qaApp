@@ -18,7 +18,7 @@ export function LoginForm() {
   const next = useMemo(() => {
     const n = searchParams.get("next");
     if (n && n.startsWith("/")) return n;
-    return "/dashboard";
+    return "/";
   }, [searchParams]);
 
   const notice = searchParams.get("notice");

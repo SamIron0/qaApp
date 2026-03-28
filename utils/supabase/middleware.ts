@@ -3,8 +3,22 @@ import { type NextRequest, NextResponse } from "next/server";
 
 import { getSupabaseAnonKey, getSupabaseUrl } from "./env";
 
-function isProtectedPath(pathname: string): boolean {
-  return pathname.startsWith("/dashboard");
+/** Quiz sessions live at /courses/[courseId]/bankId — gated; everything else is public. */
+function isQuizSessionPath(pathname: string): boolean {
+  return /^\/courses\/[^/]+\/[^/]+$/.test(pathname);
+}
+
+function resolveSafeNextPath(request: NextRequest, raw: string | null, fallback: string): string {
+  if (!raw || !raw.startsWith("/")) return fallback;
+  try {
+    const origin = request.nextUrl.origin;
+    const u = new URL(raw, origin);
+    if (u.origin !== origin) return fallback;
+    if (!u.pathname.startsWith("/")) return fallback;
+    return `${u.pathname}${u.search}${u.hash}`;
+  } catch {
+    return fallback;
+  }
 }
 
 export async function updateSession(request: NextRequest) {
@@ -38,7 +52,7 @@ export async function updateSession(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   const search = request.nextUrl.search;
 
-  if (isProtectedPath(pathname)) {
+  if (isQuizSessionPath(pathname)) {
     if (!user) {
       const loginUrl = request.nextUrl.clone();
       loginUrl.pathname = "/login";
@@ -52,17 +66,9 @@ export async function updateSession(request: NextRequest) {
   }
 
   if (user && (pathname === "/login" || pathname === "/signup")) {
-    const dest = request.nextUrl.clone();
-    dest.pathname = "/dashboard";
-    dest.search = "";
-    return NextResponse.redirect(dest);
-  }
-
-  if (user && pathname === "/") {
-    const dest = request.nextUrl.clone();
-    dest.pathname = "/dashboard";
-    dest.search = "";
-    return NextResponse.redirect(dest);
+    const nextRaw = request.nextUrl.searchParams.get("next");
+    const nextPath = resolveSafeNextPath(request, nextRaw, "/");
+    return NextResponse.redirect(new URL(nextPath, request.url));
   }
 
   return supabaseResponse;
