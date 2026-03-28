@@ -20,14 +20,82 @@
 }
 
 html {
-  height: 100%;
-  overflow: hidden;
+  min-height: 100%;
 }
 
 body {
-  height: 100%;
-  overflow: hidden;
+  min-height: 100%;
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes auth-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.auth-stagger > * {
+  opacity: 0;
+  animation: auth-fade-in 0.55s ease forwards;
+}
+
+.auth-stagger > *:nth-child(1) {
+  animation-delay: 0.04s;
+}
+.auth-stagger > *:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.auth-stagger > *:nth-child(3) {
+  animation-delay: 0.16s;
+}
+.auth-stagger > *:nth-child(4) {
+  animation-delay: 0.22s;
+}
+.auth-stagger > *:nth-child(5) {
+  animation-delay: 0.28s;
+}
+.auth-stagger > *:nth-child(6) {
+  animation-delay: 0.34s;
+}
+.auth-stagger > *:nth-child(7) {
+  animation-delay: 0.4s;
+}
+.auth-stagger > *:nth-child(8) {
+  animation-delay: 0.46s;
+}
+
+.btn-auth-primary {
+  @apply relative overflow-hidden rounded-lg px-4 py-2.5 text-sm font-semibold text-[#1A1A2E] transition-all;
+  background: linear-gradient(135deg, #e8d5a0 0%, #c9a84c 45%, #b8923a 100%);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+}
+
+.btn-auth-primary:hover:not(:disabled) {
+  filter: brightness(1.05);
+  box-shadow: 0 0 0 1px rgba(201, 168, 76, 0.35);
+}
+
+.btn-auth-primary::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.35) 45%,
+    transparent 70%
+  );
+  transform: translateX(-120%);
+  transition: transform 0.6s ease;
+}
+
+.btn-auth-primary:hover:not(:disabled)::after {
+  transform: translateX(120%);
 }
