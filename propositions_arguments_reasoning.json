@@ -1,0 +1,1096 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Identify which of the following is a proposition:",
+      "options": {
+        "A": "\"Where are you going?\"",
+        "B": "\"It is raining outside.\"",
+        "C": "\"Stop talking!\"",
+        "D": "\"Hurray for our team!\""
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which of these is a proposition?",
+      "options": {
+        "A": "\"What a beautiful sunset!\"",
+        "B": "\"The sky is blue.\"",
+        "C": "\"Turn off the lights.\"",
+        "D": "\"Why is the grass green?\""
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "If a proposition is always false, it is called a:",
+      "options": {
+        "A": "Tautology",
+        "B": "Contradiction",
+        "C": "Contingency",
+        "D": "Premise"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "\"If a number is divisible by 4, then it is divisible by 2.\" Determine whether this statement is:",
+      "options": {
+        "A": "Always true",
+        "B": "Always false",
+        "C": "True only for even numbers",
+        "D": "False only for odd numbers"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which of these is an example of a self-contradictory statement?",
+      "options": {
+        "A": "\"All unmarried men are bachelors.\"",
+        "B": "\"This statement is false.\"",
+        "C": "\"Water is a liquid at room temperature.\"",
+        "D": "\"Some dogs are animals.\""
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "A tautology is a statement that is:",
+      "options": {
+        "A": "Always true regardless of circumstances",
+        "B": "Sometimes true, sometimes false",
+        "C": "Always false",
+        "D": "Dependent on the subject matter"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Determine the truth value of the statement: \"If it is raining, then the ground is wet.\"",
+      "options": {
+        "A": "True only when it is raining",
+        "B": "False only when the ground is dry",
+        "C": "Always true",
+        "D": "Always false"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which of these statements can be classified as a contradiction?",
+      "options": {
+        "A": "\"I am taller than myself.\"",
+        "B": "\"Some birds can fly.\"",
+        "C": "\"The Earth orbits the Sun.\"",
+        "D": "\"Triangles have three sides.\""
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Identify the negation of the statement: \"All students passed the exam.\"",
+      "options": {
+        "A": "\"No student passed the exam.\"",
+        "B": "\"Some students did not pass the exam.\"",
+        "C": "\"Every student failed.\"",
+        "D": "\"Not all students failed.\""
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 10,
+      "question": "If a statement is neither always true nor always false, it is called a:",
+      "options": {
+        "A": "Tautology",
+        "B": "Contradiction",
+        "C": "Contingent statement",
+        "D": "Falsehood"
+      },
+      "answerKey": [
+        "C"
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What are the two main components of an argument?",
+      "options": {
+        "A": "A claim and an attack",
+        "B": "Premises and a conclusion",
+        "C": "A conclusion and a refutation",
+        "D": "A question and an answer"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is an argument?",
+      "options": {
+        "A": "\"I love pizza because it's delicious.\"",
+        "B": "\"The sun is shining.\"",
+        "C": "\"Where is my phone?\"",
+        "D": "\"Close the door!\""
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Identify the conclusion in the following argument:\n\"All mammals have lungs. Dolphins are mammals. Therefore, dolphins have lungs.\"",
+      "options": {
+        "A": "All mammals have lungs.",
+        "B": "Dolphins are mammals.",
+        "C": "Dolphins have lungs.",
+        "D": "None of the above."
+      },
+      "answerKey": [
+        "C"
+      ]
+    },
+    {
+      "id": 14,
+      "question": "If the premises of an argument are true and the conclusion logically follows, the argument is:",
+      "options": {
+        "A": "Valid",
+        "B": "Invalid",
+        "C": "Unsound",
+        "D": "Fallacious"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 15,
+      "question": "If an argument is valid but has a false premise, it is:",
+      "options": {
+        "A": "Sound",
+        "B": "Unsound",
+        "C": "Tautological",
+        "D": "Contradictory"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is a sound argument?",
+      "options": {
+        "A": "\"All dogs have tails. Rex is a dog. Therefore, Rex has a tail.\"",
+        "B": "\"All fish can fly. Tuna is a fish. Therefore, Tuna can fly.\"",
+        "C": "\"Some birds are mammals. Penguins are birds. Therefore, penguins are mammals.\"",
+        "D": "\"If it is raining, the ground is wet. It is raining. Therefore, the ground is wet.\""
+      },
+      "answerKey": [
+        "D"
+      ]
+    },
+    {
+      "id": 17,
+      "question": "A deductive argument is one in which:",
+      "options": {
+        "A": "The premises provide strong evidence for the conclusion",
+        "B": "The conclusion must be true if the premises are true",
+        "C": "The premises make the conclusion more likely",
+        "D": "The argument is based on probability"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is a deductive argument?",
+      "options": {
+        "A": "\"Every human who has ever lived has eventually died. Therefore, all humans are mortal.\"",
+        "B": "\"I observed five swans, and they were all white. Therefore, all swans are white.\"",
+        "C": "\"The sun has risen every day in recorded history. Therefore, the sun will rise tomorrow.\"",
+        "D": "\"The bus is usually late. Therefore, it will be late today.\""
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Identify the inductive argument:",
+      "options": {
+        "A": "\"All planets in our solar system orbit the sun. Therefore, all planets in the universe orbit a star.\"",
+        "B": "\"Triangles have three sides. Therefore, this shape is a triangle.\"",
+        "C": "\"If it rains, the ground will be wet. It is raining. Therefore, the ground is wet.\"",
+        "D": "\"No bachelors are married. John is a bachelor. Therefore, John is unmarried.\""
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Sarah flips a coin ten times and gets heads each time. She concludes that the coin is biased. What type of reasoning is she using?",
+      "options": {
+        "A": "Deductive",
+        "B": "Inductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 21,
+      "question": "A detective sees muddy footprints leading to the kitchen and concludes someone entered with dirty shoes. What kind of reasoning is this?",
+      "options": {
+        "A": "Deductive",
+        "B": "Inductive",
+        "C": "Abductive",
+        "D": "Invalid"
+      },
+      "answerKey": [
+        "C"
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Suppose a person argues: \"If you study, you will pass the exam. You passed the exam. Therefore, you studied.\" What logical fallacy is this?",
+      "options": {
+        "A": "Affirming the consequent",
+        "B": "Denying the antecedent",
+        "C": "False dilemma",
+        "D": "Circular reasoning"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 23,
+      "question": "A scientist observes that 95% of tested plants grow faster with a particular fertilizer. He concludes that the fertilizer likely promotes growth. This is an example of:",
+      "options": {
+        "A": "Deductive reasoning",
+        "B": "Inductive reasoning",
+        "C": "Invalid reasoning",
+        "D": "False analogy"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Tom argues: \"Either you agree with me, or you're against me.\" This is an example of:",
+      "options": {
+        "A": "A false dichotomy",
+        "B": "A sound argument",
+        "C": "A valid syllogism",
+        "D": "Circular reasoning"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 25,
+      "question": "A study finds that people who eat more vegetables live longer. Someone claims, \"Eating vegetables causes long life.\" What is wrong with this argument?",
+      "options": {
+        "A": "It assumes causation from correlation",
+        "B": "It is a valid deductive argument",
+        "C": "It is a tautology",
+        "D": "It is a contradiction"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 26,
+      "question": "A lawyer argues: \"This defendant has never been proven guilty before, so he must be innocent.\" What fallacy is this?",
+      "options": {
+        "A": "Appeal to ignorance",
+        "B": "Straw man",
+        "C": "False analogy",
+        "D": "Red herring"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 27,
+      "question": "A doctor sees a patient with a fever, cough, and fatigue and concludes they likely have the flu. What type of reasoning is the doctor using?",
+      "options": {
+        "A": "Deductive",
+        "B": "Inductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "C"
+      ]
+    },
+    {
+      "id": 28,
+      "question": "A sign reads: \"No vehicles in the park.\" A person argues that bicycles should be banned because they have wheels. What logical fallacy is this?",
+      "options": {
+        "A": "Equivocation",
+        "B": "Slippery slope",
+        "C": "Straw man",
+        "D": "Appeal to ignorance"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 29,
+      "question": "\"Every time I wash my car, it rains the next day. Therefore, washing my car causes rain.\" This is an example of:",
+      "options": {
+        "A": "Post hoc fallacy",
+        "B": "Circular reasoning",
+        "C": "Valid deductive reasoning",
+        "D": "False dichotomy"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 30,
+      "question": "\"If a dog is barking, then someone is at the door. The dog is barking. Therefore, someone is at the door.\" Is this argument valid?",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "N/A",
+        "D": "N/A"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 31,
+      "question": "\"If a person is a billionaire, they are wealthy. Jeff Bezos is a billionaire. Therefore, Jeff Bezos is wealthy.\" What type of reasoning is used?",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Circular",
+        "D": "Invalid"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 32,
+      "question": "A teacher says, \"All students who study get A's. Some students did not get A's. Therefore, some students did not study.\" What type of argument is this?",
+      "options": {
+        "A": "Valid deductive",
+        "B": "Invalid deductive",
+        "C": "Inductive",
+        "D": "Red herring"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 33,
+      "question": "\"If a shape is a square, then it has four sides. This shape has four sides. Therefore, it is a square.\" What mistake is being made?",
+      "options": {
+        "A": "Affirming the consequent",
+        "B": "Denying the antecedent",
+        "C": "False dilemma",
+        "D": "Hasty generalization"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 34,
+      "question": "\"The last five times I took a math test, I got a perfect score. Therefore, I will get a perfect score on my next test.\" This is an example of:",
+      "options": {
+        "A": "Deductive reasoning",
+        "B": "Inductive reasoning",
+        "C": "Fallacious reasoning",
+        "D": "Abductive reasoning"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 35,
+      "question": "A student argues: \"Either we ban video games, or children will become violent.\" What fallacy is being used?",
+      "options": {
+        "A": "False dichotomy",
+        "B": "Appeal to authority",
+        "C": "Slippery slope",
+        "D": "Hasty generalization"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 36,
+      "question": "\"Everyone in my family has blue eyes. Therefore, everyone in the world must have blue eyes.\" What mistake is being made?",
+      "options": {
+        "A": "Hasty generalization",
+        "B": "Circular reasoning",
+        "C": "Deductive reasoning",
+        "D": "Sound argument"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 37,
+      "question": "A politician says, \"If we allow people to marry whoever they want, next people will want to marry their pets!\" What logical fallacy is this?",
+      "options": {
+        "A": "Slippery slope",
+        "B": "Red herring",
+        "C": "Begging the question",
+        "D": "False analogy"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 38,
+      "question": "A mother tells her child: \"Because I said so, and I'm your mother!\" What type of reasoning is she using?",
+      "options": {
+        "A": "Appeal to authority",
+        "B": "Circular reasoning",
+        "C": "False cause",
+        "D": "Slippery slope"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 39,
+      "question": "A lawyer argues, \"My client could not have stolen the car because he doesn't even like cars!\" What fallacy is present?",
+      "options": {
+        "A": "Red herring",
+        "B": "Appeal to ignorance",
+        "C": "Straw man",
+        "D": "False dilemma"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 40,
+      "question": "\"If it is snowing, then the temperature is below freezing. It is not snowing. Therefore, the temperature is not below freezing.\" What logical mistake is being made?",
+      "options": {
+        "A": "Denying the antecedent",
+        "B": "Affirming the consequent",
+        "C": "Post hoc fallacy",
+        "D": "Hasty generalization"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 41,
+      "question": "A celebrity endorses a toothpaste brand, saying it's the best. The argument that the toothpaste is superior is based on:",
+      "options": {
+        "A": "Appeal to authority",
+        "B": "Valid reasoning",
+        "C": "A sound argument",
+        "D": "False dilemma"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 42,
+      "question": "A person claims, \"There is no proof that aliens exist, so they must not exist.\" What fallacy is being committed?",
+      "options": {
+        "A": "Appeal to ignorance",
+        "B": "Hasty generalization",
+        "C": "False cause",
+        "D": "Ad hominem"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 43,
+      "question": "\"This new diet helped me lose weight. Therefore, it will work for everyone.\" This is an example of:",
+      "options": {
+        "A": "Hasty generalization",
+        "B": "Deductive reasoning",
+        "C": "Appeal to tradition",
+        "D": "False dilemma"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 44,
+      "question": "\"If the lights are off, no one is home. The lights are off. Therefore, no one is home.\" What kind of reasoning is this?",
+      "options": {
+        "A": "Deductive",
+        "B": "Inductive",
+        "C": "Invalid deductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 45,
+      "question": "\"All the swans I have seen are white. Therefore, all swans must be white.\" This argument is:",
+      "options": {
+        "A": "A valid deductive argument",
+        "B": "An inductive generalization",
+        "C": "A tautology",
+        "D": "A contradiction"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 46,
+      "question": "\"Smoking causes cancer. My grandfather smoked every day and never got cancer, so smoking doesn't cause cancer.\" What fallacy is being made?",
+      "options": {
+        "A": "Hasty generalization",
+        "B": "False cause",
+        "C": "Appeal to ignorance",
+        "D": "Circular reasoning"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 47,
+      "question": "\"Drinking water keeps you hydrated. Therefore, drinking more water will always be better for you.\" What is wrong with this argument?",
+      "options": {
+        "A": "It ignores context and assumes more is always better",
+        "B": "It is a valid deduction",
+        "C": "It follows the structure of modus ponens",
+        "D": "It commits an ad hominem fallacy"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 48,
+      "question": "A person argues, \"People who play chess are smart. John plays chess. Therefore, John is smart.\" What logical flaw exists?",
+      "options": {
+        "A": "Affirming the consequent",
+        "B": "Denying the antecedent",
+        "C": "Appeal to authority",
+        "D": "False dilemma"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 49,
+      "question": "A student argues, \"I failed my test because the teacher doesn't like me.\" What fallacy is being made?",
+      "options": {
+        "A": "Post hoc fallacy",
+        "B": "Ad hominem",
+        "C": "Red herring",
+        "D": "Appeal to pity"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 50,
+      "question": "\"We should not trust what he says about science because he dropped out of school.\" What type of fallacy is this?",
+      "options": {
+        "A": "Ad hominem",
+        "B": "Straw man",
+        "C": "Circular reasoning",
+        "D": "False analogy"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 51,
+      "question": "\"The stock market dropped after the new president was elected. Therefore, the president caused the stock market to drop.\" What fallacy is being committed?",
+      "options": {
+        "A": "Post hoc fallacy",
+        "B": "Circular reasoning",
+        "C": "Slippery slope",
+        "D": "Appeal to authority"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 52,
+      "question": "\"All cats are mammals. Some mammals are dogs. Therefore, some cats are dogs.\" Is this argument valid?",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "N/A",
+        "D": "N/A"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 53,
+      "question": "\"Every prime number is odd. But 2 is a prime number. Therefore, not all prime numbers are odd.\" What does this argument show?",
+      "options": {
+        "A": "A counterexample disproving a generalization",
+        "B": "A sound deductive argument",
+        "C": "A valid but unsound argument",
+        "D": "A circular argument"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 54,
+      "question": "A detective says, \"The footprints at the crime scene match the suspect's shoes. Therefore, the suspect was there.\" What type of reasoning is being used?",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Invalid deductive",
+        "D": "Hasty generalization"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 55,
+      "question": "If all planets in our solar system orbit the Sun, and Earth is a planet in our solar system, then Earth orbits the Sun. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 56,
+      "question": "Most professional footballers train for several hours daily. Since David is a professional footballer, he must also train for several hours daily. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 57,
+      "question": "Either Sarah completed her assignment on time or she received a failing grade. Sarah did not receive a failing grade, so she must have completed her assignment on time. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 58,
+      "question": "Statistics show that 85% of the students at Lincoln High School pass their final exams. Mark is a student at Lincoln High School, so he will pass his final exams. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 59,
+      "question": "Every bird that has been observed so far has had feathers. Therefore, all birds must have feathers. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 60,
+      "question": "If it is raining, then the ground will be wet. It is raining, so the ground must be wet. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 61,
+      "question": "Most people who eat fast food regularly tend to gain weight. Since Jane eats fast food every day, she will likely gain weight. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 62,
+      "question": "Either the train is on time or John will be late to work. The train is on time, so John will not be late to work. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 63,
+      "question": "Every swan that has been observed is white. Therefore, the next swan I see will also be white. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 64,
+      "question": "If a shape is a triangle, then it has three sides. This shape is a triangle, so it must have three sides. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 65,
+      "question": "Most students who take Professor Adams' class struggle with the final exam. Since James is taking Professor Adams' class, he will likely struggle with the final exam. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 66,
+      "question": "If all squares have four equal sides, then a figure with four equal sides must be a square. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 67,
+      "question": "Most people in New York City use public transport. Since Maria just moved to New York City, she probably uses public transport. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 68,
+      "question": "If a person is a pilot, they must have a license. John is a pilot, so he must have a license. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 69,
+      "question": "All the children at the daycare were found to have chickenpox. Since Peter goes to the same daycare, Peter must also have chickenpox. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 70,
+      "question": "If a person is taller than six feet, they are considered tall. Since Mark is taller than six feet, he is considered tall. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 71,
+      "question": "90% of people who drink coffee every morning report feeling more awake. Since Susan drinks coffee every morning, she probably feels more awake. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 72,
+      "question": "If a car runs out of fuel, it will not start. My car has run out of fuel, so it will not start. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 73,
+      "question": "Most dogs enjoy playing with balls. Since Jake's dog is a Labrador, it will probably enjoy playing with a ball. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 74,
+      "question": "If a student does not submit their assignment, they will receive a zero. James did not submit his assignment, so he received a zero. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 75,
+      "question": "Since all whales are mammals, and a blue whale is a whale, it follows that a blue whale is a mammal. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 76,
+      "question": "Most people who invest in the stock market experience financial gains over time. Since Alex just invested in the stock market, he will likely experience financial gains. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 77,
+      "question": "If the train arrives at 8 AM, then John will be on time for work. The train arrived at 8 AM, so John was on time for work. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 78,
+      "question": "Every test taker in the room today has failed at least one exam in the past. Since Lucy is in the room, she must have failed at least one exam in the past. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 79,
+      "question": "If an animal is a mammal, it gives birth to live young. A dog is a mammal, so it gives birth to live young. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 80,
+      "question": "75% of the people who follow a strict diet lose weight. Since Sarah is following a strict diet, she will probably lose weight. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 81,
+      "question": "If an object is made of gold, it will not rust. This necklace is made of gold, so it will not rust. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 82,
+      "question": "Most people who exercise regularly have better cardiovascular health. Since John exercises regularly, he probably has better cardiovascular health. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 83,
+      "question": "Either the package arrived today, or it will arrive tomorrow. The package did not arrive today, so it will arrive tomorrow. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 84,
+      "question": "The last five restaurants I visited had excellent service. Therefore, the next restaurant I visit will probably have excellent service too. This is:",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Abductive",
+        "D": "Circular"
+      },
+      "answerKey": [
+        "A"
+      ]
+    }
+  ]
+}
