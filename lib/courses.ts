@@ -26,7 +26,7 @@ export const COURSES: Course[] = [
         name: "Main Practice Set",
         description:
           "Curated multiple-choice questions covering web design and development fundamentals.",
-        file: "practice_questions.json",
+        file: "./question-bank/practice_questions.json",
       },
     ],
   },
@@ -38,10 +38,25 @@ export const COURSES: Course[] = [
     banks: [
       {
         id: "main",
-        name: "Main Practice Set",
+        name: "AD ASTRA'S Comprehensive Test on Propositions, Arguments, and Reasoning",
         description:
           "Propositions, arguments, and logical reasoning — practice and reinforce core ideas.",
-        file: "propositions_arguments_reasoning.json",
+        file: "./question-bank/bank1.json",
+      },
+    ],
+  },
+  {
+    id: "gst212",
+    name: "Philosophy, Logic and Human Existence",
+    code: "GST 212",
+    department: "General Studies",
+    banks: [
+      {
+        id: "main",
+        name: "AD ASTRA'S QUESTIONS ON CATEGORICAL PROPOSITIONS",
+        description:
+          "Propositions, arguments, and logical reasoning — practice and reinforce core ideas.",
+        file: "./question-bank/bank2.json",
       },
     ],
   },

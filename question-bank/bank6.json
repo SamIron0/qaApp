@@ -1,0 +1,356 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who was the first philosopher in the cosmology group?",
+      "options": {
+        "A": "Socrates",
+        "B": "Archimedes",
+        "C": "Thales of Miletus",
+        "D": "Anaximander"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 2,
+      "question": "What did Thales of Miletus consider as the basic principle underlying reality?",
+      "options": {
+        "A": "Air",
+        "B": "Fire",
+        "C": "Earth",
+        "D": "Water"
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 3,
+      "question": "Thales of Miletus is remembered for predicting what astronomical event?",
+      "options": {
+        "A": "A lunar eclipse",
+        "B": "A solar eclipse",
+        "C": "The movement of planets",
+        "D": "The rotation of the Earth"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 4,
+      "question": "In which century did Thales of Miletus live?",
+      "options": {
+        "A": "4th century B.C.",
+        "B": "5th century B.C.",
+        "C": "6th century B.C.",
+        "D": "7th century B.C."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 5,
+      "question": "What date is generally agreed upon for the solar eclipse predicted by Thales?",
+      "options": {
+        "A": "May 28, 485 B.C.",
+        "B": "May 28, 585 B.C.",
+        "C": "June 10, 500 B.C.",
+        "D": "March 21, 550 B.C."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is NOT mentioned as a pre-Socratic philosopher?",
+      "options": {
+        "A": "Pythagoras",
+        "B": "Zeno",
+        "C": "Anaximenes",
+        "D": "Plato"
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 7,
+      "question": "What term is used to describe the philosophers of the pre-Socratic period?",
+      "options": {
+        "A": "Rationalists",
+        "B": "Empiricists",
+        "C": "Cosmologists",
+        "D": "Metaphysicists"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 8,
+      "question": "What was the main interest of the pre-Socratic philosophers mentioned in the text?",
+      "options": {
+        "A": "Ethics and morality",
+        "B": "Discovering the basic nature of reality",
+        "C": "Political philosophy",
+        "D": "Rhetoric and debate"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 9,
+      "question": "Who is considered the father of modern philosophy?",
+      "options": {
+        "A": "Socrates",
+        "B": "Plato",
+        "C": "Aristotle",
+        "D": "René Descartes"
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 10,
+      "question": "Which philosopher argued that man should focus on self-knowledge rather than searching for ultimate reality?",
+      "options": {
+        "A": "Aristotle",
+        "B": "Socrates",
+        "C": "Plato",
+        "D": "Pythagoras"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 11,
+      "question": "Which era came after the Classical Socratic or Platonic Era?",
+      "options": {
+        "A": "Medieval Philosophy",
+        "B": "Renaissance of Philosophy",
+        "C": "Late Modern Philosophy",
+        "D": "Postmodern Philosophy"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 12,
+      "question": "What period was known as the Golden Age of Greece?",
+      "options": {
+        "A": "Classical Socratic or Platonic Era",
+        "B": "Medieval Philosophy",
+        "C": "Modern Philosophy",
+        "D": "Contemporary Philosophy"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 13,
+      "question": "Which philosopher is credited with the phrase \"knowledge is power\"?",
+      "options": {
+        "A": "John Locke",
+        "B": "Francis Bacon",
+        "C": "Thomas Hobbes",
+        "D": "Immanuel Kant"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 14,
+      "question": "What institution played a dominant role in Medieval Philosophy?",
+      "options": {
+        "A": "Greek Schools",
+        "B": "The Church",
+        "C": "The Roman Empire",
+        "D": "The Scientific Community"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 15,
+      "question": "Which period of philosophy sought to reconcile faith and reason?",
+      "options": {
+        "A": "Classical Period",
+        "B": "Medieval Period",
+        "C": "Modern Period",
+        "D": "Existentialist Period"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 16,
+      "question": "Which Arabic philosopher contributed to Medieval Philosophy?",
+      "options": {
+        "A": "René Descartes",
+        "B": "Karl Marx",
+        "C": "Al-Farabi",
+        "D": "Jean-Paul Sartre"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 17,
+      "question": "What period saw the need to reconcile science with philosophy?",
+      "options": {
+        "A": "Renaissance of Philosophy",
+        "B": "Medieval Philosophy",
+        "C": "Modern Philosophy",
+        "D": "Existentialism"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 18,
+      "question": "Who was called \"the trumpeter of the new science\"?",
+      "options": {
+        "A": "Immanuel Kant",
+        "B": "Francis Bacon",
+        "C": "Thomas Hobbes",
+        "D": "John Locke"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 19,
+      "question": "Which philosopher is famous for the phrase \"I think, therefore I am\"?",
+      "options": {
+        "A": "René Descartes",
+        "B": "David Hume",
+        "C": "John Locke",
+        "D": "Friedrich Nietzsche"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 20,
+      "question": "Which two philosophical schools were prominent in the 16th and 17th centuries?",
+      "options": {
+        "A": "Stoicism and Existentialism",
+        "B": "Rationalism and Empiricism",
+        "C": "Realism and Materialism",
+        "D": "Scholasticism and Pragmatism"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 21,
+      "question": "Which philosopher wrote \"The Leviathan\"?",
+      "options": {
+        "A": "John Locke",
+        "B": "Immanuel Kant",
+        "C": "Thomas Hobbes",
+        "D": "David Hume"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 22,
+      "question": "Who is credited with reconciling rationalism and empiricism?",
+      "options": {
+        "A": "Karl Marx",
+        "B": "Immanuel Kant",
+        "C": "Hegel",
+        "D": "William James"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 23,
+      "question": "Who was a disciple of Hegel and applied dialectics to economics?",
+      "options": {
+        "A": "Jean-Paul Sartre",
+        "B": "Friedrich Nietzsche",
+        "C": "Karl Marx",
+        "D": "Auguste Comte"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 24,
+      "question": "Which philosophical movement is associated with John Stuart Mill and Jeremy Bentham?",
+      "options": {
+        "A": "Existentialism",
+        "B": "Utilitarianism",
+        "C": "Scholasticism",
+        "D": "Nihilism"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 25,
+      "question": "Which philosopher defined existentialism with the phrase \"existence precedes essence\"?",
+      "options": {
+        "A": "Karl Marx",
+        "B": "Jean-Paul Sartre",
+        "C": "Martin Heidegger",
+        "D": "Immanuel Kant"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 26,
+      "question": "Which school of thought was prominent in the early 20th century?",
+      "options": {
+        "A": "Scholasticism",
+        "B": "Classical Rationalism",
+        "C": "Logical Positivism",
+        "D": "Medieval Scholasticism"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 27,
+      "question": "Who was a major figure in American Pragmatism?",
+      "options": {
+        "A": "John Locke",
+        "B": "Friedrich Nietzsche",
+        "C": "John Dewey",
+        "D": "Karl Marx"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 28,
+      "question": "Who is considered the founder of Positivism?",
+      "options": {
+        "A": "Hegel",
+        "B": "Karl Marx",
+        "C": "John Locke",
+        "D": "Auguste Comte"
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 29,
+      "question": "Which period of philosophy spanned from 1100 A.D. to 1400 A.D.?",
+      "options": {
+        "A": "Medieval Philosophy",
+        "B": "Renaissance Philosophy",
+        "C": "Modern Philosophy",
+        "D": "Contemporary Philosophy"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 30,
+      "question": "What was the primary focus of Medieval Philosophy?",
+      "options": {
+        "A": "Humanism and Science",
+        "B": "Faith and Reason",
+        "C": "Political Theory",
+        "D": "Existentialism"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 31,
+      "question": "Which period followed the Renaissance of Philosophy?",
+      "options": {
+        "A": "Classical Philosophy",
+        "B": "Early Modern Philosophy",
+        "C": "Scholasticism",
+        "D": "Medieval Philosophy"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 32,
+      "question": "Which school of thought was associated with Martin Heidegger and Edmund Husserl?",
+      "options": {
+        "A": "Logical Positivism",
+        "B": "Phenomenology",
+        "C": "Empiricism",
+        "D": "Rationalism"
+      },
+      "answerKey": ["B"]
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Categorical propositions are most closely associated with which branch of philosophy?",
+      "options": {
+        "A": "Ethics",
+        "B": "Epistemology",
+        "C": "Logic",
+        "D": "Metaphysics"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 2,
+      "question": "Another name for categorical propositions is:",
+      "options": {
+        "A": "Hypothetical statements",
+        "B": "Simple declarative statements",
+        "C": "Traditional Aristotelian syllogism",
+        "D": "Complex syllogisms"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 3,
+      "question": "What branch of argumentation do categorical propositions fall under?",
+      "options": {
+        "A": "Inductive reasoning",
+        "B": "Deductive reasoning",
+        "C": "Abductive reasoning",
+        "D": "Analogical reasoning"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is not a rule for a valid standard-form categorical proposition?",
+      "options": {
+        "A": "It must contain a subject and predicate.",
+        "B": "It must contain a copula (is/are).",
+        "C": "It must include a quantifier.",
+        "D": "It must be in the past tense."
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 5,
+      "question": "What does the quality of a categorical proposition indicate?",
+      "options": {
+        "A": "Whether it is about universal or particular cases",
+        "B": "Whether the proposition is valid or invalid",
+        "C": "Whether the statement is affirmative or negative",
+        "D": "Whether the premises lead to a true conclusion"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 6,
+      "question": "What does the quantity of a categorical proposition refer to?",
+      "options": {
+        "A": "The level of certainty in the argument",
+        "B": "Whether the statement applies to all or some members of a category",
+        "C": "The number of premises needed for validity",
+        "D": "The number of terms used in the argument"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 7,
+      "question": "A universal categorical proposition refers to:",
+      "options": {
+        "A": "A statement that applies to an entire category",
+        "B": "A statement that applies to only some members of a category",
+        "C": "A statement that is necessarily true",
+        "D": "A statement that cannot be negated"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 8,
+      "question": "A particular categorical proposition refers to:",
+      "options": {
+        "A": "A statement that applies to an entire category",
+        "B": "A statement that applies to only some members of a category",
+        "C": "A statement that can never be false",
+        "D": "A statement that is always valid"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 9,
+      "question": "Which categorical proposition is Universal Affirmative?",
+      "options": {
+        "A": "A",
+        "B": "E",
+        "C": "I",
+        "D": "O"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 10,
+      "question": "Which categorical proposition is Universal Negative?",
+      "options": {
+        "A": "A",
+        "B": "E",
+        "C": "I",
+        "D": "O"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 11,
+      "question": "Which categorical proposition is Particular Affirmative?",
+      "options": {
+        "A": "A",
+        "B": "E",
+        "C": "I",
+        "D": "O"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 12,
+      "question": "Which categorical proposition is Particular Negative?",
+      "options": {
+        "A": "A",
+        "B": "E",
+        "C": "I",
+        "D": "O"
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 13,
+      "question": "What can be said about the truth value of a categorical proposition?",
+      "options": {
+        "A": "It can be true or false.",
+        "B": "It can be valid or invalid.",
+        "C": "It can be strong or weak.",
+        "D": "It can be sound or unsound."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 14,
+      "question": "Which of the following best describes a cogent statement?",
+      "options": {
+        "A": "A statement that is both valid and sound",
+        "B": "A statement with true premises but a false conclusion",
+        "C": "A strong inductive argument with true premises",
+        "D": "A deductive argument with a false conclusion"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 15,
+      "question": "What makes an argument weak?",
+      "options": {
+        "A": "The premises do not provide strong support for the conclusion.",
+        "B": "The premises are always false.",
+        "C": "The premises are always true.",
+        "D": "The conclusion is valid."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 16,
+      "question": "What makes an argument strong?",
+      "options": {
+        "A": "The conclusion follows with high probability from the premises.",
+        "B": "The conclusion is always true.",
+        "C": "The premises are valid.",
+        "D": "The premises are contradictory."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 17,
+      "question": "Which of the following best describes contradiction in categorical propositions?",
+      "options": {
+        "A": "Two statements that cannot both be true or false at the same time.",
+        "B": "Two statements that can both be true but cannot both be false.",
+        "C": "Two statements where one is universal, and one is particular.",
+        "D": "Two statements that have no relation to each other."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 18,
+      "question": "Which of the following best describes contrary opposition?",
+      "options": {
+        "A": "Two statements that can both be false but cannot both be true.",
+        "B": "Two statements that must always be true.",
+        "C": "Two statements that must always be false.",
+        "D": "Two statements that have no logical relation."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 19,
+      "question": "Which of the following best describes subalternation in categorical logic?",
+      "options": {
+        "A": "The truth of a universal statement guarantees the truth of a particular statement.",
+        "B": "The falsity of a universal statement guarantees the truth of a particular statement.",
+        "C": "The truth of a particular statement guarantees the truth of a universal statement.",
+        "D": "The truth of one statement negates the other."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 20,
+      "question": "Which of the following describes immediate inference?",
+      "options": {
+        "A": "A conclusion derived directly from a single premise.",
+        "B": "A conclusion derived from multiple premises.",
+        "C": "A conclusion that is always valid.",
+        "D": "A conclusion that requires additional assumptions."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 21,
+      "question": "When a statement can be false, and its opposite statement can also be false, their opposition is called:",
+      "options": {
+        "A": "Contradiction",
+        "B": "Contrariety",
+        "C": "Subalternation",
+        "D": "Subcontrariety"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 22,
+      "question": "When a statement can be true, and its opposite statement must be false, their opposition is called:",
+      "options": {
+        "A": "Contradiction",
+        "B": "Contrariety",
+        "C": "Subalternation",
+        "D": "Subcontrariety"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 23,
+      "question": "When a universal statement is true, and its particular counterpart must also be true, their opposition is called:",
+      "options": {
+        "A": "Contradiction",
+        "B": "Contrariety",
+        "C": "Subalternation",
+        "D": "Subcontrariety"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 24,
+      "question": "When two statements can both be true but cannot both be false, their opposition is called:",
+      "options": {
+        "A": "Contradiction",
+        "B": "Contrariety",
+        "C": "Subalternation",
+        "D": "Subcontrariety"
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 25,
+      "question": "When a universal statement is false, and its particular counterpart may or may not be false, their opposition is called:",
+      "options": {
+        "A": "Contradiction",
+        "B": "Contrariety",
+        "C": "Subalternation",
+        "D": "Subcontrariety"
+      },
+      "answerKey": ["C"]
+    }
+  ]
+}

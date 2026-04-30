@@ -1,0 +1,169 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a \"school of thought\" according to Oyeshile & Ugwuanyi (2006)?",
+      "options": {
+        "A": "A temporary trend in philosophical discussions",
+        "B": "Views held by a group for a long time that survive the test of time",
+        "C": "Modern theories rejected by institutions",
+        "D": "A single philosopher's unpublished ideas"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 2,
+      "question": "Who is the main proponent of Idealism?",
+      "options": {
+        "A": "Aristotle",
+        "B": "Francis Bacon",
+        "C": "Plato",
+        "D": "Thomas Aquinas"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 3,
+      "question": "Plato's Allegory of the Cave primarily illustrates:",
+      "options": {
+        "A": "The importance of empirical observation",
+        "B": "The distinction between the world of senses and the world of ideas",
+        "C": "The role of skepticism in acquiring knowledge",
+        "D": "The scientific method for discovering truth"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 4,
+      "question": "Which school of thought emphasizes that \"matter is independent of the mind\"?",
+      "options": {
+        "A": "Idealism",
+        "B": "Skepticism",
+        "C": "Realism",
+        "D": "Neo-Scholasticism"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 5,
+      "question": "Aristotle's theory posits that objects are composed of:",
+      "options": {
+        "A": "Ideas and shadows",
+        "B": "Form and matter",
+        "C": "Tabula rasa and impressions",
+        "D": "Faith and reason"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 6,
+      "question": "Neo-Scholasticism aimed to:",
+      "options": {
+        "A": "Promote skepticism in theology",
+        "B": "Harmonize Aristotle's philosophy with Christianity",
+        "C": "Reject all medieval intellectual movements",
+        "D": "Focus solely on abstract idealism"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 7,
+      "question": "Thomas Aquinas's Summa Theologica is best described as:",
+      "options": {
+        "A": "A critique of Aristotelian logic",
+        "B": "A synthesis of Aristotle's philosophy and Christian theology",
+        "C": "A foundational text for skepticism",
+        "D": "A rejection of faith-based knowledge"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 8,
+      "question": "Skepticism, as described in the text, argues that:",
+      "options": {
+        "A": "Knowledge is certain and absolute",
+        "B": "Doubt is unnecessary when evidence is provided",
+        "C": "Human knowledge is limited and uncertain",
+        "D": "Faith alone can reveal ultimate truths"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 9,
+      "question": "Who introduced the inductive methodology (scientific method) into modern realism?",
+      "options": {
+        "A": "John Locke",
+        "B": "Sextus Empericus",
+        "C": "Francis Bacon",
+        "D": "Plato"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 10,
+      "question": "John Locke's concept of tabula rasa refers to:",
+      "options": {
+        "A": "The mind as a blank slate shaped by experience",
+        "B": "The innate ideas present at birth",
+        "C": "The impossibility of acquiring knowledge",
+        "D": "The divine origin of human reasoning"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 11,
+      "question": "According to Plato, a priori truths include:",
+      "options": {
+        "A": "Historical events",
+        "B": "Mathematical propositions like 2 × 4 = 8",
+        "C": "Scientific hypotheses",
+        "D": "Ethical relativism"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 12,
+      "question": "The Scholastic philosophers (1050–1350) focused on:",
+      "options": {
+        "A": "Rejecting all religious doctrines",
+        "B": "Proving truth through rational processes",
+        "C": "Promoting materialism over faith",
+        "D": "Advocating for total skepticism"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 13,
+      "question": "Sextus Empericus, a skeptic, claimed:",
+      "options": {
+        "A": "Faith and reason are inseparable",
+        "B": "To every proposition, there is an equal opposition",
+        "C": "The physical world is the only reality",
+        "D": "Ideas are eternal and unchanging"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 14,
+      "question": "Which philosopher argued that the universe has a design and a First Cause (Unmoved Mover)?",
+      "options": {
+        "A": "Plato",
+        "B": "Thomas Aquinas",
+        "C": "Aristotle",
+        "D": "Francis Bacon"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 15,
+      "question": "Realism, as opposed to Idealism, asserts that:",
+      "options": {
+        "A": "The mind creates reality",
+        "B": "Objects exist independently of human perception",
+        "C": "Knowledge is derived purely from faith",
+        "D": "Abstract ideas are more real than physical objects"
+      },
+      "answerKey": ["B"]
+    }
+  ]
+}

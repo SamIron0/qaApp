@@ -1,0 +1,290 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which branch of philosophy deals with the study of knowledge—its nature, sources, and validity?",
+      "options": {
+        "A": "Metaphysics",
+        "B": "Epistemology",
+        "C": "Axiology",
+        "D": "Logic"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 2,
+      "question": "Which statement best captures René Descartes's view of metaphysics, as mentioned in the text?",
+      "options": {
+        "A": "It is the study of values and moral judgments.",
+        "B": "It is primarily concerned with linguistic analysis and the structure of arguments.",
+        "C": "It is considered the \"first philosophy,\" dealing with the fundamental nature of reality and existence.",
+        "D": "It is purely concerned with political structures and human relationships."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is not one of the traditionally recognized major branches of philosophy?",
+      "options": {
+        "A": "Epistemology",
+        "B": "Metaphysics",
+        "C": "Axiology (Ethics and Aesthetics)",
+        "D": "Anthropology"
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 4,
+      "question": "In the context of epistemology, which source of knowledge is described as involving divine undertones and communication from God?",
+      "options": {
+        "A": "Authority",
+        "B": "Revelation",
+        "C": "Empiricism",
+        "D": "Rationalism"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 5,
+      "question": "According to the text, logic is primarily concerned with which of the following?",
+      "options": {
+        "A": "The study of moral values and judgments",
+        "B": "The methods and principles used in distinguishing correct (good) from incorrect (bad) reasoning",
+        "C": "The study of the origin, nature, and development of the universe",
+        "D": "The study of the aesthetic values in art and nature"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 6,
+      "question": "Axiology, one of the major branches of philosophy, is subdivided mainly into:",
+      "options": {
+        "A": "Ethics and Metaphysics",
+        "B": "Epistemology and Logic",
+        "C": "Ethics and Aesthetics",
+        "D": "Anthropology and Cosmology"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 7,
+      "question": "According to the text, which philosopher warned that \"If the world's ethical standards fail to rise to the advance of our technological revolution, we shall perish\"?",
+      "options": {
+        "A": "Aristotle",
+        "B": "Counts (1962)",
+        "C": "Copi (1982)",
+        "D": "Knight (1990)"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 8,
+      "question": "What does the text describe as the \"king\" of all disciplines, which leads to the highest degree in many fields (Ph.D.)?",
+      "options": {
+        "A": "Theology",
+        "B": "Mathematics",
+        "C": "Philosophy",
+        "D": "Anthropology"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 9,
+      "question": "Which branch of philosophy studies \"the nature of reality,\" dealing with questions such as the origin of the universe, the nature of existence, and the mind-body relationship?",
+      "options": {
+        "A": "Axiology",
+        "B": "Metaphysics",
+        "C": "Logic",
+        "D": "Epistemology"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 10,
+      "question": "According to the text, which of the following is not typically a direct source of knowledge mentioned?",
+      "options": {
+        "A": "Rationalism (reasoning)",
+        "B": "Empiricism (sense perception)",
+        "C": "Tradition (passed down without questioning)",
+        "D": "Intuition (immediate understanding without reasoning)"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 11,
+      "question": "Which branch of philosophy is primarily focused on the formal principles of reasoning, argument structure, and the evaluation of inferences?",
+      "options": {
+        "A": "Metaphysics",
+        "B": "Epistemology",
+        "C": "Logic",
+        "D": "Axiology"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 12,
+      "question": "Which sub-branch of axiology is concerned with determining the criteria for what is considered beautiful or artistically valuable?",
+      "options": {
+        "A": "Ethics",
+        "B": "Aesthetics",
+        "C": "Metaphysics",
+        "D": "Epistemology"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 13,
+      "question": "Which philosophical method, famously associated with René Descartes, involves doubting all beliefs until reaching an undeniable foundation?",
+      "options": {
+        "A": "Empiricism",
+        "B": "Induction",
+        "C": "Methodological skepticism",
+        "D": "Pragmatism"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 14,
+      "question": "The statement \"I think, therefore I am\" is most closely associated with which philosopher?",
+      "options": {
+        "A": "Aristotle",
+        "B": "René Descartes",
+        "C": "Immanuel Kant",
+        "D": "Socrates"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 15,
+      "question": "Which of the following sources of knowledge is based on direct sensory experience?",
+      "options": {
+        "A": "Rationalism",
+        "B": "Empiricism",
+        "C": "Revelation",
+        "D": "Intuition"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 16,
+      "question": "In the context of the text, which branch of philosophy would include the study of moral dilemmas and questions about right and wrong?",
+      "options": {
+        "A": "Epistemology",
+        "B": "Axiology",
+        "C": "Metaphysics",
+        "D": "Logic"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 17,
+      "question": "Which of the following best describes the relationship between philosophy and other academic disciplines, as mentioned in the texts?",
+      "options": {
+        "A": "Philosophy is a specialized field with no connection to other disciplines.",
+        "B": "Philosophy is the \"mother of the sciences,\" forming the foundation for various academic fields and the Ph.D. degree.",
+        "C": "Philosophy only concerns abstract ideas with no practical application.",
+        "D": "Philosophy primarily deals with historical analysis rather than scientific inquiry."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 18,
+      "question": "Which source of knowledge is associated with the idea of gaining insight without the intervention of a deliberate, conscious process?",
+      "options": {
+        "A": "Authority",
+        "B": "Intuition",
+        "C": "Empiricism",
+        "D": "Rationalism"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 19,
+      "question": "Which major branch of philosophy deals with questions about the nature of existence, reality, and the universe?",
+      "options": {
+        "A": "Epistemology",
+        "B": "Axiology",
+        "C": "Metaphysics",
+        "D": "Logic"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 21,
+      "question": "Which branch of philosophy is primarily concerned with studying the nature and existence of the universe (cosmology), and from which major branch is it deduced?",
+      "options": {
+        "A": "Epistemology, deduced from Logic",
+        "B": "Cosmology, deduced from Axiology",
+        "C": "Cosmology, deduced from Metaphysics",
+        "D": "Ethics, deduced from Epistemology"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 22,
+      "question": "Which branch of philosophy deals with the systematic study of valid reasoning and argument structure, and what is its primary purpose?",
+      "options": {
+        "A": "Logic; to distinguish correct from incorrect reasoning",
+        "B": "Epistemology; to analyze the sources of knowledge",
+        "C": "Metaphysics; to explore the nature of being",
+        "D": "Axiology; to evaluate ethical values"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 23,
+      "question": "The study of moral values, ethical dilemmas, and aesthetic judgments is grouped under which branch of philosophy, and what is its key purpose?",
+      "options": {
+        "A": "Metaphysics; to understand the nature of existence",
+        "B": "Epistemology; to question the basis of knowledge",
+        "C": "Axiology; to assess what is valuable and good",
+        "D": "Logic; to analyze argument structure"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 24,
+      "question": "Which branch of philosophy is dedicated to understanding the nature, sources, and limits of human knowledge, and what are some of the sources it investigates?",
+      "options": {
+        "A": "Epistemology; it investigates sense perception, reason, intuition, and revelation",
+        "B": "Metaphysics; it investigates the origin of the universe",
+        "C": "Logic; it investigates the structure of arguments",
+        "D": "Axiology; it investigates moral and aesthetic values"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 25,
+      "question": "Which branch of philosophy lays the groundwork for scientific inquiry and is sometimes referred to as the \"mother of the sciences,\" providing the basis for many academic disciplines?",
+      "options": {
+        "A": "Ethics",
+        "B": "Logic",
+        "C": "Metaphysics",
+        "D": "Philosophy as a whole (with emphasis on Metaphysics)"
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 26,
+      "question": "In the context of evaluating arguments, which branch of philosophy helps to identify fallacies and ensure the logical consistency of conclusions, and what is its direct purpose?",
+      "options": {
+        "A": "Epistemology; to test the reliability of sensory data",
+        "B": "Logic; to distinguish between valid and invalid reasoning",
+        "C": "Metaphysics; to explain the nature of reality",
+        "D": "Axiology; to define what is ethically right"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 27,
+      "question": "Which branch of philosophy is directly concerned with questions about existence and being, and how does it relate to the study of the cosmos?",
+      "options": {
+        "A": "Epistemology; it relates by explaining how we come to know cosmic phenomena",
+        "B": "Axiology; it relates by judging the beauty of the cosmos",
+        "C": "Metaphysics; it relates by addressing the fundamental principles that govern existence, including the cosmos",
+        "D": "Logic; it relates by structuring the arguments about cosmic theories"
+      },
+      "answerKey": ["C"]
+    }
+  ]
+}

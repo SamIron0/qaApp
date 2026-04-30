@@ -1,0 +1,136 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which Greek philosopher is most closely associated with the dialectical method involving questioning to uncover truths?",
+      "options": {
+        "A": "Plato",
+        "B": "Aristotle",
+        "C": "Socrates",
+        "D": "Pythagoras"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 2,
+      "question": "According to the text, what is a key disadvantage of inductive reasoning?",
+      "options": {
+        "A": "It lacks logical structure",
+        "B": "It risks hasty generalizations",
+        "C": "It ignores empirical evidence",
+        "D": "It is too rigid"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 3,
+      "question": "The term \"dialectics\" originates from which language?",
+      "options": {
+        "A": "Latin",
+        "B": "Greek",
+        "C": "German",
+        "D": "French"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 4,
+      "question": "Which attitude of a philosopher involves revising one's position when presented with better evidence?",
+      "options": {
+        "A": "Comprehensiveness",
+        "B": "Penetration",
+        "C": "Flexibility",
+        "D": "Self-awareness"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 5,
+      "question": "William James described philosophy as:",
+      "options": {
+        "A": "\"The love of wisdom\"",
+        "B": "\"A collective name for unanswered questions\"",
+        "C": "\"The art of debate\"",
+        "D": "\"The science of critical thinking\""
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 6,
+      "question": "What activity of a philosopher involves setting standards for evaluating conduct or art?",
+      "options": {
+        "A": "Speculating",
+        "B": "Synthesizing",
+        "C": "Prescribing",
+        "D": "Analyzing"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 7,
+      "question": "Which reasoning type begins with a general premise to reach a specific conclusion?",
+      "options": {
+        "A": "Inductive",
+        "B": "Deductive",
+        "C": "Dialectical",
+        "D": "Speculative"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 8,
+      "question": "The text defines \"self-awareness\" as:",
+      "options": {
+        "A": "Understanding others' biases",
+        "B": "Recognizing one's own biases and predispositions",
+        "C": "Mastering logical arguments",
+        "D": "Collecting diverse data"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 9,
+      "question": "Which activity involves gathering information to form a unified whole?",
+      "options": {
+        "A": "Analyzing",
+        "B": "Speculating",
+        "C": "Synthesizing",
+        "D": "Prescribing"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 10,
+      "question": "What is a major criticism of deductive reasoning mentioned in the text?",
+      "options": {
+        "A": "It is too time-consuming",
+        "B": "It does not validate its general premises",
+        "C": "It ignores empirical data",
+        "D": "It relies on imagination"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 11,
+      "question": "Why is deductive reasoning strongly associated with speculative activity in philosophy?",
+      "options": {
+        "A": "It relies on empirical data collection.",
+        "B": "It starts with general premises and aligns with imaginative theorizing.",
+        "C": "It avoids logical conclusions.",
+        "D": "It focuses on laboratory experiments."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 12,
+      "question": "How is inductive reasoning linked to analytical activity in philosophy?",
+      "options": {
+        "A": "It prioritizes abstract theories over evidence.",
+        "B": "It involves collecting specific cases to form generalizations, requiring critical examination.",
+        "C": "It avoids generalizations entirely.",
+        "D": "It relies on defending unverified assumptions."
+      },
+      "answerKey": ["B"]
+    }
+  ]
+}

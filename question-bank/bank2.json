@@ -1,0 +1,719 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What type of categorical proposition is this? \"All birds are animals.\"",
+      "options": {
+        "A": "Universal Affirmative",
+        "B": "Universal Negative",
+        "C": "Particular Affirmative",
+        "D": "Particular Negative"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 2,
+      "question": "What type of categorical proposition is this? \"No fish are mammals.\"",
+      "options": {
+        "A": "Universal Affirmative",
+        "B": "Universal Negative",
+        "C": "Particular Affirmative",
+        "D": "Particular Negative"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 3,
+      "question": "What type of categorical proposition is this? \"Some students are not lazy.\"",
+      "options": {
+        "A": "Universal Affirmative",
+        "B": "Universal Negative",
+        "C": "Particular Affirmative",
+        "D": "Particular Negative"
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 4,
+      "question": "What type of categorical proposition is this? \"Some trees are tall.\"",
+      "options": {
+        "A": "Universal Affirmative",
+        "B": "Universal Negative",
+        "C": "Particular Affirmative",
+        "D": "Particular Negative"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 5,
+      "question": "Which of the following represents a universal affirmative proposition?",
+      "options": {
+        "A": "Some dogs are friendly.",
+        "B": "All cars are vehicles.",
+        "C": "No birds are reptiles.",
+        "D": "Some students are not diligent."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 6,
+      "question": "Which of the following represents a universal negative proposition?",
+      "options": {
+        "A": "All fish live in water.",
+        "B": "Some birds cannot fly.",
+        "C": "No insects are mammals.",
+        "D": "Some dogs are not brown."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 7,
+      "question": "Which of the following represents a particular affirmative proposition?",
+      "options": {
+        "A": "Some cars are electric.",
+        "B": "No cats are reptiles.",
+        "C": "All whales are mammals.",
+        "D": "Some birds are not sparrows."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 8,
+      "question": "Convert the proposition \"All squares are rectangles.\"",
+      "options": {
+        "A": "Some rectangles are squares.",
+        "B": "No rectangles are squares.",
+        "C": "Some squares are not rectangles.",
+        "D": "Some rectangles are not squares."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 9,
+      "question": "Convert the proposition \"No mammals are cold-blooded.\"",
+      "options": {
+        "A": "Some cold-blooded creatures are mammals.",
+        "B": "No cold-blooded creatures are mammals.",
+        "C": "Some mammals are cold-blooded.",
+        "D": "All cold-blooded creatures are mammals."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 10,
+      "question": "Convert the proposition \"Some birds are not carnivorous.\"",
+      "options": {
+        "A": "Some carnivorous creatures are birds.",
+        "B": "No birds are carnivorous.",
+        "C": "Some non-carnivorous creatures are birds.",
+        "D": "Conversion is not valid."
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 11,
+      "question": "Obvert the proposition \"All reptiles are vertebrates.\"",
+      "options": {
+        "A": "Some reptiles are vertebrates.",
+        "B": "No reptiles are invertebrates.",
+        "C": "Some vertebrates are reptiles.",
+        "D": "Some vertebrates are not reptiles."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 12,
+      "question": "Obvert the proposition \"Some trees are not deciduous.\"",
+      "options": {
+        "A": "Some trees are evergreen.",
+        "B": "No trees are deciduous.",
+        "C": "Some trees are non-deciduous.",
+        "D": "All trees are deciduous."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 13,
+      "question": "What is the contradictory of \"All dogs are friendly.\"?",
+      "options": {
+        "A": "Some dogs are friendly.",
+        "B": "No dogs are friendly.",
+        "C": "Some dogs are not friendly.",
+        "D": "All dogs are unfriendly."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 14,
+      "question": "What is the contrary of \"No fruits are sour.\"?",
+      "options": {
+        "A": "Some fruits are not sour.",
+        "B": "Some fruits are sour.",
+        "C": "All fruits are sour.",
+        "D": "Some non-fruits are sour."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 15,
+      "question": "If the universal affirmative proposition \"All whales are marine animals.\" is false, what can we conclude?",
+      "options": {
+        "A": "No whales are marine animals.",
+        "B": "Some whales are marine animals.",
+        "C": "Some whales are not marine animals.",
+        "D": "All whales are not marine animals."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 16,
+      "question": "If \"No mammals lay eggs.\" is true, what is its subcontrary?",
+      "options": {
+        "A": "Some mammals lay eggs.",
+        "B": "Some mammals do not lay eggs.",
+        "C": "All mammals lay eggs.",
+        "D": "Some mammals are reptiles."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 17,
+      "question": "Convert the proposition \"Some birds are migratory.\"",
+      "options": {
+        "A": "Some migratory creatures are birds.",
+        "B": "All migratory creatures are birds.",
+        "C": "No migratory creatures are birds.",
+        "D": "Some migratory creatures are not birds."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 18,
+      "question": "Convert the proposition \"No snakes have legs.\"",
+      "options": {
+        "A": "Some creatures with legs are snakes.",
+        "B": "No legged creatures are snakes.",
+        "C": "Some snakes have legs.",
+        "D": "All snakes have legs."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 19,
+      "question": "If \"All humans are rational\" is true, what can we infer about \"Some humans are rational\"?",
+      "options": {
+        "A": "It must be true.",
+        "B": "It must be false.",
+        "C": "It is independent.",
+        "D": "It is contradictory."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 20,
+      "question": "What is the correct obversion of \"Some cars are sports cars.\"?",
+      "options": {
+        "A": "Some cars are not sports cars.",
+        "B": "No cars are sports cars.",
+        "C": "Some cars are non-sports cars.",
+        "D": "Some non-cars are sports cars."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 21,
+      "question": "Convert the proposition \"Some cats are not wild animals.\"",
+      "options": {
+        "A": "Some wild animals are not cats.",
+        "B": "Some non-wild animals are cats.",
+        "C": "Conversion is not valid.",
+        "D": "No wild animals are cats."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 22,
+      "question": "If \"All birds have feathers\" is false, what can be inferred?",
+      "options": {
+        "A": "Some birds do not have feathers.",
+        "B": "No birds have feathers.",
+        "C": "Some birds have feathers.",
+        "D": "Some birds are mammals."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 23,
+      "question": "Convert the proposition \"No trees are animals.\"",
+      "options": {
+        "A": "Some animals are not trees.",
+        "B": "No animals are trees.",
+        "C": "Some trees are animals.",
+        "D": "All animals are trees."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 24,
+      "question": "If \"Some planets are habitable\" is false, what does it imply?",
+      "options": {
+        "A": "No planets are habitable.",
+        "B": "All planets are habitable.",
+        "C": "Some planets are not habitable.",
+        "D": "Some planets are stars."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 25,
+      "question": "If \"Some mammals are not carnivorous\" is false, what can we conclude?",
+      "options": {
+        "A": "All mammals are carnivorous.",
+        "B": "Some mammals are carnivorous.",
+        "C": "No mammals are carnivorous.",
+        "D": "Some non-mammals are carnivorous."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 26,
+      "question": "What type of categorical proposition is this? \"Some books are fiction.\"",
+      "options": {
+        "A": "Universal Affirmative",
+        "B": "Universal Negative",
+        "C": "Particular Affirmative",
+        "D": "Particular Negative"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 27,
+      "question": "What type of categorical proposition is this? \"No reptiles have fur.\"",
+      "options": {
+        "A": "Universal Affirmative",
+        "B": "Universal Negative",
+        "C": "Particular Affirmative",
+        "D": "Particular Negative"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 28,
+      "question": "What type of categorical proposition is this? \"All students are not lazy.\"",
+      "options": {
+        "A": "Universal Affirmative",
+        "B": "Universal Negative",
+        "C": "Particular Affirmative",
+        "D": "Particular Negative"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 29,
+      "question": "Which of the following is an example of a particular negative proposition?",
+      "options": {
+        "A": "No fish are amphibians.",
+        "B": "Some birds are not carnivores.",
+        "C": "Some mammals are herbivores.",
+        "D": "All teachers are educated."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 30,
+      "question": "Convert the proposition \"All triangles have three sides.\"",
+      "options": {
+        "A": "Some three-sided shapes are triangles.",
+        "B": "No triangles have three sides.",
+        "C": "Some triangles do not have three sides.",
+        "D": "Some triangles are three-sided shapes."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 31,
+      "question": "Convert the proposition \"No cats are reptiles.\"",
+      "options": {
+        "A": "Some reptiles are cats.",
+        "B": "Some cats are reptiles.",
+        "C": "No reptiles are cats.",
+        "D": "Some reptiles are not cats."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 32,
+      "question": "Convert the proposition \"Some birds are not flightless.\"",
+      "options": {
+        "A": "Some flightless creatures are birds.",
+        "B": "Some birds are flightless.",
+        "C": "Some non-flightless creatures are birds.",
+        "D": "Conversion is not valid."
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 33,
+      "question": "Obvert the proposition \"All snakes are reptiles.\"",
+      "options": {
+        "A": "No snakes are non-reptiles.",
+        "B": "Some reptiles are snakes.",
+        "C": "No reptiles are snakes.",
+        "D": "Some snakes are reptiles."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 34,
+      "question": "Obvert the proposition \"Some musicians are not classical artists.\"",
+      "options": {
+        "A": "Some musicians are classical artists.",
+        "B": "No musicians are classical artists.",
+        "C": "Some musicians are non-classical artists.",
+        "D": "Some non-musicians are classical artists."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 35,
+      "question": "What is the contradictory of \"Some animals are not mammals.\"?",
+      "options": {
+        "A": "Some animals are mammals.",
+        "B": "No animals are mammals.",
+        "C": "All animals are mammals.",
+        "D": "Some animals are not reptiles."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 36,
+      "question": "What is the contrary of \"No humans are perfect.\"?",
+      "options": {
+        "A": "Some humans are not perfect.",
+        "B": "Some humans are perfect.",
+        "C": "All humans are perfect.",
+        "D": "No perfect beings are human."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 37,
+      "question": "If the universal affirmative proposition \"All computers have processors.\" is false, what can we conclude?",
+      "options": {
+        "A": "Some computers do not have processors.",
+        "B": "No computers have processors.",
+        "C": "Some computers have processors.",
+        "D": "All computers are outdated."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 38,
+      "question": "If \"No fish have lungs.\" is true, what is its subcontrary?",
+      "options": {
+        "A": "Some fish have lungs.",
+        "B": "Some fish do not have lungs.",
+        "C": "All fish have lungs.",
+        "D": "No fish breathe oxygen."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 39,
+      "question": "Convert the proposition \"Some scientists are Nobel laureates.\"",
+      "options": {
+        "A": "Some Nobel laureates are scientists.",
+        "B": "All Nobel laureates are scientists.",
+        "C": "No Nobel laureates are scientists.",
+        "D": "Some scientists are not Nobel laureates."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 40,
+      "question": "Convert the proposition \"No birds are insects.\"",
+      "options": {
+        "A": "Some insects are not birds.",
+        "B": "No insects are birds.",
+        "C": "Some birds are insects.",
+        "D": "All insects are birds."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 41,
+      "question": "Convert the proposition \"Some flowers are not roses.\"",
+      "options": {
+        "A": "Some roses are flowers.",
+        "B": "Some non-roses are flowers.",
+        "C": "No flowers are roses.",
+        "D": "Conversion is not valid."
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 42,
+      "question": "If \"All astronauts are scientists\" is true, what can we infer about \"Some astronauts are scientists\"?",
+      "options": {
+        "A": "It must be true.",
+        "B": "It must be false.",
+        "C": "It is independent.",
+        "D": "It is contradictory."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 43,
+      "question": "What is the correct obversion of \"Some musicians are composers.\"?",
+      "options": {
+        "A": "Some musicians are not composers.",
+        "B": "No musicians are composers.",
+        "C": "Some musicians are non-composers.",
+        "D": "Some composers are not musicians."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 44,
+      "question": "Convert the proposition \"Some mammals are not marsupials.\"",
+      "options": {
+        "A": "Some marsupials are not mammals.",
+        "B": "Some non-marsupials are mammals.",
+        "C": "Conversion is not valid.",
+        "D": "No marsupials are mammals."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 45,
+      "question": "If \"All snakes are reptiles\" is false, what does it imply?",
+      "options": {
+        "A": "Some snakes are not reptiles.",
+        "B": "No snakes are reptiles.",
+        "C": "Some snakes are reptiles.",
+        "D": "Some reptiles are not snakes."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 46,
+      "question": "Convert the proposition \"No dolphins are fish.\"",
+      "options": {
+        "A": "Some fish are not dolphins.",
+        "B": "No fish are dolphins.",
+        "C": "Some dolphins are fish.",
+        "D": "All fish are dolphins."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 47,
+      "question": "If \"Some planets have moons\" is false, what does it imply?",
+      "options": {
+        "A": "No planets have moons.",
+        "B": "All planets have moons.",
+        "C": "Some planets do not have moons.",
+        "D": "Some moons are planets."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 48,
+      "question": "If \"Some birds are not carnivorous\" is false, what can we conclude?",
+      "options": {
+        "A": "All birds are carnivorous.",
+        "B": "Some birds are carnivorous.",
+        "C": "No birds are carnivorous.",
+        "D": "Some birds are herbivorous."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 50,
+      "question": "If the proposition \"No mathematicians are poets\" is true, what can be inferred about \"Some mathematicians are poets\"?",
+      "options": {
+        "A": "It is true.",
+        "B": "It is false.",
+        "C": "It is undetermined.",
+        "D": "It contradicts the original statement."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 51,
+      "question": "Which of the following best represents the obversion of \"Some animals are reptiles\"?",
+      "options": {
+        "A": "Some animals are non-reptiles.",
+        "B": "No animals are non-reptiles.",
+        "C": "Some animals are not non-reptiles.",
+        "D": "No animals are reptiles."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 52,
+      "question": "What is the subcontrary of \"Some mammals are not carnivores\"?",
+      "options": {
+        "A": "Some mammals are carnivores.",
+        "B": "No mammals are carnivores.",
+        "C": "All mammals are carnivores.",
+        "D": "Some mammals are herbivores."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 53,
+      "question": "If the statement \"All teachers are literate\" is false, what must be true?",
+      "options": {
+        "A": "Some teachers are not literate.",
+        "B": "No teachers are literate.",
+        "C": "Some teachers are literate.",
+        "D": "All teachers are not literate."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 54,
+      "question": "Convert the proposition \"All whales are mammals\" correctly.",
+      "options": {
+        "A": "Some mammals are whales.",
+        "B": "No mammals are whales.",
+        "C": "Some whales are not mammals.",
+        "D": "Some mammals are not whales."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 55,
+      "question": "If \"Some birds can fly\" is false, what must be true?",
+      "options": {
+        "A": "No birds can fly.",
+        "B": "Some birds cannot fly.",
+        "C": "All birds can fly.",
+        "D": "Some birds are mammals."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 56,
+      "question": "If \"No lawyers are criminals\" is true, which of the following is its correct conversion?",
+      "options": {
+        "A": "Some criminals are lawyers.",
+        "B": "No criminals are lawyers.",
+        "C": "Some lawyers are criminals.",
+        "D": "All criminals are not lawyers."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 57,
+      "question": "If \"Some insects are not dangerous\" is false, what must be true?",
+      "options": {
+        "A": "All insects are dangerous.",
+        "B": "Some insects are dangerous.",
+        "C": "No insects are dangerous.",
+        "D": "Some insects are not harmless."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 58,
+      "question": "What is the contrapositive of \"If it rains, the ground gets wet\"?",
+      "options": {
+        "A": "If the ground is wet, then it has rained.",
+        "B": "If the ground is not wet, then it has not rained.",
+        "C": "If it does not rain, then the ground is not wet.",
+        "D": "If the ground is wet, then it will rain."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 59,
+      "question": "Which of the following propositions contradicts \"All dogs are friendly\"?",
+      "options": {
+        "A": "Some dogs are friendly.",
+        "B": "No dogs are friendly.",
+        "C": "Some dogs are not friendly.",
+        "D": "Some dogs are aggressive."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 60,
+      "question": "Which of the following is an example of a particular affirmative proposition?",
+      "options": {
+        "A": "Some fruits are citrus.",
+        "B": "No fruits are citrus.",
+        "C": "All fruits are citrus.",
+        "D": "Some citrus are not fruits."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 61,
+      "question": "If \"All engineers are problem-solvers\" is true, which of the following is its correct conversion?",
+      "options": {
+        "A": "Some problem-solvers are engineers.",
+        "B": "No problem-solvers are engineers.",
+        "C": "Some engineers are not problem-solvers.",
+        "D": "Some engineers are mathematicians."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 62,
+      "question": "If \"Some animals are not mammals\" is false, what can we conclude?",
+      "options": {
+        "A": "All animals are mammals.",
+        "B": "No animals are mammals.",
+        "C": "Some animals are mammals.",
+        "D": "Some mammals are animals."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 63,
+      "question": "Convert the proposition \"No doctors are illiterate\" correctly.",
+      "options": {
+        "A": "Some illiterate people are doctors.",
+        "B": "No illiterate people are doctors.",
+        "C": "Some doctors are not illiterate.",
+        "D": "No doctors are literate."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 64,
+      "question": "If \"All metals conduct electricity\" is true, what must be true?",
+      "options": {
+        "A": "Some metals conduct electricity.",
+        "B": "Some metals do not conduct electricity.",
+        "C": "No metals conduct electricity.",
+        "D": "All metals are insulators."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 65,
+      "question": "What is the obversion of \"No cats are reptiles\"?",
+      "options": {
+        "A": "No reptiles are cats.",
+        "B": "All cats are reptiles.",
+        "C": "All cats are non-reptiles.",
+        "D": "Some reptiles are cats."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 66,
+      "question": "What is the correct contrapositive of \"If someone is a thief, then they are dishonest\"?",
+      "options": {
+        "A": "If someone is not dishonest, then they are not a thief.",
+        "B": "If someone is dishonest, then they are not a thief.",
+        "C": "If someone is a thief, then they are honest.",
+        "D": "If someone is not a thief, then they are dishonest."
+      },
+      "answerKey": ["A"]
+    }
+  ]
+}

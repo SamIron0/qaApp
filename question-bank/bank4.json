@@ -1,0 +1,543 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "The three laws of thought include all of the following except:",
+      "options": {
+        "A": "The Law of Identity",
+        "B": "The Law of Contradiction",
+        "C": "The Law of Rationality",
+        "D": "The Law of the Excluded Middle"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 2,
+      "question": "Which of the following best defines a valid argument?",
+      "options": {
+        "A": "An argument where the premises and conclusion are all true",
+        "B": "An argument where the premises logically lead to the conclusion",
+        "C": "An argument that uses persuasive language",
+        "D": "An argument that is widely accepted"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 3,
+      "question": "Which type of logic focuses on the structure of reasoning rather than the truth of the premises?",
+      "options": {
+        "A": "Material logic",
+        "B": "Informal logic",
+        "C": "Formal logic",
+        "D": "Inductive logic"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 4,
+      "question": "What is the key feature of a deductive argument?",
+      "options": {
+        "A": "It moves from specific cases to general principles",
+        "B": "Its conclusion is only probable, not certain",
+        "C": "If the premises are true, the conclusion must be true",
+        "D": "It relies on examples and observation"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 5,
+      "question": "What distinguishes material logic from formal logic?",
+      "options": {
+        "A": "Material logic focuses on the truth of premises, while formal logic focuses on structure",
+        "B": "Formal logic is concerned with argument content, while material logic checks validity",
+        "C": "Material logic uses mathematical formulas, while formal logic does not",
+        "D": "There is no difference between the two"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 6,
+      "question": "If an argument is valid but has false premises, what can be said about it?",
+      "options": {
+        "A": "It is sound",
+        "B": "It is unsound",
+        "C": "It is neither valid nor invalid",
+        "D": "The conclusion must also be false"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 7,
+      "question": "The statement \"If it is raining, then the ground is wet\" is an example of:",
+      "options": {
+        "A": "A negationless logic statement",
+        "B": "A prepositional logic statement",
+        "C": "A compound statement",
+        "D": "A material logic statement"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 8,
+      "question": "What makes an argument sound?",
+      "options": {
+        "A": "The premises and conclusion are both true, regardless of validity",
+        "B": "The argument is widely accepted",
+        "C": "The argument is valid, and all premises are true",
+        "D": "The premises are persuasive"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of informal logic?",
+      "options": {
+        "A": "To analyze the structure of arguments without considering their truth",
+        "B": "To study reasoning in everyday language and practical situations",
+        "C": "To ensure that all arguments follow strict rules of inference",
+        "D": "To examine only mathematical and symbolic reasoning"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 10,
+      "question": "The Law of the Excluded Middle states that:",
+      "options": {
+        "A": "Every statement must be either true or false, with no middle ground",
+        "B": "Two contradictory statements can both be true under certain conditions",
+        "C": "The structure of an argument is more important than its content",
+        "D": "A statement can be both true and false at the same time"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 11,
+      "question": "\"All mammals are warm-blooded. Whales are mammals. Therefore, whales are warm-blooded.\" Which option correctly identifies the conclusion?",
+      "options": {
+        "A": "All mammals are warm-blooded.",
+        "B": "Whales are mammals.",
+        "C": "Whales are warm-blooded.",
+        "D": "Both A and B."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 12,
+      "question": "\"In order to pass the test, you must study hard. John did not study hard. Therefore, John will not pass the test.\" What is the conclusion?",
+      "options": {
+        "A": "You must study hard to pass the test.",
+        "B": "John did not study hard.",
+        "C": "John will not pass the test.",
+        "D": "Both A and B support the conclusion."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 13,
+      "question": "\"All fruits have seeds. An apple is a fruit. Therefore, an apple has seeds.\" Identify the premise(s) and the conclusion.",
+      "options": {
+        "A": "Premises: All fruits have seeds; Apple is a fruit. Conclusion: Apple has seeds.",
+        "B": "Premise: Apple has seeds; Conclusion: All fruits have seeds.",
+        "C": "Premise: Apple has seeds; Conclusion: Apple is a fruit.",
+        "D": "Premises: All fruits have seeds; Apple has seeds. Conclusion: Apple is a fruit."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 14,
+      "question": "\"Every student in the class passed the exam. Mary is a student in the class. Therefore, Mary passed the exam.\" Which part is the conclusion?",
+      "options": {
+        "A": "Every student in the class passed the exam.",
+        "B": "Mary is a student in the class.",
+        "C": "Mary passed the exam.",
+        "D": "Both A and B."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 15,
+      "question": "\"To win the game, you must practice regularly. Tom practices regularly. Therefore, Tom will win the game.\" What are the premises and what is the conclusion?",
+      "options": {
+        "A": "Premises: You must practice regularly; Tom practices regularly. Conclusion: Tom will win the game.",
+        "B": "Premise: Tom will win the game. Conclusion: Tom practices regularly.",
+        "C": "Premises: Tom practices regularly; Tom will win the game. Conclusion: You must practice regularly.",
+        "D": "Premise: To win the game, you must practice regularly. Conclusion: Tom practices regularly."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 16,
+      "question": "\"If it is raining, then the picnic will be canceled. It is raining. Therefore, the picnic will be canceled.\" Identify the conclusion.",
+      "options": {
+        "A": "If it is raining, then the picnic will be canceled.",
+        "B": "It is raining.",
+        "C": "The picnic will be canceled.",
+        "D": "Both A and B."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 17,
+      "question": "\"All dogs bark. Rex is a dog. Therefore, Rex barks.\" Which option shows the premises and the conclusion?",
+      "options": {
+        "A": "Premise: All dogs bark. Conclusion: Rex is a dog.",
+        "B": "Premises: All dogs bark; Rex is a dog. Conclusion: Rex barks.",
+        "C": "Premise: Rex barks. Conclusion: All dogs bark and Rex is a dog.",
+        "D": "Premise: Rex is a dog. Conclusion: All dogs bark."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 18,
+      "question": "\"Studying daily improves your grades. Lisa studies daily. Therefore, Lisa's grades improve.\" What is the conclusion?",
+      "options": {
+        "A": "Studying daily improves your grades.",
+        "B": "Lisa studies daily.",
+        "C": "Lisa's grades improve.",
+        "D": "Both A and B."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 19,
+      "question": "\"If you water plants, they grow. The garden was watered. Therefore, the plants grew.\" Select the correct identification:",
+      "options": {
+        "A": "Premise: If you water plants, they grow; Garden was watered. Conclusion: Plants grew.",
+        "B": "Premise: Plants grew; Conclusion: Garden was watered.",
+        "C": "Premise: Garden was watered; Conclusion: If you water plants, they grow.",
+        "D": "Premise: If you water plants, they grow; Conclusion: Garden was watered."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 20,
+      "question": "\"Everyone who studies passes the exam. Alex did not study. Therefore, Alex will not pass the exam.\" Identify the conclusion.",
+      "options": {
+        "A": "Everyone who studies passes the exam.",
+        "B": "Alex did not study.",
+        "C": "Alex will not pass the exam.",
+        "D": "The argument has no clear conclusion."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 21,
+      "question": "\"All birds can fly. A penguin is a bird. Therefore, a penguin can fly.\" Is this argument:",
+      "options": {
+        "A": "Sound",
+        "B": "Valid but unsound",
+        "C": "Invalid",
+        "D": "Neither"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 22,
+      "question": "\"All mammals have hearts. A whale is a mammal. Therefore, a whale has a heart.\" This argument is:",
+      "options": {
+        "A": "Valid but unsound",
+        "B": "Invalid",
+        "C": "Sound",
+        "D": "Neither"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 23,
+      "question": "\"If it is snowing, then it is cold outside. It is snowing. Therefore, it is cold outside.\" This argument is:",
+      "options": {
+        "A": "Sound",
+        "B": "Valid but unsound",
+        "C": "Invalid",
+        "D": "Unsound due to false premises"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 24,
+      "question": "\"If you study hard, you will get good grades. You did not study hard. Therefore, you will not get good grades.\" This argument is:",
+      "options": {
+        "A": "Sound",
+        "B": "Valid but unsound",
+        "C": "Invalid",
+        "D": "Sound if the conclusion is true"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 25,
+      "question": "\"All cars have engines. My bicycle has an engine. Therefore, my bicycle is a car.\" This argument is:",
+      "options": {
+        "A": "Sound",
+        "B": "Unsound",
+        "C": "Invalid",
+        "D": "Both B and C"
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 26,
+      "question": "\"Every student in the club is an honor student. Sarah is a student in the club. Therefore, Sarah is an honor student.\" The argument is:",
+      "options": {
+        "A": "Valid and sound",
+        "B": "Valid but unsound",
+        "C": "Invalid",
+        "D": "Neither valid nor unsound"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 27,
+      "question": "\"If a person is a doctor, then they have a medical degree. John has a medical degree. Therefore, John is a doctor.\" This argument is:",
+      "options": {
+        "A": "Sound",
+        "B": "Valid but unsound",
+        "C": "Invalid",
+        "D": "Sound if John practices medicine"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 28,
+      "question": "\"All computers run on electricity. My laptop is a computer. Therefore, my laptop runs on electricity.\" This argument is:",
+      "options": {
+        "A": "Sound",
+        "B": "Valid but unsound",
+        "C": "Invalid",
+        "D": "Sound only if my laptop is plugged in"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 29,
+      "question": "\"Only mammals have fur. A dolphin is a mammal. Therefore, a dolphin has fur.\" This argument is:",
+      "options": {
+        "A": "Valid and sound",
+        "B": "Valid but unsound",
+        "C": "Invalid",
+        "D": "Neither"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 30,
+      "question": "\"If you exercise regularly, you will be healthy. You exercise regularly. Therefore, you are healthy.\" This argument is:",
+      "options": {
+        "A": "Valid and sound",
+        "B": "Valid but unsound",
+        "C": "Invalid",
+        "D": "Sound only if no other factors affect health"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 31,
+      "question": "\"All fish can fly. Goldie is a fish. Therefore, Goldie can fly.\" Which premise is problematic?",
+      "options": {
+        "A": "All fish can fly",
+        "B": "Goldie is a fish",
+        "C": "Goldie can fly",
+        "D": "None of the above"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 32,
+      "question": "\"Every bird lays eggs. Penguins are birds. Therefore, penguins lay eggs.\" Which premise might be challenged if we consider an exception?",
+      "options": {
+        "A": "Every bird lays eggs",
+        "B": "Penguins are birds",
+        "C": "Penguins lay eggs",
+        "D": "Both A and C"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 33,
+      "question": "\"If all planets are round, and Earth is a planet, then Earth is round. Premise 1: All planets are round. Premise 2: Earth is a planet.\" Which premise could be disputed in certain philosophical discussions?",
+      "options": {
+        "A": "Premise 1",
+        "B": "Premise 2",
+        "C": "Both premises",
+        "D": "Neither premise"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 34,
+      "question": "\"All vehicles have four wheels. My motorcycle is a vehicle. Therefore, my motorcycle has four wheels.\" Which premise is untrue?",
+      "options": {
+        "A": "All vehicles have four wheels",
+        "B": "My motorcycle is a vehicle",
+        "C": "My motorcycle has four wheels",
+        "D": "None of the above"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 35,
+      "question": "\"Every computer program is written in a high-level language. This software is a computer program. Therefore, this software is written in a high-level language.\" If we know that some computer programs are written in assembly language (considered low-level), which premise might be false?",
+      "options": {
+        "A": "Every computer program is written in a high-level language",
+        "B": "This software is a computer program",
+        "C": "This software is written in a high-level language",
+        "D": "None of the above"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 36,
+      "question": "\"If a person is a millionaire, then they are happy. John is not happy. Therefore, John is not a millionaire.\" Which premise is likely questionable?",
+      "options": {
+        "A": "If a person is a millionaire, then they are happy",
+        "B": "John is not happy",
+        "C": "John is not a millionaire",
+        "D": "All premises are equally true"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 37,
+      "question": "\"All fruits are sweet. Lemons are fruits. Therefore, lemons are sweet.\" Which premise is problematic?",
+      "options": {
+        "A": "All fruits are sweet",
+        "B": "Lemons are fruits",
+        "C": "Lemons are sweet",
+        "D": "None of the above"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 38,
+      "question": "\"If a car is new, then it runs smoothly. This car is new. Therefore, it runs smoothly.\" If the car is new but has a manufacturing defect, which element is misleading?",
+      "options": {
+        "A": "If a car is new, then it runs smoothly",
+        "B": "This car is new",
+        "C": "It runs smoothly",
+        "D": "Both A and B"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 39,
+      "question": "\"Every student who studies passes the exam. Emily is a student. Emily passed the exam.\" Which premise might be considered unverified if we assume not every student who studies necessarily passes?",
+      "options": {
+        "A": "Every student who studies passes the exam",
+        "B": "Emily is a student",
+        "C": "Emily passed the exam",
+        "D": "None of the above"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 40,
+      "question": "\"If it rains, the streets get wet. The streets are wet. Therefore, it rained.\" Which premise or assumption is problematic?",
+      "options": {
+        "A": "If it rains, the streets get wet",
+        "B": "The streets are wet",
+        "C": "Therefore, it rained",
+        "D": "The argument wrongly assumes no other cause for wet streets."
+      },
+      "answerKey": ["D"]
+    },
+    {
+      "id": 41,
+      "question": "Identify the inductive argument:",
+      "options": {
+        "A": "If it rains, the ground gets wet. It rained. Therefore, the ground is wet.",
+        "B": "All squares have four sides. A rectangle is a square. Therefore, a rectangle has four sides.",
+        "C": "Most dogs bark when they see strangers. My neighbor's dog is barking. Therefore, it probably sees a stranger.",
+        "D": "If an animal is a bird, it must lay eggs. A parrot is a bird. Therefore, it lays eggs."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 42,
+      "question": "Which argument is deductive?",
+      "options": {
+        "A": "The last five times I drank coffee, I felt more awake. Therefore, drinking coffee always makes people more awake.",
+        "B": "Every prime number greater than 2 is odd. 13 is a prime number greater than 2. Therefore, 13 is odd.",
+        "C": "All swans I've seen are white. Therefore, all swans must be white.",
+        "D": "The majority of past presidents have been male. Therefore, the next president will likely be male."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 43,
+      "question": "Identify the inductive argument:",
+      "options": {
+        "A": "If it is raining, then the streets will be wet. It is raining. Therefore, the streets are wet.",
+        "B": "Every action has an equal and opposite reaction. A rocket engine pushes down, so the rocket moves up.",
+        "C": "All cars I have ever seen have four wheels. Therefore, all cars must have four wheels.",
+        "D": "Every bachelor is an unmarried man. John is a bachelor. Therefore, John is unmarried."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 44,
+      "question": "Which of the following is deductive?",
+      "options": {
+        "A": "Most cats are independent. My friend has a cat. Therefore, my friend's cat is probably independent.",
+        "B": "Every person who studies hard passes the exam. Mary studied hard. Therefore, Mary passed the exam.",
+        "C": "The past five winters have been colder than average. Therefore, next winter will likely be colder than average.",
+        "D": "90% of the students in this school have smartphones. John is a student here, so he probably has a smartphone."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 45,
+      "question": "Which argument is inductive?",
+      "options": {
+        "A": "No triangles have four sides. Shape X is a triangle. Therefore, shape X does not have four sides.",
+        "B": "All people born in Canada are Canadian citizens. Sarah was born in Canada. Therefore, Sarah is a Canadian citizen.",
+        "C": "Every swan I have seen is white. Therefore, the next swan I see will probably be white.",
+        "D": "If an animal is a fish, then it breathes through gills. A shark is a fish. Therefore, it breathes through gills."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 46,
+      "question": "What makes an argument deductive?",
+      "options": {
+        "A": "It draws conclusions based on probability and past experience.",
+        "B": "It guarantees the truth of the conclusion if the premises are true.",
+        "C": "It makes a generalization based on specific observations.",
+        "D": "It assumes that the past will always predict the future."
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 47,
+      "question": "Which of these is an example of inductive reasoning?",
+      "options": {
+        "A": "All birds have feathers. A robin is a bird. Therefore, a robin has feathers.",
+        "B": "No human can survive without oxygen. John is a human. Therefore, John needs oxygen to live.",
+        "C": "My grandfather smoked and lived to 95. Therefore, smoking does not always cause early death.",
+        "D": "If today is Tuesday, then tomorrow is Wednesday. Today is Tuesday. Therefore, tomorrow is Wednesday."
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 48,
+      "question": "A deductive argument is one in which:",
+      "options": {
+        "A": "The conclusion follows with certainty if the premises are true.",
+        "B": "The conclusion is always true, even if the premises are false.",
+        "C": "The conclusion is only probable, not certain.",
+        "D": "The argument is based entirely on past observations."
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 49,
+      "question": "Which of the following best represents inductive reasoning?",
+      "options": {
+        "A": "All men are mortal. Socrates is a man. Therefore, Socrates is mortal.",
+        "B": "The last five times I went jogging, I felt great afterward. Therefore, jogging always makes people feel great.",
+        "C": "If a shape is a square, then it has four equal sides. Shape X is a square. Therefore, it has four equal sides.",
+        "D": "If a student studies, they pass the test. Mike studied. Therefore, he passed the test."
+      },
+      "answerKey": ["B"]
+    }
+  ]
+}
