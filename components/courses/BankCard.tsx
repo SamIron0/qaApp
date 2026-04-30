@@ -9,7 +9,6 @@ type BankCardProps = {
   courseId: string;
   bankId: string;
   name: string;
-  description: string;
   questionCount: number;
 };
 
@@ -18,7 +17,6 @@ export function BankCard({
   courseId,
   bankId,
   name,
-  description,
   questionCount,
 }: BankCardProps) {
   const quizPath = quizSessionPath(courseId, bankId);
@@ -36,9 +34,6 @@ export function BankCard({
         <div className="flex items-start justify-between gap-3">
           <div>
             <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">{name}</h3>
-            <p className="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
-              {description}
-            </p>
             <p className="mt-3 text-xs text-zinc-500">
               {questionCount} question
               {questionCount === 1 ? "" : "s"}

@@ -67,7 +67,6 @@ export default async function CourseBanksPage({ params }: PageProps) {
               courseId={course.id}
               bankId={bank.id}
               name={bank.name}
-              description={bank.description}
               questionCount={bank.questionCount}
             />
           ))}
