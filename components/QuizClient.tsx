@@ -24,7 +24,7 @@ export function QuizClient({
   const storageKeyIndex = `${storagePrefix}.currentIndex`;
   const storageKeyTheme = `${storagePrefix}.theme`;
 
-  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [theme, setTheme] = useState<"light" | "dark">("dark");
   const [index, setIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [pageInput, setPageInput] = useState("1");
