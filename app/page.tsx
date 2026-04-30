@@ -21,13 +21,8 @@ export default async function HomePage() {
         <div className="mb-8 max-w-2xl space-y-2">
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Choose a course</h1>
           <p className="text-sm text-zinc-600 dark:text-zinc-400">
-            Select where you want to practice. You&apos;ll pick a question bank on the next step.
+            Select the course you want to practice. You&apos;ll pick a question bank on the next step.
           </p>
-          {!user ? (
-            <p className="pt-1 text-sm text-zinc-500 dark:text-zinc-500">
-              Browse freely. Sign in when you&apos;re ready to start practicing.
-            </p>
-          ) : null}
         </div>
 
         <ul className="grid gap-4 sm:grid-cols-2">
