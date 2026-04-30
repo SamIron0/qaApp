@@ -146,8 +146,8 @@ export function QuizClient({
               href={`/courses/${courseId}`}
               className={`text-xs transition-colors hover:underline ${
                 theme === "dark"
-                  ? "text-zinc-500 hover:text-zinc-300"
-                  : "text-zinc-500 hover:text-zinc-800"
+                  ? "text-zinc-500 hover:text-[#e8d5a0]"
+                  : "text-zinc-500 hover:text-[#8a6a14]"
               }`}
             >
               ← Back
@@ -159,8 +159,8 @@ export function QuizClient({
               }
               className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors sm:text-sm ${
                 theme === "dark"
-                  ? "border-zinc-700 bg-zinc-900 text-zinc-100 hover:border-zinc-500 hover:bg-zinc-800"
-                  : "border-zinc-200 bg-zinc-50 text-zinc-800 hover:border-zinc-300 hover:bg-zinc-100"
+                  ? "border-zinc-700 bg-zinc-900 text-zinc-100 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
+                  : "border-zinc-200 bg-zinc-50 text-zinc-800 hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
               }`}
             >
               <span
@@ -224,13 +224,13 @@ export function QuizClient({
               const isCorrect = correctAnswers.includes(key);
 
               let optionClasses =
-                "w-full rounded-2xl border px-4 py-3 text-left text-sm sm:text-base transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400/70 disabled:cursor-not-allowed";
+                "w-full rounded-2xl border px-4 py-3 text-left text-sm sm:text-base transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c9a84c]/70 disabled:cursor-not-allowed";
 
               if (!hasAnswered) {
                 optionClasses +=
                   theme === "dark"
-                    ? " border-zinc-700 bg-zinc-900/80 hover:border-zinc-500 hover:bg-zinc-800"
-                    : " border-zinc-200 bg-white hover:border-zinc-400 hover:bg-zinc-50";
+                    ? " border-zinc-700 bg-zinc-900/80 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
+                    : " border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]";
               } else if (isSelected && isCorrect) {
                 optionClasses +=
                   theme === "dark"
@@ -292,8 +292,8 @@ export function QuizClient({
               index === 0
                 ? "cursor-not-allowed opacity-40"
                 : theme === "dark"
-                  ? "border-zinc-700 bg-zinc-900 hover:border-zinc-500 hover:bg-zinc-800"
-                  : "border-zinc-200 bg-white hover:border-zinc-400 hover:bg-zinc-50"
+                  ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
+                  : "border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
             }`}
           >
             <span aria-hidden="true">←</span>
@@ -329,8 +329,8 @@ export function QuizClient({
               index === totalQuestions - 1
                 ? "cursor-not-allowed opacity-40"
                 : theme === "dark"
-                  ? "border-zinc-700 bg-zinc-900 hover:border-zinc-500 hover:bg-zinc-800"
-                  : "border-zinc-200 bg-white hover:border-zinc-400 hover:bg-zinc-50"
+                  ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
+                  : "border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
             }`}
           >
             <span>Next</span>

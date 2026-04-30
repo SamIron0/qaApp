@@ -35,7 +35,7 @@ export default async function HomePage() {
               <li key={course.id}>
                 <Link
                   href={courseBanksPath(course.id)}
-                  className="group flex h-full flex-col rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm transition-colors hover:border-zinc-300 hover:bg-zinc-50/80 dark:border-zinc-800 dark:bg-zinc-900/40 dark:hover:border-zinc-600 dark:hover:bg-zinc-900/70"
+                  className="group flex h-full flex-col rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm transition-colors hover:border-[#c9a84c]/60 hover:bg-[#fff8e7] dark:border-zinc-800 dark:bg-zinc-900/40 dark:hover:border-[#c9a84c]/60 dark:hover:bg-zinc-900/70"
                 >
                   <div className="flex items-start justify-between gap-3">
                     <h2
@@ -44,13 +44,13 @@ export default async function HomePage() {
                       {course.name}
                     </h2>
                     <span
-                      className="mt-0.5 shrink-0 text-zinc-400 transition-transform group-hover:translate-x-0.5 dark:text-zinc-500"
+                      className="mt-0.5 shrink-0 text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:text-[#c9a84c] dark:text-zinc-500"
                       aria-hidden
                     >
                       →
                     </span>
                   </div>
-                  <span className="mt-3 inline-flex w-fit rounded-full border border-zinc-200 bg-zinc-50 px-2.5 py-0.5 text-xs font-medium text-zinc-700 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200">
+                  <span className="mt-3 inline-flex w-fit rounded-full border border-[#c9a84c]/40 bg-[#fff8e7] px-2.5 py-0.5 text-xs font-medium text-[#8a6a14] dark:border-[#c9a84c]/40 dark:bg-[#3a2f14] dark:text-[#f0dda0]">
                     {course.code}
                   </span>
                   <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">{course.department}</p>

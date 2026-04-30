@@ -1,6 +1,6 @@
 const features = [
   {
-    title: "250+ curated practice questions",
+    title: "500+ curated practice questions",
     icon: (
       <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden>
         <path
@@ -96,8 +96,7 @@ export function AuthBrandPanel() {
             Prove what you know.
           </h2>
           <p className="mt-5 max-w-sm text-sm leading-relaxed text-[#B8B3A8]">
-            A focused space for serious study — sharp questions, clear feedback, and the discipline
-            of exam conditions.
+            A focused space for serious study. Sharp questions, clear feedback.
           </p>
         </div>
 

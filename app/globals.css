@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --accent-gold: #c9a84c;
+  --accent-gold-soft: #e8d5a0;
 }
 
 @theme inline {
@@ -28,6 +30,19 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  transition: color 180ms ease;
+}
+
+a:hover {
+  color: var(--accent-gold);
+}
+
+::selection {
+  background: rgba(201, 168, 76, 0.35);
+  color: var(--foreground);
 }
 
 @keyframes auth-fade-in {

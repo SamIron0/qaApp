@@ -38,14 +38,14 @@ export default async function CourseBanksPage({ params }: PageProps) {
         <p className="mb-6 text-sm">
           <Link
             href="/"
-            className="text-zinc-500 transition-colors hover:text-zinc-800 hover:underline dark:text-zinc-400 dark:hover:text-zinc-200"
+            className="text-zinc-500 transition-colors hover:text-[#c9a84c] hover:underline dark:text-zinc-400 dark:hover:text-[#e8d5a0]"
           >
             ← Back to Courses
           </Link>
         </p>
 
         <div className="mb-8 space-y-2">
-          <span className="inline-flex rounded-full border border-zinc-200 bg-white px-2.5 py-0.5 text-xs font-medium text-zinc-700 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200">
+          <span className="inline-flex rounded-full border border-[#c9a84c]/40 bg-[#fff8e7] px-2.5 py-0.5 text-xs font-medium text-[#8a6a14] dark:border-[#c9a84c]/40 dark:bg-[#3a2f14] dark:text-[#f0dda0]">
             {course.code}
           </span>
           <h1

@@ -29,7 +29,7 @@ export function BankCard({
     <li>
       <Link
         href={href}
-        className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm transition-colors hover:border-zinc-300 hover:bg-zinc-50/80 dark:border-zinc-800 dark:bg-zinc-900/40 dark:hover:border-zinc-600 dark:hover:bg-zinc-900/70"
+        className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm transition-colors hover:border-[#c9a84c]/60 hover:bg-[#fff8e7] dark:border-zinc-800 dark:bg-zinc-900/40 dark:hover:border-[#c9a84c]/60 dark:hover:bg-zinc-900/70"
       >
         <div className="flex items-start justify-between gap-3">
           <div>
@@ -40,7 +40,7 @@ export function BankCard({
             </p>
           </div>
           <span
-            className="shrink-0 text-sm font-medium text-zinc-500 transition-transform group-hover:translate-x-0.5 group-hover:text-zinc-800 dark:group-hover:text-zinc-200"
+            className="shrink-0 text-sm font-medium text-zinc-500 transition-transform group-hover:translate-x-0.5 group-hover:text-[#8a6a14] dark:group-hover:text-[#f0dda0]"
             aria-hidden
           >
             {ctaLabel}
