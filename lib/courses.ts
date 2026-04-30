@@ -1,7 +1,6 @@
 export type QuestionBank = {
   id: string;
   name: string;
-  description: string;
   file: string;
   questionCount?: number;
 };
@@ -24,8 +23,6 @@ export const COURSES: Course[] = [
       {
         id: "main",
         name: "Main Practice Set",
-        description:
-          "Curated multiple-choice questions covering web design and development fundamentals.",
         file: "./question-bank/practice_questions.json",
       },
     ],
@@ -37,37 +34,58 @@ export const COURSES: Course[] = [
     department: "General Studies",
     banks: [
       {
-        id: "main",
+        id: "bank1",
         name: "AD ASTRA'S Comprehensive Test on Propositions, Arguments, and Reasoning",
-        description:
-          "Propositions, arguments, and logical reasoning — practice and reinforce core ideas.",
         file: "./question-bank/bank1.json",
       },
-    ],
-  },
-  {
-    id: "gst212",
-    name: "Philosophy, Logic and Human Existence",
-    code: "GST 212",
-    department: "General Studies",
-    banks: [
       {
-        id: "main",
+        id: "bank2",
         name: "AD ASTRA'S QUESTIONS ON CATEGORICAL PROPOSITIONS",
-        description:
-          "Propositions, arguments, and logical reasoning — practice and reinforce core ideas.",
         file: "./question-bank/bank2.json",
+      },
+      {
+        id: "bank3",
+        name: "MULTI CHOICE QUESTIONS ON CHAPTER 3- MAJOR BRANCHES OF PHILOSOPHY -",
+        file: "./question-bank/bank3.json",
+      },
+      {
+        id: "bank4",
+        name: "MULTI CHOICE QUESTIONS ON CHAPTER 6- LOGIC AND ITS RELEVANCE",
+        file: "./question-bank/bank4.json",
+      },
+      {
+        id: "bank5",
+        name: "THEROTICAL UNDERSTANDING OF CATEGORICAL PREPOSITION",
+        file: "./question-bank/bank5.json",
+      },
+      {
+        id: "bank6",
+        name: "Philosophy chapter 1",
+        file: "./question-bank/bank6.json",
+      },
+      {
+        id: "bank7",
+        name: "Philosophy chapter 2",
+        file: "./question-bank/bank7.json",
+      },
+      {
+        id: "bank8",
+        name: "Philosophy chapter 3",
+        file: "./question-bank/bank8.json",
+      },
+      {
+        id: "bank9",
+        name: "Philosophy chapter 4",
+        file: "./question-bank/bank9.json",
       },
     ],
   },
 ];
 
-/** Public URL for question bank selection for a course */
 export function courseBanksPath(courseId: string): string {
   return `/courses/${courseId}`;
 }
 
-/** URL for an authenticated quiz session (middleware-enforced) */
 export function quizSessionPath(courseId: string, bankId: string): string {
   return `/courses/${courseId}/${bankId}`;
 }
