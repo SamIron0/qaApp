@@ -1,0 +1,169 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who is considered the founder of Positivism?",
+      "options": {
+        "A": "Karl Marx",
+        "B": "Auguste Comte",
+        "C": "John Locke",
+        "D": "Jean-Paul Sartre"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 2,
+      "question": "Auguste Comte divided human history into three epochs. Which is the \"highest\" stage?",
+      "options": {
+        "A": "Theological",
+        "B": "Metaphysical",
+        "C": "Positive",
+        "D": "Revolutionary"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 3,
+      "question": "Materialism, as a philosophical school, asserts that:",
+      "options": {
+        "A": "Reality is explained by spiritual laws",
+        "B": "Matter and motion are the basis of reality",
+        "C": "Knowledge derives solely from faith",
+        "D": "The mind creates physical objects"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 4,
+      "question": "Which philosopher is known for the statement, \"I think, therefore I am\"?",
+      "options": {
+        "A": "William James",
+        "B": "René Descartes",
+        "C": "John Dewey",
+        "D": "Søren Kierkegaard"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 5,
+      "question": "Pragmatism emphasizes:",
+      "options": {
+        "A": "Eternal truths and absolutes",
+        "B": "The utility and practical consequences of ideas",
+        "C": "The superiority of metaphysical explanations",
+        "D": "The rejection of empirical science"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 6,
+      "question": "Who is regarded as the chief proponent of Pragmatism?",
+      "options": {
+        "A": "Charles S. Peirce",
+        "B": "Jean-Paul Sartre",
+        "C": "Friedrich Nietzsche",
+        "D": "Karl Marx"
+      },
+      "answerKey": ["A"]
+    },
+    {
+      "id": 7,
+      "question": "Existentialism primarily focuses on:",
+      "options": {
+        "A": "Collective societal norms",
+        "B": "The individual and personal purpose",
+        "C": "Scientific determinism",
+        "D": "Universal metaphysical principles"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 8,
+      "question": "The phrase \"existence precedes essence\" is attributed to:",
+      "options": {
+        "A": "Søren Kierkegaard",
+        "B": "Jean-Paul Sartre",
+        "C": "Friedrich Nietzsche",
+        "D": "Karl Marx"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 9,
+      "question": "Rationalism prioritizes which source of knowledge?",
+      "options": {
+        "A": "Sensory experience",
+        "B": "Divine revelation",
+        "C": "Human reason",
+        "D": "Social consensus"
+      },
+      "answerKey": ["C"]
+    },
+    {
+      "id": 10,
+      "question": "Who is recognized as the \"father of Empiricism\"?",
+      "options": {
+        "A": "John Dewey",
+        "B": "John Locke",
+        "C": "Francis Bacon",
+        "D": "Baruch Spinoza"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 11,
+      "question": "Empiricism posits that knowledge is primarily derived from:",
+      "options": {
+        "A": "Innate ideas",
+        "B": "Sensory experiences",
+        "C": "Logical deductions",
+        "D": "Religious doctrines"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 12,
+      "question": "Socialism is most closely aligned with the ideology of:",
+      "options": {
+        "A": "Auguste Comte",
+        "B": "Karl Marx",
+        "C": "William James",
+        "D": "René Descartes"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 13,
+      "question": "Marxism is founded on which two principles?",
+      "options": {
+        "A": "Faith and reason",
+        "B": "Materialism and revolution",
+        "C": "Idealism and skepticism",
+        "D": "Pragmatism and empiricism"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 14,
+      "question": "William James described Pragmatism as focusing on:",
+      "options": {
+        "A": "First principles and categories",
+        "B": "\"Last things, fruits, consequences, facts\"",
+        "C": "Abstract metaphysical debates",
+        "D": "The rejection of scientific methods"
+      },
+      "answerKey": ["B"]
+    },
+    {
+      "id": 15,
+      "question": "According to Materialists, the relationship between mind and matter is:",
+      "options": {
+        "A": "Mind creates matter",
+        "B": "Matter is independent of the mind",
+        "C": "Both are illusions",
+        "D": "They are identical in essence"
+      },
+      "answerKey": ["B"]
+    }
+  ]
+}

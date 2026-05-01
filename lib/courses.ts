@@ -78,6 +78,16 @@ export const COURSES: Course[] = [
         name: "Philosophy chapter 4",
         file: "./question-bank/bank9.json",
       },
+      {
+        id: "bank10",
+        name: "Philosophy chapter 5",
+        file: "./question-bank/bank10.json",
+      },
+      {
+        id: "bank11",
+        name: "Philosophy chapter 6&7",
+        file: "./question-bank/bank11.json",
+      },
     ],
   },
 ];
