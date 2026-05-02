@@ -43,10 +43,7 @@ export function ThemeToggle({ className }: { className?: string }) {
           className={cn("size-3 transition-opacity", dark ? "opacity-40" : "opacity-0")}
           strokeWidth={2}
         />
-        <Moon
-          className={cn("size-3 transition-opacity", dark ? "opacity-0" : "opacity-40")}
-          strokeWidth={2}
-        />
+        <Moon className="size-3 opacity-0" strokeWidth={2} />
       </span>
     </button>
   );
