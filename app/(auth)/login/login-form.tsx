@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useMemo, useState } from "react";
 
+import posthog from "posthog-js";
+
 import { AuthShell } from "@/components/auth/AuthShell";
 import { FormSpinner } from "@/components/auth/FormSpinner";
 import { mapAuthError } from "@/lib/auth-errors";
@@ -64,12 +66,17 @@ export function LoginForm() {
     setLoading(true);
     setFormError(null);
     const supabase = createClient();
-    const { error } = await supabase.auth.signInWithPassword({ email: email.trim(), password });
+    const { data, error } = await supabase.auth.signInWithPassword({ email: email.trim(), password });
     setLoading(false);
 
     if (error) {
       setFormError(mapAuthError(error));
       return;
+    }
+
+    if (data.user) {
+      posthog.identify(data.user.id, { email: data.user.email });
+      posthog.capture("user_logged_in", { method: "email" });
     }
 
     router.replace(next);
@@ -88,7 +95,11 @@ export function LoginForm() {
       },
     });
     setOauthLoading(false);
-    if (error) setFormError(mapAuthError(error));
+    if (error) {
+      setFormError(mapAuthError(error));
+    } else {
+      posthog.capture("user_logged_in_with_google");
+    }
   };
 
   return (

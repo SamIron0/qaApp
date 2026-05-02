@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
 
+import posthog from "posthog-js";
+
 import { AuthShell } from "@/components/auth/AuthShell";
 import { FormSpinner } from "@/components/auth/FormSpinner";
 import { mapAuthError } from "@/lib/auth-errors";
@@ -84,6 +86,14 @@ export default function SignupPage() {
               setLoading(false);
               setFormError(mapAuthError(error));
               return;
+            }
+
+            if (data.user) {
+              posthog.identify(data.user.id, {
+                email: data.user.email,
+                name: fullName.trim(),
+              });
+              posthog.capture("user_signed_up", { method: "email" });
             }
 
             if (data.session) {
@@ -258,7 +268,11 @@ export default function SignupPage() {
               },
             });
             setOauthLoading(false);
-            if (error) setFormError(mapAuthError(error));
+            if (error) {
+              setFormError(mapAuthError(error));
+            } else {
+              posthog.capture("user_signed_up_with_google");
+            }
           }}
           disabled={loading || oauthLoading}
           className="flex w-full items-center justify-center gap-2 rounded-lg border border-[#E2DDD5] bg-white px-4 py-2.5 text-sm font-medium text-[#1A1A2E] transition-colors hover:border-[#C9A84C]/60 hover:bg-[#FFFCF5] disabled:cursor-not-allowed disabled:opacity-60"

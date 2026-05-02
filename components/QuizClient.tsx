@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import posthog from "posthog-js";
 
 import type { QuizQuestion } from "@/lib/quiz-types";
 
@@ -94,20 +95,42 @@ export function QuizClient({
   const hasAnswered = selectedOption !== null;
 
   const handleSelect = (optionKey: string) => {
-    if (!currentQuestion) return;
+    if (!currentQuestion || selectedOption !== null) return;
     setSelectedOption(optionKey);
+    const isCorrect = currentQuestion.answerKey.includes(optionKey);
+    posthog.capture("quiz_answer_submitted", {
+      course_id: courseId,
+      bank_id: bankId,
+      question_id: currentQuestion.id,
+      selected_option: optionKey,
+      is_correct: isCorrect,
+      question_index: index,
+      total_questions: totalQuestions,
+    });
   };
 
   const handlePrev = () => {
     if (index === 0) return;
     setIndex((prev) => prev - 1);
     setSelectedOption(null);
+    posthog.capture("quiz_question_navigated", {
+      course_id: courseId,
+      bank_id: bankId,
+      direction: "prev",
+      from_index: index,
+    });
   };
 
   const handleNext = () => {
     if (index === totalQuestions - 1) return;
     setIndex((prev) => prev + 1);
     setSelectedOption(null);
+    posthog.capture("quiz_question_navigated", {
+      course_id: courseId,
+      bank_id: bankId,
+      direction: "next",
+      from_index: index,
+    });
   };
 
   const isCorrectSelection =

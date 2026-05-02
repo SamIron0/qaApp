@@ -3,6 +3,8 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
+import posthog from "posthog-js";
+
 import { createClient } from "@/utils/supabase/client";
 
 export function SignOutButton() {
@@ -15,6 +17,8 @@ export function SignOutButton() {
       disabled={loading}
       onClick={async () => {
         setLoading(true);
+        posthog.capture("user_logged_out");
+        posthog.reset();
         const supabase = createClient();
         await supabase.auth.signOut();
         router.push("/");

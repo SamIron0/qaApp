@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useState } from "react";
 
+import posthog from "posthog-js";
+
 import { AuthShell } from "@/components/auth/AuthShell";
 import { FormSpinner } from "@/components/auth/FormSpinner";
 import { createClient } from "@/utils/supabase/client";
@@ -48,6 +50,7 @@ export default function ForgotPasswordPage() {
               await supabase.auth.resetPasswordForEmail(email.trim(), {
                 redirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent("/reset-password")}`,
               });
+              posthog.capture("password_reset_requested");
               setLoading(false);
               setDone(true);
             }}
