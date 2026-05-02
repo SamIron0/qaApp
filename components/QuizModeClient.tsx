@@ -5,6 +5,7 @@ import posthog from "posthog-js";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import type { QuizQuestion } from "@/lib/quiz-types";
+import { useResolvedDark } from "@/hooks/use-resolved-dark";
 
 type Props = {
   questions: QuizQuestion[];
@@ -42,7 +43,7 @@ function ResultsScreen({
   courseId,
   bankId,
   timeTaken,
-  theme,
+  dark,
 }: {
   questions: QuizQuestion[];
   answers: AnswerMap;
@@ -51,7 +52,7 @@ function ResultsScreen({
   courseId: string;
   bankId: string;
   timeTaken: number;
-  theme: "light" | "dark";
+  dark: boolean;
 }) {
   const total = questions.length;
   const correct = questions.filter((q, i) => {
@@ -65,15 +66,15 @@ function ResultsScreen({
   const grade =
     pct >= 70 ? { label: "Pass", color: "text-emerald-500" } : { label: "Fail", color: "text-rose-500" };
 
-  const card = theme === "dark"
+  const card = dark
     ? "border-zinc-800 bg-zinc-900/60"
     : "border-zinc-200 bg-white/80";
 
-  const subtext = theme === "dark" ? "text-zinc-400" : "text-zinc-600";
+  const subtext = dark ? "text-zinc-400" : "text-zinc-600";
 
   return (
     <div
-      className={`flex min-h-0 flex-1 flex-col items-center justify-start px-4 py-8 sm:py-12 transition-colors ${theme === "dark" ? "bg-zinc-950 text-zinc-100" : "bg-zinc-50 text-zinc-900"
+      className={`flex min-h-0 flex-1 flex-col items-center justify-start px-4 py-8 sm:py-12 transition-colors ${dark ? "bg-zinc-950 text-zinc-100" : "bg-zinc-50 text-zinc-900"
         }`}
     >
       <div className={`w-full max-w-2xl rounded-3xl border px-5 py-8 shadow-sm sm:px-8 ${card}`}>
@@ -101,7 +102,7 @@ function ResultsScreen({
           ].map((s) => (
             <div
               key={s.label}
-              className={`rounded-2xl border px-3 py-4 text-center ${theme === "dark" ? "border-zinc-800 bg-zinc-900" : "border-zinc-200 bg-zinc-50"
+              className={`rounded-2xl border px-3 py-4 text-center ${dark ? "border-zinc-800 bg-zinc-900" : "border-zinc-200 bg-zinc-50"
                 }`}
             >
               <p className={`text-2xl font-bold tabular-nums ${s.color}`}>{s.value}</p>
@@ -121,7 +122,7 @@ function ResultsScreen({
             return (
               <div
                 key={q.id}
-                className={`rounded-2xl border px-4 py-3 ${theme === "dark" ? "border-zinc-800 bg-zinc-900/40" : "border-zinc-200 bg-white"
+                className={`rounded-2xl border px-4 py-3 ${dark ? "border-zinc-800 bg-zinc-900/40" : "border-zinc-200 bg-white"
                   }`}
               >
                 <div className="flex items-start gap-3">
@@ -168,7 +169,7 @@ function ResultsScreen({
           </Link>
           <Link
             href={`/courses/${courseId}`}
-            className={`flex-1 rounded-lg border py-2.5 text-center text-sm font-medium transition-colors ${theme === "dark"
+            className={`flex-1 rounded-lg border py-2.5 text-center text-sm font-medium transition-colors ${dark
                 ? "border-zinc-700 text-zinc-300 hover:border-zinc-500 hover:bg-zinc-800"
                 : "border-zinc-300 text-zinc-700 hover:border-zinc-400 hover:bg-zinc-50"
               }`}
@@ -194,7 +195,6 @@ export function QuizModeClient({
   const totalQuestions = questions.length;
   const timeCfg = useMemo(() => parseTimeConfig(timeConfig), [timeConfig]);
 
-  const [theme, setTheme] = useState<"light" | "dark">("dark");
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<AnswerMap>({});
   const [submitted, setSubmitted] = useState(false);
@@ -216,16 +216,7 @@ export function QuizModeClient({
   const selectedOption = answers[index] ?? null;
   const answeredCount = Object.keys(answers).length;
 
-  // ── Theme persistence ──
-  useEffect(() => {
-    try {
-      const stored = localStorage.getItem(`qaApp.theme`);
-      if (stored === "light" || stored === "dark") setTheme(stored);
-    } catch { }
-  }, []);
-  useEffect(() => {
-    try { localStorage.setItem("qaApp.theme", theme); } catch { }
-  }, [theme]);
+  const dark = useResolvedDark();
 
   // ── Submit quiz ──
   const handleSubmit = useCallback(
@@ -340,10 +331,9 @@ export function QuizModeClient({
     (timeCfg.mode === "per" && perSecondsLeft <= 5) ||
     (timeCfg.mode === "total" && totalSecondsLeft <= 30);
 
-  // ── Theme classes ──
-  const bg = theme === "dark" ? "bg-zinc-950 text-zinc-100" : "bg-zinc-50 text-zinc-900";
-  const card = theme === "dark" ? "border-zinc-800 bg-zinc-900/60" : "border-zinc-200 bg-white/80";
-  const subtext = theme === "dark" ? "text-zinc-400" : "text-zinc-600";
+  const bg = dark ? "bg-zinc-950 text-zinc-100" : "bg-zinc-50 text-zinc-900";
+  const card = dark ? "border-zinc-800 bg-zinc-900/60" : "border-zinc-200 bg-white/80";
+  const subtext = dark ? "text-zinc-400" : "text-zinc-600";
 
   if (submitted) {
     return (
@@ -355,7 +345,7 @@ export function QuizModeClient({
         courseId={courseId}
         bankId={bankId}
         timeTaken={timeTaken}
-        theme={theme}
+        dark={dark}
       />
     );
   }
@@ -366,24 +356,13 @@ export function QuizModeClient({
 
         {/* Header */}
         <header className="mb-6 flex flex-col gap-3">
-          <div className="flex items-center justify-between gap-3">
+          <div className="flex items-center justify-start gap-3">
             <Link
               href={`/courses/${courseId}/${bankId}/setup`}
               className={`text-xs transition-colors hover:underline ${subtext} hover:text-[#c9a84c]`}
             >
               ← Exit Quiz
             </Link>
-            <button
-              type="button"
-              onClick={() => setTheme((p) => (p === "light" ? "dark" : "light"))}
-              className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors ${theme === "dark"
-                  ? "border-zinc-700 bg-zinc-900 text-zinc-100 hover:border-[#c9a84c]/70"
-                  : "border-zinc-200 bg-zinc-50 text-zinc-800 hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
-                }`}
-            >
-              <span className={`h-2 w-2 rounded-full ${theme === "dark" ? "bg-zinc-300" : "bg-zinc-900"}`} />
-              {theme === "dark" ? "Dark" : "Light"}
-            </button>
           </div>
 
           <div className="space-y-1">
@@ -394,7 +373,7 @@ export function QuizModeClient({
                 <span
                   className={`tabular-nums rounded-full border px-2.5 py-0.5 text-xs font-semibold ${timerUrgent
                       ? "border-rose-500/60 bg-rose-900/30 text-rose-300"
-                      : theme === "dark"
+                      : dark
                         ? "border-zinc-700 bg-zinc-900 text-zinc-300"
                         : "border-zinc-200 bg-zinc-50 text-zinc-700"
                     }`}
@@ -408,7 +387,7 @@ export function QuizModeClient({
             {/* Progress + answered count */}
             <div className="flex items-center gap-3">
               <div
-                className={`h-1.5 flex-1 rounded-full overflow-hidden ${theme === "dark" ? "bg-zinc-800" : "bg-zinc-200"
+                className={`h-1.5 flex-1 rounded-full overflow-hidden ${dark ? "bg-zinc-800" : "bg-zinc-200"
                   }`}
               >
                 <div
@@ -437,7 +416,7 @@ export function QuizModeClient({
                 {perSecondsLeft}s
               </span>
             </div>
-            <div className={`h-1.5 w-full rounded-full overflow-hidden ${theme === "dark" ? "bg-zinc-800" : "bg-zinc-200"}`}>
+            <div className={`h-1.5 w-full rounded-full overflow-hidden ${dark ? "bg-zinc-800" : "bg-zinc-200"}`}>
               <div
                 className={`h-full rounded-full transition-all duration-1000 ${timerUrgent ? "bg-rose-500" : "bg-[#c9a84c]"}`}
                 style={{ width: `${perPct}%` }}
@@ -468,12 +447,12 @@ export function QuizModeClient({
 
               if (isSelected) {
                 cls +=
-                  theme === "dark"
+                  dark
                     ? " border-[#c9a84c]/80 bg-[#2a2410] text-[#f0dda0]"
                     : " border-[#c9a84c] bg-[#fff8e7] text-[#8a6a14]";
               } else {
                 cls +=
-                  theme === "dark"
+                  dark
                     ? " border-zinc-700 bg-zinc-900/80 hover:border-[#c9a84c]/50 hover:bg-zinc-800"
                     : " border-zinc-200 bg-white hover:border-[#c9a84c]/50 hover:bg-[#fff8e7]/60";
               }
@@ -499,7 +478,7 @@ export function QuizModeClient({
             disabled={index === 0}
             className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${index === 0
                 ? "cursor-not-allowed opacity-40"
-                : theme === "dark"
+                : dark
                   ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
                   : "border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
               }`}
@@ -520,7 +499,7 @@ export function QuizModeClient({
             <button
               type="button"
               onClick={handleNext}
-              className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${theme === "dark"
+              className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${dark
                   ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
                   : "border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
                 }`}

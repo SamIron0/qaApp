@@ -5,6 +5,7 @@ import posthog from "posthog-js";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import type { QuizQuestion } from "@/lib/quiz-types";
+import { useResolvedDark } from "@/hooks/use-resolved-dark";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -53,8 +54,6 @@ function getOptionState(
 
 // ─── localStorage helpers ─────────────────────────────────────────────────────
 
-const THEME_KEY = "qaApp.theme";
-
 function readStorage(key: string): string | null {
   try { return localStorage.getItem(key); } catch { return null; }
 }
@@ -74,24 +73,16 @@ export function PracticeModeClient({
   const total = questions.length;
   const indexKey = `qaApp.${courseId}.${bankId}.index`;
 
-  const [theme, setTheme] = useState<"light" | "dark">("dark");
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
 
-  // Restore persisted theme and position on mount
   useEffect(() => {
-    const t = readStorage(THEME_KEY);
-    if (t === "light" || t === "dark") setTheme(t);
-
     const raw = readStorage(indexKey);
     if (raw !== null) {
       const n = parseInt(raw, 10);
       if (!isNaN(n)) setIndex(Math.max(0, Math.min(total - 1, n)));
     }
   }, [indexKey, total]);
-
-  // Persist theme globally (not per-bank)
-  useEffect(() => { writeStorage(THEME_KEY, theme); }, [theme]);
 
   // Persist position per bank
   useEffect(() => { writeStorage(indexKey, String(index)); }, [index, indexKey]);
@@ -131,7 +122,7 @@ export function PracticeModeClient({
     return () => window.removeEventListener("keydown", onKey);
   });
 
-  const dark = theme === "dark";
+  const dark = useResolvedDark();
 
   if (!total || !question) {
     return (
@@ -151,7 +142,7 @@ export function PracticeModeClient({
           }`}
       >
         {/* ── Top bar ── */}
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex items-center justify-start gap-4">
           <Link
             href={`/courses/${courseId}/${bankId}/setup`}
             className={`text-xs transition-colors hover:underline ${dark ? "text-zinc-500 hover:text-[#e8d5a0]" : "text-zinc-500 hover:text-[#8a6a14]"
@@ -159,18 +150,6 @@ export function PracticeModeClient({
           >
             ← Back
           </Link>
-
-          <button
-            type="button"
-            onClick={() => setTheme(dark ? "light" : "dark")}
-            className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors ${dark
-                ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/60 hover:bg-zinc-800"
-                : "border-zinc-200 bg-zinc-50 hover:border-[#c9a84c]/50 hover:bg-[#fff8e7]"
-              }`}
-          >
-            <span className={`h-1.5 w-1.5 rounded-full ${dark ? "bg-zinc-400" : "bg-zinc-800"}`} />
-            {dark ? "Dark" : "Light"}
-          </button>
         </div>
 
         {/* ── Meta + progress ── */}
