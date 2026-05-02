@@ -1,12 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
 import posthog from "posthog-js";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import type { QuizQuestion } from "@/lib/quiz-types";
 
-type PracticeModeClientProps = {
+// ─── Types ────────────────────────────────────────────────────────────────────
+
+type Props = {
   questions: QuizQuestion[];
   courseName: string;
   bankName: string;
@@ -14,331 +16,371 @@ type PracticeModeClientProps = {
   bankId: string;
 };
 
+type OptionState = "idle" | "correct" | "wrong" | "reveal";
+
+// ─── Option styling ───────────────────────────────────────────────────────────
+// Lookup table beats string concatenation across nested conditionals.
+
+const OPTION_STYLES: Record<OptionState, { light: string; dark: string }> = {
+  idle: {
+    light: "border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]",
+    dark: "border-zinc-700 bg-zinc-900/80 hover:border-[#c9a84c]/60 hover:bg-zinc-800",
+  },
+  correct: {
+    light: "border-emerald-500 bg-emerald-50 text-emerald-900",
+    dark: "border-emerald-500 bg-emerald-900/30 text-emerald-100",
+  },
+  wrong: {
+    light: "border-rose-400 bg-rose-50 text-rose-900",
+    dark: "border-rose-500 bg-rose-900/30 text-rose-100",
+  },
+  reveal: {
+    light: "border-emerald-400/60 bg-emerald-50/50 opacity-80",
+    dark: "border-emerald-500/50 bg-emerald-900/15 opacity-80",
+  },
+};
+
+function getOptionState(
+  key: string,
+  selected: string | null,
+  correctKeys: string[],
+): OptionState {
+  if (selected === null) return "idle";
+  if (key === selected) return correctKeys.includes(key) ? "correct" : "wrong";
+  if (correctKeys.includes(key)) return "reveal";
+  return "idle";
+}
+
+// ─── localStorage helpers ─────────────────────────────────────────────────────
+
+const THEME_KEY = "qaApp.theme";
+
+function readStorage(key: string): string | null {
+  try { return localStorage.getItem(key); } catch { return null; }
+}
+function writeStorage(key: string, value: string): void {
+  try { localStorage.setItem(key, value); } catch { }
+}
+
+// ─── Component ────────────────────────────────────────────────────────────────
+
 export function PracticeModeClient({
   questions,
   courseName,
   bankName,
   courseId,
   bankId,
-}: PracticeModeClientProps) {
-  const storagePrefix = `qaApp.${courseId}.${bankId}`;
-  const storageKeyIndex = `${storagePrefix}.currentIndex`;
-  const storageKeyTheme = `${storagePrefix}.theme`;
+}: Props) {
+  const total = questions.length;
+  const indexKey = `qaApp.${courseId}.${bankId}.index`;
 
   const [theme, setTheme] = useState<"light" | "dark">("dark");
   const [index, setIndex] = useState(0);
-  const [selectedOption, setSelectedOption] = useState<string | null>(null);
-  const [pageInput, setPageInput] = useState("1");
+  const [selected, setSelected] = useState<string | null>(null);
 
-  const totalQuestions = questions.length;
-
+  // Restore persisted theme and position on mount
   useEffect(() => {
-    try {
-      const storedTheme = window.localStorage.getItem(storageKeyTheme);
-      if (storedTheme === "light" || storedTheme === "dark") {
-        setTheme(storedTheme);
-      }
-    } catch {
-      // ignore localStorage errors
-    }
-  }, [storageKeyTheme]);
+    const t = readStorage(THEME_KEY);
+    if (t === "light" || t === "dark") setTheme(t);
 
-  useEffect(() => {
-    try {
-      window.localStorage.setItem(storageKeyTheme, theme);
-    } catch {
-      // ignore localStorage errors
+    const raw = readStorage(indexKey);
+    if (raw !== null) {
+      const n = parseInt(raw, 10);
+      if (!isNaN(n)) setIndex(Math.max(0, Math.min(total - 1, n)));
     }
-  }, [theme, storageKeyTheme]);
+  }, [indexKey, total]);
 
-  useEffect(() => {
-    try {
-      const stored = window.localStorage.getItem(storageKeyIndex);
-      if (stored !== null) {
-        const parsed = parseInt(stored, 10);
-        if (!Number.isNaN(parsed)) {
-          const clamped = Math.max(0, Math.min(totalQuestions - 1, parsed));
-          setIndex(clamped);
-        }
-      }
-    } catch {
-      // ignore localStorage errors
-    }
-  }, [storageKeyIndex, totalQuestions]);
+  // Persist theme globally (not per-bank)
+  useEffect(() => { writeStorage(THEME_KEY, theme); }, [theme]);
 
-  useEffect(() => {
-    try {
-      window.localStorage.setItem(storageKeyIndex, String(index));
-    } catch {
-      // ignore localStorage errors
-    }
-  }, [index, storageKeyIndex]);
+  // Persist position per bank
+  useEffect(() => { writeStorage(indexKey, String(index)); }, [index, indexKey]);
 
-  useEffect(() => {
-    setPageInput(String(index + 1));
-  }, [index]);
+  const question = useMemo(() => questions[index], [questions, index]);
+  const correctKeys = question?.answerKey ?? [];
+  const answered = selected !== null;
+  const isCorrect = answered && correctKeys.includes(selected!);
 
-  const goToQuestion = (value: string) => {
-    const n = parseInt(value, 10);
-    if (!Number.isNaN(n)) {
-      const clamped = Math.max(1, Math.min(totalQuestions, n));
-      setIndex(clamped - 1);
-      setSelectedOption(null);
-      setPageInput(String(clamped));
-    } else {
-      setPageInput(String(index + 1));
-    }
+  const navigate = (next: number) => {
+    setIndex(Math.max(0, Math.min(total - 1, next)));
+    setSelected(null);
   };
 
-  const currentQuestion = useMemo(() => questions[index], [questions, index]);
-
-  const hasAnswered = selectedOption !== null;
-
-  const handleSelect = (optionKey: string) => {
-    if (!currentQuestion || selectedOption !== null) return;
-    setSelectedOption(optionKey);
-    const isCorrect = currentQuestion.answerKey.includes(optionKey);
+  const handleSelect = (key: string) => {
+    if (answered) return;
+    setSelected(key);
     posthog.capture("practice_answer_submitted", {
       course_id: courseId,
       bank_id: bankId,
-      question_id: currentQuestion.id,
-      selected_option: optionKey,
-      is_correct: isCorrect,
+      question_id: question.id,
+      selected_option: key,
+      is_correct: correctKeys.includes(key),
       question_index: index,
-      total_questions: totalQuestions,
+      total_questions: total,
     });
   };
 
-  const handlePrev = () => {
-    if (index === 0) return;
-    setIndex((prev) => prev - 1);
-    setSelectedOption(null);
-  };
+  // Keyboard nav: ← → arrow keys
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement) return;
+      if (e.key === "ArrowLeft") navigate(index - 1);
+      if (e.key === "ArrowRight") navigate(index + 1);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  });
 
-  const handleNext = () => {
-    if (index === totalQuestions - 1) return;
-    setIndex((prev) => prev + 1);
-    setSelectedOption(null);
-  };
+  const dark = theme === "dark";
 
-  const isCorrectSelection =
-    selectedOption && currentQuestion && currentQuestion.answerKey.includes(selectedOption);
-
-  const correctAnswers = currentQuestion?.answerKey ?? [];
-
-  if (!totalQuestions || !currentQuestion) {
+  if (!total || !question) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-zinc-50 text-zinc-900">
-        <p className="text-sm text-zinc-600">
-          No questions available. Please check your questions file.
-        </p>
+      <div className="flex flex-1 items-center justify-center">
+        <p className="text-sm text-zinc-500">No questions found.</p>
       </div>
     );
   }
 
   return (
     <div
-      className={`flex min-h-0 flex-1 flex-col items-center justify-center px-4 py-4 sm:py-10 transition-colors ${theme === "dark"
-          ? "bg-zinc-950 text-zinc-100"
-          : "bg-zinc-50 text-zinc-900"
+      className={`flex min-h-0 flex-1 flex-col items-center justify-center px-4 py-6 transition-colors sm:py-12 ${dark ? "bg-zinc-950 text-zinc-100" : "bg-zinc-50 text-zinc-900"
         }`}
     >
       <main
-        className={`w-full max-w-2xl max-h-full min-h-0 overflow-y-auto rounded-3xl border px-5 py-6 shadow-sm sm:px-8 sm:py-8 transition-colors ${theme === "dark"
-            ? "border-zinc-800 bg-zinc-900/60"
-            : "border-zinc-200 bg-white/80"
+        className={`flex w-full max-w-2xl flex-col gap-6 overflow-y-auto rounded-3xl border px-5 py-6 shadow-sm transition-colors sm:px-8 sm:py-8 ${dark ? "border-zinc-800 bg-zinc-900/60" : "border-zinc-200 bg-white/80"
           }`}
       >
-        <header className="mb-6 flex flex-col gap-3">
-          <div className="flex items-center justify-between gap-3">
-            <Link
-              href={`/courses/${courseId}`}
-              className={`text-xs transition-colors hover:underline ${theme === "dark"
-                  ? "text-zinc-500 hover:text-[#e8d5a0]"
-                  : "text-zinc-500 hover:text-[#8a6a14]"
-                }`}
+        {/* ── Top bar ── */}
+        <div className="flex items-center justify-between gap-4">
+          <Link
+            href={`/courses/${courseId}/${bankId}/setup`}
+            className={`text-xs transition-colors hover:underline ${dark ? "text-zinc-500 hover:text-[#e8d5a0]" : "text-zinc-500 hover:text-[#8a6a14]"
+              }`}
+          >
+            ← Back
+          </Link>
+
+          <button
+            type="button"
+            onClick={() => setTheme(dark ? "light" : "dark")}
+            className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors ${dark
+                ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/60 hover:bg-zinc-800"
+                : "border-zinc-200 bg-zinc-50 hover:border-[#c9a84c]/50 hover:bg-[#fff8e7]"
+              }`}
+          >
+            <span className={`h-1.5 w-1.5 rounded-full ${dark ? "bg-zinc-400" : "bg-zinc-800"}`} />
+            {dark ? "Dark" : "Light"}
+          </button>
+        </div>
+
+        {/* ── Meta + progress ── */}
+        <div className="space-y-3">
+          <div>
+            <p className={`text-xs ${dark ? "text-zinc-400" : "text-zinc-500"}`}>{courseName}</p>
+            <h1 className="mt-0.5 text-base font-semibold tracking-tight sm:text-lg">{bankName}</h1>
+          </div>
+
+          {/* Progress bar + counter */}
+          <div className="flex items-center gap-3">
+            <div
+              className={`h-1 flex-1 overflow-hidden rounded-full ${dark ? "bg-zinc-800" : "bg-zinc-200"}`}
             >
-              ← Back
-            </Link>
-            <button
-              type="button"
-              onClick={() =>
-                setTheme((prev) => (prev === "light" ? "dark" : "light"))
-              }
-              className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors sm:text-sm ${theme === "dark"
-                  ? "border-zinc-700 bg-zinc-900 text-zinc-100 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
-                  : "border-zinc-200 bg-zinc-50 text-zinc-800 hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
-                }`}
-            >
-              <span
-                className={`h-2 w-2 rounded-full ${theme === "dark" ? "bg-zinc-300" : "bg-zinc-900"
-                  }`}
+              <div
+                className="h-full rounded-full bg-[#c9a84c] transition-all duration-300"
+                style={{ width: `${((index + 1) / total) * 100}%` }}
               />
-              {theme === "dark" ? "Dark mode" : "Light mode"}
-            </button>
+            </div>
+            <QuestionJumper
+              index={index}
+              total={total}
+              onJump={navigate}
+              dark={dark}
+            />
           </div>
+        </div>
 
-          <div className="space-y-1">
-            <p
-              className={`text-xs sm:text-sm ${theme === "dark" ? "text-zinc-400" : "text-zinc-600"
-                }`}
-            >
-              {courseName}
-            </p>
-            <h1 className="text-lg font-semibold tracking-tight sm:text-xl">
-              {bankName}
-            </h1>
-            <p className="flex items-center gap-1.5 text-xs text-zinc-500 sm:text-sm">
-              Question{" "}
-              <input
-                type="number"
-                min={1}
-                max={totalQuestions}
-                value={pageInput}
-                onChange={(e) => setPageInput(e.target.value)}
-                onBlur={(e) => goToQuestion(e.currentTarget.value)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter") goToQuestion(pageInput);
-                }}
-                className={`w-14 rounded border px-2 py-0.5 text-center text-xs tabular-nums sm:text-sm [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none ${theme === "dark"
-                    ? "border-zinc-600 bg-zinc-800 text-zinc-100"
-                    : "border-zinc-300 bg-zinc-50 text-zinc-900"
-                  }`}
-                aria-label="Question number"
-              />{" "}
-              of {totalQuestions}
-            </p>
-          </div>
-        </header>
-
-        <section className="mb-6 space-y-3">
-          <p className="text-xs font-medium uppercase tracking-[0.18em] text-zinc-500">
-            Question {currentQuestion.id}
+        {/* ── Question ── */}
+        <div className="space-y-2">
+          <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-zinc-500">
+            Question {question.id}
           </p>
-          <h2 className="text-base font-medium leading-relaxed sm:text-lg">
-            {currentQuestion.question}
-          </h2>
-        </section>
+          <h2 className="text-base font-medium leading-relaxed sm:text-lg">{question.question}</h2>
+        </div>
 
-        <section className="space-y-3">
-          {Object.entries(currentQuestion.options)
-            .sort(([keyA], [keyB]) => keyA.localeCompare(keyB))
+        {/* ── Options ── */}
+        <div className="space-y-2.5">
+          {Object.entries(question.options)
+            .sort(([a], [b]) => a.localeCompare(b))
             .map(([key, label]) => {
-              const isSelected = selectedOption === key;
-              const isCorrect = correctAnswers.includes(key);
-
-              let optionClasses =
-                "w-full rounded-2xl border px-4 py-3 text-left text-sm sm:text-base transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c9a84c]/70 disabled:cursor-not-allowed";
-
-              if (!hasAnswered) {
-                optionClasses +=
-                  theme === "dark"
-                    ? " border-zinc-700 bg-zinc-900/80 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
-                    : " border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]";
-              } else if (isSelected && isCorrect) {
-                optionClasses +=
-                  theme === "dark"
-                    ? " border-emerald-500 bg-emerald-900/30 text-emerald-100"
-                    : " border-emerald-500 bg-emerald-50 text-emerald-900";
-              } else if (isSelected && !isCorrect) {
-                optionClasses +=
-                  theme === "dark"
-                    ? " border-rose-500 bg-rose-900/30 text-rose-100"
-                    : " border-rose-500 bg-rose-50 text-rose-900";
-              } else if (!isSelected && isCorrect && hasAnswered) {
-                optionClasses +=
-                  theme === "dark"
-                    ? " border-emerald-500/70 bg-emerald-900/20"
-                    : " border-emerald-400/70 bg-emerald-50/70";
-              } else {
-                optionClasses += " opacity-80";
-              }
-
+              const state = getOptionState(key, selected, correctKeys);
+              const styles = OPTION_STYLES[state][dark ? "dark" : "light"];
               return (
                 <button
                   key={key}
                   type="button"
+                  disabled={answered}
                   onClick={() => handleSelect(key)}
-                  className={optionClasses}
+                  className={`w-full rounded-2xl border px-4 py-3 text-left text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c9a84c]/60 disabled:cursor-default sm:text-base ${styles}`}
                 >
                   <span className="flex items-start gap-3">
-                    <span className="mt-0.5 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border text-xs font-semibold">
+                    <span
+                      className={`mt-0.5 inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full border text-[11px] font-semibold ${dark ? "border-zinc-600" : "border-zinc-300"
+                        }`}
+                    >
                       {key}
                     </span>
-                    <span className="flex-1 text-left">{label}</span>
+                    <span className="flex-1">{label}</span>
                   </span>
                 </button>
               );
             })}
-        </section>
+        </div>
 
-        {hasAnswered && (
-          <section className="mt-5 rounded-2xl border px-4 py-3 text-xs sm:text-sm">
-            <p className="mb-1 font-medium">
-              {isCorrectSelection ? "Correct!" : "Not quite."}
-            </p>
-            <p className="text-zinc-500">
-              Correct answer
-              {correctAnswers.length > 1 ? "s" : ""}:{" "}
-              {correctAnswers
-                .map((key) => `${key}. ${currentQuestion.options[key]}`)
-                .join(" · ")}
-            </p>
-          </section>
+        {/* ── Feedback ── */}
+        {answered && (
+          <div
+            className={`rounded-2xl border px-4 py-3 text-sm ${isCorrect
+                ? dark
+                  ? "border-emerald-700/50 bg-emerald-900/20 text-emerald-300"
+                  : "border-emerald-300 bg-emerald-50 text-emerald-800"
+                : dark
+                  ? "border-rose-700/50 bg-rose-900/20 text-rose-300"
+                  : "border-rose-300 bg-rose-50 text-rose-800"
+              }`}
+          >
+            <p className="font-semibold">{isCorrect ? "Correct" : "Incorrect"}</p>
+            {!isCorrect && (
+              <p className={`mt-1 text-xs ${dark ? "text-zinc-400" : "text-zinc-600"}`}>
+                {correctKeys.length === 1 ? "Answer" : "Answers"}:{" "}
+                {correctKeys.map((k) => `${k}. ${question.options[k]}`).join(" · ")}
+              </p>
+            )}
+          </div>
         )}
 
-        <footer className="mt-7 flex items-center justify-between gap-4">
-          <button
-            type="button"
-            onClick={handlePrev}
+        {/* ── Nav footer ── */}
+        <div className="flex items-center justify-between gap-3 pt-1">
+          <NavButton
+            onClick={() => navigate(index - 1)}
             disabled={index === 0}
-            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${index === 0
-                ? "cursor-not-allowed opacity-40"
-                : theme === "dark"
-                  ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
-                  : "border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
-              }`}
+            dark={dark}
           >
-            <span aria-hidden="true">←</span>
-            <span>Previous</span>
-          </button>
+            <span aria-hidden>←</span>
+            <span>Prev</span>
+          </NavButton>
 
-          <div className="flex items-center gap-1.5 text-xs text-zinc-500 sm:text-sm">
-            <input
-              type="number"
-              min={1}
-              max={totalQuestions}
-              value={pageInput}
-              onChange={(e) => setPageInput(e.target.value)}
-              onBlur={(e) => goToQuestion(e.currentTarget.value)}
-              onKeyDown={(e) => {
-                if (e.key === "Enter") goToQuestion(pageInput);
-              }}
-              className={`w-14 rounded border px-2 py-0.5 text-center text-xs tabular-nums sm:text-sm [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none ${theme === "dark"
-                  ? "border-zinc-600 bg-zinc-800 text-zinc-100"
-                  : "border-zinc-300 bg-zinc-50 text-zinc-900"
-                }`}
-              aria-label="Question number"
-            />{" "}
-            of {totalQuestions}
-          </div>
+          {answered && index < total - 1 && (
+            <button
+              type="button"
+              onClick={() => navigate(index + 1)}
+              className="btn-auth-primary px-5 py-2 text-sm font-semibold"
+            >
+              Next →
+            </button>
+          )}
 
-          <button
-            type="button"
-            onClick={handleNext}
-            disabled={index === totalQuestions - 1}
-            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${index === totalQuestions - 1
-                ? "cursor-not-allowed opacity-40"
-                : theme === "dark"
-                  ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
-                  : "border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
-              }`}
+          {!answered && (
+            <span className={`text-xs ${dark ? "text-zinc-600" : "text-zinc-400"}`}>
+              Select an answer
+            </span>
+          )}
+
+          {index === total - 1 && answered && (
+            <Link
+              href={`/courses/${courseId}/${bankId}/setup`}
+              className="btn-auth-primary px-5 py-2 text-sm font-semibold"
+            >
+              Finish
+            </Link>
+          )}
+
+          <NavButton
+            onClick={() => navigate(index + 1)}
+            disabled={index === total - 1}
+            dark={dark}
           >
             <span>Next</span>
-            <span aria-hidden="true">→</span>
-          </button>
-        </footer>
+            <span aria-hidden>→</span>
+          </NavButton>
+        </div>
       </main>
     </div>
+  );
+}
+
+// ─── QuestionJumper ───────────────────────────────────────────────────────────
+// Controlled input that only commits on blur/Enter, avoiding cursor-jump issues.
+
+function QuestionJumper({
+  index,
+  total,
+  onJump,
+  dark,
+}: {
+  index: number;
+  total: number;
+  onJump: (n: number) => void;
+  dark: boolean;
+}) {
+  const [draft, setDraft] = useState<string | null>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  const displayValue = draft ?? String(index + 1);
+
+  const commit = (raw: string) => {
+    const n = parseInt(raw, 10);
+    if (!isNaN(n)) onJump(n - 1);
+    setDraft(null);
+  };
+
+  return (
+    <span className="flex shrink-0 items-center gap-1 text-xs tabular-nums text-zinc-500">
+      <input
+        ref={inputRef}
+        type="number"
+        min={1}
+        max={total}
+        value={displayValue}
+        onChange={(e) => setDraft(e.target.value)}
+        onBlur={(e) => commit(e.target.value)}
+        onKeyDown={(e) => { if (e.key === "Enter") { commit(displayValue); inputRef.current?.blur(); } }}
+        aria-label="Jump to question"
+        className={`w-12 rounded border py-0.5 text-center text-xs tabular-nums [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none ${dark
+            ? "border-zinc-700 bg-zinc-800 text-zinc-100"
+            : "border-zinc-300 bg-zinc-50 text-zinc-900"
+          }`}
+      />
+      <span>/ {total}</span>
+    </span>
+  );
+}
+
+// ─── NavButton ────────────────────────────────────────────────────────────────
+
+function NavButton({
+  onClick,
+  disabled,
+  dark,
+  children,
+}: {
+  onClick: () => void;
+  disabled: boolean;
+  dark: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      disabled={disabled}
+      className={`inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${disabled
+          ? "cursor-not-allowed opacity-30"
+          : dark
+            ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/60 hover:bg-zinc-800"
+            : "border-zinc-200 bg-white hover:border-[#c9a84c]/50 hover:bg-[#fff8e7]"
+        }`}
+    >
+      {children}
+    </button>
   );
 }
