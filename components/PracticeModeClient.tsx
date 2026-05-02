@@ -113,24 +113,12 @@ export function PracticeModeClient({
     if (index === 0) return;
     setIndex((prev) => prev - 1);
     setSelectedOption(null);
-    posthog.capture("quiz_question_navigated", {
-      course_id: courseId,
-      bank_id: bankId,
-      direction: "prev",
-      from_index: index,
-    });
   };
 
   const handleNext = () => {
     if (index === totalQuestions - 1) return;
     setIndex((prev) => prev + 1);
     setSelectedOption(null);
-    posthog.capture("quiz_question_navigated", {
-      course_id: courseId,
-      bank_id: bankId,
-      direction: "next",
-      from_index: index,
-    });
   };
 
   const isCorrectSelection =
@@ -150,28 +138,25 @@ export function PracticeModeClient({
 
   return (
     <div
-      className={`flex min-h-0 flex-1 flex-col items-center justify-center px-4 py-4 sm:py-10 transition-colors ${
-        theme === "dark"
+      className={`flex min-h-0 flex-1 flex-col items-center justify-center px-4 py-4 sm:py-10 transition-colors ${theme === "dark"
           ? "bg-zinc-950 text-zinc-100"
           : "bg-zinc-50 text-zinc-900"
-      }`}
+        }`}
     >
       <main
-        className={`w-full max-w-2xl max-h-full min-h-0 overflow-y-auto rounded-3xl border px-5 py-6 shadow-sm sm:px-8 sm:py-8 transition-colors ${
-          theme === "dark"
+        className={`w-full max-w-2xl max-h-full min-h-0 overflow-y-auto rounded-3xl border px-5 py-6 shadow-sm sm:px-8 sm:py-8 transition-colors ${theme === "dark"
             ? "border-zinc-800 bg-zinc-900/60"
             : "border-zinc-200 bg-white/80"
-        }`}
+          }`}
       >
         <header className="mb-6 flex flex-col gap-3">
           <div className="flex items-center justify-between gap-3">
             <Link
               href={`/courses/${courseId}`}
-              className={`text-xs transition-colors hover:underline ${
-                theme === "dark"
+              className={`text-xs transition-colors hover:underline ${theme === "dark"
                   ? "text-zinc-500 hover:text-[#e8d5a0]"
                   : "text-zinc-500 hover:text-[#8a6a14]"
-              }`}
+                }`}
             >
               ← Back
             </Link>
@@ -180,16 +165,14 @@ export function PracticeModeClient({
               onClick={() =>
                 setTheme((prev) => (prev === "light" ? "dark" : "light"))
               }
-              className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors sm:text-sm ${
-                theme === "dark"
+              className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors sm:text-sm ${theme === "dark"
                   ? "border-zinc-700 bg-zinc-900 text-zinc-100 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
                   : "border-zinc-200 bg-zinc-50 text-zinc-800 hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
-              }`}
+                }`}
             >
               <span
-                className={`h-2 w-2 rounded-full ${
-                  theme === "dark" ? "bg-zinc-300" : "bg-zinc-900"
-                }`}
+                className={`h-2 w-2 rounded-full ${theme === "dark" ? "bg-zinc-300" : "bg-zinc-900"
+                  }`}
               />
               {theme === "dark" ? "Dark mode" : "Light mode"}
             </button>
@@ -197,9 +180,8 @@ export function PracticeModeClient({
 
           <div className="space-y-1">
             <p
-              className={`text-xs sm:text-sm ${
-                theme === "dark" ? "text-zinc-400" : "text-zinc-600"
-              }`}
+              className={`text-xs sm:text-sm ${theme === "dark" ? "text-zinc-400" : "text-zinc-600"
+                }`}
             >
               {courseName}
             </p>
@@ -218,11 +200,10 @@ export function PracticeModeClient({
                 onKeyDown={(e) => {
                   if (e.key === "Enter") goToQuestion(pageInput);
                 }}
-                className={`w-14 rounded border px-2 py-0.5 text-center text-xs tabular-nums sm:text-sm [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none ${
-                  theme === "dark"
+                className={`w-14 rounded border px-2 py-0.5 text-center text-xs tabular-nums sm:text-sm [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none ${theme === "dark"
                     ? "border-zinc-600 bg-zinc-800 text-zinc-100"
                     : "border-zinc-300 bg-zinc-50 text-zinc-900"
-                }`}
+                  }`}
                 aria-label="Question number"
               />{" "}
               of {totalQuestions}
@@ -311,13 +292,12 @@ export function PracticeModeClient({
             type="button"
             onClick={handlePrev}
             disabled={index === 0}
-            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
-              index === 0
+            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${index === 0
                 ? "cursor-not-allowed opacity-40"
                 : theme === "dark"
                   ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
                   : "border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
-            }`}
+              }`}
           >
             <span aria-hidden="true">←</span>
             <span>Previous</span>
@@ -334,11 +314,10 @@ export function PracticeModeClient({
               onKeyDown={(e) => {
                 if (e.key === "Enter") goToQuestion(pageInput);
               }}
-              className={`w-14 rounded border px-2 py-0.5 text-center text-xs tabular-nums sm:text-sm [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none ${
-                theme === "dark"
+              className={`w-14 rounded border px-2 py-0.5 text-center text-xs tabular-nums sm:text-sm [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none ${theme === "dark"
                   ? "border-zinc-600 bg-zinc-800 text-zinc-100"
                   : "border-zinc-300 bg-zinc-50 text-zinc-900"
-              }`}
+                }`}
               aria-label="Question number"
             />{" "}
             of {totalQuestions}
@@ -348,13 +327,12 @@ export function PracticeModeClient({
             type="button"
             onClick={handleNext}
             disabled={index === totalQuestions - 1}
-            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
-              index === totalQuestions - 1
+            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${index === totalQuestions - 1
                 ? "cursor-not-allowed opacity-40"
                 : theme === "dark"
                   ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
                   : "border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
-            }`}
+              }`}
           >
             <span>Next</span>
             <span aria-hidden="true">→</span>

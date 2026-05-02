@@ -332,7 +332,6 @@ export function QuizModeClient({
     setIndex((p) => p + 1);
   };
 
-  // ── Timer display helpers ──
   const showPerTimer = timeCfg.mode === "per" && !submitted;
   const showTotalTimer = timeCfg.mode === "total" && !submitted;
   const perPct = timeCfg.mode === "per" ? (perSecondsLeft / timeCfg.seconds) * 100 : 100;
