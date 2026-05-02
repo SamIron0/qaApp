@@ -1,5 +1,6 @@
 "use client";
 
+import posthog from "posthog-js";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -40,9 +41,23 @@ export function ModeSetupClient({ courseId, bankId, totalQuestions }: Props) {
     if (!mode) return;
     const base = `/courses/${courseId}/${bankId}`;
     if (mode === "practice") {
+      posthog.capture("study_mode_started", {
+        study_mode: "practice",
+        course_id: courseId,
+        bank_id: bankId,
+        total_questions: totalQuestions,
+      });
       router.push(`${base}?mode=practice`);
       return;
     }
+    posthog.capture("study_mode_started", {
+      study_mode: "quiz",
+      course_id: courseId,
+      bank_id: bankId,
+      question_count: resolvedCount,
+      time_config: timeLimit,
+      bank_total_questions: totalQuestions,
+    });
     const params = new URLSearchParams({
       mode: "quiz",
       count: String(resolvedCount),
