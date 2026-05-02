@@ -74,11 +74,6 @@ export function LoginForm() {
       return;
     }
 
-    if (data.user) {
-      posthog.identify(data.user.id, { email: data.user.email });
-      posthog.capture("user_logged_in", { method: "email" });
-    }
-
     router.replace(next);
     router.refresh();
   };
@@ -97,8 +92,6 @@ export function LoginForm() {
     setOauthLoading(false);
     if (error) {
       setFormError(mapAuthError(error));
-    } else {
-      posthog.capture("user_logged_in_with_google");
     }
   };
 
@@ -131,9 +124,8 @@ export function LoginForm() {
               autoComplete="email"
               value={email}
               onChange={(e) => handleEmailChange(e.target.value)}
-              className={`${inputBase} border-[#E2DDD5] focus:border-[#C9A84C] focus:ring-[#C9A84C]/25 ${
-                fieldErrors.email ? "border-red-400/90 focus:border-red-400 focus:ring-red-200" : ""
-              }`}
+              className={`${inputBase} border-[#E2DDD5] focus:border-[#C9A84C] focus:ring-[#C9A84C]/25 ${fieldErrors.email ? "border-red-400/90 focus:border-red-400 focus:ring-red-200" : ""
+                }`}
             />
             {fieldErrors.email ? (
               <p className="mt-1.5 text-xs text-red-700/90">{fieldErrors.email}</p>
@@ -151,9 +143,8 @@ export function LoginForm() {
               autoComplete="current-password"
               value={password}
               onChange={(e) => handlePasswordChange(e.target.value)}
-              className={`${inputBase} border-[#E2DDD5] focus:border-[#C9A84C] focus:ring-[#C9A84C]/25 ${
-                fieldErrors.password ? "border-red-400/90 focus:border-red-400 focus:ring-red-200" : ""
-              }`}
+              className={`${inputBase} border-[#E2DDD5] focus:border-[#C9A84C] focus:ring-[#C9A84C]/25 ${fieldErrors.password ? "border-red-400/90 focus:border-red-400 focus:ring-red-200" : ""
+                }`}
             />
             {fieldErrors.password ? (
               <p className="mt-1.5 text-xs text-red-700/90">{fieldErrors.password}</p>
