@@ -30,7 +30,7 @@ export function BankCard({
         href={href}
         onClick={() => {
           if (isAuthenticated) {
-            posthog.capture("quiz_bank_opened", {
+            posthog.capture("question_bank_opened", {
               course_id: courseId,
               bank_id: bankId,
               bank_name: name,
