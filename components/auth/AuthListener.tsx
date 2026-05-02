@@ -16,6 +16,7 @@ export function AuthListener() {
                 if (event === "SIGNED_IN" && session?.user) {
                     posthog.identify(session.user.id, {
                         email: session.user.email,
+                        name: session.user.user_metadata?.full_name,
                     });
 
                     const provider = session.user.app_metadata?.provider;
