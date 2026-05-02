@@ -12,7 +12,6 @@ type Props = {
   bankName: string;
   courseId: string;
   bankId: string;
-  /** "none" | "per_30" | "per_60" | "total_600" | "total_1200" */
   timeConfig: string;
 };
 
@@ -74,9 +73,8 @@ function ResultsScreen({
 
   return (
     <div
-      className={`flex min-h-0 flex-1 flex-col items-center justify-start px-4 py-8 sm:py-12 transition-colors ${
-        theme === "dark" ? "bg-zinc-950 text-zinc-100" : "bg-zinc-50 text-zinc-900"
-      }`}
+      className={`flex min-h-0 flex-1 flex-col items-center justify-start px-4 py-8 sm:py-12 transition-colors ${theme === "dark" ? "bg-zinc-950 text-zinc-100" : "bg-zinc-50 text-zinc-900"
+        }`}
     >
       <div className={`w-full max-w-2xl rounded-3xl border px-5 py-8 shadow-sm sm:px-8 ${card}`}>
         {/* Score header */}
@@ -103,9 +101,8 @@ function ResultsScreen({
           ].map((s) => (
             <div
               key={s.label}
-              className={`rounded-2xl border px-3 py-4 text-center ${
-                theme === "dark" ? "border-zinc-800 bg-zinc-900" : "border-zinc-200 bg-zinc-50"
-              }`}
+              className={`rounded-2xl border px-3 py-4 text-center ${theme === "dark" ? "border-zinc-800 bg-zinc-900" : "border-zinc-200 bg-zinc-50"
+                }`}
             >
               <p className={`text-2xl font-bold tabular-nums ${s.color}`}>{s.value}</p>
               <p className={`mt-0.5 text-xs ${subtext}`}>{s.label}</p>
@@ -124,19 +121,17 @@ function ResultsScreen({
             return (
               <div
                 key={q.id}
-                className={`rounded-2xl border px-4 py-3 ${
-                  theme === "dark" ? "border-zinc-800 bg-zinc-900/40" : "border-zinc-200 bg-white"
-                }`}
+                className={`rounded-2xl border px-4 py-3 ${theme === "dark" ? "border-zinc-800 bg-zinc-900/40" : "border-zinc-200 bg-white"
+                  }`}
               >
                 <div className="flex items-start gap-3">
                   <span
-                    className={`mt-0.5 shrink-0 text-xs font-bold ${
-                      skipped
+                    className={`mt-0.5 shrink-0 text-xs font-bold ${skipped
                         ? "text-zinc-400"
                         : isCorrect
                           ? "text-emerald-500"
                           : "text-rose-400"
-                    }`}
+                      }`}
                   >
                     {skipped ? "–" : isCorrect ? "✓" : "✗"}
                   </span>
@@ -144,9 +139,8 @@ function ResultsScreen({
                     <p className="text-sm leading-snug">{q.question}</p>
                     {!skipped && (
                       <p
-                        className={`mt-1 text-xs ${
-                          isCorrect ? "text-emerald-500" : "text-rose-400"
-                        }`}
+                        className={`mt-1 text-xs ${isCorrect ? "text-emerald-500" : "text-rose-400"
+                          }`}
                       >
                         Your answer: {sel}. {q.options[sel]}
                       </p>
@@ -174,11 +168,10 @@ function ResultsScreen({
           </Link>
           <Link
             href={`/courses/${courseId}`}
-            className={`flex-1 rounded-lg border py-2.5 text-center text-sm font-medium transition-colors ${
-              theme === "dark"
+            className={`flex-1 rounded-lg border py-2.5 text-center text-sm font-medium transition-colors ${theme === "dark"
                 ? "border-zinc-700 text-zinc-300 hover:border-zinc-500 hover:bg-zinc-800"
                 : "border-zinc-300 text-zinc-700 hover:border-zinc-400 hover:bg-zinc-50"
-            }`}
+              }`}
           >
             Back to Banks
           </Link>
@@ -228,10 +221,10 @@ export function QuizModeClient({
     try {
       const stored = localStorage.getItem(`qaApp.theme`);
       if (stored === "light" || stored === "dark") setTheme(stored);
-    } catch {}
+    } catch { }
   }, []);
   useEffect(() => {
-    try { localStorage.setItem("qaApp.theme", theme); } catch {}
+    try { localStorage.setItem("qaApp.theme", theme); } catch { }
   }, [theme]);
 
   // ── Submit quiz ──
@@ -372,11 +365,10 @@ export function QuizModeClient({
             <button
               type="button"
               onClick={() => setTheme((p) => (p === "light" ? "dark" : "light"))}
-              className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors ${
-                theme === "dark"
+              className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors ${theme === "dark"
                   ? "border-zinc-700 bg-zinc-900 text-zinc-100 hover:border-[#c9a84c]/70"
                   : "border-zinc-200 bg-zinc-50 text-zinc-800 hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
-              }`}
+                }`}
             >
               <span className={`h-2 w-2 rounded-full ${theme === "dark" ? "bg-zinc-300" : "bg-zinc-900"}`} />
               {theme === "dark" ? "Dark" : "Light"}
@@ -389,13 +381,12 @@ export function QuizModeClient({
               {/* Total timer badge */}
               {showTotalTimer && (
                 <span
-                  className={`tabular-nums rounded-full border px-2.5 py-0.5 text-xs font-semibold ${
-                    timerUrgent
+                  className={`tabular-nums rounded-full border px-2.5 py-0.5 text-xs font-semibold ${timerUrgent
                       ? "border-rose-500/60 bg-rose-900/30 text-rose-300"
                       : theme === "dark"
                         ? "border-zinc-700 bg-zinc-900 text-zinc-300"
                         : "border-zinc-200 bg-zinc-50 text-zinc-700"
-                  }`}
+                    }`}
                 >
                   {formatTime(totalSecondsLeft)}
                 </span>
@@ -406,9 +397,8 @@ export function QuizModeClient({
             {/* Progress + answered count */}
             <div className="flex items-center gap-3">
               <div
-                className={`h-1.5 flex-1 rounded-full overflow-hidden ${
-                  theme === "dark" ? "bg-zinc-800" : "bg-zinc-200"
-                }`}
+                className={`h-1.5 flex-1 rounded-full overflow-hidden ${theme === "dark" ? "bg-zinc-800" : "bg-zinc-200"
+                  }`}
               >
                 <div
                   className="h-full rounded-full bg-[#c9a84c] transition-all duration-300"
@@ -496,13 +486,12 @@ export function QuizModeClient({
             type="button"
             onClick={handlePrev}
             disabled={index === 0}
-            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
-              index === 0
+            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${index === 0
                 ? "cursor-not-allowed opacity-40"
                 : theme === "dark"
                   ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
                   : "border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
-            }`}
+              }`}
           >
             <span aria-hidden>←</span>
             <span>Prev</span>
@@ -520,11 +509,10 @@ export function QuizModeClient({
             <button
               type="button"
               onClick={handleNext}
-              className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
-                theme === "dark"
+              className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${theme === "dark"
                   ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
                   : "border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
-              }`}
+                }`}
             >
               <span>Next</span>
               <span aria-hidden>→</span>

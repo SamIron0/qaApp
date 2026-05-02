@@ -6,7 +6,7 @@ import posthog from "posthog-js";
 
 import type { QuizQuestion } from "@/lib/quiz-types";
 
-type QuizClientProps = {
+type PracticeModeClientProps = {
   questions: QuizQuestion[];
   courseName: string;
   bankName: string;
@@ -14,13 +14,13 @@ type QuizClientProps = {
   bankId: string;
 };
 
-export function QuizClient({
+export function PracticeModeClient({
   questions,
   courseName,
   bankName,
   courseId,
   bankId,
-}: QuizClientProps) {
+}: PracticeModeClientProps) {
   const storagePrefix = `qaApp.${courseId}.${bankId}`;
   const storageKeyIndex = `${storagePrefix}.currentIndex`;
   const storageKeyTheme = `${storagePrefix}.theme`;

@@ -14,8 +14,8 @@ Users are identified by their Supabase UUID on successful login and signup, enab
 | `user_logged_out` | User signs out | `components/layout/SignOutButton.tsx` |
 | `password_reset_requested` | User requests a password reset link | `app/(auth)/forgot-password/page.tsx` |
 | `quiz_bank_started` | Authenticated user clicks a question bank to start a quiz | `components/courses/BankCard.tsx` |
-| `quiz_answer_submitted` | User selects an answer option (includes correctness, course/bank context) | `components/QuizClient.tsx` |
-| `quiz_question_navigated` | User navigates to the next or previous question | `components/QuizClient.tsx` |
+| `quiz_answer_submitted` | User selects an answer option (includes correctness, course/bank context) | `components/PracticeModeClient.tsx` |
+| `quiz_question_navigated` | User navigates to the next or previous question | `components/PracticeModeClient.tsx` |
 
 ## Files created/modified
 
@@ -29,7 +29,7 @@ Users are identified by their Supabase UUID on successful login and signup, enab
 | `app/(auth)/forgot-password/page.tsx` | **Modified** — Added `password_reset_requested` |
 | `components/layout/SignOutButton.tsx` | **Modified** — Added `user_logged_out`, `posthog.reset` |
 | `components/courses/BankCard.tsx` | **Modified** — Added `quiz_bank_started` |
-| `components/QuizClient.tsx` | **Modified** — Added `quiz_answer_submitted`, `quiz_question_navigated` |
+| `components/PracticeModeClient.tsx` | **Modified** — Added `quiz_answer_submitted`, `quiz_question_navigated` |
 
 ## Next steps
 

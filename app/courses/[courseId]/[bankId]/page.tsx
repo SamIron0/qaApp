@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { redirect } from "next/navigation";
 
 import { AppHeader } from "@/components/layout/AppHeader";
-import { QuizClient } from "@/components/QuizClient";
+import { PracticeModeClient } from "@/components/PracticeModeClient";
 import { QuizModeClient } from "@/components/QuizModeClient";
 import { getCourseAndBank } from "@/lib/courses";
 import { loadQuestionsFromJsonFile } from "@/lib/questions-server";
@@ -19,7 +19,6 @@ export default async function QuizSessionPage({ params, searchParams }: PageProp
   const found = getCourseAndBank(courseId, bankId);
   if (!found) notFound();
 
-  // No mode selected — send to setup
   if (!mode) {
     redirect(`/courses/${courseId}/${bankId}/setup`);
   }
@@ -31,7 +30,7 @@ export default async function QuizSessionPage({ params, searchParams }: PageProp
     return (
       <div className="flex min-h-[100dvh] flex-col">
         <AppHeader />
-        <QuizClient
+        <PracticeModeClient
           questions={allQuestions}
           courseName={course.name}
           bankName={bank.name}
