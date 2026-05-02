@@ -98,7 +98,7 @@ export function PracticeModeClient({
     if (!currentQuestion || selectedOption !== null) return;
     setSelectedOption(optionKey);
     const isCorrect = currentQuestion.answerKey.includes(optionKey);
-    posthog.capture("quiz_answer_submitted", {
+    posthog.capture("practice_answer_submitted", {
       course_id: courseId,
       bank_id: bankId,
       question_id: currentQuestion.id,

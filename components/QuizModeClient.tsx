@@ -308,6 +308,18 @@ export function QuizModeClient({
   const handleSelect = (key: string) => {
     if (selectedOption !== null || submitted) return;
     setAnswers((prev) => ({ ...prev, [index]: key }));
+    const isCorrect = currentQuestion.answerKey.includes(key);
+    posthog.capture("quiz_answer_submitted", {
+      course_id: courseId,
+      bank_id: bankId,
+      mode: "quiz",
+      question_id: currentQuestion.id,
+      selected_option: key,
+      is_correct: isCorrect,
+      question_index: index,
+      total_questions: totalQuestions,
+      time_config: timeConfig,
+    });
   };
 
   const handlePrev = () => {
