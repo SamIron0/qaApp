@@ -3,8 +3,6 @@
 import Link from "next/link";
 import posthog from "posthog-js";
 
-import { quizSessionPath } from "@/lib/courses";
-
 type BankCardProps = {
   isAuthenticated: boolean;
   courseId: string;
@@ -20,11 +18,11 @@ export function BankCard({
   name,
   questionCount,
 }: BankCardProps) {
-  const quizPath = quizSessionPath(courseId, bankId);
+  const setupPath = `/courses/${courseId}/${bankId}/setup`;
   const href = isAuthenticated
-    ? quizPath
-    : `/login?next=${encodeURIComponent(quizPath)}`;
-  const ctaLabel = isAuthenticated ? "Start Practicing →" : "Sign in to Start →";
+    ? setupPath
+    : `/login?next=${encodeURIComponent(setupPath)}`;
+  const ctaLabel = isAuthenticated ? "Select mode →" : "Sign in to Start →";
 
   return (
     <li>
@@ -32,7 +30,12 @@ export function BankCard({
         href={href}
         onClick={() => {
           if (isAuthenticated) {
-            posthog.capture("quiz_bank_started", { course_id: courseId, bank_id: bankId, bank_name: name, question_count: questionCount });
+            posthog.capture("quiz_bank_opened", {
+              course_id: courseId,
+              bank_id: bankId,
+              bank_name: name,
+              question_count: questionCount,
+            });
           }
         }}
         className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm transition-colors hover:border-[#c9a84c]/60 hover:bg-[#fff8e7] dark:border-zinc-800 dark:bg-zinc-900/40 dark:hover:border-[#c9a84c]/60 dark:hover:bg-zinc-900/70"
@@ -41,8 +44,7 @@ export function BankCard({
           <div>
             <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">{name}</h3>
             <p className="mt-3 text-xs text-zinc-500">
-              {questionCount} question
-              {questionCount === 1 ? "" : "s"}
+              {questionCount} question{questionCount === 1 ? "" : "s"}
             </p>
           </div>
           <span
