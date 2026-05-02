@@ -12,7 +12,7 @@ type PageProps = {
   searchParams: Promise<{ mode?: string; count?: string; time?: string }>;
 };
 
-export default async function QuizSessionPage({ params, searchParams }: PageProps) {
+export default async function SessionPage({ params, searchParams }: PageProps) {
   const { courseId, bankId } = await params;
   const { mode, count, time } = await searchParams;
 
