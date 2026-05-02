@@ -181,6 +181,7 @@ export function ModeSetupClient({ courseId, bankId, totalQuestions }: Props) {
                       : `${Number(timeLimit.split("_")[1]) / 60} min total`
                 }
               />
+              <ReceiptItem label="Shuffled · no hints" />
             </div>
           </div>
         </div>

@@ -269,22 +269,6 @@ export function PracticeModeClient({
             <span>Prev</span>
           </NavButton>
 
-          {answered && index < total - 1 && (
-            <button
-              type="button"
-              onClick={() => navigate(index + 1)}
-              className="btn-auth-primary px-5 py-2 text-sm font-semibold"
-            >
-              Next →
-            </button>
-          )}
-
-          {!answered && (
-            <span className={`text-xs ${dark ? "text-zinc-600" : "text-zinc-400"}`}>
-              Select an answer
-            </span>
-          )}
-
           {index === total - 1 && answered && (
             <Link
               href={`/courses/${courseId}/${bankId}/setup`}
