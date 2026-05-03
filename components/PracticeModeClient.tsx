@@ -98,7 +98,6 @@ export function PracticeModeClient({
   };
 
   const handleSelect = (key: string) => {
-    if (answered) return;
     setSelected(key);
     posthog.capture("practice_answer_submitted", {
       course_id: courseId,
