@@ -316,20 +316,31 @@ export function QuizModeClient({
     });
   };
 
-  const handlePrev = () => {
-    if (index === 0) return;
-    setIndex((p) => p - 1);
+  const navigate = (next: number) => {
+    setIndex(Math.max(0, Math.min(totalQuestions - 1, next)));
   };
 
-  const handleNext = () => {
-    if (index === totalQuestions - 1) return;
-    setIndex((p) => p + 1);
-  };
+  const handlePrev = () => navigate(index - 1);
+  const handleNext = () => navigate(index + 1);
+
+  // Keyboard nav: ← → (match Practice mode)
+  useEffect(() => {
+    if (submitted) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement) return;
+      if (e.key === "ArrowLeft") {
+        setIndex((p) => Math.max(0, p - 1));
+      }
+      if (e.key === "ArrowRight") {
+        setIndex((p) => Math.min(totalQuestions - 1, p + 1));
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [submitted, totalQuestions]);
 
   const showPerTimer = timeCfg.mode === "per" && !submitted;
   const showTotalTimer = timeCfg.mode === "total" && !submitted;
-  const perPct = timeCfg.mode === "per" ? (perSecondsLeft / timeCfg.seconds) * 100 : 100;
-  const totalPct = timeCfg.mode === "total" ? (totalSecondsLeft / timeCfg.seconds) * 100 : 100;
   const timerUrgent =
     (timeCfg.mode === "per" && perSecondsLeft <= 5) ||
     (timeCfg.mode === "total" && totalSecondsLeft <= 30);
@@ -354,99 +365,92 @@ export function QuizModeClient({
   }
 
   return (
-    <div className={`flex min-h-0 flex-1 flex-col items-center justify-center px-4 py-4 sm:py-10 transition-colors ${bg}`}>
-      <main className={`w-full max-w-2xl min-h-0 overflow-y-auto rounded-3xl border px-5 py-6 shadow-sm sm:px-8 sm:py-8 transition-colors ${card}`}>
+    <div
+      className={`flex min-h-0 flex-1 flex-col items-center justify-center px-4 py-6 transition-colors sm:py-12 ${bg}`}
+    >
+      <main
+        className={`flex w-full max-w-2xl flex-col gap-6 overflow-y-auto rounded-3xl border px-5 py-6 shadow-sm transition-colors sm:px-8 sm:py-8 ${card}`}
+      >
+        {/* ── Top bar ── */}
+        <div className="flex items-center justify-start gap-4">
+          <Link
+            href={`/courses/${courseId}/${bankId}/setup`}
+            className={`text-xs transition-colors hover:underline ${dark ? "text-zinc-500 hover:text-[#e8d5a0]" : "text-zinc-500 hover:text-[#8a6a14]"
+              }`}
+          >
+            ← Exit Quiz
+          </Link>
+        </div>
 
-        {/* Header */}
-        <header className="mb-6 flex flex-col gap-3">
-          <div className="flex items-center justify-start gap-3">
-            <Link
-              href={`/courses/${courseId}/${bankId}/setup`}
-              className={`text-xs transition-colors hover:underline ${subtext} hover:text-[#c9a84c]`}
-            >
-              ← Exit Quiz
-            </Link>
-          </div>
-
-          <div className="space-y-1">
-            <div className="flex items-center justify-between">
-              <p className={`text-xs sm:text-sm ${subtext}`}>{courseName}</p>
-              {/* Total timer badge */}
+        {/* ── Meta + progress (match Practice layout) ── */}
+        <div className="space-y-3">
+          <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-1">
+            <div className="min-w-0">
+              <p className={`text-xs ${dark ? "text-zinc-400" : "text-zinc-500"}`}>{courseName}</p>
+              <h1 className="mt-0.5 text-base font-semibold tracking-tight sm:text-lg">{bankName}</h1>
+            </div>
+            <div className="flex shrink-0 flex-col items-end gap-1.5">
               {showTotalTimer && (
                 <span
-                  className={`tabular-nums rounded-full border px-2.5 py-0.5 text-xs font-semibold ${timerUrgent
-                      ? "border-rose-500/60 bg-rose-900/30 text-rose-300"
+                  className={`tabular-nums text-xs font-semibold ${timerUrgent
+                      ? "text-rose-400"
                       : dark
-                        ? "border-zinc-700 bg-zinc-900 text-zinc-300"
-                        : "border-zinc-200 bg-zinc-50 text-zinc-700"
+                        ? "text-zinc-300"
+                        : "text-zinc-700"
                     }`}
                 >
                   {formatTime(totalSecondsLeft)}
                 </span>
               )}
+              {showPerTimer && (
+                <span
+                  className={`tabular-nums text-xs font-semibold ${timerUrgent ? "text-rose-400" : subtext}`}
+                >
+                  {formatTime(perSecondsLeft)} <span className="font-normal opacity-80">this question</span>
+                </span>
+              )}
             </div>
-            <h1 className="text-lg font-semibold tracking-tight sm:text-xl">{bankName}</h1>
-
-            {/* Progress + answered count */}
-            <div className="flex items-center gap-3">
-              <div
-                className={`h-1.5 flex-1 rounded-full overflow-hidden ${dark ? "bg-zinc-800" : "bg-zinc-200"
-                  }`}
-              >
-                <div
-                  className="h-full rounded-full bg-[#c9a84c] transition-all duration-300"
-                  style={{ width: `${((index + 1) / totalQuestions) * 100}%` }}
-                />
-              </div>
-              <span className="shrink-0 text-xs tabular-nums text-zinc-500">
-                {index + 1} / {totalQuestions}
-              </span>
-            </div>
-
-            {/* Answered pills */}
-            <p className="text-xs text-zinc-500">
-              {answeredCount} answered · {totalQuestions - answeredCount} remaining
-            </p>
           </div>
-        </header>
 
-        {/* Per-question timer bar */}
-        {showPerTimer && (
-          <div className="mb-5">
-            <div className="mb-1 flex items-center justify-between text-xs">
-              <span className={subtext}>Time per question</span>
-              <span className={`tabular-nums font-semibold ${timerUrgent ? "text-rose-400" : "text-zinc-400"}`}>
-                {perSecondsLeft}s
-              </span>
-            </div>
-            <div className={`h-1.5 w-full rounded-full overflow-hidden ${dark ? "bg-zinc-800" : "bg-zinc-200"}`}>
+          <div className="flex items-center gap-3">
+            <div
+              className={`h-1 flex-1 overflow-hidden rounded-full ${dark ? "bg-zinc-800" : "bg-zinc-200"}`}
+            >
               <div
-                className={`h-full rounded-full transition-all duration-1000 ${timerUrgent ? "bg-rose-500" : "bg-[#c9a84c]"}`}
-                style={{ width: `${perPct}%` }}
+                className="h-full rounded-full bg-[#c9a84c] transition-all duration-300"
+                style={{ width: `${((index + 1) / totalQuestions) * 100}%` }}
               />
             </div>
+            <QuestionJumper
+              index={index}
+              total={totalQuestions}
+              onJump={navigate}
+              dark={dark}
+            />
           </div>
-        )}
 
-        {/* Question */}
-        <section className="mb-6 space-y-3">
-          <p className="text-xs font-medium uppercase tracking-[0.18em] text-zinc-500">
+          <p className={`text-xs ${dark ? "text-zinc-400" : "text-zinc-500"}`}>
+            {answeredCount} answered · {totalQuestions - answeredCount} remaining
+          </p>
+        </div>
+
+        {/* ── Question ── */}
+        <div className="space-y-2">
+          <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-zinc-500">
             Question {currentQuestion.id}
           </p>
-          <h2 className="text-base font-medium leading-relaxed sm:text-lg">
-            {currentQuestion.question}
-          </h2>
-        </section>
+          <h2 className="text-base font-medium leading-relaxed sm:text-lg">{currentQuestion.question}</h2>
+        </div>
 
-        {/* Options — no feedback shown */}
-        <section className="space-y-3">
+        {/* ── Options — no feedback shown ── */}
+        <div className="space-y-2.5">
           {Object.entries(currentQuestion.options)
             .sort(([a], [b]) => a.localeCompare(b))
             .map(([key, label]) => {
               const isSelected = selectedOption === key;
 
               let cls =
-                "w-full rounded-2xl border px-4 py-3 text-left text-sm sm:text-base transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c9a84c]/70";
+                "w-full rounded-2xl border px-4 py-3 text-left text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c9a84c]/60 sm:text-base";
 
               if (isSelected) {
                 cls +=
@@ -463,32 +467,25 @@ export function QuizModeClient({
               return (
                 <button key={key} type="button" onClick={() => handleSelect(key)} className={cls}>
                   <span className="flex items-start gap-3">
-                    <span className="mt-0.5 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border text-xs font-semibold">
+                    <span
+                      className={`mt-0.5 inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full border text-[11px] font-semibold ${dark ? "border-zinc-600" : "border-zinc-300"
+                        }`}
+                    >
                       {key}
                     </span>
-                    <span className="flex-1 text-left">{label}</span>
+                    <span className="flex-1">{label}</span>
                   </span>
                 </button>
               );
             })}
-        </section>
+        </div>
 
-        {/* Footer nav + submit */}
-        <footer className="mt-7 flex items-center justify-between gap-3">
-          <button
-            type="button"
-            onClick={handlePrev}
-            disabled={index === 0}
-            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${index === 0
-                ? "cursor-not-allowed opacity-40"
-                : dark
-                  ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
-                  : "border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
-              }`}
-          >
+        {/* ── Nav footer ── */}
+        <div className="flex items-center justify-between gap-3 pt-1">
+          <NavButton onClick={handlePrev} disabled={index === 0} dark={dark}>
             <span aria-hidden>←</span>
             <span>Prev</span>
-          </button>
+          </NavButton>
 
           {index === totalQuestions - 1 ? (
             <button
@@ -499,27 +496,20 @@ export function QuizModeClient({
               Submit Quiz
             </button>
           ) : (
-            <button
-              type="button"
-              onClick={handleNext}
-              className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${dark
-                  ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/70 hover:bg-zinc-800"
-                  : "border-zinc-200 bg-white hover:border-[#c9a84c]/60 hover:bg-[#fff8e7]"
-                }`}
-            >
+            <NavButton onClick={handleNext} disabled={false} dark={dark}>
               <span>Next</span>
               <span aria-hidden>→</span>
-            </button>
+            </NavButton>
           )}
-        </footer>
+        </div>
 
-        {/* Early submit from any question */}
         {index < totalQuestions - 1 && (
-          <div className="mt-4 flex justify-center">
+          <div className="flex justify-center">
             <button
               type="button"
               onClick={() => handleSubmit(false)}
-              className={`text-xs underline underline-offset-2 transition-colors ${subtext} hover:text-[#c9a84c]`}
+              className={`text-xs underline underline-offset-2 transition-colors ${dark ? "text-zinc-400 hover:text-[#e8d5a0]" : "text-zinc-600 hover:text-[#8a6a14]"
+                }`}
             >
               Submit early ({answeredCount}/{totalQuestions} answered)
             </button>
@@ -527,5 +517,86 @@ export function QuizModeClient({
         )}
       </main>
     </div>
+  );
+}
+
+// ─── QuestionJumper (same pattern as Practice mode) ─────────────────────────────
+
+function QuestionJumper({
+  index,
+  total,
+  onJump,
+  dark,
+}: {
+  index: number;
+  total: number;
+  onJump: (n: number) => void;
+  dark: boolean;
+}) {
+  const [draft, setDraft] = useState<string | null>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  const displayValue = draft ?? String(index + 1);
+
+  const commit = (raw: string) => {
+    const n = parseInt(raw, 10);
+    if (!isNaN(n)) onJump(n - 1);
+    setDraft(null);
+  };
+
+  return (
+    <span className="flex shrink-0 items-center gap-1 text-xs tabular-nums text-zinc-500">
+      <input
+        ref={inputRef}
+        type="number"
+        min={1}
+        max={total}
+        value={displayValue}
+        onChange={(e) => setDraft(e.target.value)}
+        onBlur={(e) => commit(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") {
+            commit(displayValue);
+            inputRef.current?.blur();
+          }
+        }}
+        aria-label="Jump to question"
+        className={`w-12 rounded border py-0.5 text-center text-xs tabular-nums [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none ${dark
+            ? "border-zinc-700 bg-zinc-800 text-zinc-100"
+            : "border-zinc-300 bg-zinc-50 text-zinc-900"
+          }`}
+      />
+      <span>/ {total}</span>
+    </span>
+  );
+}
+
+// ─── NavButton (match Practice mode) ──────────────────────────────────────────
+
+function NavButton({
+  onClick,
+  disabled,
+  dark,
+  children,
+}: {
+  onClick: () => void;
+  disabled: boolean;
+  dark: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      disabled={disabled}
+      className={`inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${disabled
+          ? "cursor-not-allowed opacity-30"
+          : dark
+            ? "border-zinc-700 bg-zinc-900 hover:border-[#c9a84c]/60 hover:bg-zinc-800"
+            : "border-zinc-200 bg-white hover:border-[#c9a84c]/50 hover:bg-[#fff8e7]"
+        }`}
+    >
+      {children}
+    </button>
   );
 }
