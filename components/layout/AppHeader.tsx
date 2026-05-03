@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { createClient } from "@/utils/supabase/server";
@@ -28,8 +29,23 @@ export async function AppHeader() {
   return (
     <header className="border-b border-zinc-200 bg-white/80 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/80">
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
-        <Link href="/" className="text-lg font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
-          Quro
+        <Link href="/" className="relative flex h-8 shrink-0 items-center" aria-label="Quro home">
+          <Image
+            src="/logo-black.png"
+            alt=""
+            width={306}
+            height={333}
+            className="h-8 w-auto dark:hidden"
+            priority
+          />
+          <Image
+            src="/logo-white.png"
+            alt=""
+            width={306}
+            height={333}
+            className="hidden h-8 w-auto dark:block"
+            priority
+          />
         </Link>
         <div className="flex items-center gap-3 sm:gap-4">
           <ThemeToggle />
