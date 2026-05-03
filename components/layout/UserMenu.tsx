@@ -86,19 +86,6 @@ export function UserMenu({ displayName, email, avatarUrl }: Props) {
           ) : null}
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
-        <DropdownMenuLabel className="text-[11px] font-medium uppercase tracking-wide text-muted-foreground">
-          Appearance
-        </DropdownMenuLabel>
-        <DropdownMenuRadioGroup
-          value={appearanceValue}
-          onValueChange={(v) => {
-            if (v === "light" || v === "dark") setTheme(v);
-          }}
-        >
-          <DropdownMenuRadioItem value="light">Light</DropdownMenuRadioItem>
-          <DropdownMenuRadioItem value="dark">Dark</DropdownMenuRadioItem>
-        </DropdownMenuRadioGroup>
-        <DropdownMenuSeparator />
         <DropdownMenuItem
           variant="destructive"
           disabled={loading}
