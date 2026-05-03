@@ -34,58 +34,63 @@ export const COURSES: Course[] = [
     department: "General Studies",
     banks: [
       {
+        id: "bank12",
+        name: "Chapter 1 by Quro",
+        file: "./question-bank/bank12.json"
+      },
+      {
         id: "bank1",
-        name: "AD ASTRA'S Comprehensive Test on Propositions, Arguments, and Reasoning",
+        name: "AD ASTRA'S Comprehensive Test on Propositions, Arguments, and Reasoning by AStar",
         file: "./question-bank/bank1.json",
       },
       {
         id: "bank2",
-        name: "AD ASTRA'S QUESTIONS ON CATEGORICAL PROPOSITIONS",
+        name: "AD ASTRA'S QUESTIONS ON CATEGORICAL PROPOSITIONS by AStar",
         file: "./question-bank/bank2.json",
       },
       {
         id: "bank3",
-        name: "MULTI CHOICE QUESTIONS ON CHAPTER 3- MAJOR BRANCHES OF PHILOSOPHY -",
+        name: "MULTI CHOICE QUESTIONS ON CHAPTER 3- MAJOR BRANCHES OF PHILOSOPHY by AStar",
         file: "./question-bank/bank3.json",
       },
       {
         id: "bank4",
-        name: "MULTI CHOICE QUESTIONS ON CHAPTER 6- LOGIC AND ITS RELEVANCE",
+        name: "MULTI CHOICE QUESTIONS ON CHAPTER 6- LOGIC AND ITS RELEVANCE by AStar",
         file: "./question-bank/bank4.json",
       },
       {
         id: "bank5",
-        name: "THEROTICAL UNDERSTANDING OF CATEGORICAL PREPOSITION",
+        name: "THEROTICAL UNDERSTANDING OF CATEGORICAL PREPOSITION by AStar",
         file: "./question-bank/bank5.json",
       },
       {
         id: "bank6",
-        name: "Philosophy chapter 1",
+        name: "Philosophy chapter 1 by AStar",
         file: "./question-bank/bank6.json",
       },
       {
         id: "bank7",
-        name: "Philosophy chapter 2",
+        name: "Philosophy chapter 2 by AStar",
         file: "./question-bank/bank7.json",
       },
       {
         id: "bank8",
-        name: "Philosophy chapter 3",
+        name: "Philosophy chapter 3 by AStar",
         file: "./question-bank/bank8.json",
       },
       {
         id: "bank9",
-        name: "Philosophy chapter 4",
+        name: "Philosophy chapter 4 by AStar",
         file: "./question-bank/bank9.json",
       },
       {
         id: "bank10",
-        name: "Philosophy chapter 5",
+        name: "Philosophy chapter 5 by AStar",
         file: "./question-bank/bank10.json",
       },
       {
         id: "bank11",
-        name: "Philosophy chapter 6&7",
+        name: "Philosophy chapter 6&7 by AStar",
         file: "./question-bank/bank11.json",
       },
     ],
