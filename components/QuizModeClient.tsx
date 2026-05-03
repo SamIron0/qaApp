@@ -297,7 +297,9 @@ export function QuizModeClient({
   }, [index, submitted]);
 
   const handleSelect = (key: string) => {
-    if (selectedOption !== null || submitted) return;
+    if (submitted) return;
+    if (selectedOption === key) return;
+    const isRevision = selectedOption !== null;
     setAnswers((prev) => ({ ...prev, [index]: key }));
     const isCorrect = currentQuestion.answerKey.includes(key);
     posthog.capture("quiz_answer_submitted", {
@@ -310,6 +312,7 @@ export function QuizModeClient({
       question_index: index,
       total_questions: totalQuestions,
       time_config: timeConfig,
+      is_revision: isRevision,
     });
   };
 

@@ -98,6 +98,8 @@ export function PracticeModeClient({
   };
 
   const handleSelect = (key: string) => {
+    if (selected === key) return;
+    const isRevision = selected !== null;
     setSelected(key);
     posthog.capture("practice_answer_submitted", {
       course_id: courseId,
@@ -107,6 +109,7 @@ export function PracticeModeClient({
       is_correct: correctKeys.includes(key),
       question_index: index,
       total_questions: total,
+      is_revision: isRevision,
     });
   };
 
@@ -196,9 +199,8 @@ export function PracticeModeClient({
                 <button
                   key={key}
                   type="button"
-                  disabled={answered}
                   onClick={() => handleSelect(key)}
-                  className={`w-full rounded-2xl border px-4 py-3 text-left text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c9a84c]/60 disabled:cursor-default sm:text-base ${styles}`}
+                  className={`w-full rounded-2xl border px-4 py-3 text-left text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c9a84c]/60 sm:text-base ${styles}`}
                 >
                   <span className="flex items-start gap-3">
                     <span
