@@ -90,7 +90,7 @@ export function AuthBrandPanel() {
       <div className="relative z-10 flex w-full flex-col justify-between px-10 py-14 xl:px-16">
         <div>
           <p className="text-xs font-medium uppercase tracking-[0.35em] text-[#C9A84C]/90">
-            Practice Q&amp;A
+            Quro
           </p>
           <h2 className="mt-8 max-w-md font-[family-name:var(--font-playfair)] text-4xl font-semibold leading-[1.15] tracking-tight text-[#F5F0E6] xl:text-[2.75rem]">
             Prove what you know.

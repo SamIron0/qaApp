@@ -39,10 +39,7 @@ export function ThemeToggle({ className }: { className?: string }) {
         )}
       </span>
       <span className="flex w-full items-center justify-between px-1.5" aria-hidden>
-        <Sun
-          className={cn("size-3 transition-opacity", dark ? "opacity-40" : "opacity-0")}
-          strokeWidth={2}
-        />
+        <Sun className="size-3 opacity-0" strokeWidth={2} />
         <Moon className="size-3 opacity-0" strokeWidth={2} />
       </span>
     </button>

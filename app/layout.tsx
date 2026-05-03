@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Practice Q&A",
+  title: "Quro",
   description: "Minimalist question and answer practice app",
 };
 
