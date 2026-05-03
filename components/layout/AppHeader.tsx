@@ -35,7 +35,7 @@ export async function AppHeader() {
             alt=""
             width={306}
             height={333}
-            className="h-6 w-auto dark:hidden"
+            className="h-7 w-auto dark:hidden"
             priority
           />
           <Image
@@ -43,7 +43,7 @@ export async function AppHeader() {
             alt=""
             width={306}
             height={333}
-            className="hidden h-6 w-auto dark:block"
+            className="hidden h-7 w-auto dark:block"
             priority
           />
         </Link>
