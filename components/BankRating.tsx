@@ -74,7 +74,7 @@ export function BankRating({
         </p>
         {count > 0 && (
           <p className="text-xs text-zinc-500">
-            {average?.toFixed(1)} avg · {count} {count === 1 ? "rating" : "ratings"}
+            {average?.toFixed(1)} · {count} {count === 1 ? "rating" : "ratings"}
           </p>
         )}
       </div>
@@ -90,7 +90,7 @@ export function BankRating({
           />
           {userRating !== null && (
             <span className="text-xs text-zinc-500">
-              {submitting ? "Saving…" : "Your rating saved"}
+              {submitting ? "Saving…" : ""}
             </span>
           )}
         </div>
