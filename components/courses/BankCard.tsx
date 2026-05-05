@@ -12,27 +12,15 @@ type BankCardProps = {
   bankId: string;
   name: string;
   questionCount: number;
-  vendor: "quro" | "astar";
+  vendor: "quro" | "ad-astra";
   initiallyBookmarked?: boolean;
   initialUserRating?: number | null;
   initialAverageRating?: number | null;
   initialRatingCount?: number;
 };
 
-function VendorBadge({ vendor }: { vendor: "quro" | "astar" }) {
-  const isQuro = vendor === "quro";
-  const title = isQuro
-    ? "This question bank is curated and certified by the site owners"
-    : "This question bank was contributed by the community";
-  const className = isQuro
-    ? "inline-flex items-center gap-1 rounded-full border border-[#c9a84c]/50 bg-[#fff8e7] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-[#8a6a14] dark:border-[#c9a84c]/40 dark:bg-[#3a2f14]/80 dark:text-[#f0dda0]"
-    : "inline-flex items-center gap-1 rounded-full border border-zinc-200 bg-zinc-50 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-zinc-400 dark:border-zinc-700 dark:bg-zinc-800/60 dark:text-zinc-500";
-
-  return (
-    <span title={title} className={className}>
-      {vendor}
-    </span>
-  );
+function VendorBadge({ vendor }: { vendor: "quro" | "ad-astra" }) {
+  return <span className="inline-flex items-center gap-1 rounded-full border border-zinc-200 bg-zinc-50 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-zinc-400 dark:border-zinc-700 dark:bg-zinc-800/60 dark:text-zinc-500">{vendor}</span>;
 }
 
 export function BankCard({
