@@ -20,45 +20,17 @@ type BankCardProps = {
 };
 
 function VendorBadge({ vendor }: { vendor: "quro" | "astar" }) {
-  if (vendor === "quro") {
-    return (
-      <span
-        title="This question bank is curated and certified by the site owners"
-        className="inline-flex items-center gap-1 rounded-full border border-[#c9a84c]/50 bg-[#fff8e7] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-[#8a6a14] dark:border-[#c9a84c]/40 dark:bg-[#3a2f14]/80 dark:text-[#f0dda0]"
-      >
-        {/* Shield-check icon */}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 16 16"
-          fill="currentColor"
-          className="size-3 shrink-0"
-        >
-          <path
-            fillRule="evenodd"
-            d="M8 1.25a.75.75 0 0 1 .538.227l4.5 4.5A.75.75 0 0 1 13.25 6.5v3a5.75 5.75 0 0 1-5.172 5.718.75.75 0 0 1-.156 0A5.75 5.75 0 0 1 2.75 9.5v-3a.75.75 0 0 1 .212-.523l4.5-4.5A.75.75 0 0 1 8 1.25Zm0 1.591L3.75 7.09v2.41a4.25 4.25 0 0 0 3.633 4.204L8 13.74l.617-.037A4.25 4.25 0 0 0 12.25 9.5V7.09L8 2.841Zm2.03 3.409a.75.75 0 0 1 0 1.06l-2.5 2.5a.75.75 0 0 1-1.06 0l-1-1a.75.75 0 1 1 1.06-1.06l.47.47 1.97-1.97a.75.75 0 0 1 1.06 0Z"
-            clipRule="evenodd"
-          />
-        </svg>
-        Verified
-      </span>
-    );
-  }
+  const isQuro = vendor === "quro";
+  const title = isQuro
+    ? "This question bank is curated and certified by the site owners"
+    : "This question bank was contributed by the community";
+  const className = isQuro
+    ? "inline-flex items-center gap-1 rounded-full border border-[#c9a84c]/50 bg-[#fff8e7] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-[#8a6a14] dark:border-[#c9a84c]/40 dark:bg-[#3a2f14]/80 dark:text-[#f0dda0]"
+    : "inline-flex items-center gap-1 rounded-full border border-zinc-200 bg-zinc-50 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-zinc-400 dark:border-zinc-700 dark:bg-zinc-800/60 dark:text-zinc-500";
 
   return (
-    <span
-      title="This question bank was contributed by the community"
-      className="inline-flex items-center gap-1 rounded-full border border-zinc-200 bg-zinc-50 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-zinc-400 dark:border-zinc-700 dark:bg-zinc-800/60 dark:text-zinc-500"
-    >
-      {/* Users icon */}
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 16 16"
-        fill="currentColor"
-        className="size-3 shrink-0"
-      >
-        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM12.735 14c.618 0 1.093-.561.872-1.139a6.002 6.002 0 0 0-11.215 0c-.22.578.254 1.139.872 1.139h9.47Z" />
-      </svg>
-      Community
+    <span title={title} className={className}>
+      {vendor}
     </span>
   );
 }

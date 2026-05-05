@@ -2,7 +2,7 @@ export type QuestionBank = {
   id: string;
   name: string;
   file: string;
-  vendor: "astar" | "quro";
+  vendor: "ad-astra" | "quro";
   questionCount?: number;
 };
 
@@ -45,67 +45,67 @@ export const COURSES: Course[] = [
         id: "bank1",
         name: "Comprehensive Test on Propositions, Arguments, and Reasoning",
         file: "./question-bank/bank1.json",
-        vendor: "astar",
+        vendor: "ad-astra",
       },
       {
         id: "bank2",
         name: "QUESTIONS ON CATEGORICAL PROPOSITIONS",
         file: "./question-bank/bank2.json",
-        vendor: "astar",
+        vendor: "ad-astra",
       },
       {
         id: "bank3",
         name: "CHAPTER 3 - MAJOR BRANCHES OF PHILOSOPHY",
         file: "./question-bank/bank3.json",
-        vendor: "astar",
+        vendor: "ad-astra",
       },
       {
         id: "bank4",
         name: "CHAPTER 6 - LOGIC AND ITS RELEVANCE",
         file: "./question-bank/bank4.json",
-        vendor: "astar",
+        vendor: "ad-astra",
       },
       {
         id: "bank5",
         name: "THEROTICAL UNDERSTANDING OF CATEGORICAL PREPOSITION",
         file: "./question-bank/bank5.json",
-        vendor: "astar",
+        vendor: "ad-astra",
       },
       {
         id: "bank6",
         name: "Chapter 1",
         file: "./question-bank/bank6.json",
-        vendor: "astar",
+        vendor: "ad-astra",
       },
       {
         id: "bank7",
         name: "Chapter 2",
         file: "./question-bank/bank7.json",
-        vendor: "astar",
+        vendor: "ad-astra",
       },
       {
         id: "bank8",
         name: "Chapter 3",
         file: "./question-bank/bank8.json",
-        vendor: "astar",
+        vendor: "ad-astra",
       },
       {
         id: "bank9",
         name: "Chapter 4",
         file: "./question-bank/bank9.json",
-        vendor: "astar",
+        vendor: "ad-astra",
       },
       {
         id: "bank10",
         name: "Chapter 5",
         file: "./question-bank/bank10.json",
-        vendor: "astar",
+        vendor: "ad-astra",
       },
       {
         id: "bank11",
         name: "Chapter 6&7",
         file: "./question-bank/bank11.json",
-        vendor: "astar",
+        vendor: "ad-astra",
       },
     ],
   },
@@ -119,7 +119,7 @@ export const COURSES: Course[] = [
         id: "bank13",
         name: "Question Bank for Origins and Science",
         file: "./question-bank/bank13.json",
-        vendor: "astar",
+        vendor: "ad-astra",
       },
     ]
   }
