@@ -36,15 +36,13 @@ export function BookmarkButton({
     );
   }
 
-  const label = bookmarked ? "Bookmarked" : "Bookmark";
-
   if (variant === "full") {
     return (
       <button
         type="button"
         onClick={toggle}
         disabled={toggling}
-        aria-label={label}
+        aria-label="Bookmark"
         aria-pressed={bookmarked}
         className={[
           "inline-flex items-center gap-2 rounded-xl border px-4 py-2 text-sm font-medium transition-all",
@@ -60,7 +58,6 @@ export function BookmarkButton({
         ].join(" ")}
       >
         <BookmarkIcon filled={bookmarked} className="h-4 w-4 shrink-0" />
-        <span>{label}</span>
       </button>
     );
   }
@@ -70,7 +67,7 @@ export function BookmarkButton({
       type="button"
       onClick={toggle}
       disabled={toggling}
-      aria-label={label}
+      aria-label="Bookmark"
       aria-pressed={bookmarked}
       className={[
         "rounded-lg p-1.5 transition-all",

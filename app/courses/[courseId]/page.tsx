@@ -135,6 +135,7 @@ export default async function CourseBanksPage({ params }: PageProps) {
                 courseId={course.id}
                 bankId={bank.id}
                 name={bank.name}
+                vendor={bank.vendor}
                 questionCount={bank.questionCount}
                 initiallyBookmarked={bookmarkedBankIds.has(bank.id)}
                 initialUserRating={rating.userRating}
