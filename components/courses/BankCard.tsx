@@ -3,12 +3,19 @@
 import Link from "next/link";
 import posthog from "posthog-js";
 
+import { BankRating } from "@/components/BankRating";
+import { BookmarkButton } from "@/components/ui/bookmark-button";
+
 type BankCardProps = {
   isAuthenticated: boolean;
   courseId: string;
   bankId: string;
   name: string;
   questionCount: number;
+  initiallyBookmarked?: boolean;
+  initialUserRating?: number | null;
+  initialAverageRating?: number | null;
+  initialRatingCount?: number;
 };
 
 export function BankCard({
@@ -17,12 +24,15 @@ export function BankCard({
   bankId,
   name,
   questionCount,
+  initiallyBookmarked,
+  initialUserRating,
+  initialAverageRating,
+  initialRatingCount,
 }: BankCardProps) {
   const setupPath = `/courses/${courseId}/${bankId}/setup`;
   const href = isAuthenticated
     ? setupPath
     : `/login?next=${encodeURIComponent(setupPath)}`;
-  const ctaLabel = isAuthenticated ? "Select mode →" : "Sign in to Start →";
 
   return (
     <li>
@@ -43,16 +53,34 @@ export function BankCard({
         <div className="flex items-start justify-between gap-3">
           <div>
             <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">{name}</h3>
-            <p className="mt-3 text-xs text-zinc-500">
+            <p className="mt-1 text-xs text-zinc-500">
               {questionCount} question{questionCount === 1 ? "" : "s"}
             </p>
           </div>
-          <span
-            className="shrink-0 text-sm font-medium text-zinc-500 transition-transform group-hover:translate-x-0.5 group-hover:text-[#8a6a14] dark:group-hover:text-[#f0dda0]"
-            aria-hidden
+          <div
+            className="flex shrink-0 items-center gap-2"
+            onClick={(e) => e.preventDefault()}
           >
-            {ctaLabel}
-          </span>
+            <BookmarkButton
+              courseId={courseId}
+              bankId={bankId}
+              isAuthenticated={isAuthenticated}
+              variant="icon"
+              initiallyBookmarked={initiallyBookmarked}
+            />
+          </div>
+        </div>
+
+        <div className="mt-3 border-t border-zinc-100 pt-3 dark:border-zinc-800">
+          <BankRating
+            courseId={courseId}
+            bankId={bankId}
+            isAuthenticated={isAuthenticated}
+            variant="card"
+            initialUserRating={initialUserRating ?? null}
+            initialAverage={initialAverageRating ?? null}
+            initialCount={initialRatingCount ?? 0}
+          />
         </div>
       </Link>
     </li>

@@ -1,0 +1,1404 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the primary goal of scientific dating?",
+            "options": {
+                "A": "To measure the density of materials",
+                "B": "To determine the age of organic and inorganic materials",
+                "C": "To analyze the chemical composition of rocks",
+                "D": "To locate archaeological sites"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Scientific dating is fundamentally concerned with determining the age of both organic and inorganic materials, providing chronological context for Earth's history."
+        },
+        {
+            "id": 2,
+            "question": "Scientific dating is commonly used in which of the following fields?",
+            "options": {
+                "A": "Archaeology only",
+                "B": "Geology only",
+                "C": "Paleontology only",
+                "D": "All of the above (Archaeology, Geology, and Paleontology)"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Scientific dating is a cross-disciplinary tool applied in archaeology, geology, and paleontology to establish timelines for artifacts, rocks, and fossils respectively."
+        },
+        {
+            "id": 3,
+            "question": "What does scientific dating help to construct?",
+            "options": {
+                "A": "A chemical profile of the Earth",
+                "B": "The timeline or chronology of Earth's history",
+                "C": "A map of tectonic plate movements",
+                "D": "The seasonal climate record"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "By assigning ages to materials, scientific dating builds a chronological framework — a timeline — of Earth's geological, biological, and cultural history."
+        },
+        {
+            "id": 4,
+            "question": "The two major categories of scientific dating methods are:",
+            "options": {
+                "A": "Relative dating and chronological dating",
+                "B": "Absolute dating and radiometric dating",
+                "C": "Relative dating and absolute dating",
+                "D": "Stratigraphic dating and fossil dating"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "All scientific dating methods fall into one of two broad categories: relative dating (establishing sequence) and absolute dating (providing numerical ages)."
+        },
+        {
+            "id": 5,
+            "question": "What is the main function of relative dating methods?",
+            "options": {
+                "A": "Provide specific numerical age estimates",
+                "B": "Establish the sequence of events without assigning specific ages",
+                "C": "Measure radioactive decay",
+                "D": "Date only organic materials"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Relative dating tells us the order of events — which came first, second, etc. — but does not yield a specific number of years for any event."
+        },
+        {
+            "id": 6,
+            "question": "Absolute dating methods use physical, chemical, or biological changes to provide:",
+            "options": {
+                "A": "Only a relative sequence of events",
+                "B": "Numerical age estimates",
+                "C": "Visual descriptions of rock layers",
+                "D": "Estimates of environmental conditions only"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Unlike relative methods, absolute dating assigns a concrete number (e.g., '10,000 years old') to a sample by quantifying measurable physical, chemical, or biological changes."
+        },
+        {
+            "id": 7,
+            "question": "Which dating method involves drilling core samples from ice in glaciated regions?",
+            "options": {
+                "A": "Stratigraphy",
+                "B": "Ice core dating",
+                "C": "Dendrochronology",
+                "D": "Thermoluminescence dating"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Ice core dating extracts cylindrical samples from glaciers or polar ice sheets. The layers within the cores are then analyzed to determine age and past conditions."
+        },
+        {
+            "id": 8,
+            "question": "In ice core dating, the visible dark and light rings generally represent:",
+            "options": {
+                "A": "Changes in mineral composition",
+                "B": "Annual variations in snowfall or temperature",
+                "C": "Fossil accumulation",
+                "D": "Volcanic eruptions only"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The alternating dark and light bands in an ice core correspond to seasonal and annual cycles of snowfall and temperature change, acting as a built-in calendar."
+        },
+        {
+            "id": 9,
+            "question": "Stratigraphy is the study of:",
+            "options": {
+                "A": "Radioactive decay rates",
+                "B": "Rock layers or strata",
+                "C": "Tree rings",
+                "D": "Fossil DNA sequences"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Stratigraphy focuses on the origin, composition, distribution, and succession of rock strata (layers), forming a foundational tool in relative dating."
+        },
+        {
+            "id": 10,
+            "question": "The principle of superposition in stratigraphy states that:",
+            "options": {
+                "A": "Younger layers are always at the bottom",
+                "B": "Older layers are at the bottom and younger layers are at the top",
+                "C": "All layers have the same age",
+                "D": "Rock layers are randomly arranged"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "In an undisturbed sedimentary sequence, the lowest (deepest) layers were deposited first and are therefore the oldest, while layers closer to the surface are progressively younger."
+        },
+        {
+            "id": 11,
+            "question": "Biostratigraphy uses which of the following as markers to date rock layers?",
+            "options": {
+                "A": "Ice layers",
+                "B": "Index fossils (index species)",
+                "C": "Mineral content",
+                "D": "Radiometric isotopes"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Biostratigraphy relies on index fossils — fossils of organisms that lived during a specific, well-defined time period — to correlate and date rock layers across different locations."
+        },
+        {
+            "id": 12,
+            "question": "Lithostratigraphy relies on which characteristics of rock strata to establish dating correlations?",
+            "options": {
+                "A": "Their radioactive decay rates",
+                "B": "Their physical characteristics such as composition and texture",
+                "C": "Their magnetic properties",
+                "D": "Their color patterns only"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Lithostratigraphy matches and correlates rock layers based on observable physical attributes like mineral composition, grain size, and texture, rather than fossils or isotopes."
+        },
+        {
+            "id": 13,
+            "question": "In relative dating, geological relationships involve observing:",
+            "options": {
+                "A": "Tree-ring widths",
+                "B": "Cross-cutting (truncating) features across rock layers",
+                "C": "The half-life of isotopes",
+                "D": "The luminescence of minerals"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Cross-cutting relationships are a key relative dating tool: any geological feature (fault, intrusion) that cuts across existing rock layers must be younger than the layers it cuts."
+        },
+        {
+            "id": 14,
+            "question": "Which of the following is a recognized drawback of relative dating?",
+            "options": {
+                "A": "It provides precise numerical ages",
+                "B": "It can be affected by geological disturbances such as earthquakes",
+                "C": "It requires complex laboratory equipment",
+                "D": "It only applies to organic materials"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Geological events like earthquakes, faulting, or folding can overturn or displace rock layers, potentially reversing or obscuring the natural stratigraphic sequence and making relative dating unreliable."
+        },
+        {
+            "id": 15,
+            "question": "Absolute dating methods are considered 'absolute' because they provide:",
+            "options": {
+                "A": "Only the order of events",
+                "B": "Specific numerical age estimates",
+                "C": "Relative sequences without dates",
+                "D": "Estimates of climate change only"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The term 'absolute' refers to the fact that these methods yield a specific number — a measurable, numerical age in years — rather than simply a relative position in a sequence."
+        },
+        {
+            "id": 16,
+            "question": "Radiometric dating is based on the principle of:",
+            "options": {
+                "A": "Sediment deposition",
+                "B": "Radioactive decay of unstable isotopes",
+                "C": "The layering of ice cores",
+                "D": "Fossil morphology"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Radiometric dating exploits the fact that unstable (radioactive) isotopes decay into stable daughter isotopes at a known, constant rate. By measuring the ratio of parent to daughter isotopes, age can be calculated."
+        },
+        {
+            "id": 17,
+            "question": "In radiometric dating, what does 'half-life' refer to?",
+            "options": {
+                "A": "The time required for a rock layer to form",
+                "B": "The time it takes for half of a radioactive isotope to decay",
+                "C": "The time period between ice core layers",
+                "D": "The time it takes for a fossil to become mineralized"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Half-life is the constant, predictable time span after which exactly half of any given quantity of a radioactive (parent) isotope will have transformed into its stable daughter product."
+        },
+        {
+            "id": 18,
+            "question": "Carbon-14 dating is primarily used to date:",
+            "options": {
+                "A": "Volcanic rocks",
+                "B": "Organic materials such as wood, bones, and shells",
+                "C": "Zircon crystals",
+                "D": "Sedimentary rock layers"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Carbon-14 is absorbed by living organisms throughout their life. Once an organism dies, the C-14 begins to decay. This makes it ideal for dating once-living (organic) materials like wood, bone, and shell."
+        },
+        {
+            "id": 19,
+            "question": "The approximate half-life of Carbon-14 is:",
+            "options": {
+                "A": "1,000 years",
+                "B": "5,730 years",
+                "C": "10,000 years",
+                "D": "50,000 years"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Carbon-14 has a half-life of approximately 5,730 years. This relatively short half-life means C-14 dating is most useful for materials up to about 50,000 years old."
+        },
+        {
+            "id": 20,
+            "question": "Uranium-Lead dating is particularly useful for dating:",
+            "options": {
+                "A": "Recent organic remains",
+                "B": "Ancient rocks and minerals, especially those with zircon crystals",
+                "C": "Ice cores",
+                "D": "Tree rings"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Uranium has an extremely long half-life, making U-Pb dating ideal for dating very ancient geological samples — particularly zircon-bearing rocks that can be billions of years old."
+        },
+        {
+            "id": 21,
+            "question": "In Uranium-Lead dating, uranium decays into which stable element?",
+            "options": {
+                "A": "Nitrogen",
+                "B": "Lead",
+                "C": "Argon",
+                "D": "Carbon"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Over time, radioactive uranium (the parent isotope) undergoes a series of decay steps ultimately producing stable lead (the daughter isotope), which accumulates in the mineral."
+        },
+        {
+            "id": 22,
+            "question": "Potassium-Argon dating is best suited for dating:",
+            "options": {
+                "A": "Organic remains",
+                "B": "Volcanic rocks and fossil-bearing strata",
+                "C": "Ice cores",
+                "D": "Modern sediments"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "When volcanic rock solidifies from lava, any argon gas escapes. The K-Ar 'clock' is reset to zero. As potassium-40 in the rock decays to argon-40, the accumulated argon can be measured to date the volcanic formation."
+        },
+        {
+            "id": 23,
+            "question": "A key drawback of radiometric dating methods is that they often require:",
+            "options": {
+                "A": "Visual analysis only",
+                "B": "Complex laboratory procedures",
+                "C": "No calibration",
+                "D": "Simple field equipment"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Radiometric dating requires sophisticated laboratory instruments (e.g., mass spectrometers) to precisely measure isotope ratios, making the process technically demanding and expensive."
+        },
+        {
+            "id": 24,
+            "question": "Radiometric dating accuracy can be compromised by:",
+            "options": {
+                "A": "Consistent isotope levels",
+                "B": "Contamination with modern materials",
+                "C": "A high concentration of radioactive elements",
+                "D": "Perfectly sealed rock samples"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "If modern carbon or other isotopes contaminate an ancient sample, the measured ratio of parent to daughter isotopes will be skewed, leading to an inaccurate age calculation."
+        },
+        {
+            "id": 25,
+            "question": "Contamination in a radiometric sample can cause it to appear:",
+            "options": {
+                "A": "Older than its true age",
+                "B": "Younger than its true age",
+                "C": "Unaffected in age",
+                "D": "Exactly accurate"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Contamination with younger (modern) material introduces extra parent isotopes or removes daughter isotopes, making the decay ratio appear less advanced than it truly is — thus the sample appears younger."
+        },
+        {
+            "id": 26,
+            "question": "Some rocks are unsuitable for radiometric dating because they:",
+            "options": {
+                "A": "Are too colorful",
+                "B": "Lack sufficient radioactive elements",
+                "C": "Are too porous",
+                "D": "Are only found in sedimentary basins"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "For radiometric dating to work, a rock or mineral must contain measurable quantities of a radioactive (parent) isotope. Rocks that are chemically poor in such isotopes cannot be reliably dated by this method."
+        },
+        {
+            "id": 27,
+            "question": "Why is quartz rarely useful for radiometric dating?",
+            "options": {
+                "A": "It is too hard to process in the lab",
+                "B": "It does not accommodate radioactive elements in its crystal structure",
+                "C": "It decays too quickly",
+                "D": "It is only found in metamorphic rocks"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The crystal structure of quartz (SiO₂) does not readily incorporate radioactive elements such as uranium or potassium. Without a measurable parent isotope, radiometric dating cannot be applied."
+        },
+        {
+            "id": 28,
+            "question": "Non-radiometric dating methods differ from radiometric ones because they do not rely on:",
+            "options": {
+                "A": "Physical changes",
+                "B": "Radioactive decay",
+                "C": "Chemical alterations",
+                "D": "Biological processes"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Non-radiometric methods (like TL dating and dendrochronology) use other measurable physical, chemical, or biological changes to determine age, rather than the decay of radioactive isotopes."
+        },
+        {
+            "id": 29,
+            "question": "Thermoluminescence (TL) dating measures the amount of light emitted from a mineral as a result of:",
+            "options": {
+                "A": "Radioactive decay",
+                "B": "Heating that releases trapped electrons",
+                "C": "Magnetic field changes",
+                "D": "Chemical reactions with water"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Minerals accumulate electrons in crystal defects due to ambient radiation. When the sample is heated in the lab, these trapped electrons are released and emit light (luminescence) proportional to the accumulated dose — and thus to age."
+        },
+        {
+            "id": 30,
+            "question": "TL dating is particularly effective for dating which type of materials?",
+            "options": {
+                "A": "Organic remains like wood",
+                "B": "Ceramic, burnt stone, and minerals such as feldspar",
+                "C": "Ice core layers",
+                "D": "Fossilized bones"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "TL dating works on materials that were last heated (resetting the electron clock) and have since accumulated trapped electrons from environmental radiation — making ceramics, burnt flint, and feldspar ideal candidates."
+        },
+        {
+            "id": 31,
+            "question": "If a TL-dated sample has been reheated and cooled since its original formation, the dating result will likely be:",
+            "options": {
+                "A": "Older than it actually is",
+                "B": "Younger than it actually is",
+                "C": "Unaffected and still accurate",
+                "D": "More suitable for radiometric analysis"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Reheating expels the trapped electrons, resetting the TL clock to zero. This means the method dates from the most recent heating event, not the original formation — making the sample appear younger than its true geological age."
+        },
+        {
+            "id": 32,
+            "question": "The accuracy of TL dating is limited because:",
+            "options": {
+                "A": "Radiation levels remain perfectly constant over time",
+                "B": "Radiation levels can vary over time",
+                "C": "TL dating is not based on electron trapping",
+                "D": "It is only used on metallic objects"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "TL dating assumes a constant environmental radiation dose rate over the sample's lifetime. If local radiation levels fluctuated (e.g., due to changes in surrounding radioactive minerals or moisture), the accumulated dose will not accurately reflect the elapsed time."
+        },
+        {
+            "id": 33,
+            "question": "Dendrochronology is also known as:",
+            "options": {
+                "A": "Ice core dating",
+                "B": "Tree-ring dating",
+                "C": "Radiocarbon dating",
+                "D": "Potassium-Argon dating"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Dendrochronology (from the Greek 'dendron' = tree, 'chronos' = time) is the scientific method of dating using the growth rings of trees, and is commonly called tree-ring dating."
+        },
+        {
+            "id": 34,
+            "question": "Dendrochronology is used to determine the age of:",
+            "options": {
+                "A": "Rocks",
+                "B": "Trees and wooden objects",
+                "C": "Fossilized shells",
+                "D": "Ceramic artifacts"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Each year, a tree adds one growth ring. By counting and analysing these rings in a living tree or a preserved wooden artifact, dendrochronology can establish how old the tree was and when the wood was cut."
+        },
+        {
+            "id": 35,
+            "question": "Besides determining age, dendrochronology can also provide information about:",
+            "options": {
+                "A": "Chemical composition of the wood",
+                "B": "Past climatic conditions",
+                "C": "Radioactive decay rates",
+                "D": "Sedimentary processes"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The width and density of each annual ring reflects growing conditions for that year (temperature, rainfall, drought). Thus, dendrochronology doubles as a record of past climate — a field known as dendroclimatology."
+        },
+        {
+            "id": 36,
+            "question": "A limitation of dendrochronology is that it is geographically restricted to regions where:",
+            "options": {
+                "A": "Trees have no visible rings",
+                "B": "Trees form distinct annual growth rings",
+                "C": "Ice cores are abundant",
+                "D": "Volcanic activity is high"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Annual rings form only where there is a clear seasonal contrast in growth (e.g., cold winters and warm summers). In regions without distinct seasons, trees may not form countable annual rings."
+        },
+        {
+            "id": 37,
+            "question": "Dendrochronology is most effective in:",
+            "options": {
+                "A": "Tropical rainforests",
+                "B": "Arid regions with distinct growth rings",
+                "C": "Deep ocean sediments",
+                "D": "Volcanic regions"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Trees in arid or temperate environments experience strong seasonal contrast, producing clearly defined, measurable annual rings. Dense tropical forests with year-round growth conditions are less suitable for this method."
+        },
+        {
+            "id": 38,
+            "question": "Relative dating methods are useful for establishing:",
+            "options": {
+                "A": "Numerical ages in years",
+                "B": "The order or sequence of events",
+                "C": "The exact time a fossil was formed",
+                "D": "The radioactive properties of a sample"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Relative dating's core function is to determine which events occurred before or after others — establishing a temporal sequence — without attaching specific numerical ages."
+        },
+        {
+            "id": 39,
+            "question": "One key limitation of relative dating is that it cannot provide:",
+            "options": {
+                "A": "The sequence of rock formation",
+                "B": "Specific numerical ages",
+                "C": "Clues about fossil types",
+                "D": "Evidence of sediment deposition"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Relative dating can only tell us that layer A is older than layer B, not that layer A is, for example, 500,000 years old. Specific calendar ages require absolute dating methods."
+        },
+        {
+            "id": 40,
+            "question": "Which of the following is an example of a relative dating method?",
+            "options": {
+                "A": "Carbon-14 dating",
+                "B": "Stratigraphy",
+                "C": "Uranium-Lead dating",
+                "D": "Potassium-Argon dating"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Stratigraphy establishes the relative age of rock layers by their position in a sequence but does not provide numerical dates, classifying it as a relative dating method. The other options are all absolute (radiometric) methods."
+        },
+        {
+            "id": 41,
+            "question": "Biostratigraphy uses index fossils as markers because they:",
+            "options": {
+                "A": "Are only found in one location on Earth",
+                "B": "Serve as reliable markers for dating and correlating rock layers",
+                "C": "Emit radioactive signals that can be measured",
+                "D": "Are unaffected by erosion"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Good index fossils represent species that existed for a short, well-defined geological time period and were geographically widespread. Their presence in a rock layer precisely identifies the time interval when that layer was deposited."
+        },
+        {
+            "id": 42,
+            "question": "Lithostratigraphy is based on matching rock layers using their:",
+            "options": {
+                "A": "Radioactive content",
+                "B": "Physical characteristics such as composition and texture",
+                "C": "Fossil content exclusively",
+                "D": "Magnetic properties"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Lithostratigraphy correlates rock strata based on their lithological (physical) properties — such as mineral composition, grain size, colour, and texture — independent of their fossil or isotopic content."
+        },
+        {
+            "id": 43,
+            "question": "In radiometric dating, a 'parent isotope' decays into a:",
+            "options": {
+                "A": "Sibling isotope",
+                "B": "Daughter isotope",
+                "C": "Precursor isotope",
+                "D": "Partner isotope"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The unstable radioactive isotope undergoing decay is called the parent isotope. The stable product it transforms into is called the daughter isotope. The ratio between them is what allows age calculation."
+        },
+        {
+            "id": 44,
+            "question": "The accuracy of radiometric dating depends on the assumption that:",
+            "options": {
+                "A": "Decay rates have remained constant over time",
+                "B": "Rock layers are always disturbed",
+                "C": "All rocks contain the same minerals",
+                "D": "Samples have high moisture content"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "Radiometric dating's mathematical foundation requires that the rate at which a parent isotope decays into its daughter product has not changed over geological time. If this rate has varied, the age calculation will be inaccurate."
+        },
+        {
+            "id": 45,
+            "question": "Carbon-14 dating is most suitable for dating materials that are:",
+            "options": {
+                "A": "Thousands of years old (up to ~50,000 years)",
+                "B": "Millions of years old",
+                "C": "Only a few decades old",
+                "D": "Never exposed to air"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "Because C-14 has a half-life of only ~5,730 years, after about 50,000 years the remaining C-14 is too little to measure reliably. It is therefore used for relatively recent organic materials, not ancient geological samples."
+        },
+        {
+            "id": 46,
+            "question": "Absolute dating methods such as radiometric dating are considered 'absolute' because they yield:",
+            "options": {
+                "A": "Only relative age estimates",
+                "B": "Specific numerical ages",
+                "C": "Subjective interpretations of data",
+                "D": "Only qualitative results"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The defining characteristic of absolute dating is the production of a specific, quantitative age — for example, '65 million years old' — rather than merely 'older than' or 'younger than' another layer."
+        },
+        {
+            "id": 47,
+            "question": "The decay of Carbon-14 to Nitrogen-14 is used primarily for dating:",
+            "options": {
+                "A": "Volcanic rocks",
+                "B": "Organic remains",
+                "C": "Zircon crystals",
+                "D": "Metamorphic rocks"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Carbon-14 is incorporated into organic material during an organism's lifetime. After death, C-14 decays to N-14. Because this process only occurs in formerly living matter, C-14 dating is exclusively used on organic remains."
+        },
+        {
+            "id": 48,
+            "question": "A drawback of Carbon-14 dating is that it is not effective for dating materials older than approximately:",
+            "options": {
+                "A": "5,000 years",
+                "B": "50,000 years",
+                "C": "500,000 years",
+                "D": "5 million years"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Beyond ~50,000 years, so little C-14 remains in a sample that the signal falls below the detection limit of current instruments, making the method unreliable for older materials."
+        },
+        {
+            "id": 49,
+            "question": "Uranium-Lead dating is particularly useful because zircon crystals:",
+            "options": {
+                "A": "Incorporate uranium but exclude lead when formed",
+                "B": "Have high concentrations of carbon-14",
+                "C": "Are only found in sedimentary rocks",
+                "D": "Decay too rapidly for dating"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "When zircon crystals form from molten rock, their crystal structure welcomes uranium ions but rejects lead ions. Any lead found in the zircon today must therefore have come entirely from uranium decay, making the U-Pb ratio a reliable age indicator."
+        },
+        {
+            "id": 50,
+            "question": "A drawback of radiometric dating is that isotopic systems can become 'open' due to:",
+            "options": {
+                "A": "Perfect preservation of the sample",
+                "B": "Weathering, heating, or chemical alteration",
+                "C": "The abundance of zircon",
+                "D": "Uniform sediment deposition"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "An 'open' system is one where parent or daughter isotopes have been added to or removed from the sample by external processes (weathering, metamorphism, fluid flow). This disrupts the decay ratio and corrupts the age calculation."
+        },
+        {
+            "id": 51,
+            "question": "Which of the following is a non-radiometric dating method?",
+            "options": {
+                "A": "Carbon-14 dating",
+                "B": "Thermoluminescence dating",
+                "C": "Uranium-Lead dating",
+                "D": "Potassium-Argon dating"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Thermoluminescence dating measures accumulated trapped electrons — not radioactive decay — to determine age. Carbon-14, Uranium-Lead, and Potassium-Argon dating all rely on radioactive decay and are therefore radiometric methods."
+        },
+        {
+            "id": 52,
+            "question": "Thermoluminescence (TL) dating measures the light emitted by a mineral when:",
+            "options": {
+                "A": "It is exposed to direct sunlight",
+                "B": "It is heated, releasing trapped electrons",
+                "C": "It undergoes radioactive decay",
+                "D": "It is cooled rapidly"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "In TL dating, the laboratory heating of a mineral sample causes crystal-lattice defects (traps) to release stored electrons. As these electrons return to lower energy states, they emit photons of light — the thermoluminescence signal."
+        },
+        {
+            "id": 53,
+            "question": "TL dating is particularly effective for dating materials such as:",
+            "options": {
+                "A": "Organic remains like wood or bone",
+                "B": "Ceramic, burnt stone, and feldspar",
+                "C": "Fossilized bones",
+                "D": "Tree rings"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Ceramics and burnt stones were last heated during their use or manufacture, resetting their TL clock. Since then, ambient radiation has recharged their electron traps. Measuring the luminescence upon reheating in the lab yields the time elapsed since that last heating event."
+        },
+        {
+            "id": 54,
+            "question": "The accuracy of TL dating is generally limited to about:",
+            "options": {
+                "A": "5%",
+                "B": "15%",
+                "C": "50%",
+                "D": "90%"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "TL dating is considered accurate to roughly ±15%, meaning a measured age of 10,000 years could realistically range from about 8,500 to 11,500 years. This is a lower precision than some radiometric methods."
+        },
+        {
+            "id": 55,
+            "question": "A drawback of TL dating is that if a sample has been previously heated since its original formation, it may:",
+            "options": {
+                "A": "Be dated older than its true age",
+                "B": "Lose electrons and be dated younger than it truly is",
+                "C": "Not emit any luminescence at all",
+                "D": "Become unsuitable for any other dating method"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Prior heating (after the original formation event) expels trapped electrons from the crystal, partially or fully resetting the TL clock to zero. The subsequent re-accumulation of electrons only represents the time since that secondary heating, yielding an age younger than the true formation age."
+        },
+        {
+            "id": 56,
+            "question": "Which factor most significantly affects the accuracy of TL dating over time?",
+            "options": {
+                "A": "The sample's color",
+                "B": "Environmental radiation levels over time",
+                "C": "The sample's magnetic polarity",
+                "D": "The ambient temperature during measurement"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "TL dating assumes a constant radiation dose rate from the surrounding sediment or rock throughout the sample's history. If environmental radiation fluctuated (e.g., due to changing soil water content or variations in nearby radioactive minerals), the age estimate will be distorted."
+        },
+        {
+            "id": 57,
+            "question": "Dendrochronology is the dating method based on the analysis of:",
+            "options": {
+                "A": "Ice core layers",
+                "B": "Radioactive isotopes",
+                "C": "Tree rings",
+                "D": "Sedimentary textures"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Dendrochronology is defined by its use of tree rings — the annual growth bands formed in wood — as its primary dating tool. Each ring corresponds to one year of growth."
+        },
+        {
+            "id": 58,
+            "question": "One advantage of dendrochronology over many other dating methods is that it provides:",
+            "options": {
+                "A": "Numerical dates with annual resolution",
+                "B": "Only relative dates",
+                "C": "Information solely on volcanic activity",
+                "D": "Radiometric isotope ratios"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "Because each ring represents exactly one year, dendrochronology can date a wooden sample to the precise calendar year — a resolution unmatched by most other dating techniques."
+        },
+        {
+            "id": 59,
+            "question": "A geographic limitation of dendrochronology is that it is restricted to regions where:",
+            "options": {
+                "A": "Trees do not form distinct rings",
+                "B": "Trees form clear annual growth rings",
+                "C": "Fossils are abundant",
+                "D": "Rocks are heavily weathered"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Annual ring formation requires trees to experience distinct growing seasons. Regions without pronounced seasonal variation (e.g., equatorial tropics) produce trees that do not form countable annual rings, limiting the method's applicability."
+        },
+        {
+            "id": 60,
+            "question": "Which pair correctly identifies the two major categories of dating methods?",
+            "options": {
+                "A": "Relative dating and carbon dating",
+                "B": "Relative dating and absolute dating",
+                "C": "Absolute dating and dendrochronology",
+                "D": "Ice core dating and TL dating"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "All scientific dating methods are classified under one of two overarching categories: relative dating (which establishes sequence) and absolute dating (which provides numerical ages). Carbon dating and dendrochronology are specific techniques within the absolute category."
+        },
+        {
+            "id": 61,
+            "question": "Relative dating methods are primarily used to establish:",
+            "options": {
+                "A": "The exact numerical age of an event",
+                "B": "The order or sequence of events",
+                "C": "The chemical composition of materials",
+                "D": "Radioactive decay constants"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The core application of relative dating is determining temporal order — which events, layers, or organisms predate or postdate others — without specifying exact ages."
+        },
+        {
+            "id": 62,
+            "question": "Absolute dating methods provide:",
+            "options": {
+                "A": "Only the order of events",
+                "B": "Numerical age estimates",
+                "C": "Estimates based solely on fossil types",
+                "D": "Only qualitative data"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Absolute dating methods use measurable physical, chemical, or biological changes to calculate and express age as a number — for example, '3.5 billion years' or '8,000 years before present.'"
+        },
+        {
+            "id": 63,
+            "question": "In radiometric dating, Carbon-14 is an example of a:",
+            "options": {
+                "A": "Daughter isotope",
+                "B": "Parent isotope",
+                "C": "Stable isotope",
+                "D": "Index fossil"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Carbon-14 is the unstable, radioactive isotope that undergoes decay — making it the parent isotope. It decays into nitrogen-14, which is the stable daughter isotope in this system."
+        },
+        {
+            "id": 64,
+            "question": "The daughter product of Carbon-14 decay is:",
+            "options": {
+                "A": "Oxygen-16",
+                "B": "Carbon-12",
+                "C": "Nitrogen-14",
+                "D": "Uranium-238"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "When Carbon-14 undergoes beta decay, it loses a neutron (which becomes a proton), transforming into Nitrogen-14 — a stable, non-radioactive isotope. The accumulation of N-14 relative to C-14 reflects the elapsed time."
+        },
+        {
+            "id": 65,
+            "question": "The principle underlying radiometric dating is that radioactive isotopes decay at a:",
+            "options": {
+                "A": "Constant and predictable rate",
+                "B": "Variable rate depending on temperature",
+                "C": "Rate that increases over time",
+                "D": "Rate influenced by sediment deposition"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "Radioactive decay is a nuclear process unaffected by environmental conditions (temperature, pressure, chemistry). Each isotope has its own fixed, measurable decay rate (half-life) that has remained constant since the formation of matter."
+        },
+        {
+            "id": 66,
+            "question": "Which dating method is most commonly used for dating ancient organic remains?",
+            "options": {
+                "A": "Dendrochronology",
+                "B": "Carbon-14 dating",
+                "C": "Thermoluminescence dating",
+                "D": "Uranium-Lead dating"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Carbon-14 dating is the standard method for dating organic remains — materials that were once part of a living organism — up to approximately 50,000 years old."
+        },
+        {
+            "id": 67,
+            "question": "Zircon crystals are especially valuable in Uranium-Lead dating because they:",
+            "options": {
+                "A": "Contain high levels of carbon",
+                "B": "Incorporate uranium while excluding lead at the time of formation",
+                "C": "Are found only in very recent rocks",
+                "D": "Decay more quickly than other minerals"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Zircon's crystal structure accepts uranium ions but rejects lead. Therefore, all lead measured in a zircon crystal today is entirely a product of uranium decay, allowing a clean and unambiguous age calculation from the U:Pb ratio."
+        },
+        {
+            "id": 68,
+            "question": "Potassium-Argon dating is best suited for dating:",
+            "options": {
+                "A": "Fossilized organic remains",
+                "B": "Volcanic rock formations",
+                "C": "Wooden artifacts",
+                "D": "Modern sediment layers"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "When lava solidifies into volcanic rock, any pre-existing argon gas escapes, resetting the system to zero. After solidification, potassium-40 begins decaying to argon-40, which is trapped in the rock — making K-Ar ideal for dating volcanic formations."
+        },
+        {
+            "id": 69,
+            "question": "A major drawback of radiometric dating methods is that they can be affected by:",
+            "options": {
+                "A": "Constant decay rates",
+                "B": "Environmental factors like weathering or heating",
+                "C": "The absence of isotopes",
+                "D": "The presence of tree rings"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Post-formation processes such as weathering, fluid infiltration, metamorphic heating, and chemical alteration can cause isotopes to migrate into or out of a rock sample, corrupting the parent-to-daughter ratio and producing inaccurate ages."
+        },
+        {
+            "id": 70,
+            "question": "Radiometric dating methods assume that the decay rate of isotopes:",
+            "options": {
+                "A": "Varies significantly over geological time",
+                "B": "Has remained constant over time",
+                "C": "Is irrelevant to age determination",
+                "D": "Depends on the colour of the sample"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "A fundamental assumption of all radiometric dating methods is that radioactive decay rates are constants of nuclear physics and have not changed over billions of years of Earth history."
+        },
+        {
+            "id": 71,
+            "question": "A problem in radiometric dating arises when the isotopic system becomes 'open,' meaning that:",
+            "options": {
+                "A": "No isotopes are lost or gained",
+                "B": "The sample has exchanged isotopes with its surrounding environment",
+                "C": "The rock is completely isolated from its surroundings",
+                "D": "The decay rate is exactly as predicted"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "A 'closed system' is ideal for radiometric dating — no isotopes enter or leave. An 'open system' means the sample has interacted with its environment, causing parent or daughter isotopes to be gained or lost and making the age calculation unreliable."
+        },
+        {
+            "id": 72,
+            "question": "Non-radiometric dating methods differ from radiometric ones in that they do not rely on:",
+            "options": {
+                "A": "Measurable physical or chemical changes",
+                "B": "Radioactive decay processes",
+                "C": "Environmental sampling",
+                "D": "Fossil comparisons"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The defining distinction is that radiometric methods use nuclear decay of radioactive isotopes, while non-radiometric methods use other phenomena (electron trapping, tree growth, ice layering) to measure the passage of time."
+        },
+        {
+            "id": 73,
+            "question": "The luminescence measured in TL dating is due to the release of:",
+            "options": {
+                "A": "Heat energy from radioactive decay",
+                "B": "Trapped electrons when a mineral is heated",
+                "C": "Photons generated by chemical reactions with water",
+                "D": "Magnetic fluctuations in the crystal"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Ambient radiation knocks electrons into 'trap' sites within a mineral's crystal lattice. When the mineral is heated in the lab, these trapped electrons gain enough thermal energy to escape, and as they do so, they emit photons (light) — the thermoluminescence signal used for dating."
+        },
+        {
+            "id": 74,
+            "question": "TL dating is considered a secondary method because its accuracy can be compromised by:",
+            "options": {
+                "A": "Its basis in radioactive decay",
+                "B": "Prior heating events that reset the electron traps",
+                "C": "The inability to measure light emission",
+                "D": "Its exclusive use on organic materials"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Unlike primary radiometric methods where the decay clock is inherently tied to the rock's formation, TL dating's clock resets every time the material is heated — including by natural events like fires or burial near volcanic activity — making it less definitive."
+        },
+        {
+            "id": 75,
+            "question": "Dendrochronology can provide insights into past climatic conditions because tree rings reflect:",
+            "options": {
+                "A": "Radioactive decay rates in the soil",
+                "B": "Annual variations in growth influenced by climate",
+                "C": "The mineral content of the surrounding soil",
+                "D": "The magnetic field of the Earth at the time of growth"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Wide rings indicate favorable growing years (warm, wet conditions), while narrow rings indicate stress years (drought, cold). By analysing ring-width sequences in ancient wood, scientists can reconstruct historical climate patterns."
+        },
+        {
+            "id": 76,
+            "question": "A drawback of relative dating methods is that they:",
+            "options": {
+                "A": "Provide precise numerical ages",
+                "B": "Only establish the sequence of events without exact dates",
+                "C": "Require advanced radiometric equipment",
+                "D": "Are based on isotope decay"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Relative dating's inherent limitation is its inability to assign specific ages. Knowing that rock layer A is older than layer B is useful, but it does not tell us whether A is 10,000 or 10 million years old."
+        },
+        {
+            "id": 77,
+            "question": "The term 'open system' in radiometric dating refers to a sample that has:",
+            "options": {
+                "A": "Retained all its original isotopes since formation",
+                "B": "Experienced loss or gain of isotopes over time",
+                "C": "Been perfectly sealed from any environmental influence",
+                "D": "No radioactive elements at all"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "An open system is one where the sample's isotopic composition has been altered by external processes — isotopes have migrated in or out, violating the closed-system assumption required for accurate radiometric dating."
+        },
+        {
+            "id": 78,
+            "question": "Which dating method is based on the radioactive decay of potassium to argon?",
+            "options": {
+                "A": "Carbon-14 dating",
+                "B": "Potassium-Argon dating",
+                "C": "Dendrochronology",
+                "D": "Thermoluminescence dating"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "In Potassium-Argon (K-Ar) dating, the parent isotope is Potassium-40, which decays to the daughter product Argon-40. The ratio of K-40 to Ar-40 in volcanic minerals reflects the age of the rock."
+        },
+        {
+            "id": 79,
+            "question": "One drawback of radiometric dating is the need for assumptions regarding:",
+            "options": {
+                "A": "The visible sequence of rock layers",
+                "B": "The initial concentration of isotopes in the sample",
+                "C": "The thickness of ice cores",
+                "D": "The size of tree rings"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "To calculate an age, researchers must know (or assume) the original concentration of parent and daughter isotopes at the time the rock or mineral formed. If the initial conditions are uncertain, the age estimate will carry additional error."
+        },
+        {
+            "id": 80,
+            "question": "The assumption that rock layers are always deposited sequentially may fail due to:",
+            "options": {
+                "A": "Ideal, undisturbed sedimentary conditions",
+                "B": "Geological disturbances such as landslides, folding, or human activities",
+                "C": "Constant and predictable radiometric decay",
+                "D": "Uniform fossil distribution across all layers"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The principle of superposition assumes undisturbed deposition. However, tectonic forces, mass movements, slumping, and even human excavation and backfilling can overturn or mix strata, producing sequences where older layers overlie younger ones."
+        },
+        {
+            "id": 81,
+            "question": "Absolute dating refers to methods that provide:",
+            "options": {
+                "A": "Only a relative sequence of events",
+                "B": "Specific numerical age estimates",
+                "C": "Visual approximations of age",
+                "D": "Qualitative comparisons only"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Absolute dating quantifies age in measurable units (typically years before present), giving a specific numerical value to the age of a material rather than only its position in a sequence."
+        },
+        {
+            "id": 82,
+            "question": "Relative dating is particularly useful in constructing:",
+            "options": {
+                "A": "Exact numerical timelines with specific dates",
+                "B": "Geological chronologies showing the order of events",
+                "C": "Chemical analyses of rock minerals",
+                "D": "Magnetic profiles of rock formations"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Even without specific dates, knowing the sequence in which geological events occurred is extremely valuable for building a relative geological chronology and understanding Earth's history."
+        },
+        {
+            "id": 83,
+            "question": "Radiometric dating relies on the predictable decay of:",
+            "options": {
+                "A": "Fossils",
+                "B": "Radioactive isotopes",
+                "C": "Tree rings",
+                "D": "Sedimentary textures"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The entire foundation of radiometric dating is the measurable, predictable decay of radioactive (unstable) isotopes into stable daughter products. This decay occurs at a constant rate defined by the half-life."
+        },
+        {
+            "id": 84,
+            "question": "Which of the following is NOT a radiometric dating method?",
+            "options": {
+                "A": "Carbon-14 dating",
+                "B": "Uranium-Lead dating",
+                "C": "Dendrochronology",
+                "D": "Potassium-Argon dating"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Dendrochronology dates materials by counting tree rings — a biological and physical process unrelated to nuclear decay. Carbon-14, Uranium-Lead, and Potassium-Argon dating all depend on radioactive isotope decay."
+        },
+        {
+            "id": 85,
+            "question": "In TL dating, what does 'TL' stand for?",
+            "options": {
+                "A": "Total Luminescence",
+                "B": "Thermoluminescence",
+                "C": "Temporal Luminescence",
+                "D": "Transient Luminescence"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "TL stands for Thermoluminescence — the light ('luminescence') emitted by a mineral when it is thermally stimulated ('thermo-') by heating, as trapped electrons are released from crystal lattice defects."
+        },
+        {
+            "id": 86,
+            "question": "The reliability of radiometric dating can be compromised by:",
+            "options": {
+                "A": "Consistent environmental conditions throughout the sample's history",
+                "B": "Isotopic contamination from the surrounding environment",
+                "C": "The presence of tree rings in the same geological layer",
+                "D": "Uniform sedimentation rates"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Isotopic contamination — the introduction of parent or daughter isotopes from outside the sample (e.g., through groundwater, weathering, or laboratory handling) — alters the measured ratio and leads to an inaccurate age."
+        },
+        {
+            "id": 87,
+            "question": "One benefit of dendrochronology is its ability to provide dating with:",
+            "options": {
+                "A": "Only decadal resolution",
+                "B": "Annual (exact year-by-year) resolution",
+                "C": "Only a relative age without specific years",
+                "D": "Only qualitative growth data"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Since each tree ring corresponds to exactly one year of growth, dendrochronology can pinpoint the age of a wooden sample to a specific calendar year — an annual resolution not achievable with most other absolute dating methods."
+        },
+        {
+            "id": 88,
+            "question": "For dating an archaeological wooden artifact, which method would be most appropriate?",
+            "options": {
+                "A": "Potassium-Argon dating",
+                "B": "Carbon-14 dating",
+                "C": "Dendrochronology",
+                "D": "Uranium-Lead dating"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Dendrochronology is directly applicable to wooden artifacts — it counts and analyses the annual growth rings preserved in the wood to determine exactly when the tree was felled. Carbon-14 dating can also work, but dendrochronology offers superior precision for wood."
+        },
+        {
+            "id": 89,
+            "question": "A limitation of radiometric dating is that it assumes a closed system, meaning that:",
+            "options": {
+                "A": "The sample must never have been altered by external influences after formation",
+                "B": "The rock can exchange isotopes with its environment freely",
+                "C": "The decay rate is irrelevant to the age calculation",
+                "D": "The sample has been reheated recently"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "For a radiometric age to be valid, the sample must have behaved as a closed system — meaning no parent or daughter isotopes were added to or removed from it since the 'clock' was set at formation. Any external exchange violates this assumption."
+        },
+        {
+            "id": 90,
+            "question": "The numerical age provided by radiometric dating is referred to as an:",
+            "options": {
+                "A": "Relative age",
+                "B": "Absolute age",
+                "C": "Estimation with no measurable basis",
+                "D": "Speculative theoretical value"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Because radiometric dating yields a specific number of years (e.g., '4.6 billion years'), the resulting age is called an absolute age — in contrast to a relative age, which only describes position in a sequence."
+        },
+        {
+            "id": 91,
+            "question": "Which type of dating method relies on measurable physical, chemical, or biological changes to assign ages?",
+            "options": {
+                "A": "Relative dating",
+                "B": "Absolute dating",
+                "C": "Stratigraphy",
+                "D": "Biostratigraphy"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Absolute dating methods work by quantifying measurable changes (radioactive decay, electron accumulation, tree-ring addition) to calculate a specific numerical age for a material."
+        },
+        {
+            "id": 92,
+            "question": "The dating method that utilizes visible layers in ice cores is known as:",
+            "options": {
+                "A": "Radiometric dating",
+                "B": "Ice core dating",
+                "C": "Thermoluminescence dating",
+                "D": "Dendrochronology"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Ice core dating specifically uses the seasonal banding preserved in ice drilled from glaciers and polar ice sheets. The alternating dark and light layers represent annual cycles, which can be counted to determine age."
+        },
+        {
+            "id": 93,
+            "question": "A major drawback of TL dating is that its accuracy depends on:",
+            "options": {
+                "A": "Constant and well-known radioactive decay rates",
+                "B": "The absence of prior heating events that could remove trapped electrons",
+                "C": "The ideal undisturbed arrangement of rock layers",
+                "D": "The presence of index fossils in the same stratum"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "If a sample has been reheated between its formation and the time of analysis, the electron traps will have been partially or fully emptied, making the TL measurement reflect the time since the last heating — not the original event — leading to an underestimate of the true age."
+        },
+        {
+            "id": 94,
+            "question": "The term 'index species' is most closely associated with which dating method?",
+            "options": {
+                "A": "Biostratigraphy",
+                "B": "Absolute dating by isotope ratios",
+                "C": "Thermoluminescence dating",
+                "D": "Dendrochronology"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "In biostratigraphy, index species (also called index fossils) are organisms with short, well-defined temporal ranges that are used to identify and date the rock layers in which they are found."
+        },
+        {
+            "id": 95,
+            "question": "One key assumption in radiometric dating is that the decay rate of radioactive isotopes is:",
+            "options": {
+                "A": "Variable and changes with geological time",
+                "B": "Constant over time",
+                "C": "Dependent on the fossil content of the sample",
+                "D": "Irrelevant to the dating process"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Radiometric dating's mathematical models assume a constant decay rate (half-life) for each radioactive isotope. This assumption is supported by experimental physics but must hold true over billions of years for the method to be valid."
+        },
+        {
+            "id": 96,
+            "question": "Geological relationships used in relative dating often involve identifying:",
+            "options": {
+                "A": "Cross-cutting features in rock layers",
+                "B": "Radioactive half-lives in minerals",
+                "C": "Tree-ring patterns in buried wood",
+                "D": "Luminescence intensity in feldspar"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "Cross-cutting relationships — where a feature such as a fault, intrusion, or erosion surface cuts across pre-existing rock layers — establish that the cutting feature is younger than the rocks it intersects, enabling relative dating."
+        },
+        {
+            "id": 97,
+            "question": "Absolute dating methods are considered more definitive than relative dating because they provide:",
+            "options": {
+                "A": "Only the order of events without quantification",
+                "B": "Specific numerical ages in years",
+                "C": "Purely qualitative comparisons between strata",
+                "D": "Visual descriptions of rock layer appearances"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Absolute dating methods are 'definitive' in that they yield a quantitative result — a measurable age expressed in years. This is more informative than relative dating, which only tells us the temporal order of events."
+        },
+        {
+            "id": 98,
+            "question": "TL dating is particularly sensitive to changes in which environmental factor?",
+            "options": {
+                "A": "Ambient air temperature during sample burial",
+                "B": "Environmental radiation levels over time",
+                "C": "Atmospheric pressure around the sample",
+                "D": "Magnetic field strength at the burial site"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The rate of electron accumulation in TL dating depends directly on the radiation dose the sample receives from its surrounding environment. Any historical change in local radiation levels (from changing mineralogy, groundwater, or burial depth) alters the electron accumulation rate and introduces dating error."
+        },
+        {
+            "id": 99,
+            "question": "For dating volcanic materials, which method is most appropriate?",
+            "options": {
+                "A": "Thermoluminescence dating",
+                "B": "Potassium-Argon dating",
+                "C": "Dendrochronology",
+                "D": "Ice core dating"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Potassium-Argon dating is the standard method for volcanic rocks because lava solidification expels all argon and resets the K-Ar clock to zero. Subsequent decay of K-40 trapped in the solidified rock begins accumulating Ar-40, which is then measured to date the eruption."
+        },
+        {
+            "id": 100,
+            "question": "A common drawback shared by relative dating methods is that they:",
+            "options": {
+                "A": "Always provide precise numerical ages",
+                "B": "Are unaffected by geological disturbances",
+                "C": "Cannot determine the exact age of events",
+                "D": "Rely on radioactive decay, introducing nuclear uncertainty"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The fundamental limitation of all relative dating methods is that they establish temporal order (older/younger relationships) but cannot assign actual numerical ages to events. Determining exact ages requires absolute dating techniques."
+        }
+    ]
+}

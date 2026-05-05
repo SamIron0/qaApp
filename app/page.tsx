@@ -19,10 +19,7 @@ export default async function HomePage() {
     <BrowseShell>
       <main className="mx-auto max-w-5xl px-4 py-10 sm:px-6">
         <div className="mb-8 max-w-2xl space-y-2">
-          <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Choose a course</h1>
-          <p className="text-sm text-zinc-600 dark:text-zinc-400">
-            Select the course you want to practice. You&apos;ll pick a question bank on the next step.
-          </p>
+          <h1 className="text-xl font-semibold tracking-tight sm:text-2xl">Courses</h1>
         </div>
 
         <ul className="grid gap-4 sm:grid-cols-2">
@@ -43,12 +40,6 @@ export default async function HomePage() {
                     >
                       {course.name}
                     </h2>
-                    <span
-                      className="mt-0.5 shrink-0 text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:text-[#c9a84c] dark:text-zinc-500"
-                      aria-hidden
-                    >
-                      →
-                    </span>
                   </div>
                   <span className="mt-3 inline-flex w-fit rounded-full border border-[#c9a84c]/40 bg-[#fff8e7] px-2.5 py-0.5 text-xs font-medium text-[#8a6a14] dark:border-[#c9a84c]/40 dark:bg-[#3a2f14] dark:text-[#f0dda0]">
                     {course.code}

@@ -2,6 +2,7 @@ export type QuestionBank = {
   id: string;
   name: string;
   file: string;
+  vendor: "astar" | "quro";
   questionCount?: number;
 };
 
@@ -24,6 +25,7 @@ export const COURSES: Course[] = [
         id: "main",
         name: "Main Practice Set",
         file: "./question-bank/practice_questions.json",
+        vendor: "quro",
       },
     ],
   },
@@ -35,66 +37,92 @@ export const COURSES: Course[] = [
     banks: [
       {
         id: "bank12",
-        name: "Chapter 1 by Quro",
-        file: "./question-bank/bank12.json"
+        name: "Chapter 1",
+        file: "./question-bank/bank12.json",
+        vendor: "quro",
       },
       {
         id: "bank1",
-        name: "AD ASTRA'S Comprehensive Test on Propositions, Arguments, and Reasoning by AStar",
+        name: "Comprehensive Test on Propositions, Arguments, and Reasoning",
         file: "./question-bank/bank1.json",
+        vendor: "astar",
       },
       {
         id: "bank2",
-        name: "AD ASTRA'S QUESTIONS ON CATEGORICAL PROPOSITIONS by AStar",
+        name: "QUESTIONS ON CATEGORICAL PROPOSITIONS",
         file: "./question-bank/bank2.json",
+        vendor: "astar",
       },
       {
         id: "bank3",
-        name: "MULTI CHOICE QUESTIONS ON CHAPTER 3- MAJOR BRANCHES OF PHILOSOPHY by AStar",
+        name: "CHAPTER 3 - MAJOR BRANCHES OF PHILOSOPHY",
         file: "./question-bank/bank3.json",
+        vendor: "astar",
       },
       {
         id: "bank4",
-        name: "MULTI CHOICE QUESTIONS ON CHAPTER 6- LOGIC AND ITS RELEVANCE by AStar",
+        name: "CHAPTER 6 - LOGIC AND ITS RELEVANCE",
         file: "./question-bank/bank4.json",
+        vendor: "astar",
       },
       {
         id: "bank5",
-        name: "THEROTICAL UNDERSTANDING OF CATEGORICAL PREPOSITION by AStar",
+        name: "THEROTICAL UNDERSTANDING OF CATEGORICAL PREPOSITION",
         file: "./question-bank/bank5.json",
+        vendor: "astar",
       },
       {
         id: "bank6",
-        name: "Philosophy chapter 1 by AStar",
+        name: "Chapter 1",
         file: "./question-bank/bank6.json",
+        vendor: "astar",
       },
       {
         id: "bank7",
-        name: "Philosophy chapter 2 by AStar",
+        name: "Chapter 2",
         file: "./question-bank/bank7.json",
+        vendor: "astar",
       },
       {
         id: "bank8",
-        name: "Philosophy chapter 3 by AStar",
+        name: "Chapter 3",
         file: "./question-bank/bank8.json",
+        vendor: "astar",
       },
       {
         id: "bank9",
-        name: "Philosophy chapter 4 by AStar",
+        name: "Chapter 4",
         file: "./question-bank/bank9.json",
+        vendor: "astar",
       },
       {
         id: "bank10",
-        name: "Philosophy chapter 5 by AStar",
+        name: "Chapter 5",
         file: "./question-bank/bank10.json",
+        vendor: "astar",
       },
       {
         id: "bank11",
-        name: "Philosophy chapter 6&7 by AStar",
+        name: "Chapter 6&7",
         file: "./question-bank/bank11.json",
+        vendor: "astar",
       },
     ],
   },
+  {
+    id: "gst220",
+    name: "Origins and Science",
+    code: "GST 220",
+    department: "General Studies",
+    banks: [
+      {
+        id: "bank13",
+        name: "Question Bank for Origins and Science",
+        file: "./question-bank/bank13.json",
+        vendor: "astar",
+      },
+    ]
+  }
 ];
 
 export function courseBanksPath(courseId: string): string {
