@@ -2,22 +2,35 @@ import Link from "next/link";
 import { Playfair_Display } from "next/font/google";
 
 import { BrowseShell } from "@/components/layout/BrowseShell";
+import { QuickAccessWidget } from "@/components/QuickAccessWidget";
 import { COURSES, courseBanksPath } from "@/lib/courses";
+import { getQuickAccessData } from "@/lib/quick-access-date";
 import { createClient } from "@/utils/supabase/server";
 
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-});
+const playfair = Playfair_Display({ subsets: ["latin"] });
 
 export default async function HomePage() {
   const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const { data: { user } } = await supabase.auth.getUser();
+
+  // Fetch recents + bookmarks in parallel — only for authenticated users
+  const quickAccess = user ? await getQuickAccessData(user.id) : null;
 
   return (
     <BrowseShell>
       <main className="mx-auto max-w-5xl px-4 py-10 sm:px-6">
+
+        {/* ── Quick access widget — only shown to authenticated users
+            who have at least one recent or bookmark ── */}
+        {quickAccess && (
+          quickAccess.recents.length > 0 || quickAccess.bookmarks.length > 0
+        ) && (
+          <QuickAccessWidget
+            recents={quickAccess.recents}
+            bookmarks={quickAccess.bookmarks}
+          />
+        )}
+
         <div className="mb-8 max-w-2xl space-y-2">
           <h1 className="text-xl font-semibold tracking-tight sm:text-2xl">Courses</h1>
         </div>

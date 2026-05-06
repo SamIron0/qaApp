@@ -1,11 +1,11 @@
-import { notFound } from "next/navigation";
-import { redirect } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 
 import { AppHeader } from "@/components/layout/AppHeader";
 import { PracticeModeClient } from "@/components/PracticeModeClient";
 import { QuizModeClient } from "@/components/QuizModeClient";
 import { getCourseAndBank } from "@/lib/courses";
 import { loadQuestionsFromJsonFile } from "@/lib/questions-server";
+import { recordVisit } from "@/lib/record-visit";
 
 type PageProps = {
   params: Promise<{ courseId: string; bankId: string }>;
@@ -19,12 +19,12 @@ export default async function SessionPage({ params, searchParams }: PageProps) {
   const found = getCourseAndBank(courseId, bankId);
   if (!found) notFound();
 
-  if (!mode) {
-    redirect(`/courses/${courseId}/${bankId}/setup`);
-  }
+  if (!mode) redirect(`/courses/${courseId}/${bankId}/setup`);
 
   const { course, bank } = found;
   const allQuestions = loadQuestionsFromJsonFile(bank.file);
+
+  void recordVisit(courseId, bankId);
 
   if (mode === "practice") {
     return (
@@ -48,7 +48,6 @@ export default async function SessionPage({ params, searchParams }: PageProps) {
       allQuestions.length,
     );
 
-    // Shuffle and slice
     const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
     const questions = shuffled.slice(0, clampedCount);
 
