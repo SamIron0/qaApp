@@ -4,7 +4,7 @@ import { Playfair_Display } from "next/font/google";
 import { BrowseShell } from "@/components/layout/BrowseShell";
 import { QuickAccessWidget } from "@/components/QuickAccessWidget";
 import { COURSES, courseBanksPath } from "@/lib/courses";
-import { getQuickAccessData } from "@/lib/quick-access-date";
+import { getQuickAccessData } from "@/lib/quick-access-data";
 import { createClient } from "@/utils/supabase/server";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });

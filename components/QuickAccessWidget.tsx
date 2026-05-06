@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Playfair_Display } from "next/font/google";
 
-import type { QuickAccessBank } from "@/lib/quick-access-date";
+import type { QuickAccessBank } from "@/lib/quick-access-data";
 import { useResolvedDark } from "@/hooks/use-resolved-dark";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
