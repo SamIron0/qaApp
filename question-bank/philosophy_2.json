@@ -1,0 +1,1152 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary focus of the philosophy of language?",
+      "options": {
+        "A": "The grammatical rules governing written communication",
+        "B": "The nature of human language, its origins and use, the relationship between meaning and truth, and how language relates to human thought and reality",
+        "C": "The historical development of spoken dialects across cultures",
+        "D": "The biological mechanisms behind human speech production"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text explicitly states that philosophy of language investigates the nature of human language, its origins and use, the relationship between meaning and truth, and how language relates to human thought and understanding, as well as to reality itself."
+    },
+    {
+      "id": 2,
+      "question": "According to the text, what have philosophers long been concerned with regarding language?",
+      "options": {
+        "A": "The aesthetic qualities of poetic language",
+        "B": "The speed at which language evolves over generations",
+        "C": "The systematic way in which language carries information about the world",
+        "D": "The differences between spoken and written language"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The opening sentence states that philosophers have long been concerned with the systematic way in which language carries information about the world."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is identified as a central question in the philosophy of language?",
+      "options": {
+        "A": "Why do some languages have more words than others?",
+        "B": "What it means for a word to make reference and how meaning corresponds to reality",
+        "C": "How children acquire language faster than adults",
+        "D": "Whether written language is superior to spoken language"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text identifies as a central question what it means for a word to make reference — what it is for language to mean something, and how that meaning corresponds to reality."
+    },
+    {
+      "id": 4,
+      "question": "What is the question about thought and language posed in the text?",
+      "options": {
+        "A": "Whether language shapes culture more than culture shapes language",
+        "B": "Whether a form of language is necessary for thought — do people think in language, or think and then translate thoughts into language",
+        "C": "Whether animals can develop language-based thought",
+        "D": "Whether mathematical language is a form of natural language"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text presents the question of whether a form of language is necessary for thought — specifically whether people think in language, or whether they think and then translate those thoughts into language."
+    },
+    {
+      "id": 5,
+      "question": "According to Baykent (2016), how is the philosophy of language defined as a field?",
+      "options": {
+        "A": "A branch of cognitive science studying how the brain processes words",
+        "B": "The field where philosophical questions about language are discussed and where language, language ability, and the language we speak are viewed philosophically",
+        "C": "A discipline focused exclusively on the logical structure of sentences",
+        "D": "The study of how language policies are formed in governments"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "Baykent (2016: 13) is cited as defining the philosophy of language as the field where philosophical questions about language are discussed and where the concept of language, language ability, and the language we speak are viewed philosophically."
+    },
+    {
+      "id": 6,
+      "question": "According to the text (citing Kutas, 2013), how many central problems has the philosophy of language been concerned with?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Five"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text states, citing Kutas (2013: 12), that as a field of study, the philosophy of language has been concerned with four central problems."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is NOT listed as one of the four central problems of the philosophy of language?",
+      "options": {
+        "A": "The nature of meaning",
+        "B": "Language use",
+        "C": "Language translation",
+        "D": "Language cognition"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The four central problems listed are: the nature of meaning, language use, language cognition, and the relationship between language and reality. Language translation is not mentioned."
+    },
+    {
+      "id": 8,
+      "question": "What is the fourth central problem of the philosophy of language mentioned in the text?",
+      "options": {
+        "A": "The origin of language",
+        "B": "The relationship between language and reality",
+        "C": "The diversity of human languages",
+        "D": "The development of writing systems"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text lists the four central problems as: the nature of meaning, language use, language cognition, and the relationship between language and reality."
+    },
+    {
+      "id": 9,
+      "question": "At what level is the relationship between philosophy of language and logic described?",
+      "options": {
+        "A": "Semantic level",
+        "B": "Pragmatic level",
+        "C": "Syntactic level",
+        "D": "Phonological level"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text explicitly states that the relationship between philosophy of language and logic is at the syntactic level."
+    },
+    {
+      "id": 10,
+      "question": "How does the text describe logic's inquiry?",
+      "options": {
+        "A": "An inquiry into the emotional content of language",
+        "B": "An inquiry into the logical form of propositions, which is the syntactic level of questioning language in philosophy",
+        "C": "An inquiry into the cultural meaning embedded in words",
+        "D": "An inquiry into the historical origins of grammatical structures"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text describes logic as an inquiry into the logical form of propositions, which is the syntactic level of questioning language in philosophy."
+    },
+    {
+      "id": 11,
+      "question": "How is the language of logic characterized in the text?",
+      "options": {
+        "A": "Natural and intuitive",
+        "B": "Poetic and expressive",
+        "C": "Formal and artificial",
+        "D": "Ambiguous and context-dependent"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text states that logic displays a formal and artificial language, which is often contrasted with human language."
+    },
+    {
+      "id": 12,
+      "question": "What is the relationship between logic's language and human language according to the text?",
+      "options": {
+        "A": "They are essentially the same",
+        "B": "Logic's formal and artificial language is often contrasted with human language",
+        "C": "Human language is a simplified version of logical language",
+        "D": "Logic derives all its symbols from human language"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text explicitly states that logic displays a formal and artificial language which is often contrasted with human language."
+    },
+    {
+      "id": 13,
+      "question": "With which branch of philosophy does the philosophy of language also interact?",
+      "options": {
+        "A": "Metaphysics",
+        "B": "Aesthetics",
+        "C": "Epistemology",
+        "D": "Ethics"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text states that philosophy of language also interacts with epistemology, describing it as more like a branch of applied epistemology."
+    },
+    {
+      "id": 14,
+      "question": "Why does the text describe philosophy of language as being more like a branch of applied epistemology?",
+      "options": {
+        "A": "Because it studies how knowledge is stored in books and documents",
+        "B": "Because its main question — how do we know what an utterance or text means — is an epistemological question",
+        "C": "Because it relies on scientific experiments to verify language claims",
+        "D": "Because it studies the ethics of how knowledge is communicated"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text explains that philosophy of language is like applied epistemology because its main question is epistemological: how do we know what an utterance or a text means."
+    },
+    {
+      "id": 15,
+      "question": "According to the text, how do we arrive at knowledge of what an utterance or text means?",
+      "options": {
+        "A": "Through memorization of vocabulary",
+        "B": "Through grammatical analysis of sentence structure",
+        "C": "Through interpretation",
+        "D": "Through consulting authoritative dictionaries"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text states: 'We arrive at this knowledge through interpretation. In interpreting a text, we discover its meaning or, rather, its content.'"
+    },
+    {
+      "id": 16,
+      "question": "When interpreting a text, what do we discover according to the text?",
+      "options": {
+        "A": "Its grammatical errors",
+        "B": "Its author's biography",
+        "C": "Its meaning or content",
+        "D": "Its cultural context"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text states: 'In interpreting a text, we discover its meaning or, rather, its content.'"
+    },
+    {
+      "id": 17,
+      "question": "What does the text identify as the nature of some information needed to interpret a text?",
+      "options": {
+        "A": "Mathematical in nature",
+        "B": "Linguistic in nature",
+        "C": "Psychological in nature",
+        "D": "Cultural in nature"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states: 'It seems clear that some of the information we need to interpret a text is linguistic in nature.'"
+    },
+    {
+      "id": 18,
+      "question": "What ability does the text say we need in order to interpret language?",
+      "options": {
+        "A": "The ability to understand the speaker's emotions",
+        "B": "The ability to identify (at least some of) the words uttered and what they mean in the language",
+        "C": "The ability to recall the historical context of the communication",
+        "D": "The ability to paraphrase sentences into simpler forms"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states that we need to be able to identify (at least some of) the words uttered and what they mean in the language they belong to, as part of interpreting a text."
+    },
+    {
+      "id": 19,
+      "question": "Which best describes how philosophy of language is related to logic, based on the text?",
+      "options": {
+        "A": "Philosophy of language is a subset of logic",
+        "B": "Logic and philosophy of language are unrelated disciplines",
+        "C": "Philosophy of language is intimately related to logic, particularly at the syntactic level",
+        "D": "Logic replaces philosophy of language in academic study"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text states: 'Philosophy of language is also intimately related to logic. This relationship is at the syntactic level.'"
+    },
+    {
+      "id": 20,
+      "question": "Which of the following best captures all three relationships the philosophy of language has with other disciplines, as described in the text?",
+      "options": {
+        "A": "It relates to psychology, sociology, and anthropology",
+        "B": "It relates to logic (at the syntactic level), epistemology, and cognitive science",
+        "C": "It relates to logic (at the syntactic level) and epistemology",
+        "D": "It relates to ethics, metaphysics, and logic"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text specifically mentions two interdisciplinary relationships: philosophy of language is intimately related to logic (at the syntactic level) and also interacts with epistemology. Cognitive science is not mentioned."
+    },
+    {
+      "id": 21,
+      "question": "What is described as a fundamental requirement for arriving at the meaning of a text?",
+      "options": {
+        "A": "Understanding the cultural context of the author",
+        "B": "Being able to identify the words uttered and what they mean in the language they are uttered",
+        "C": "Having knowledge of formal logic and artificial language",
+        "D": "Applying metaphysical analysis to the text"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states that some information needed to interpret a text is linguistic in nature — we need to identify the words uttered and what they mean in the language they are uttered, calling this a fundamental requirement."
+    },
+    {
+      "id": 22,
+      "question": "According to the passage, philosophy of language is best described as a branch of which discipline?",
+      "options": {
+        "A": "Metaphysics",
+        "B": "Logic",
+        "C": "Applied epistemology",
+        "D": "Normative jurisprudence"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The passage states that philosophy of language is 'more like a branch of applied epistemology' because its main question — how do we know what an utterance or text means — is an epistemological question."
+    },
+    {
+      "id": 23,
+      "question": "What is the main epistemological question that philosophy of language seeks to answer?",
+      "options": {
+        "A": "What is the logical form of a valid argument?",
+        "B": "How do we know what an utterance or a text means?",
+        "C": "What is the relationship between language and metaphysics?",
+        "D": "How do moral norms differ from legal norms?"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The passage explicitly states: 'its main question is an epistemological question: how do we know what an utterance or a text means?'"
+    },
+    {
+      "id": 24,
+      "question": "At what level does the relationship between philosophy of language and logic primarily exist?",
+      "options": {
+        "A": "The semantic level",
+        "B": "The pragmatic level",
+        "C": "The syntactic level",
+        "D": "The metaphysical level"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The passage states: 'Philosophy of language is also intimately related to logic. This relationship is at the syntactic level.'"
+    },
+    {
+      "id": 25,
+      "question": "How does logic relate to language according to the passage?",
+      "options": {
+        "A": "Logic studies how humans emotionally respond to language",
+        "B": "Logic is an inquiry into the logical form of propositions, which is the syntactic level of questioning language",
+        "C": "Logic replaces the need for natural language in philosophy",
+        "D": "Logic deals exclusively with the meaning of words in context"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The passage describes logic as 'an inquiry into the logical form of propositions which is the syntactic level of questioning language in philosophy.'"
+    },
+    {
+      "id": 26,
+      "question": "How is the language used by logic characterized in the passage?",
+      "options": {
+        "A": "Natural and intuitive",
+        "B": "Poetic and metaphorical",
+        "C": "Formal and artificial, often contrasted with human language",
+        "D": "Informal and conversational"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The passage states that 'Logic displays a formal and artificial language which is often contrasted with human language.'"
+    },
+    {
+      "id": 27,
+      "question": "How do we arrive at the knowledge of what a text means, according to the passage?",
+      "options": {
+        "A": "Through formal logical deduction",
+        "B": "Through metaphysical intuition",
+        "C": "Through interpretation",
+        "D": "Through memorization of linguistic rules"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The passage states: 'We arrive at this knowledge through interpretation. In interpreting a text, we discover its meaning or, rather, its content.'"
+    },
+    {
+      "id": 28,
+      "question": "Which philosophical discipline does metaphysics interact with in a 'very intimate manner' according to the passage?",
+      "options": {
+        "A": "Ethics",
+        "B": "Philosophy of language",
+        "C": "Political philosophy",
+        "D": "Legal philosophy"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The passage states: 'Metaphysics also interacts with the philosophy of language in a very intimate manner.'"
+    },
+    {
+      "id": 29,
+      "question": "What is the primary concern of philosophy of law (legal philosophy)?",
+      "options": {
+        "A": "Enforcing moral standards through legislation",
+        "B": "Providing a general philosophical analysis of law and legal institutions",
+        "C": "Interpreting constitutional documents for democratic governments",
+        "D": "Studying the history of legal systems across cultures"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The passage defines philosophy of law as being 'concerned with providing a general philosophical analysis of law and legal institutions.'"
+    },
+    {
+      "id": 30,
+      "question": "Which of the following best describes the range of issues in the field of philosophy of law?",
+      "options": {
+        "A": "Only practical questions about how to apply existing laws",
+        "B": "Only abstract questions about the nature of law",
+        "C": "From abstract conceptual questions about the nature of law to normative questions about law and morality",
+        "D": "Exclusively questions about criminal justice and punishment"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The passage states that issues 'range from abstract conceptual questions about the nature of law and legal systems to normative questions about the relationship between law and morality and the justification for various legal institutions.'"
+    },
+    {
+      "id": 31,
+      "question": "Compared to political philosophy and applied ethics, how are topics in legal philosophy described?",
+      "options": {
+        "A": "More concrete and practical",
+        "B": "More abstract",
+        "C": "More focused on individual rights",
+        "D": "Less systematic"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The passage states: 'Topics in legal philosophy tend to be more abstract than related topics in political philosophy and applied ethics.'"
+    },
+    {
+      "id": 32,
+      "question": "According to the passage, the question of how properly to interpret the U.S. Constitution belongs to which field?",
+      "options": {
+        "A": "Legal philosophy",
+        "B": "Applied ethics",
+        "C": "Democratic theory / political philosophy",
+        "D": "Analytic jurisprudence"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The passage says interpreting the U.S. Constitution 'belongs to democratic theory (and hence falls under the heading of political philosophy).'"
+    },
+    {
+      "id": 33,
+      "question": "The analysis of legal interpretation falls under the heading of which field?",
+      "options": {
+        "A": "Political philosophy",
+        "B": "Applied ethics",
+        "C": "Legal philosophy",
+        "D": "Normative jurisprudence"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The passage contrasts constitutional interpretation (political philosophy) with legal interpretation, stating the latter 'falls under the heading of legal philosophy.'"
+    },
+    {
+      "id": 34,
+      "question": "Whether capital punishment is morally permissible is a question that falls under which heading?",
+      "options": {
+        "A": "Legal philosophy",
+        "B": "Applied ethics",
+        "C": "Analytic jurisprudence",
+        "D": "Political philosophy"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The passage explicitly states: 'whereas the question of whether capital punishment is morally permissible falls under the heading of applied ethics.'"
+    },
+    {
+      "id": 35,
+      "question": "The question of whether the institution of punishment can be justified falls under which heading?",
+      "options": {
+        "A": "Applied ethics",
+        "B": "Political philosophy",
+        "C": "Legal philosophy",
+        "D": "Critical theory of law"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The passage states: 'the question of whether the institution of punishment can be justified falls under the heading of legal philosophy,' distinguishing it from the applied ethics question about capital punishment."
+    },
+    {
+      "id": 36,
+      "question": "How many broad categories do the topics of legal philosophy fall into, according to the passage?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Five"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The passage states: 'There are roughly three categories into which the topics of legal philosophy fall: analytic jurisprudence, normative jurisprudence, and critical theories of law.'"
+    },
+    {
+      "id": 37,
+      "question": "What are the three categories into which topics of legal philosophy fall?",
+      "options": {
+        "A": "Moral philosophy, political philosophy, and applied ethics",
+        "B": "Analytic jurisprudence, normative jurisprudence, and critical theories of law",
+        "C": "Epistemology, metaphysics, and logic",
+        "D": "Constitutional law, criminal law, and civil law"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The passage explicitly lists the three categories as analytic jurisprudence, normative jurisprudence, and critical theories of law."
+    },
+    {
+      "id": 38,
+      "question": "What does analytic jurisprudence involve?",
+      "options": {
+        "A": "Examining prescriptive and evaluative issues about the law",
+        "B": "Providing an analysis of the essence of law so as to understand what differentiates it from other systems of norms such as ethics",
+        "C": "Critiquing the social and political biases embedded in legal systems",
+        "D": "Justifying the institutions of punishment and criminal law"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The passage defines analytic jurisprudence as 'providing an analysis of the essence of law so as to understand what differentiates it from other systems of norms, such as ethics.'"
+    },
+    {
+      "id": 39,
+      "question": "What does normative jurisprudence involve?",
+      "options": {
+        "A": "Analyzing the logical structure of legal propositions",
+        "B": "Comparing law across different national systems",
+        "C": "The examination of normative, evaluative, and otherwise prescriptive issues about the law",
+        "D": "Providing a historical account of how legal systems developed"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The passage states: 'Normative jurisprudence involves the examination of normative, evaluative, and otherwise prescriptive issues about the law.'"
+    },
+    {
+      "id": 40,
+      "question": "Which example is used to illustrate the difference between applied ethics and legal philosophy?",
+      "options": {
+        "A": "The question of free speech vs. hate speech laws",
+        "B": "Whether capital punishment is morally permissible (applied ethics) vs. whether punishment as an institution can be justified (legal philosophy)",
+        "C": "The interpretation of contracts vs. the interpretation of the constitution",
+        "D": "Whether stealing is wrong (applied ethics) vs. whether property law is justified (legal philosophy)"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The passage uses capital punishment as a worked example: the moral permissibility question belongs to applied ethics, while the institutional justification of punishment belongs to legal philosophy."
+    },
+    {
+      "id": 41,
+      "question": "What is the primary focus of Philosophy of Religion?",
+      "options": {
+        "A": "The scientific study of religious rituals and practices",
+        "B": "The philosophical examination of themes and concepts involved in religious traditions and matters of religious significance",
+        "C": "The historical documentation of world religions",
+        "D": "The sociological analysis of religious communities"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "Philosophy of religion is defined as the philosophical examination of themes and concepts involved in religious traditions, as well as reflecting on matters of religious significance."
+    },
+    {
+      "id": 42,
+      "question": "Which of the following is listed as a topic within the scope of Philosophy of Religion?",
+      "options": {
+        "A": "Economic theories of religious institutions",
+        "B": "Psychological effects of prayer",
+        "C": "Alternative concepts of God or ultimate reality",
+        "D": "Archaeological evidence for religious texts"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text explicitly lists 'alternative concepts of God or ultimate reality' as one of the topics covered in philosophy of religion."
+    },
+    {
+      "id": 43,
+      "question": "According to the text, which historical event is given as an example of a historical event that falls within the scope of Philosophy of Religion?",
+      "options": {
+        "A": "The French Revolution",
+        "B": "The Holocaust",
+        "C": "World War I",
+        "D": "The Black Death"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text specifically cites the Holocaust (along with the 1755 Lisbon Earthquake) as an example of a historical event with religious significance addressed by philosophy of religion."
+    },
+    {
+      "id": 44,
+      "question": "The 1755 Lisbon Earthquake is mentioned in the text as an example of what?",
+      "options": {
+        "A": "A scientific discovery relevant to philosophy of science",
+        "B": "A general feature of the cosmos with religious significance",
+        "C": "A historical event with religious significance",
+        "D": "A natural law studied by metaphysics"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text lists the 1755 Lisbon Earthquake alongside the Holocaust as examples of historical events with religious significance studied in philosophy of religion."
+    },
+    {
+      "id": 45,
+      "question": "Which of the following is given as an example of a 'general feature of the cosmos' with religious significance?",
+      "options": {
+        "A": "The Holocaust",
+        "B": "The emergence of consciousness",
+        "C": "Secular naturalism",
+        "D": "The Lisbon Earthquake"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text lists 'the laws of nature' and 'the emergence of consciousness' as examples of general features of the cosmos that have religious significance."
+    },
+    {
+      "id": 46,
+      "question": "What does Philosophy of Religion include beyond examining religious traditions?",
+      "options": {
+        "A": "The promotion of theism over atheism",
+        "B": "The investigation and assessment of worldviews that are alternatives to religious worldviews",
+        "C": "The empirical testing of religious claims",
+        "D": "The legal regulation of religious institutions"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states that philosophy of religion includes the investigation and assessment of worldviews such as secular naturalism that are alternatives to religious worldviews."
+    },
+    {
+      "id": 47,
+      "question": "Secular naturalism is mentioned in the text as an example of what?",
+      "options": {
+        "A": "A religious worldview studied in philosophy of religion",
+        "B": "A worldview that is an alternative to religious worldviews",
+        "C": "A branch of philosophy of science",
+        "D": "A form of applied ethics"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text uses secular naturalism as an example of a worldview that is an alternative to religious worldviews, which philosophy of religion investigates and assesses."
+    },
+    {
+      "id": 48,
+      "question": "According to the text, philosophy of religion involves which of the following main areas of philosophy?",
+      "options": {
+        "A": "Only metaphysics and epistemology",
+        "B": "Only ethics and political philosophy",
+        "C": "Metaphysics, epistemology, value theory, philosophy of language, science, history, politics, art, and more",
+        "D": "Only philosophy of science and philosophy of language"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text states that philosophy of religion 'involves all the main areas of philosophy,' listing metaphysics, epistemology, value theory, philosophy of language, science, history, politics, art, and so on."
+    },
+    {
+      "id": 49,
+      "question": "Value theory in the context of Philosophy of Religion includes which of the following?",
+      "options": {
+        "A": "Economic valuation of religious sites",
+        "B": "Moral theory and applied ethics",
+        "C": "Legal theory and jurisprudence",
+        "D": "Political science and governance"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states that value theory includes moral theory and applied ethics as part of the areas covered in philosophy of religion."
+    },
+    {
+      "id": 50,
+      "question": "In which academic departments is philosophy of religion primarily (but not exclusively) practiced?",
+      "options": {
+        "A": "Departments of history and sociology",
+        "B": "Departments of theology and anthropology",
+        "C": "Departments of philosophy and religious studies",
+        "D": "Departments of psychology and cultural studies"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text states that philosophy of religion is 'practiced primarily (but not exclusively) in departments of philosophy and religious studies.'"
+    },
+    {
+      "id": 51,
+      "question": "Which intellectual tradition does the text say philosophy of religion largely operates within?",
+      "options": {
+        "A": "The continental tradition",
+        "B": "The broadly analytic tradition",
+        "C": "The phenomenological tradition",
+        "D": "The pragmatist tradition"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states that philosophy of religion is practiced in departments 'that are in the broadly analytic tradition.'"
+    },
+    {
+      "id": 52,
+      "question": "According to the text, which religious faiths are referred to as the 'Abrahamic faiths'?",
+      "options": {
+        "A": "Hinduism, Buddhism, and Sikhism",
+        "B": "Judaism, Christianity, and Islam",
+        "C": "Christianity, Islam, and Zoroastrianism",
+        "D": "Judaism, Christianity, and Hinduism"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text explicitly identifies Judaism, Christianity, and Islam as the Abrahamic faiths."
+    },
+    {
+      "id": 53,
+      "question": "What trend in philosophy of religion does the text highlight as increasingly significant?",
+      "options": {
+        "A": "A narrowing focus solely on theism",
+        "B": "A shift away from analytic philosophy",
+        "C": "More traditions outside the Abrahamic faiths becoming the focus of important philosophical work",
+        "D": "A decline in philosophy of religion as a discipline"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text concludes by highlighting 'the increasing breadth of the field, as more traditions outside the Abrahamic faiths have become the focus of important philosophical work.'"
+    },
+    {
+      "id": 54,
+      "question": "What is Philosophy of Science primarily concerned with?",
+      "options": {
+        "A": "Conducting scientific experiments and reporting results",
+        "B": "The foundations, methods, and implications of science",
+        "C": "The history and biography of famous scientists",
+        "D": "The funding and administration of scientific research"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text defines philosophy of science as 'the branch of philosophy concerned with the foundations, methods, and implications of science.'"
+    },
+    {
+      "id": 55,
+      "question": "Which of the following is listed as a central question in Philosophy of Science?",
+      "options": {
+        "A": "How scientific experiments should be funded",
+        "B": "The difference between science and non-science",
+        "C": "The moral obligations of scientists",
+        "D": "The political influence of scientific institutions"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text lists 'the difference between science and non-science' as one of the central questions in philosophy of science."
+    },
+    {
+      "id": 56,
+      "question": "What is one of the central questions of Philosophy of Science regarding scientific theories?",
+      "options": {
+        "A": "Which scientific theories are most profitable to research",
+        "B": "The reliability of scientific theories",
+        "C": "How quickly scientific theories change over time",
+        "D": "Which countries produce the best scientific theories"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states that among the central questions of philosophy of science is 'the reliability of scientific theories.'"
+    },
+    {
+      "id": 57,
+      "question": "According to the text, what is described as a central question about the ultimate nature of science?",
+      "options": {
+        "A": "The cost and efficiency of scientific research",
+        "B": "The purpose and meaning of science as a human endeavour",
+        "C": "The relationship between science and government policy",
+        "D": "The number of scientists needed for progress"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text lists 'the ultimate purpose and meaning of science as a human endeavour' as one of the central questions in philosophy of science."
+    },
+    {
+      "id": 58,
+      "question": "Philosophy of Science focuses on which aspects of scientific practice?",
+      "options": {
+        "A": "Financial, institutional, and political aspects",
+        "B": "Metaphysical, epistemic, and semantic aspects",
+        "C": "Biological, chemical, and physical aspects",
+        "D": "Social, cultural, and historical aspects"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states that 'philosophy of science focuses on metaphysical, epistemic and semantic aspects of scientific practice.'"
+    },
+    {
+      "id": 59,
+      "question": "With which other philosophical disciplines does Philosophy of Science overlap?",
+      "options": {
+        "A": "Aesthetics, ethics, and political philosophy",
+        "B": "Metaphysics, ontology, logic, and epistemology",
+        "C": "Philosophy of mind, philosophy of language only",
+        "D": "Ethics, jurisprudence, and political theory"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states that philosophy of science 'overlaps with metaphysics, ontology, logic, and epistemology.'"
+    },
+    {
+      "id": 60,
+      "question": "The text gives which specific example of when Philosophy of Science overlaps with other philosophical areas?",
+      "options": {
+        "A": "When it debates the ethics of human cloning",
+        "B": "When it explores the relationship between science and the concept of truth",
+        "C": "When it discusses the political implications of climate science",
+        "D": "When it studies the psychology of scientific discovery"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text gives as an example 'when it explores the relationship between science and the concept of truth' as a case where philosophy of science overlaps with other philosophical disciplines."
+    },
+    {
+      "id": 61,
+      "question": "According to the text, what kind of discipline is Philosophy of Science?",
+      "options": {
+        "A": "Purely empirical",
+        "B": "Purely theoretical",
+        "C": "Both theoretical and empirical",
+        "D": "Neither theoretical nor empirical"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text states that 'philosophy of science is both a theoretical and empirical discipline, relying on philosophical theorizing as well as meta-studies of scientific practice.'"
+    },
+    {
+      "id": 62,
+      "question": "What does Philosophy of Science rely on, according to the text?",
+      "options": {
+        "A": "Laboratory experiments and field research only",
+        "B": "Philosophical theorizing as well as meta-studies of scientific practice",
+        "C": "Statistical analysis and data modeling only",
+        "D": "Religious and cultural frameworks"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states philosophy of science relies 'on philosophical theorizing as well as meta-studies of scientific practice.'"
+    },
+    {
+      "id": 63,
+      "question": "Where are ethical issues such as bioethics and scientific misconduct typically classified, according to the text?",
+      "options": {
+        "A": "Under the core domain of philosophy of science",
+        "B": "Under ethics or science studies rather than philosophy of science",
+        "C": "Under political philosophy and legal theory",
+        "D": "Under philosophy of religion"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states that 'ethical issues such as bioethics and scientific misconduct are often considered ethics or science studies rather than the philosophy of science.'"
+    },
+    {
+      "id": 64,
+      "question": "Which of the following is explicitly named as an ethical issue in the text that is often placed outside philosophy of science proper?",
+      "options": {
+        "A": "Climate change denial",
+        "B": "Bioethics",
+        "C": "Animal experimentation",
+        "D": "Data privacy"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text explicitly names bioethics (alongside scientific misconduct) as an ethical issue often considered ethics or science studies rather than philosophy of science."
+    },
+    {
+      "id": 65,
+      "question": "According to the text, what is the status of many central problems in Philosophy of Science?",
+      "options": {
+        "A": "They have been resolved through modern scientific advances",
+        "B": "They lack contemporary consensus",
+        "C": "They are no longer considered philosophically relevant",
+        "D": "They have been answered by empirical research"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states that 'many of the central problems concerned with the philosophy of science lack contemporary consensus.'"
+    },
+    {
+      "id": 66,
+      "question": "Which unresolved problem in Philosophy of Science is mentioned regarding truth?",
+      "options": {
+        "A": "Whether science can determine moral truths",
+        "B": "Whether science can infer truth about unobservable entities",
+        "C": "Whether scientific truth is culturally relative",
+        "D": "Whether truth exists independently of observation"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text lists 'whether science can infer truth about unobservable entities' as one of the central problems lacking contemporary consensus."
+    },
+    {
+      "id": 67,
+      "question": "What open problem regarding inductive reasoning is mentioned in the text?",
+      "options": {
+        "A": "Whether inductive reasoning is faster than deductive reasoning",
+        "B": "Whether inductive reasoning can be justified as yielding definite scientific knowledge",
+        "C": "Whether inductive reasoning is used in mathematics",
+        "D": "Whether inductive reasoning can replace experimentation"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text identifies 'whether inductive reasoning can be justified as yielding definite scientific knowledge' as an unresolved central problem in philosophy of science."
+    },
+    {
+      "id": 68,
+      "question": "Which of the following best distinguishes Philosophy of Science from science itself?",
+      "options": {
+        "A": "Philosophy of science uses mathematics while science does not",
+        "B": "Philosophy of science examines the foundations, methods, and implications of science rather than conducting scientific research",
+        "C": "Philosophy of science is concerned only with social sciences",
+        "D": "Philosophy of science rejects empirical evidence"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "Philosophy of science is a branch of philosophy that examines the nature, methods, and implications of science — it reflects on science rather than practising it directly."
+    },
+    {
+      "id": 69,
+      "question": "What is a key difference between Philosophy of Religion and Philosophy of Science as described in the text?",
+      "options": {
+        "A": "Philosophy of religion is empirical while philosophy of science is purely theoretical",
+        "B": "Philosophy of religion examines religious and metaphysical themes while philosophy of science examines the foundations and methods of science",
+        "C": "Philosophy of science has reached consensus on its central questions while philosophy of religion has not",
+        "D": "Philosophy of religion is only practiced in theology departments while philosophy of science is only in science departments"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "According to the text, philosophy of religion focuses on religious traditions, concepts of God, and worldviews, while philosophy of science focuses on the foundations, methods, and implications of science."
+    },
+    {
+      "id": 70,
+      "question": "The text mentions that philosophy of religion gives significant attention to which topic?",
+      "options": {
+        "A": "Atheism",
+        "B": "Theism",
+        "C": "Agnosticism",
+        "D": "Pantheism"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states that 'the entry gives significant attention to theism' within the coverage of philosophy of religion."
+    },
+    {
+      "id": 71,
+      "question": "Which of the following correctly describes how Philosophy of Science relates to metaphysics?",
+      "options": {
+        "A": "Philosophy of science completely replaces metaphysics",
+        "B": "Philosophy of science and metaphysics are entirely separate with no overlap",
+        "C": "Philosophy of science overlaps with metaphysics, for example when exploring science and truth",
+        "D": "Metaphysics is a subfield of philosophy of science"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text states that philosophy of science 'overlaps with metaphysics, ontology, logic, and epistemology, for example, when it explores the relationship between science and the concept of truth.'"
+    },
+    {
+      "id": 72,
+      "question": "According to the text, what broader philosophical task does Philosophy of Religion involve beyond examining religious traditions?",
+      "options": {
+        "A": "Designing religious education curricula",
+        "B": "Reflecting on matters of religious significance from a philosophical standpoint",
+        "C": "Comparing the political power of different religions",
+        "D": "Documenting the historical spread of world religions"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text defines philosophy of religion as including 'the broader philosophical task of reflecting on matters of religious significance,' going beyond just examining religious traditions themselves."
+    },
+    {
+      "id": 73,
+      "question": "Which of the following fields do philosophers of science examine philosophical problems within?",
+      "options": {
+        "A": "Mathematics, linguistics, and theology",
+        "B": "Biology, physics, economics, and psychology",
+        "C": "Chemistry, astronomy, and political science",
+        "D": "Engineering, medicine, and law"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text explicitly states that philosophers of science consider philosophical problems within particular sciences such as biology, physics, and social sciences such as economics and psychology."
+    },
+    {
+      "id": 74,
+      "question": "What do some philosophers of science do with contemporary scientific results?",
+      "options": {
+        "A": "Use them to disprove older philosophical theories",
+        "B": "Apply them to reach conclusions about philosophy itself",
+        "C": "Publish them in scientific journals",
+        "D": "Use them to replace traditional philosophical methods"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states that some philosophers of science use contemporary results in science to reach conclusions about philosophy itself."
+    },
+    {
+      "id": 75,
+      "question": "How far back does philosophical thought pertaining to science date?",
+      "options": {
+        "A": "At least to the time of Plato",
+        "B": "At least to the time of Socrates",
+        "C": "At least to the time of Aristotle",
+        "D": "At least to the Renaissance period"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text states that philosophical thought pertaining to science dates back at least to the time of Aristotle."
+    },
+    {
+      "id": 76,
+      "question": "When did the general philosophy of science emerge as a distinct discipline?",
+      "options": {
+        "A": "In the 18th century",
+        "B": "In the 19th century",
+        "C": "In the 20th century",
+        "D": "In the 21st century"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "According to the text, the general philosophy of science emerged as a distinct discipline only in the 20th century."
+    },
+    {
+      "id": 77,
+      "question": "What movement preceded and led to the emergence of philosophy of science as a distinct discipline?",
+      "options": {
+        "A": "The empiricist movement",
+        "B": "The logical positivist movement",
+        "C": "The rationalist movement",
+        "D": "The existentialist movement"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states that the general philosophy of science emerged as a distinct discipline following the logical positivist movement."
+    },
+    {
+      "id": 78,
+      "question": "What was the primary aim of the logical positivist movement?",
+      "options": {
+        "A": "To unify all sciences under one theoretical framework",
+        "B": "To formulate criteria for ensuring all philosophical statements' meaningfulness and objectively assessing them",
+        "C": "To eliminate metaphysics from scientific inquiry",
+        "D": "To establish philosophy as superior to empirical science"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text explicitly states that the logical positivist movement aimed to formulate criteria for ensuring all philosophical statements' meaningfulness and objectively assessing them."
+    },
+    {
+      "id": 79,
+      "question": "Which of the following best describes the relationship between philosophy of science and the natural and social sciences?",
+      "options": {
+        "A": "Philosophy of science only studies natural sciences like biology and physics",
+        "B": "Philosophy of science examines philosophical problems across both natural sciences and social sciences",
+        "C": "Philosophy of science is limited to evaluating social sciences like economics",
+        "D": "Philosophy of science avoids examining individual scientific disciplines"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text makes clear that philosophers of science consider philosophical problems within particular sciences including both natural sciences (biology, physics) and social sciences (economics, psychology)."
+    },
+    {
+      "id": 80,
+      "question": "Which of the following is an accurate statement about the history of philosophy of science?",
+      "options": {
+        "A": "It has existed as a distinct discipline since ancient Greece",
+        "B": "Philosophical thought about science is ancient, but it only became a distinct discipline in the 20th century",
+        "C": "It became a distinct discipline before the logical positivist movement",
+        "D": "Philosophical thought about science only began in the 20th century"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text distinguishes between philosophical thought about science (which dates to Aristotle) and the general philosophy of science as a distinct discipline (which only emerged in the 20th century following logical positivism)."
+    },
+    {
+      "id": 81,
+      "question": "Economics and psychology are mentioned in the text as examples of which category of science?",
+      "options": {
+        "A": "Natural sciences",
+        "B": "Applied sciences",
+        "C": "Social sciences",
+        "D": "Formal sciences"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The text explicitly categorizes economics and psychology as social sciences when describing the scope of philosophy of science."
+    },
+    {
+      "id": 82,
+      "question": "What two goals did the logical positivist movement pursue regarding philosophical statements?",
+      "options": {
+        "A": "Simplifying them and popularizing them",
+        "B": "Ensuring their meaningfulness and objectively assessing them",
+        "C": "Verifying them experimentally and publishing them",
+        "D": "Categorizing them and ranking them by importance"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The text states the logical positivist movement aimed to formulate criteria for ensuring all philosophical statements' meaningfulness and objectively assessing them — two distinct goals."
+    }
+  ]
+}

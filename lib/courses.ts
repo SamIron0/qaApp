@@ -42,6 +42,18 @@ export const COURSES: Course[] = [
         vendor: "quro",
       },
       {
+        id: "philosophy_2",
+        name: "Chapter 2",
+        file: "./question-bank/philosophy_2.json",
+        vendor: "quro",
+      },
+      {
+        id: "philosophy_3",
+        name: "Chapter 3",
+        file: "./question-bank/philosophy_3.json",
+        vendor: "quro",
+      },
+      {
         id: "bank1",
         name: "Comprehensive Test on Propositions, Arguments, and Reasoning",
         file: "./question-bank/bank1.json",

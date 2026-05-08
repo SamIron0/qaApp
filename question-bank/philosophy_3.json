@@ -1,0 +1,2454 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the primary reason educational practices differ across various systems?",
+            "options": {
+                "A": "Differences in government funding",
+                "B": "Basic differences regarding the nature of reality, truth, and value",
+                "C": "Variations in teacher qualifications",
+                "D": "Differences in student populations"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states that basic differences regarding the nature of reality, truth, and value often lead to differing educational practices."
+        },
+        {
+            "id": 2,
+            "question": "According to the text, what must educational practices be in harmony with?",
+            "options": {
+                "A": "Government policies and national curricula",
+                "B": "Student needs and learning styles",
+                "C": "The understanding of the nature of reality, truth, and value",
+                "D": "International educational standards"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text explicitly states that educational practices must be in harmony with the understanding of the nature of reality, truth, and value."
+        },
+        {
+            "id": 3,
+            "question": "What are educational practices said to be built upon?",
+            "options": {
+                "A": "Government regulations and institutional rules",
+                "B": "Assumptions rooted in educational philosophy",
+                "C": "Scientific research and empirical data",
+                "D": "Traditional cultural norms and customs"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states that educational practices are built upon assumptions rooted in educational philosophy."
+        },
+        {
+            "id": 4,
+            "question": "Why does the text argue that students and educators need to be familiar with different philosophical postures?",
+            "options": {
+                "A": "Because philosophy is a required university course",
+                "B": "Because varying philosophic starting points lead to different educational practices",
+                "C": "Because philosophy determines government education budgets",
+                "D": "Because educators are required to publish philosophical research"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text explains that varying philosophic starting points lead to different educational practices, hence the need for students and educators to be familiar with different philosophical postures."
+        },
+        {
+            "id": 5,
+            "question": "Idealism is described as the oldest systematic philosophy in which cultural tradition?",
+            "options": {
+                "A": "Eastern Culture",
+                "B": "African Culture",
+                "C": "Western Culture",
+                "D": "Middle Eastern Culture"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that idealism is perhaps the oldest systematic philosophy in Western Culture."
+        },
+        {
+            "id": 6,
+            "question": "How far back does idealism date in Western philosophical history?",
+            "options": {
+                "A": "At least as early as Aristotle in ancient Rome",
+                "B": "At least as early as Plato in ancient Greece",
+                "C": "At least as early as Socrates in ancient Egypt",
+                "D": "At least as early as Descartes in medieval Europe"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text specifically states that idealism dates back at least as early as Plato in ancient Greece."
+        },
+        {
+            "id": 7,
+            "question": "What do idealists generally believe to be the only true reality?",
+            "options": {
+                "A": "The material world perceived through the senses",
+                "B": "Scientific laws and empirical observations",
+                "C": "Ideas",
+                "D": "Physical matter and energy"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that idealists generally believe that ideas are the only true reality."
+        },
+        {
+            "id": 8,
+            "question": "How do idealists characterize the material world?",
+            "options": {
+                "A": "As permanent, stable, and certain",
+                "B": "As the foundation of all true knowledge",
+                "C": "As characterized by change, instability, and uncertainty",
+                "D": "As the highest form of reality"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that idealists believe matter (the material world) is characterized by change, instability, and uncertainty."
+        },
+        {
+            "id": 9,
+            "question": "What is the idealist's position regarding the existence of the physical world?",
+            "options": {
+                "A": "The idealist completely denies the existence of the physical world",
+                "B": "The idealist does not deny the existence of the physical world",
+                "C": "The idealist believes the physical world is the only reality",
+                "D": "The idealist is indifferent to questions about the physical world"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text clearly states that the idealist does not deny the existence of the physical world around us — the world of houses, hills, stars, and cities."
+        },
+        {
+            "id": 10,
+            "question": "According to idealism, what is the status of physical things like houses, hills, and stars?",
+            "options": {
+                "A": "They are the ultimate and highest form of reality",
+                "B": "They do not exist at all",
+                "C": "They are real, but not ultimately real — they are manifestations of a more fundamental incorporeal reality",
+                "D": "They are illusions created by the human mind"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that while these things are real, they are not ultimately real — they are manifestations of a more fundamental incorporeal reality."
+        },
+        {
+            "id": 11,
+            "question": "What does idealism describe the physical world as being a manifestation of?",
+            "options": {
+                "A": "Human consciousness and brain activity",
+                "B": "A more fundamental incorporeal reality",
+                "C": "Mathematical laws and equations",
+                "D": "Divine physical creation"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states that physical things are manifestations of a more fundamental incorporeal (non-physical) reality."
+        },
+        {
+            "id": 12,
+            "question": "How do idealists say we come to know the physical world around us?",
+            "options": {
+                "A": "Through pure reason and logic alone",
+                "B": "Through religious revelation",
+                "C": "Through our senses",
+                "D": "Through mathematical calculation"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text refers to the world of houses, hills, stars, and cities 'with which our senses acquaint us,' indicating that the senses are the means by which we know the physical world."
+        },
+        {
+            "id": 13,
+            "question": "A modern idealist suggested that a more accurate name for the philosophy would be:",
+            "options": {
+                "A": "Realism",
+                "B": "Conceptualism",
+                "C": "Idea-ism",
+                "D": "Mentalism"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that a modern idealist pointed out that 'idea-ism' would be a better title than 'idealism.'"
+        },
+        {
+            "id": 14,
+            "question": "Why did a modern idealist suggest renaming idealism 'idea-ism'?",
+            "options": {
+                "A": "Because idealism is concerned with spiritual matters",
+                "B": "Because idealism is more concerned with ideas and concepts rather than the search for superfluous attainments",
+                "C": "Because the word 'idealism' is too closely associated with politics",
+                "D": "Because idealism focuses more on material achievements"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text explains the suggested renaming is because idealism is more concerned with ideas and concepts rather than the search for superfluous attainments."
+        },
+        {
+            "id": 15,
+            "question": "According to the text, which three areas will be examined to understand idealism?",
+            "options": {
+                "A": "Platonic idealism, Aristotelian idealism, and modern idealism",
+                "B": "Platonic idealism, religious idealism, and modern idealism",
+                "C": "Platonic idealism, scientific idealism, and political idealism",
+                "D": "Religious idealism, existential idealism, and modern idealism"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text explicitly states that three areas — platonic idealism, religious idealism, and modern idealism — will be examined to understand idealism."
+        },
+        {
+            "id": 16,
+            "question": "Which of the following best describes the relationship between philosophy and education according to the text?",
+            "options": {
+                "A": "Philosophy and education are entirely separate disciplines with no meaningful connection",
+                "B": "Philosophy merely provides historical background for educational institutions",
+                "C": "Philosophical starting points shape and influence educational practices",
+                "D": "Education shapes and determines philosophical thinking"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text argues that educational practices are built on philosophical assumptions, and varying philosophic starting points lead to different educational practices — meaning philosophy drives educational practice."
+        },
+        {
+            "id": 17,
+            "question": "In the context of idealism, the term 'incorporeal' most nearly means:",
+            "options": {
+                "A": "Physical and tangible",
+                "B": "Scientifically measurable",
+                "C": "Not composed of matter; non-physical",
+                "D": "Related to the human body"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text describes the fundamental reality behind physical things as 'incorporeal,' contrasting it with the material/physical world, so it means non-physical or not composed of matter."
+        },
+        {
+            "id": 18,
+            "question": "Which statement would an idealist most likely agree with?",
+            "options": {
+                "A": "A rock is ultimately real because it can be seen and touched",
+                "B": "A rock exists physically but is ultimately a manifestation of a deeper non-physical reality",
+                "C": "A rock does not exist in any sense",
+                "D": "A rock is real only because science can measure it"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Idealists do not deny the physical world but hold that physical things are not ultimately real — they are manifestations of a more fundamental incorporeal reality."
+        },
+        {
+            "id": 19,
+            "question": "What distinguishes idealism's focus from what the modern idealist called 'superfluous attainments'?",
+            "options": {
+                "A": "Idealism focuses on material wealth over spiritual pursuits",
+                "B": "Idealism prioritizes ideas and concepts over superficial or unnecessary achievements",
+                "C": "Idealism prioritizes physical science over abstract thought",
+                "D": "Idealism is concerned with athletic and artistic achievement"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text explains that idealism is more concerned with ideas and concepts rather than the search for superfluous (unnecessary/excessive) attainments, which is why 'idea-ism' was suggested as a better name."
+        },
+        {
+            "id": 20,
+            "question": "According to the text, understanding idealism is best achieved by:",
+            "options": {
+                "A": "Reading modern scientific literature",
+                "B": "Examining the works of outstanding philosophers connected with idealism",
+                "C": "Studying political philosophy and government theory",
+                "D": "Analyzing contemporary educational policy documents"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states that an adequate understanding of idealism will be better forged by examining the works of selected outstanding philosophers who were connected with idealism."
+        },
+        {
+            "id": 21,
+            "question": "When did Plato live?",
+            "options": {
+                "A": "527-347 B.C.",
+                "B": "427-347 B.C.",
+                "C": "427-247 B.C.",
+                "D": "327-247 B.C."
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Plato lived from 427 to 347 B.C., as stated at the beginning of the passage."
+        },
+        {
+            "id": 22,
+            "question": "Plato began his philosophical career as a disciple of which philosopher?",
+            "options": {
+                "A": "Aristotle",
+                "B": "Pythagoras",
+                "C": "Socrates",
+                "D": "Epicurus"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The passage states that Plato started as a disciple of Socrates and remained an ardent admirer."
+        },
+        {
+            "id": 23,
+            "question": "What major historical event contributed to the state of rapid change and transition during Plato's lifetime?",
+            "options": {
+                "A": "The Peloponnesian War",
+                "B": "The Persian Wars",
+                "C": "The Roman Conquest",
+                "D": "The Macedonian Invasion"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The passage specifically mentions that the state of transition was apparent as a result of the Persian Wars."
+        },
+        {
+            "id": 24,
+            "question": "How did the influx of foreigners to Athens affect Athenian culture?",
+            "options": {
+                "A": "It led to political stability and unity",
+                "B": "It strengthened traditional knowledge and values",
+                "C": "It brought new ideas that challenged traditional knowledge and values",
+                "D": "It isolated Athens from outside philosophical influence"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The passage states that the influx of foreigners brought new ideas in all areas of Athenian culture, which led to the challenge of time-tested traditional knowledge and values."
+        },
+        {
+            "id": 25,
+            "question": "Who were the sophists?",
+            "options": {
+                "A": "A group of military generals who influenced politics",
+                "B": "A new group of teachers who challenged old ideas in politics and ethics",
+                "C": "Foreign merchants who brought new trade ideas to Athens",
+                "D": "Plato's group of philosopher-kings"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The passage describes the sophists as a new group of teachers who challenged old-time ideas in the area of politics and ethics."
+        },
+        {
+            "id": 26,
+            "question": "Plato's philosophy was largely a reaction to what condition?",
+            "options": {
+                "A": "The rigid and unchanging nature of Athenian society",
+                "B": "The state of flux that greatly influenced Athenian culture",
+                "C": "The dominance of military values over intellectual ones",
+                "D": "The spread of Socratic ideas beyond Athens"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The passage states that Plato's philosophy, to a large extent, was a reaction to the state of flux that had greatly influenced Athenian culture."
+        },
+        {
+            "id": 27,
+            "question": "Which two works by Plato are mentioned in the passage?",
+            "options": {
+                "A": "The Symposium and The Apology",
+                "B": "The Phaedo and The Meno",
+                "C": "The Republic and The Laws",
+                "D": "The Timaeus and The Crito"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The passage explicitly mentions that two of Plato's famous works are the Republic and the Laws."
+        },
+        {
+            "id": 28,
+            "question": "In the Republic, what key distinction does Plato draw?",
+            "options": {
+                "A": "The separation of politics from ethics",
+                "B": "The separation of the world of ideas from the world of matter",
+                "C": "The separation of knowledge from belief",
+                "D": "The separation of the state from the individual"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The passage states that in the Republic, Plato wrote about the separation of the world of ideas from the world of matter."
+        },
+        {
+            "id": 29,
+            "question": "According to Plato, what is the relationship between mind and matter?",
+            "options": {
+                "A": "Matter is basic or prior to mind",
+                "B": "Mind and matter are equal and co-existing",
+                "C": "Mind is basic or prior to matter",
+                "D": "Both mind and matter are products of sensory experience"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The passage states that Plato emphasizes mind as being basic or prior to matter."
+        },
+        {
+            "id": 30,
+            "question": "What does Plato contend about the nature of mind and matter?",
+            "options": {
+                "A": "Mind is an illusion created by matter",
+                "B": "Mind is real, while matter is a product of the mind",
+                "C": "Matter is real, while mind is a product of matter",
+                "D": "Both mind and matter are equally real"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The passage clearly states that Plato contends that mind is real, while matter is a product of the mind."
+        },
+        {
+            "id": 31,
+            "question": "According to Plato, what do people primarily concern themselves with?",
+            "options": {
+                "A": "The pursuit of pleasure",
+                "B": "The accumulation of material wealth",
+                "C": "The search for truth",
+                "D": "The exercise of political power"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The passage states that according to Plato, people concern themselves primarily with the search for truth."
+        },
+        {
+            "id": 32,
+            "question": "Why, according to Plato, can truth NOT be found in the world of matter?",
+            "options": {
+                "A": "Because the world of matter is governed by God alone",
+                "B": "Because the world of matter is both imperfect and constantly changing",
+                "C": "Because matter does not exist in any real sense",
+                "D": "Because only sophists study the material world"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The passage explains that since truth is perfect and eternal, it cannot be found in the world of matter, which is both imperfect and constantly changing."
+        },
+        {
+            "id": 33,
+            "question": "What are the characteristics of truth, according to Plato's philosophy as described in the passage?",
+            "options": {
+                "A": "Subjective and temporary",
+                "B": "Sensory and observable",
+                "C": "Perfect and eternal",
+                "D": "Material and measurable"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The passage states that truth is perfect and eternal, which is why it cannot be found in the imperfect, changing world of matter."
+        },
+        {
+            "id": 34,
+            "question": "According to Plato, what is the source of the world of ideas (or forms)?",
+            "options": {
+                "A": "Human reason and intellect",
+                "B": "Sensory experience and observation",
+                "C": "God, the Source of all true knowledge",
+                "D": "The state and its philosopher-kings"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The passage states that the world of ideas (or forms) has its source from God the Source of all true knowledge."
+        },
+        {
+            "id": 35,
+            "question": "Why does Plato argue that the ever-changing world of sensory data is not to be trusted?",
+            "options": {
+                "A": "Because sensory data is controlled by the sophists",
+                "B": "Because sensory data belongs to the material world, which is imperfect and unreliable for finding eternal truth",
+                "C": "Because the senses were destroyed during the Persian Wars",
+                "D": "Because only God can interpret sensory data correctly"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Plato's view is that since truth is perfect and eternal, and the material/sensory world is constantly changing and imperfect, sensory data cannot be trusted as a path to true knowledge."
+        },
+        {
+            "id": 36,
+            "question": "What is dialectic, as referenced in Plato's philosophy?",
+            "options": {
+                "A": "A form of military strategy used by philosopher-kings",
+                "B": "A method of critical discussion that moves from mere opinion to true knowledge",
+                "C": "A curriculum focused on abstract mathematics",
+                "D": "A political system governed by elected philosophers"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The passage describes dialectic as a method of critical discussion in which one moves from mere opinion to true knowledge."
+        },
+        {
+            "id": 37,
+            "question": "In Plato's dialectical method, thinking begins with what?",
+            "options": {
+                "A": "A sensory observation",
+                "B": "A mathematical proof",
+                "C": "A thesis or point of view",
+                "D": "A political decree"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The passage states that in the dialectical process, thinking begins with a thesis or point of view."
+        },
+        {
+            "id": 38,
+            "question": "What happens when an antithesis (opposite point of view) is introduced in Plato's dialectical process?",
+            "options": {
+                "A": "The philosopher must abandon the discussion entirely",
+                "B": "The philosopher must reexamine the former position",
+                "C": "The philosopher must seek approval from the state",
+                "D": "The philosopher must consult sensory evidence"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The passage states that when an opposite point of view (antithesis) is encouraged, a philosopher must reexamine the former position."
+        },
+        {
+            "id": 39,
+            "question": "According to Plato, do people create knowledge?",
+            "options": {
+                "A": "Yes, knowledge is created through sensory experience",
+                "B": "Yes, knowledge is created through political debate",
+                "C": "No, people discover knowledge rather than create it",
+                "D": "No, only God creates knowledge and delivers it to rulers"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The passage states that Plato's concept is that people do not create knowledge; rather, they discover it."
+        },
+        {
+            "id": 40,
+            "question": "What did Plato conjecture about the human soul and knowledge?",
+            "options": {
+                "A": "The human soul has never possessed true knowledge",
+                "B": "The human soul gains knowledge only through bodily experience",
+                "C": "The human soul once had true knowledge but lost it when placed in a material body",
+                "D": "The human soul creates new knowledge in each lifetime"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The passage states that Plato conjectured that the human soul once had true knowledge but lost it by being placed in a material body that distorted and corrupted that knowledge."
+        },
+        {
+            "id": 41,
+            "question": "How does the material body affect the soul's knowledge, according to Plato?",
+            "options": {
+                "A": "It enhances and refines the soul's knowledge",
+                "B": "It distorts and corrupts the knowledge the soul once had",
+                "C": "It has no effect on the soul's capacity for knowledge",
+                "D": "It transfers knowledge from the soul to the physical world"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The passage states that the material body distorted and corrupted the true knowledge that the human soul once possessed."
+        },
+        {
+            "id": 42,
+            "question": "What was the ultimate goal of the type of education Plato suggested?",
+            "options": {
+                "A": "To train soldiers for military conquest",
+                "B": "To help individuals and society move as far as possible toward the good",
+                "C": "To teach all citizens the art of commerce and trade",
+                "D": "To preserve the traditional values challenged by the sophists"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The passage states that Plato suggested education that would help bring about a world in which individuals and society are moved as far as they are capable of moving toward the good."
+        },
+        {
+            "id": 43,
+            "question": "According to Plato, who should receive a curriculum dominated by abstract thinking?",
+            "options": {
+                "A": "Those who excel in military affairs",
+                "B": "Bright students with strong capacity for abstraction",
+                "C": "All citizens equally, regardless of ability",
+                "D": "Only the philosopher-king"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The passage states that the state must offer a curriculum dominated by abstract thinking for bright students."
+        },
+        {
+            "id": 44,
+            "question": "What type of curriculum did Plato suggest for those who showed little ability with abstractions?",
+            "options": {
+                "A": "A curriculum focused on philosophy and dialectic",
+                "B": "A curriculum dominated by abstract thinking",
+                "C": "A curriculum that assists with practical realities of running a society, such as military affairs and industry",
+                "D": "No curriculum — they were excluded from education"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The passage states that a curriculum tending to assist in practical realities of running a society (such as military affairs, business, industry) was meant for those who showed little ability with abstractions."
+        },
+        {
+            "id": 45,
+            "question": "What was the educational path for those proficient in dialectic, according to Plato?",
+            "options": {
+                "A": "They would become merchants and manage trade",
+                "B": "They would become military generals",
+                "C": "They would continue education and become philosophers in positions of power to lead the state toward the highest good",
+                "D": "They would become teachers of the sophist tradition"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The passage states that those proficient in dialectic would continue their education and become philosophers in positions of power to lead the state toward the highest good."
+        },
+        {
+            "id": 46,
+            "question": "According to Plato, what dual role must the philosopher-king fulfill?",
+            "options": {
+                "A": "Be both a military leader and a merchant",
+                "B": "Be both a thinker and a doer",
+                "C": "Be both a teacher of sophistry and a critic of it",
+                "D": "Be both a sculptor of ideas and a writer of laws"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The passage states that Plato's idea was that the philosopher-king must not only be a thinker but a doer."
+        },
+        {
+            "id": 47,
+            "question": "What specific responsibilities did Plato assign to the philosopher-king?",
+            "options": {
+                "A": "To wage war and expand the state's territory",
+                "B": "To supervise the affairs of the state and teach others",
+                "C": "To write laws and enforce them through military power",
+                "D": "To study sensory data and report findings to the state"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The passage states that the philosopher-king must supervise the affairs of the state and must teach others."
+        },
+        {
+            "id": 48,
+            "question": "Which of the following best describes Platonic Idealism's view of reality?",
+            "options": {
+                "A": "The material world is the only true reality",
+                "B": "Sensory experience is the most reliable source of knowledge",
+                "C": "The world of ideas is more real and reliable than the world of matter",
+                "D": "Reality is defined by political power and social consensus"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Platonic Idealism holds that the world of ideas (forms) has its source in God and is the domain of eternal truth, whereas the material world is imperfect, constantly changing, and not to be trusted."
+        },
+        {
+            "id": 49,
+            "question": "The term 'world of forms' in Plato's philosophy refers to what?",
+            "options": {
+                "A": "The physical shapes and structures found in the natural world",
+                "B": "The perfect, eternal world of ideas that is the source of true knowledge",
+                "C": "The documented laws and political structures of the state",
+                "D": "The artistic forms created by craftsmen in Athens"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "In Platonic philosophy, the 'world of forms' (or ideas) is the perfect, eternal realm that is the source of all true knowledge, as opposed to the imperfect material world."
+        },
+        {
+            "id": 50,
+            "question": "How does Plato's educational philosophy reflect his broader metaphysical views?",
+            "options": {
+                "A": "By prioritizing military training as the path to the highest good",
+                "B": "By grounding education in sensory observation and empirical data",
+                "C": "By using abstract thinking and dialectic to guide bright minds toward true knowledge and the highest good",
+                "D": "By rejecting the role of the state in shaping education"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Plato's educational philosophy mirrors his metaphysics: just as true knowledge exists in the world of ideas (not matter), education should cultivate abstract thinking and dialectic to move individuals toward that higher truth and the highest good."
+        },
+        {
+            "id": 51,
+            "question": "Which ancient culture significantly influenced many New Testament writers?",
+            "options": {
+                "A": "Roman Culture",
+                "B": "Egyptian Culture",
+                "C": "Greek Culture",
+                "D": "Persian Culture"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that many New Testament writers were influenced by Greek Culture and philosophy."
+        },
+        {
+            "id": 52,
+            "question": "What did Alexander the Great contribute to the spread of Greek influence?",
+            "options": {
+                "A": "He built Greek temples across Asia",
+                "B": "He spread Greek language throughout the Mediterranean world and established Greek schools",
+                "C": "He translated Greek texts into Latin",
+                "D": "He imposed Greek religion on conquered peoples"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "According to the text, Alexander the Great spread Greek along the Mediterranean world and also established Greek schools."
+        },
+        {
+            "id": 53,
+            "question": "As a result of Alexander the Great's efforts, the influence of Idealism gained ground in which religions?",
+            "options": {
+                "A": "Islam and Buddhism",
+                "B": "Hinduism and Judaism",
+                "C": "Judaism and Christianity",
+                "D": "Christianity and Islam"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that the influence of Idealism gained road not only to Judaism but also to Christianity."
+        },
+        {
+            "id": 54,
+            "question": "When did Augustine live?",
+            "options": {
+                "A": "254 – 330 AD",
+                "B": "354 – 430 AD",
+                "C": "454 – 530 AD",
+                "D": "154 – 230 AD"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text explicitly states Augustine lived from 354 to 430 AD."
+        },
+        {
+            "id": 55,
+            "question": "Who was Plotinus?",
+            "options": {
+                "A": "A Roman emperor of the second century",
+                "B": "A philosopher of the third century who influenced Augustine",
+                "C": "A New Testament writer and theologian",
+                "D": "A student of Alexander the Great"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Plotinus is described in the text as a philosopher of the third century under whose influence Augustine was born and reared."
+        },
+        {
+            "id": 56,
+            "question": "According to Plotinus, what was the primary purpose of teaching?",
+            "options": {
+                "A": "To develop intellectual skills and critical thinking",
+                "B": "To spread Greek philosophy to all peoples",
+                "C": "To aid people back to a consciousness of a union source from which all things come",
+                "D": "To prepare students for civic duties"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states Plotinus taught that the primary purpose of teaching was to aid people back to a consciousness of a union source from which all things come, through moral purity and intellectual efforts."
+        },
+        {
+            "id": 57,
+            "question": "Through what means did Plotinus believe people could return to the union source?",
+            "options": {
+                "A": "Prayer and fasting",
+                "B": "Moral purity and intellectual efforts",
+                "C": "Physical discipline and community service",
+                "D": "Study of scripture and worship"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states Plotinus taught the return to the union source was achieved through moral purity and intellectual efforts."
+        },
+        {
+            "id": 58,
+            "question": "What was Augustine's view regarding man and the sin of Adam?",
+            "options": {
+                "A": "Man can be freed from Adam's sin through education",
+                "B": "Man inherited Adam's sin and is continuously struggling to regain his pre-fall innocence and purity",
+                "C": "Man is not affected by Adam's sin if he seeks God",
+                "D": "Man can overcome Adam's sin through physical discipline"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Augustine maintained that since man inherited the sin of Adam, he was continuously engaged in a struggle to regain the kind of innocence and purity he had before the fall."
+        },
+        {
+            "id": 59,
+            "question": "Whose concept of the 'divided line' did Augustine build upon?",
+            "options": {
+                "A": "Aristotle",
+                "B": "Socrates",
+                "C": "Plotinus",
+                "D": "Plato"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The text states Augustine concurred with Plato's notion of the 'divided line' between ideas and matter."
+        },
+        {
+            "id": 60,
+            "question": "How did Augustine reframe Plato's concept of the 'divided line'?",
+            "options": {
+                "A": "He referred to it as the division between the Church and the State",
+                "B": "He referred to the two worlds as the World of God and the World of Man",
+                "C": "He described it as the division between reason and emotion",
+                "D": "He referred to it as the World of Ideas and the World of Matter"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Augustine referred to the two worlds as 'the World of God and the World of Man,' adapting Plato's divided line concept into a religious framework."
+        },
+        {
+            "id": 61,
+            "question": "In Augustine's philosophy, what does the World of God represent?",
+            "options": {
+                "A": "The material world of human civilization",
+                "B": "The world of politics and governance",
+                "C": "The World of Spirit and the Good",
+                "D": "The world of intellectual reasoning"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Augustine described the World of God as the World of Spirit and the Good."
+        },
+        {
+            "id": 62,
+            "question": "In Augustine's philosophy, what characterizes the World of Man?",
+            "options": {
+                "A": "Reason, virtue, and progress",
+                "B": "Material world of darkness, sin, ignorance, and suffering",
+                "C": "A neutral space between God and nature",
+                "D": "A place of physical pleasure and earthly joy"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text describes the World of Man as the material world of darkness, sin, ignorance, and suffering."
+        },
+        {
+            "id": 63,
+            "question": "What method of learning did Augustine strongly endorse, in agreement with Plato?",
+            "options": {
+                "A": "The empirical method",
+                "B": "The Socratic questioning method",
+                "C": "The dialectical method",
+                "D": "The experimental method"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states Augustine, like Plato, strongly believed the dialectical method of learning was the best manner to facilitate true ideas about God and man."
+        },
+        {
+            "id": 64,
+            "question": "What approach to education did Augustine promote as a result of his belief in the dialectical method?",
+            "options": {
+                "A": "A scientific and observational approach",
+                "B": "An intuitive approach to education",
+                "C": "A structured curriculum based on Greek texts",
+                "D": "A community-based learning model"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Augustine promoted an intuitive approach to education, consistent with his and Plato's emphasis on the dialectical method."
+        },
+        {
+            "id": 65,
+            "question": "What did Augustine and Plato both warn could lead people away from true knowledge?",
+            "options": {
+                "A": "Excessive prayer and meditation",
+                "B": "Concentration on physical phenomena",
+                "C": "Study of philosophy and logic",
+                "D": "Reliance on scripture alone"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Both Augustine and Plato agreed that concentration on physical phenomena could lead people astray from the path of true knowledge."
+        },
+        {
+            "id": 66,
+            "question": "According to Augustine, who creates knowledge?",
+            "options": {
+                "A": "Humans through reason and experience",
+                "B": "Philosophers through dialectical thinking",
+                "C": "God — people can only discover it",
+                "D": "Society through shared cultural experience"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Augustine noted that people do not create knowledge — God had already created it, but people can discover it through trying to find God."
+        },
+        {
+            "id": 67,
+            "question": "How, according to Augustine, can people discover knowledge?",
+            "options": {
+                "A": "Through scientific observation and experimentation",
+                "B": "Through trying to find God",
+                "C": "Through studying the works of Greek philosophers",
+                "D": "Through physical and moral discipline alone"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states that people can discover knowledge through trying to find God."
+        },
+        {
+            "id": 68,
+            "question": "Why did Augustine believe humans are closest to Divinity among all things?",
+            "options": {
+                "A": "Because humans possess reason and language",
+                "B": "Because humans have souls",
+                "C": "Because humans were made in God's physical image",
+                "D": "Because humans alone can perform worship"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Augustine held that by virtue of the fact that humans have souls, they are the closest things to Divinity."
+        },
+        {
+            "id": 69,
+            "question": "Where did Augustine say humans should look for true knowledge?",
+            "options": {
+                "A": "In sacred texts and scriptures",
+                "B": "In the natural world around them",
+                "C": "Within their own souls",
+                "D": "In the teachings of the Church"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Augustine said humans should look within their souls for the true knowledge that exists there, since the soul is closest to Divinity."
+        },
+        {
+            "id": 70,
+            "question": "What did Augustine consider to be ultimate reality?",
+            "options": {
+                "A": "The physical universe",
+                "B": "The human mind",
+                "C": "God",
+                "D": "Moral law"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Augustine believed that ultimate reality is God."
+        },
+        {
+            "id": 71,
+            "question": "According to Augustine, what is the human bridge to ultimate reality (God)?",
+            "options": {
+                "A": "The mind",
+                "B": "Scripture",
+                "C": "The Church",
+                "D": "The soul"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Augustine believed that the human bridge to ultimate reality (God) is the soul."
+        },
+        {
+            "id": 72,
+            "question": "What did Plato consider to be ultimate reality, and what was the human bridge to it?",
+            "options": {
+                "A": "Nature; the body",
+                "B": "Idea; the mind",
+                "C": "God; the soul",
+                "D": "Reason; language"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "According to the text, Plato's ultimate reality is idea, and the human bridge to it is the mind."
+        },
+        {
+            "id": 73,
+            "question": "What logical association does the text draw from comparing Augustine's and Plato's views on ultimate reality?",
+            "options": {
+                "A": "It is logical to associate the soul with matter",
+                "B": "It is logical to associate God with idea",
+                "C": "It is logical to associate the mind with God",
+                "D": "It is logical to associate idea with darkness"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text concludes that since Augustine equates ultimate reality with God and Plato equates it with idea, it is logical to associate God with idea."
+        },
+        {
+            "id": 74,
+            "question": "According to Augustine, what is man's means of contact with ultimate reality?",
+            "options": {
+                "A": "Body and reason",
+                "B": "Scripture and prayer",
+                "C": "Mind and soul",
+                "D": "Intellect and community"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that man's contact with ultimate reality is by means of mind and soul."
+        },
+        {
+            "id": 75,
+            "question": "Which of the following best describes Augustine's overall philosophical position?",
+            "options": {
+                "A": "Empiricism — knowledge comes from sensory experience",
+                "B": "Religious Idealism — spiritual and ideal realities are supreme, with God as ultimate reality",
+                "C": "Materialism — the physical world is the basis of all knowledge",
+                "D": "Rationalism — human reason alone can determine truth"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Augustine is presented under the heading of Religious Idealism, holding that God is ultimate reality, the soul is the bridge to God, and true knowledge is found inwardly rather than through physical phenomena."
+        },
+        {
+            "id": 76,
+            "question": "Which philosopher most directly influenced Augustine's educational and philosophical ideas?",
+            "options": {
+                "A": "Aristotle",
+                "B": "Socrates",
+                "C": "Plato",
+                "D": "Epicurus"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text repeatedly compares Augustine's ideas with Plato's, noting that Augustine concurred with Plato's divided line, shared his endorsement of the dialectical method, and agreed with his caution about physical phenomena."
+        },
+        {
+            "id": 77,
+            "question": "How did Greek philosophy reach and influence Christianity, according to the text?",
+            "options": {
+                "A": "Through direct translation of Greek texts by Christian monks",
+                "B": "Through Alexander the Great spreading Greek culture and schools across the Mediterranean, influencing New Testament writers",
+                "C": "Through Roman emperors mandating Greek education in Christian communities",
+                "D": "Through Plato's direct engagement with early Christian communities"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text traces the path from Alexander spreading Greek culture and schools, to Idealism gaining ground in Judaism and Christianity, and New Testament writers being influenced by Greek philosophy."
+        },
+        {
+            "id": 78,
+            "question": "What historical period informs the classification of 'Modern Idealism'?",
+            "options": {
+                "A": "The Renaissance of the thirteenth and fourteenth centuries",
+                "B": "The scientific revolution of the fifteenth and sixteenth centuries",
+                "C": "The Enlightenment of the seventeenth and eighteenth centuries",
+                "D": "The Industrial Revolution of the eighteenth and nineteenth centuries"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Modern Idealism is informed by the scientific revolution of the fifteenth and sixteenth centuries, with its systematization and subjectivism."
+        },
+        {
+            "id": 79,
+            "question": "Which of the following best describes how Modern Idealism is characterized?",
+            "options": {
+                "A": "Empiricism and objectivism",
+                "B": "Rationalism and materialism",
+                "C": "Systematization and subjectivism",
+                "D": "Skepticism and pragmatism"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Modern Idealism is characterized by systematization and subjectivism, as gleaned in the writings of its notable writers."
+        },
+        {
+            "id": 80,
+            "question": "Which of the following is NOT listed as a notable writer associated with Modern Idealism?",
+            "options": {
+                "A": "Rene Descartes",
+                "B": "George Berkeley",
+                "C": "John Locke",
+                "D": "Georg W.F. Hegel"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The notable writers listed are Rene Descartes, George Berkeley, Immanuel Kant, and Georg W.F. Hegel. John Locke is not mentioned."
+        },
+        {
+            "id": 81,
+            "question": "What were the years of Rene Descartes' life?",
+            "options": {
+                "A": "1561 – 1620",
+                "B": "1596 – 1650",
+                "C": "1610 – 1670",
+                "D": "1685 – 1753"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Rene Descartes lived from 1596 to 1650."
+        },
+        {
+            "id": 82,
+            "question": "Although much of Descartes' philosophy is characterized as Idealism, what other philosophical system did he also contribute to?",
+            "options": {
+                "A": "Empiricism",
+                "B": "Pragmatism",
+                "C": "Philosophical realism",
+                "D": "Existentialism"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Descartes also contributed a great deal to philosophical realism and other thought systems, not just Idealism."
+        },
+        {
+            "id": 83,
+            "question": "Which of the following is one of Descartes' significant works?",
+            "options": {
+                "A": "Critique of Pure Reason",
+                "B": "Discourse on Method",
+                "C": "Principles of Human Knowledge",
+                "D": "Phenomenology of Spirit"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Discourse on Method is listed as one of Descartes' significant works, alongside Meditations of the First Philosophy."
+        },
+        {
+            "id": 84,
+            "question": "What is the major contribution of Descartes to Idealism?",
+            "options": {
+                "A": "The theory of immaterial substance",
+                "B": "The a priori judgment system",
+                "C": "The Cartesian Principle",
+                "D": "The omnipresent mind doctrine"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that the major contribution of Descartes to Idealism was his famous Cartesian Principle."
+        },
+        {
+            "id": 85,
+            "question": "What method did Descartes use when he sought to doubt all things, including his own existence?",
+            "options": {
+                "A": "Dialectical reasoning",
+                "B": "Mathematical doubt",
+                "C": "Empirical observation",
+                "D": "Synthetic a priori judgment"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Descartes explored his 'mathematical doubt,' whereby he sought to doubt all things including his own existence."
+        },
+        {
+            "id": 86,
+            "question": "Upon which two principles did Descartes base his philosophical system?",
+            "options": {
+                "A": "Reason and Experience",
+                "B": "Mind and Matter",
+                "C": "The 'cogito' and Deity",
+                "D": "Spirit and Idea"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Descartes based his system on two principles: the 'cogito' and Deity."
+        },
+        {
+            "id": 87,
+            "question": "In Descartes' philosophy, what does the 'cogito' represent?",
+            "options": {
+                "A": "The foundation for all objects of thought",
+                "B": "The indomitability of human thought",
+                "C": "The existence of an omnipresent God",
+                "D": "The doubt of all sensory experience"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Descartes placed the indomitability of human thought in the 'cogito,' while the Deity served as the foundation for all objects of thought."
+        },
+        {
+            "id": 88,
+            "question": "According to Descartes, what serves as the foundation for all objects of thought?",
+            "options": {
+                "A": "The cogito",
+                "B": "Mathematical reasoning",
+                "C": "The Deity",
+                "D": "Human consciousness"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Descartes held that the Deity is the foundation for all the objects of thought."
+        },
+        {
+            "id": 89,
+            "question": "What did Descartes believe about the finite mind in relation to God?",
+            "options": {
+                "A": "The finite mind can independently arrive at all truths without God",
+                "B": "There is a finite mind contemplating objects of thought founded in God",
+                "C": "The finite mind is an illusion created by sensory experience",
+                "D": "The finite mind and God are one and the same entity"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Descartes believed that there is a finite mind contemplating objects of thought that are founded in God."
+        },
+        {
+            "id": 90,
+            "question": "What were the years of George Berkeley's life?",
+            "options": {
+                "A": "1596 – 1650",
+                "B": "1724 – 1804",
+                "C": "1685 – 1753",
+                "D": "1650 – 1720"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "George Berkeley lived from 1685 to 1753."
+        },
+        {
+            "id": 91,
+            "question": "What was the primary influence on George Berkeley's philosophical views?",
+            "options": {
+                "A": "His mathematical background",
+                "B": "His religious background",
+                "C": "His study of empirical science",
+                "D": "His political ideology"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states that Berkeley's philosophical views were strongly influenced by his religious background."
+        },
+        {
+            "id": 92,
+            "question": "How did Berkeley refute the existence of matter?",
+            "options": {
+                "A": "By arguing that matter is too complex to be understood by the human mind",
+                "B": "By showing that matter cannot exist except as a form of mind",
+                "C": "By proving that matter is merely a scientific construct",
+                "D": "By claiming that matter is an illusion created by the senses"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Berkeley refuted matter by showing that matter cannot exist except as a form of mind."
+        },
+        {
+            "id": 93,
+            "question": "According to Berkeley, how are things known to us?",
+            "options": {
+                "A": "Through empirical observation and measurement",
+                "B": "Through mathematical deduction",
+                "C": "Only as we consciously conceive them",
+                "D": "Through divine revelation alone"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Berkeley asserted that things are known only as we consciously conceive them."
+        },
+        {
+            "id": 94,
+            "question": "When we think of the universe existing before any finite mind could conceive it, what conclusion does Berkeley draw?",
+            "options": {
+                "A": "The universe does not exist prior to human consciousness",
+                "B": "We are led to assume the existence of an omnipresent mind lasting through all time and eternity",
+                "C": "Matter must have existed independently before the mind",
+                "D": "God created the universe from pure mathematical principles"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Berkeley argues that thinking of the universe existing before finite minds leads to the assumption of an omnipresent mind lasting through all time and eternity."
+        },
+        {
+            "id": 95,
+            "question": "According to Berkeley, what has science profaned?",
+            "options": {
+                "A": "The rational principles of human thought",
+                "B": "Immaterial substance — ideas and spirit",
+                "C": "The mathematical foundations of reality",
+                "D": "The concept of a priori knowledge"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Berkeley opined that immaterial substance (ideas and spirit) has been profaned by science."
+        },
+        {
+            "id": 96,
+            "question": "According to Berkeley, what truly exists rather than matter?",
+            "options": {
+                "A": "Energy and force",
+                "B": "Mathematical structures",
+                "C": "Spirit, idea, or God",
+                "D": "Time and space"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Berkeley held that what exists is not matter but rather spirit, idea, or God."
+        },
+        {
+            "id": 97,
+            "question": "What were the years of Immanuel Kant's life?",
+            "options": {
+                "A": "1685 – 1753",
+                "B": "1596 – 1650",
+                "C": "1724 – 1804",
+                "D": "1770 – 1831"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Immanuel Kant lived from 1724 to 1804."
+        },
+        {
+            "id": 98,
+            "question": "How is Immanuel Kant generally regarded?",
+            "options": {
+                "A": "As the founder of empiricism",
+                "B": "As one of the world's greatest philosophers",
+                "C": "As the father of rationalism",
+                "D": "As the first idealist philosopher"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Kant is generally recognized as one of the world's greatest philosophers."
+        },
+        {
+            "id": 99,
+            "question": "What was a central aim of Kant's philosophical work?",
+            "options": {
+                "A": "To prove the existence of God through mathematical reasoning",
+                "B": "To reject all prior philosophical traditions",
+                "C": "To bring order to the divergent views of rationalism and empiricism",
+                "D": "To establish matter as the foundation of all reality"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Kant's work was, among other things, a critique of past systems in which he sought to bring order to the divergent views and warring philosophic camps of rationalism and empiricism."
+        },
+        {
+            "id": 100,
+            "question": "Which two of Kant's works are specifically mentioned in the text?",
+            "options": {
+                "A": "Discourse on Method and Meditations of the First Philosophy",
+                "B": "Critique of Pure Reason and Critique of Practical Reason",
+                "C": "Principles of Human Knowledge and Three Dialogues",
+                "D": "Phenomenology of Spirit and Science of Logic"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text mentions Critique of Pure Reason and Critique of Practical Reason as Kant's works that lend credence to his attempt to reconcile divergent philosophical views."
+        },
+        {
+            "id": 101,
+            "question": "From what did Kant's idealism primarily derive?",
+            "options": {
+                "A": "His focus on religious doctrine",
+                "B": "His concentration on human thought processes",
+                "C": "His rejection of scientific methods",
+                "D": "His study of ancient Greek philosophy"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Kant's idealism came basically from his concentration on human thought processes."
+        },
+        {
+            "id": 102,
+            "question": "According to Kant, how does the rationalist think?",
+            "options": {
+                "A": "Synthetically",
+                "B": "Empirically",
+                "C": "Analytically",
+                "D": "Intuitively"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Kant held that the rationalist thinks analytically, while the implicit (empiricist) thinks synthetically."
+        },
+        {
+            "id": 103,
+            "question": "According to Kant, how does the empiricist (the 'implicit') think?",
+            "options": {
+                "A": "Analytically",
+                "B": "Synthetically",
+                "C": "Deductively",
+                "D": "Rationally"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Kant held that the implicit (empiricist) thinks synthetically, contrasting with the rationalist who thinks analytically."
+        },
+        {
+            "id": 104,
+            "question": "What type of logical judgments did Kant work out his philosophical system based on?",
+            "options": {
+                "A": "A posteriori (synthetic) and a priori (analytic) logical judgments",
+                "B": "Inductive and deductive logical judgments",
+                "C": "Empirical and rationalist logical judgments",
+                "D": "Subjective and objective logical judgments"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "Kant worked out a system based on a posteriori (synthetic) and a priori (analytic) logical judgments, which he called a priori judgments."
+        },
+        {
+            "id": 105,
+            "question": "What term did Kant use to refer to the combined system of a posteriori and a priori logical judgments?",
+            "options": {
+                "A": "Synthetic judgments",
+                "B": "A posteriori judgments",
+                "C": "A priori judgments",
+                "D": "Analytic judgments"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Kant called his combined system of a posteriori (synthetic) and a priori (analytic) logical judgments 'a priori judgments.'"
+        },
+        {
+            "id": 106,
+            "question": "Why did Kant reject the notion that things are totally dependent on the mind?",
+            "options": {
+                "A": "Because it contradicts religious doctrine",
+                "B": "Because it would reject the possibility of scientific law",
+                "C": "Because it conflicts with empirical observation",
+                "D": "Because it undermines the role of the Deity"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Kant rejected the fact that things are totally dependent on mind because this notion would reject the possibility of scientific law."
+        },
+        {
+            "id": 107,
+            "question": "According to Kant, what are the primary ingredients in education that lead people to think and seek out 'the good'?",
+            "options": {
+                "A": "Logic and mathematics",
+                "B": "Observation and experimentation",
+                "C": "Education and discipline",
+                "D": "Religion and tradition"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Kant believes that education and discipline are primary ingredients of education that lead people to think and seek out 'the good.'"
+        },
+        {
+            "id": 108,
+            "question": "According to Kant, what is the most important thing in education?",
+            "options": {
+                "A": "Memorization of facts and principles",
+                "B": "Enlightenment, or teaching a child to think according to principles",
+                "C": "Teaching students to follow societal norms",
+                "D": "Encouraging random and free behavior"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Kant stated that the important thing in education is 'enlightenment,' or teaching a child to think according to principles, as opposed to random behavior."
+        },
+        {
+            "id": 109,
+            "question": "Which philosopher argued that the universe's existence before finite minds implies an omnipresent eternal mind?",
+            "options": {
+                "A": "Immanuel Kant",
+                "B": "Rene Descartes",
+                "C": "Georg W.F. Hegel",
+                "D": "George Berkeley"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Berkeley argued that thinking of the universe existing before any finite mind can conceive it leads to the assumption of an omnipresent mind lasting through all time and eternity."
+        },
+        {
+            "id": 110,
+            "question": "Which philosopher's work was primarily a critique aimed at reconciling rationalism and empiricism?",
+            "options": {
+                "A": "Rene Descartes",
+                "B": "George Berkeley",
+                "C": "Immanuel Kant",
+                "D": "Georg W.F. Hegel"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Kant's work was a critique of past systems in which he sought to bring order to the divergent views of rationalism and empiricism."
+        },
+        {
+            "id": 111,
+            "question": "Which philosopher's major contribution to Idealism was rooted in doubting all things, including his own existence?",
+            "options": {
+                "A": "George Berkeley",
+                "B": "Immanuel Kant",
+                "C": "Georg W.F. Hegel",
+                "D": "Rene Descartes"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Descartes explored 'mathematical doubt,' seeking to doubt all things including his own existence, and this approach underpinned his major contribution — the Cartesian Principle."
+        },
+        {
+            "id": 112,
+            "question": "What is the correct chronological order of the three philosophers discussed (earliest to latest birth year)?",
+            "options": {
+                "A": "Berkeley, Descartes, Kant",
+                "B": "Descartes, Berkeley, Kant",
+                "C": "Kant, Berkeley, Descartes",
+                "D": "Descartes, Kant, Berkeley"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Descartes (1596), Berkeley (1685), and Kant (1724) are in correct chronological order by birth year."
+        },
+        {
+            "id": 113,
+            "question": "Which of the following works is attributed to Descartes?",
+            "options": {
+                "A": "Critique of Practical Reason",
+                "B": "Principles of Human Knowledge",
+                "C": "Meditations of the First Philosophy",
+                "D": "Phenomenology of Spirit"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Meditations of the First Philosophy is one of Descartes' significant works, alongside Discourse on Method."
+        },
+        {
+            "id": 114,
+            "question": "Which philosopher held that what truly exists is not matter but spirit, idea, or God, based largely on religious convictions?",
+            "options": {
+                "A": "Rene Descartes",
+                "B": "Immanuel Kant",
+                "C": "George Berkeley",
+                "D": "Georg W.F. Hegel"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Berkeley, strongly influenced by his religious background, held that what exists is not matter but rather spirit, idea, or God."
+        },
+        {
+            "id": 115,
+            "question": "George Wilhelm Friedrich Hegel lived during which period?",
+            "options": {
+                "A": "1724–1804",
+                "B": "1770–1831",
+                "C": "1748–1832",
+                "D": "1755–1820"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Hegel was born in 1770 and died in 1831, as stated at the opening of the passage."
+        },
+        {
+            "id": 116,
+            "question": "In the history of philosophy, Hegel is widely regarded as the capstone of which tradition?",
+            "options": {
+                "A": "Empiricist philosophy in the modern era",
+                "B": "Existentialist philosophy in the modern era",
+                "C": "Idealistic philosophy in the modern era",
+                "D": "Rationalist philosophy in the modern era"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text explicitly states that 'Hegel is widely believed to be the capstone of idealistic philosophy in the modern era.'"
+        },
+        {
+            "id": 117,
+            "question": "Which feature of Hegel's philosophy is described as its most striking characteristic?",
+            "options": {
+                "A": "Empiricism",
+                "B": "Dialectic logic",
+                "C": "Existential phenomenology",
+                "D": "Rationalist deduction"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states 'The striking features of Hegel's philosophy are logic, Dialectic best fits his logic.'"
+        },
+        {
+            "id": 118,
+            "question": "Hegel's dialectic is often described as a mechanical process involving which three elements?",
+            "options": {
+                "A": "Premise, argument, conclusion",
+                "B": "Observation, hypothesis, theory",
+                "C": "Thesis, antithesis, synthesis",
+                "D": "Idea, Nature, Spirit"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text describes the dialectic as 'a mechanical warring between thesis and antitheses, with the result being a synthesis.'"
+        },
+        {
+            "id": 119,
+            "question": "According to Hegel, what can be achieved if his logical system is applied with rigorous accuracy?",
+            "options": {
+                "A": "The elimination of all antitheses",
+                "B": "The arrival at the final Absolute Idea",
+                "C": "The separation of Idea from Nature",
+                "D": "The reconciliation of dualism"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Hegel maintained that 'the final Absolute Idea could be arrived at if his logical system is applied rigorously accurate.'"
+        },
+        {
+            "id": 120,
+            "question": "What does Hegel say is the antithesis of the Absolute Idea at the final stage?",
+            "options": {
+                "A": "Spirit",
+                "B": "Synthesis",
+                "C": "Nature",
+                "D": "Mind"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that 'Absolute Ideas have an antithesis Nature,' indicating that Nature is the antithesis of the Absolute Idea."
+        },
+        {
+            "id": 121,
+            "question": "What was Hegel's view on the relationship between Idea and Nature?",
+            "options": {
+                "A": "They are completely separate and independent",
+                "B": "Idea is superior to and replaces Nature",
+                "C": "He did not view them as finally separated",
+                "D": "Nature is a mere illusion of the Idea"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text explicitly states 'He did not view Idea and Nature as finally separated.'"
+        },
+        {
+            "id": 122,
+            "question": "According to Hegel, what is his position on dualism at any final stage?",
+            "options": {
+                "A": "Dualism is necessary for the dialectic to function",
+                "B": "Dualism is tolerable only at intermediate stages",
+                "C": "Dualism is intolerable at any final stage",
+                "D": "Dualism is the foundation of Absolute Idea"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states clearly that 'Dualism according to Hegel is intolerable at any final stage.'"
+        },
+        {
+            "id": 123,
+            "question": "What did Hegel believe about the nature of change?",
+            "options": {
+                "A": "Change is an illusion of the material world",
+                "B": "He recognized the inevitableness of change",
+                "C": "Change only occurs at the level of Nature, not Idea",
+                "D": "Change is the opposite of the Absolute Idea"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states 'Hegel recognizes the inevitableness of change, even Absolute Idea the final stage only as it concerns thought process.'"
+        },
+        {
+            "id": 124,
+            "question": "According to Hegel's view on education, what must a truly educated person have necessarily passed through?",
+            "options": {
+                "A": "Rigorous logical training and dialectical reasoning",
+                "B": "The stages of thesis, antithesis, and synthesis personally",
+                "C": "The cultural-evolution of mankind",
+                "D": "A deep study of the Absolute Idea"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Hegel believed that 'a truly educated must have necessarily passed through cultural-evolution of mankind.'"
+        },
+        {
+            "id": 125,
+            "question": "What is the primary concern of idealists in the context of education?",
+            "options": {
+                "A": "To develop physical strength and discipline",
+                "B": "To stress the mind to the limit in terms of education",
+                "C": "To integrate sensory experience with abstract knowledge",
+                "D": "To focus exclusively on moral character"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Since idealists stress the importance of mind over matter, the text states their chief concern is 'to stress the mind to the limit in terms of education.'"
+        },
+        {
+            "id": 126,
+            "question": "Which of the following best describes the first aim of idealist education?",
+            "options": {
+                "A": "Character development through discipline",
+                "B": "Search for true ideas in the perceptual world",
+                "C": "Mind development",
+                "D": "Focus on lasting spiritual things"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The first aim listed is 'Mind development,' because idealists stress the importance of mind over matter."
+        },
+        {
+            "id": 127,
+            "question": "Why do idealists emphasize focusing on lasting and permanent things in education rather than transient matters?",
+            "options": {
+                "A": "Because the physical world is too complex to understand",
+                "B": "Because matters are ephemeral while the spirit is eternal",
+                "C": "Because transient matters lead to immoral behavior",
+                "D": "Because lasting things are easier to measure academically"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text explains: 'Matters are ephemeral while the spirit is eternal, therefore instead of preoccupation with transient matters, attention should be fixed on things that are lasting and permanent.'"
+        },
+        {
+            "id": 128,
+            "question": "According to idealists, where can true ideas be found?",
+            "options": {
+                "A": "In the perceptual world of sense data",
+                "B": "In scientific experimentation and observation",
+                "C": "In the conceptual world of ideas",
+                "D": "In the synthesis of thesis and antithesis"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states idealists believed 'true ideas can be found in the conceptual world of ideas rather than perceptual one of sense data.'"
+        },
+        {
+            "id": 129,
+            "question": "What do idealists contrast the 'conceptual world of ideas' with in their search for truth?",
+            "options": {
+                "A": "The material world of physical objects",
+                "B": "The perceptual world of sense data",
+                "C": "The social world of cultural evolution",
+                "D": "The natural world of biological organisms"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text explicitly contrasts 'the conceptual world of ideas' with 'perceptual one of sense data.'"
+        },
+        {
+            "id": 130,
+            "question": "In idealist education, what combination of qualities is emphasized in student development beyond mere knowledge?",
+            "options": {
+                "A": "Physical fitness and intellectual excellence",
+                "B": "Moral and cognitive growth",
+                "C": "Social harmony and individual creativity",
+                "D": "Logical reasoning and empirical observation"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states 'Students are believed to have enormous potential for growth both morally and cognitively.'"
+        },
+        {
+            "id": 131,
+            "question": "What is the idealist emphasis regarding the type of person education should produce?",
+            "options": {
+                "A": "A knowledgeable and technically skilled person",
+                "B": "A person who excels in dialectical reasoning",
+                "C": "Not merely a knowledgeable person, but a good person",
+                "D": "A person who has mastered sensory perception"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states 'The emphasis in many idealist writers is not merely knowledgeable person, but good person.'"
+        },
+        {
+            "id": 132,
+            "question": "What is the idealist view regarding students' capacity to choose harmful things?",
+            "options": {
+                "A": "Students are naturally inclined toward good and cannot choose evil",
+                "B": "Evil has no objective existence so students cannot truly be harmed",
+                "C": "Though idealists may not give 'evil' objective existence, they concur students may choose harmful things",
+                "D": "Students must be shielded from all choices until fully educated"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states 'Though idealist many not always be apt to give evil an objective existence, they concur that students may choose things that are harmful.'"
+        },
+        {
+            "id": 133,
+            "question": "According to idealist philosophy, what obligation does this give to the teacher?",
+            "options": {
+                "A": "To punish students who make poor choices",
+                "B": "To present students with good models",
+                "C": "To eliminate all exposure to harmful content",
+                "D": "To develop strict Spartan discipline"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states 'The teacher therefore has obligations to present students with good models.'"
+        },
+        {
+            "id": 134,
+            "question": "What metaphor do idealists use to describe the body in relation to knowledge?",
+            "options": {
+                "A": "A temple that houses the spirit",
+                "B": "A vessel that carries true ideas",
+                "C": "A prison house that causes the soul to lose true knowledge",
+                "D": "A machine that processes sense data"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text refers to 'the prison house of the body,' suggesting education must help regain true knowledge lost by being placed in it."
+        },
+        {
+            "id": 135,
+            "question": "What is the ultimate goal of education according to the idealist conception described in the text?",
+            "options": {
+                "A": "To prepare students for participation in cultural-evolution",
+                "B": "To develop physical and moral discipline through Spartan living",
+                "C": "To regain true knowledge that was lost by being placed in the body",
+                "D": "To teach students to distinguish thesis from antithesis"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states 'Education must be geared to regaining the true knowledge it lost by being placed in the prison house of the body.'"
+        },
+        {
+            "id": 136,
+            "question": "How do idealists fundamentally view human beings, in contrast to viewing them merely as biological organisms?",
+            "options": {
+                "A": "As social constructs shaped entirely by cultural evolution",
+                "B": "As rational animals capable of dialectical reasoning",
+                "C": "As possessors of an 'inner light', a mind or soul",
+                "D": "As empirical observers of the natural world"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states idealists see people as 'the possessors of an inner light, a mind or soul,' rather than simply biological organisms in nature."
+        },
+        {
+            "id": 137,
+            "question": "What does the character development aim of idealist education specifically emphasize?",
+            "options": {
+                "A": "Athletic achievement and communal cooperation",
+                "B": "Personal discipline, Spartan lifestyle, and steadfast character",
+                "C": "Logical debate and synthesis of opposing ideas",
+                "D": "Exposure to diverse cultural traditions"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text describes character development as including 'Personal discipline, Spartan lifestyle and steadfast character' as a necessity in the bid for truth."
+        },
+        {
+            "id": 138,
+            "question": "How many distinct aims of idealist education are listed in the passage?",
+            "options": {
+                "A": "Three",
+                "B": "Five",
+                "C": "Two",
+                "D": "Four"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The passage lists four aims: (I) Mind development, (ii) Focus on lasting things, (iii) Search for true ideas, and (iv) Character development."
+        },
+        {
+            "id": 139,
+            "question": "According to the passage, what have idealists tried to do with idealist principles in relation to education?",
+            "options": {
+                "A": "Replace traditional education systems with purely philosophical training",
+                "B": "Systematically apply idealist principles to the theory and practice of education",
+                "C": "Limit idealist principles to higher university-level education only",
+                "D": "Use idealist principles to critique empiricist approaches to teaching"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states idealists 'have tried to systematically apply idealist principles to the theory and practice of education.'"
+        },
+        {
+            "id": 140,
+            "question": "Which of the following correctly pairs an idealist educational aim with its core rationale?",
+            "options": {
+                "A": "Mind development — because the body is superior to the spirit",
+                "B": "Focus on lasting things — because the spirit is eternal while matters are ephemeral",
+                "C": "Search for true ideas — because sense data is the most reliable source of truth",
+                "D": "Character development — because students are naturally morally perfect"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text explicitly links the aim of focusing on lasting things to the rationale that 'matters are ephemeral while the spirit is eternal.'"
+        },
+        {
+            "id": 141,
+            "question": "According to Idealism, what lies at the centre of idealist education?",
+            "options": {
+                "A": "Society",
+                "B": "Self",
+                "C": "Nature",
+                "D": "Reason"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Idealism is mostly concerned with self, hence self lies at the centre of idealist education."
+        },
+        {
+            "id": 142,
+            "question": "How does Idealism regard the self in terms of reality?",
+            "options": {
+                "A": "As a secondary construct of society",
+                "B": "As an illusion created by the mind",
+                "C": "As the prime reality of individual experience",
+                "D": "As subordinate to universal laws"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "According to Idealism, self is considered as the prime reality of individual experience."
+        },
+        {
+            "id": 143,
+            "question": "Which of the following best describes the Idealist conception of 'ultimate reality'?",
+            "options": {
+                "A": "It is purely material and observable",
+                "B": "It may be conceived as a self — one self, a community of selves, or a universal self",
+                "C": "It exists only in the external physical world",
+                "D": "It is defined solely by social institutions"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Idealists hold that ultimate reality may be conceived as a self, which may be one self, a community of selves, or a universal self."
+        },
+        {
+            "id": 144,
+            "question": "According to Idealism, education is primarily concerned with which of the following?",
+            "options": {
+                "A": "Vocational training",
+                "B": "Scientific observation",
+                "C": "Self-realization",
+                "D": "Physical development"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "According to Idealist thought, education is primarily concerned with self-realization."
+        },
+        {
+            "id": 145,
+            "question": "Which philosopher's methodological search is cited as an example of the Idealist theme of self-realization?",
+            "options": {
+                "A": "Plato",
+                "B": "Hegel",
+                "C": "Descartes",
+                "D": "Aristotle"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text references Descartes' methodological search and his famous statement 'cogito — I think, therefore I am' as an example of the Idealist theme of self-realization."
+        },
+        {
+            "id": 146,
+            "question": "What is the meaning of Descartes' famous phrase 'cogito'?",
+            "options": {
+                "A": "I exist, therefore I feel",
+                "B": "I think, therefore I am",
+                "C": "I know, therefore I believe",
+                "D": "I act, therefore I learn"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Cogito' refers to Descartes' statement 'I think, therefore I am,' which surfaces the Idealist theme of self as prime reality."
+        },
+        {
+            "id": 147,
+            "question": "What has Idealism exerted significant influence on in the field of education?",
+            "options": {
+                "A": "Curriculum design for science subjects",
+                "B": "Views about the individual's mind and self",
+                "C": "Physical education and sports",
+                "D": "National economic policies"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Idealism has exerted much influence on educational views about the individual's mind and self."
+        },
+        {
+            "id": 148,
+            "question": "Which feature of Idealist education refers to the harmonious relationship between the individual and the larger whole?",
+            "options": {
+                "A": "Self-realization",
+                "B": "Cultural transmission",
+                "C": "Wholistic relations of the part to the whole",
+                "D": "Empirical observation"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "One key feature of Idealism is the wholistic relations of the part to the whole in a harmonious manner."
+        },
+        {
+            "id": 149,
+            "question": "According to the text, what was Plato's view on the individual?",
+            "options": {
+                "A": "The individual is entirely independent of society",
+                "B": "The individual cannot be conceived apart from a specific place and role in society",
+                "C": "The individual is more important than the collective",
+                "D": "The individual should reject societal roles"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Plato cannot conceive of an individual apart from a specific place and role in society."
+        },
+        {
+            "id": 150,
+            "question": "Which philosopher is associated with the idea that the individual must be related to the whole in order to find real significance?",
+            "options": {
+                "A": "Plato",
+                "B": "Descartes",
+                "C": "William of Ockham",
+                "D": "Hegel"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Hegel held that the individual must be related to the whole, as it is only in the setting of the total relationship that the real significance of a single individual can be found."
+        },
+        {
+            "id": 151,
+            "question": "What concept in Hegel's philosophy describes the relationship between the self and society?",
+            "options": {
+                "A": "Nominalism",
+                "B": "Symbiotic relationship",
+                "C": "Empiricism",
+                "D": "Conceptualism"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Hegel's philosophy features the symbiotic relationship of the self to society, emphasizing that the individual and society are mutually dependent."
+        },
+        {
+            "id": 152,
+            "question": "According to Hegel, where can the real significance of a single individual be found?",
+            "options": {
+                "A": "In isolation from the rest of society",
+                "B": "In the setting of the total relationship",
+                "C": "In personal achievement alone",
+                "D": "In obedience to natural laws"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Hegel held that it is only in the setting of the total relationship that the real significance of a single individual can be found."
+        },
+        {
+            "id": 153,
+            "question": "What does the text identify as 'much of the thrust of education' from an Idealist perspective?",
+            "options": {
+                "A": "The development of scientific reasoning",
+                "B": "The preservation of cultural traditions",
+                "C": "The promotion of economic productivity",
+                "D": "The cultivation of physical skills"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states that much of the thrust of education is the preservation of cultural traditions, according to the Idealist view."
+        },
+        {
+            "id": 154,
+            "question": "What kind of truth do Idealists have a deep concern for?",
+            "options": {
+                "A": "Empirical and observable truth",
+                "B": "Relative and situational truth",
+                "C": "Perennial and ultimate truth",
+                "D": "Scientific and measurable truth"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Idealists have a deep concern for perennial and ultimate truth."
+        },
+        {
+            "id": 155,
+            "question": "According to the Idealist view, the aims of education are largely a matter of:",
+            "options": {
+                "A": "Preparing students for the job market",
+                "B": "Passing on the cultural heritage",
+                "C": "Developing individual creativity",
+                "D": "Encouraging scientific experimentation"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states that the aims of education are largely a matter of passing on the cultural heritage in the Idealist framework."
+        },
+        {
+            "id": 156,
+            "question": "What does Idealism consider the highest aim of education?",
+            "options": {
+                "A": "Mastery of practical skills",
+                "B": "Achievement of economic independence",
+                "C": "The conception of true ideas",
+                "D": "Obedience to social norms"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The conception of true ideas is the highest aim of education according to Idealism, and one toward which all people should strive."
+        },
+        {
+            "id": 157,
+            "question": "According to Idealism, what should the aim of education be directed towards?",
+            "options": {
+                "A": "Physical excellence and discipline",
+                "B": "The search for true ideas",
+                "C": "National development and governance",
+                "D": "Mastery of natural sciences"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text explicitly states that the aim of education should be directed towards the search for true ideas."
+        },
+        {
+            "id": 158,
+            "question": "What lies at the core of Idealism, as stated in the text?",
+            "options": {
+                "A": "Empirical inquiry and observation",
+                "B": "Collective governance and law",
+                "C": "Self-discovery and self-realization",
+                "D": "Technological advancement"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Self-discovery and self-realization lie at the core of Idealism."
+        },
+        {
+            "id": 159,
+            "question": "How is Realism defined in the text?",
+            "options": {
+                "A": "The view that all reality is a product of the human mind",
+                "B": "The view that things, objects, or activities exist that the human mind does not perceive",
+                "C": "The belief that knowledge comes only through sensory experience",
+                "D": "The doctrine that society shapes all individual perception"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Realism is defined as the view that there exist things, objects, or activities the human mind does not perceive."
+        },
+        {
+            "id": 160,
+            "question": "Realism is described as the exact opposite of which philosophical tradition?",
+            "options": {
+                "A": "Pragmatism of the 20th century",
+                "B": "Existentialism of the 19th century",
+                "C": "Idealism of the 18th century",
+                "D": "Rationalism of the 17th century"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that Realism is the exact opposite of the Idealism of the 18th century."
+        },
+        {
+            "id": 161,
+            "question": "In its broadest form, what does Realism claim?",
+            "options": {
+                "A": "That objects only exist when perceived by a subject",
+                "B": "That some objects exist independently of the experience of any subject",
+                "C": "That all knowledge is relative to cultural context",
+                "D": "That reality is constructed through language"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "In its broadest form, Realism claims that some objects exist independently of the experience of any subject."
+        },
+        {
+            "id": 162,
+            "question": "What is one of the older definitions of Realism mentioned in the text?",
+            "options": {
+                "A": "The belief that only material objects exist",
+                "B": "The view that knowledge can only be gained through experimentation",
+                "C": "The belief that abstract concepts like 'man' have a real existence and are not mere human creations",
+                "D": "The doctrine that the mind creates all reality"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "In one of its old definitions, Realism is the belief that abstract concepts, like those identified by general words such as 'man,' have a real existence and are not mere human creations."
+        },
+        {
+            "id": 163,
+            "question": "What philosophical position is Realism said to be in opposition to?",
+            "options": {
+                "A": "Idealism",
+                "B": "Pragmatism",
+                "C": "Nominalism",
+                "D": "Existentialism"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that Realism is in opposition to Nominalism."
+        },
+        {
+            "id": 164,
+            "question": "What does Nominalism maintain about general words?",
+            "options": {
+                "A": "They refer to existing objects in the real world",
+                "B": "They do not refer to existing objects but to language or imagination",
+                "C": "They are the highest form of human knowledge",
+                "D": "They are created by society to describe universal truths"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Nominalism maintains that general words do not refer to existing objects but to language or imagination."
+        },
+        {
+            "id": 165,
+            "question": "What is Conceptualism described as in the text?",
+            "options": {
+                "A": "A strict form of Realism that denies the existence of universals",
+                "B": "A more liberal form of Nominalism that accepts universals but only as ideas within a mind",
+                "C": "A branch of Idealism focused on cultural preservation",
+                "D": "A doctrine that universals exist independently of the human mind"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Conceptualism is described as a more liberal form of Nominalism that accepts the existence of universals, but only as ideas within a mind."
+        },
+        {
+            "id": 166,
+            "question": "According to Conceptualism, why are universals impossible to define?",
+            "options": {
+                "A": "Because they change constantly over time",
+                "B": "Because they are too complex for language to capture",
+                "C": "Because they cannot be defined through reality",
+                "D": "Because they only exist in physical form"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Conceptualism holds that universals exist only as ideas within a mind and are impossible to define through reality."
+        },
+        {
+            "id": 167,
+            "question": "Which philosopher is credited with making the doctrine of Conceptualism famous?",
+            "options": {
+                "A": "Plato",
+                "B": "Hegel",
+                "C": "Descartes",
+                "D": "William of Ockham"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The doctrine of Conceptualism was made famous by William of Ockham."
+        },
+        {
+            "id": 168,
+            "question": "What idea did William of Ockham dismiss?",
+            "options": {
+                "A": "That individual experience is the basis of all knowledge",
+                "B": "That universals exist apart from the human mind",
+                "C": "That society shapes individual identity",
+                "D": "That education should focus on self-realization"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "William of Ockham dismissed the idea that universals exist apart from the human mind."
+        },
+        {
+            "id": 169,
+            "question": "Which three doctrines are described as still active and unresolved problems in metaphysics?",
+            "options": {
+                "A": "Idealism, Pragmatism, and Existentialism",
+                "B": "Rationalism, Empiricism, and Skepticism",
+                "C": "Nominalism, Realism, and Conceptualism",
+                "D": "Structuralism, Nominalism, and Idealism"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that Nominalism, Realism, and Conceptualism are still active and unresolved problems in metaphysics."
+        },
+        {
+            "id": 170,
+            "question": "What metaphysical concerns do Nominalism, Realism, and Conceptualism collectively address?",
+            "options": {
+                "A": "The nature of God, morality, and free will",
+                "B": "The nature of universals, abstraction, and the distinction between the world and language",
+                "C": "The purpose of education, culture, and individual identity",
+                "D": "The origin of the universe, time, and space"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Nominalism, Realism, and Conceptualism are unresolved problems in metaphysics concerning the nature of universals, abstraction, and the distinction between the world and language."
+        },
+        {
+            "id": 171,
+            "question": "A student argues that the concept of 'justice' has no real existence beyond the word people use for it. Which philosophical position does this reflect?",
+            "options": {
+                "A": "Realism",
+                "B": "Idealism",
+                "C": "Nominalism",
+                "D": "Conceptualism"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Nominalism holds that general words do not refer to existing objects but to language or imagination — arguing 'justice' is just a word reflects this view."
+        },
+        {
+            "id": 172,
+            "question": "A philosopher accepts that universals like 'beauty' exist, but only as mental concepts that cannot be proven through the external world. Which position does this reflect?",
+            "options": {
+                "A": "Realism",
+                "B": "Nominalism",
+                "C": "Idealism",
+                "D": "Conceptualism"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Conceptualism accepts universals but only as ideas within a mind, impossible to define through reality — matching this philosopher's position."
+        },
+        {
+            "id": 173,
+            "question": "Which Idealist principle is most directly reflected in the idea that a student's education should help them discover their own identity and purpose?",
+            "options": {
+                "A": "Wholistic relations of the part to the whole",
+                "B": "Preservation of cultural traditions",
+                "C": "Self-realization",
+                "D": "Empirical inquiry"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Self-realization is the Idealist principle focused on individuals discovering their own identity and purpose, which lies at the core of Idealism."
+        },
+        {
+            "id": 174,
+            "question": "How does the Idealist view of education differ from a purely skills-based or vocational approach?",
+            "options": {
+                "A": "Idealism prioritizes physical training over intellectual development",
+                "B": "Idealism focuses on self-discovery, true ideas, and cultural heritage rather than practical skills",
+                "C": "Idealism rejects the role of the teacher entirely",
+                "D": "Idealism is indifferent to values and only focuses on facts"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Idealism is concerned with self-discovery, self-realization, the conception of true ideas, and the passing on of cultural heritage — contrasting sharply with a purely skills-based or vocational approach."
+        },
+        {
+            "id": 175,
+            "question": "Which of the following best summarizes the key difference between Realism and Idealism as described in the text?",
+            "options": {
+                "A": "Realism focuses on the self while Idealism focuses on society",
+                "B": "Realism asserts objects exist independently of the mind while Idealism centers reality on the self and mind",
+                "C": "Realism values cultural heritage while Idealism values scientific discovery",
+                "D": "Realism is concerned with morality while Idealism is concerned with economics"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Realism holds that things exist independently of what the human mind perceives, while Idealism places the self and mind at the centre of reality — making them opposites."
+        }
+    ]
+}
