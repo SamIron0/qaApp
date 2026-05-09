@@ -122,6 +122,20 @@ export const COURSES: Course[] = [
     ]
   },
   {
+    id: "gst200",
+    name: "Communication in French",
+    code: "GST 200",
+    department: "General Studies",
+    banks: [
+      {
+        id: "french_main",
+        name: "Question Bank for French",
+        file: "./question-bank/french_main.json",
+        vendor: "quro",
+      },
+    ]
+  },
+  {
     id: "cos209",
     name: "Innovations in Web Design and Development",
     code: "BU COS 209",

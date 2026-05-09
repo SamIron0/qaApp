@@ -1,0 +1,1404 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Je ___ un stylo.",
+            "options": {
+                "A": "as",
+                "B": "ai",
+                "C": "a",
+                "D": "avons"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Je' uses 'ai' — the first person singular form of avoir."
+        },
+        {
+            "id": 2,
+            "question": "Tu ___ une voiture.",
+            "options": {
+                "A": "as",
+                "B": "ai",
+                "C": "a",
+                "D": "ont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Tu' uses 'as' — the second person singular form of avoir."
+        },
+        {
+            "id": 3,
+            "question": "Il ___ un livre.",
+            "options": {
+                "A": "ai",
+                "B": "as",
+                "C": "a",
+                "D": "avons"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Il' uses 'a' — the third person singular form of avoir."
+        },
+        {
+            "id": 4,
+            "question": "Nous ___ une maison.",
+            "options": {
+                "A": "avons",
+                "B": "avez",
+                "C": "ont",
+                "D": "a"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Nous' uses 'avons' — the first person plural form of avoir."
+        },
+        {
+            "id": 5,
+            "question": "Vous ___ faim.",
+            "options": {
+                "A": "avez",
+                "B": "avons",
+                "C": "ont",
+                "D": "a"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Vous' uses 'avez' — the second person plural form of avoir."
+        },
+        {
+            "id": 6,
+            "question": "Ils ___ peur.",
+            "options": {
+                "A": "a",
+                "B": "ont",
+                "C": "avez",
+                "D": "ai"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Ils' uses 'ont' — the third person plural form of avoir."
+        },
+        {
+            "id": 7,
+            "question": "Elle ___ un sac.",
+            "options": {
+                "A": "ont",
+                "B": "a",
+                "C": "avez",
+                "D": "ai"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Elle' uses 'a' — the third person singular form of avoir."
+        },
+        {
+            "id": 8,
+            "question": "On ___ du temps.",
+            "options": {
+                "A": "a",
+                "B": "ont",
+                "C": "avez",
+                "D": "ai"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'On' conjugates like 'il/elle' and uses 'a' — third person singular form of avoir."
+        },
+        {
+            "id": 9,
+            "question": "Tu ___ raison.",
+            "options": {
+                "A": "as",
+                "B": "a",
+                "C": "ai",
+                "D": "avons"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Tu' uses 'as' — the second person singular form of avoir."
+        },
+        {
+            "id": 10,
+            "question": "Nous ___ de l'argent.",
+            "options": {
+                "A": "avez",
+                "B": "avons",
+                "C": "ont",
+                "D": "ai"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Nous' uses 'avons' — the first person plural form of avoir."
+        },
+        {
+            "id": 11,
+            "question": "Elles ___ une maison.",
+            "options": {
+                "A": "a",
+                "B": "avez",
+                "C": "ont",
+                "D": "ai"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Elles' uses 'ont' — the third person plural form of avoir."
+        },
+        {
+            "id": 12,
+            "question": "Je ___ faim.",
+            "options": {
+                "A": "ai",
+                "B": "as",
+                "C": "a",
+                "D": "avons"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Je' uses 'ai' — the first person singular form of avoir."
+        },
+        {
+            "id": 13,
+            "question": "Vous ___ une idée.",
+            "options": {
+                "A": "avez",
+                "B": "ont",
+                "C": "a",
+                "D": "ai"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Vous' uses 'avez' — the second person plural form of avoir."
+        },
+        {
+            "id": 14,
+            "question": "Il ___ chaud.",
+            "options": {
+                "A": "a",
+                "B": "ont",
+                "C": "avez",
+                "D": "ai"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Il' uses 'a' — the third person singular form of avoir."
+        },
+        {
+            "id": 15,
+            "question": "Nous ___ une classe.",
+            "options": {
+                "A": "avons",
+                "B": "avez",
+                "C": "ont",
+                "D": "a"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Nous' uses 'avons' — the first person plural form of avoir."
+        },
+        {
+            "id": 16,
+            "question": "Tu ___ un frère.",
+            "options": {
+                "A": "as",
+                "B": "ai",
+                "C": "a",
+                "D": "ont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Tu' uses 'as' — the second person singular form of avoir."
+        },
+        {
+            "id": 17,
+            "question": "Elles ___ soif.",
+            "options": {
+                "A": "a",
+                "B": "avez",
+                "C": "ont",
+                "D": "ai"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Elles' uses 'ont' — the third person plural form of avoir."
+        },
+        {
+            "id": 18,
+            "question": "On ___ une voiture.",
+            "options": {
+                "A": "a",
+                "B": "ont",
+                "C": "avez",
+                "D": "ai"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'On' conjugates like 'il/elle' and uses 'a' — third person singular form of avoir."
+        },
+        {
+            "id": 19,
+            "question": "Vous ___ peur.",
+            "options": {
+                "A": "avez",
+                "B": "avons",
+                "C": "ont",
+                "D": "ai"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Vous' uses 'avez' — the second person plural form of avoir."
+        },
+        {
+            "id": 20,
+            "question": "Ils ___ une idée.",
+            "options": {
+                "A": "ont",
+                "B": "a",
+                "C": "avez",
+                "D": "ai"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Ils' uses 'ont' — the third person plural form of avoir."
+        },
+        {
+            "id": 21,
+            "question": "Je ___ étudiant.",
+            "options": {
+                "A": "suis",
+                "B": "es",
+                "C": "est",
+                "D": "sommes"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Je' uses 'suis' — the first person singular form of être."
+        },
+        {
+            "id": 22,
+            "question": "Tu ___ gentil.",
+            "options": {
+                "A": "suis",
+                "B": "es",
+                "C": "est",
+                "D": "sont"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Tu' uses 'es' — the second person singular form of être."
+        },
+        {
+            "id": 23,
+            "question": "Il ___ intelligent.",
+            "options": {
+                "A": "suis",
+                "B": "es",
+                "C": "est",
+                "D": "sommes"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Il' uses 'est' — the third person singular form of être."
+        },
+        {
+            "id": 24,
+            "question": "Nous ___ à l'école.",
+            "options": {
+                "A": "êtes",
+                "B": "sommes",
+                "C": "sont",
+                "D": "suis"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Nous' uses 'sommes' — the first person plural form of être."
+        },
+        {
+            "id": 25,
+            "question": "Vous ___ en classe.",
+            "options": {
+                "A": "êtes",
+                "B": "sommes",
+                "C": "sont",
+                "D": "es"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Vous' uses 'êtes' — the second person plural form of être."
+        },
+        {
+            "id": 26,
+            "question": "Ils ___ contents.",
+            "options": {
+                "A": "est",
+                "B": "sont",
+                "C": "êtes",
+                "D": "suis"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Ils' uses 'sont' — the third person plural form of être."
+        },
+        {
+            "id": 27,
+            "question": "Elle ___ belle.",
+            "options": {
+                "A": "est",
+                "B": "suis",
+                "C": "es",
+                "D": "sont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Elle' uses 'est' — the third person singular form of être."
+        },
+        {
+            "id": 28,
+            "question": "On ___ prêt.",
+            "options": {
+                "A": "est",
+                "B": "suis",
+                "C": "es",
+                "D": "sont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'On' conjugates like 'il/elle' and uses 'est' — third person singular form of être."
+        },
+        {
+            "id": 29,
+            "question": "Tu ___ en retard.",
+            "options": {
+                "A": "suis",
+                "B": "es",
+                "C": "est",
+                "D": "sommes"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Tu' uses 'es' — the second person singular form of être."
+        },
+        {
+            "id": 30,
+            "question": "Nous ___ fatigués.",
+            "options": {
+                "A": "êtes",
+                "B": "sommes",
+                "C": "sont",
+                "D": "es"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Nous' uses 'sommes' — the first person plural form of être."
+        },
+        {
+            "id": 31,
+            "question": "Je ___ heureux.",
+            "options": {
+                "A": "suis",
+                "B": "es",
+                "C": "est",
+                "D": "sont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Je' uses 'suis' — the first person singular form of être."
+        },
+        {
+            "id": 32,
+            "question": "Vous ___ prêts.",
+            "options": {
+                "A": "êtes",
+                "B": "sommes",
+                "C": "sont",
+                "D": "es"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Vous' uses 'êtes' — the second person plural form of être."
+        },
+        {
+            "id": 33,
+            "question": "Ils ___ ici.",
+            "options": {
+                "A": "est",
+                "B": "sont",
+                "C": "êtes",
+                "D": "suis"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Ils' uses 'sont' — the third person plural form of être."
+        },
+        {
+            "id": 34,
+            "question": "Elle ___ malade.",
+            "options": {
+                "A": "est",
+                "B": "suis",
+                "C": "es",
+                "D": "sont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Elle' uses 'est' — the third person singular form of être."
+        },
+        {
+            "id": 35,
+            "question": "Nous ___ amis.",
+            "options": {
+                "A": "êtes",
+                "B": "sommes",
+                "C": "sont",
+                "D": "es"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Nous' uses 'sommes' — the first person plural form of être."
+        },
+        {
+            "id": 36,
+            "question": "Tu ___ fort.",
+            "options": {
+                "A": "suis",
+                "B": "es",
+                "C": "est",
+                "D": "sont"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Tu' uses 'es' — the second person singular form of être."
+        },
+        {
+            "id": 37,
+            "question": "On ___ content.",
+            "options": {
+                "A": "est",
+                "B": "suis",
+                "C": "es",
+                "D": "sont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'On' conjugates like 'il/elle' and uses 'est' — third person singular form of être."
+        },
+        {
+            "id": 38,
+            "question": "Vous ___ en retard.",
+            "options": {
+                "A": "êtes",
+                "B": "sommes",
+                "C": "sont",
+                "D": "es"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Vous' uses 'êtes' — the second person plural form of être."
+        },
+        {
+            "id": 39,
+            "question": "Elles ___ intelligentes.",
+            "options": {
+                "A": "est",
+                "B": "sont",
+                "C": "êtes",
+                "D": "suis"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Elles' uses 'sont' — the third person plural form of être."
+        },
+        {
+            "id": 40,
+            "question": "Je ___ prêt.",
+            "options": {
+                "A": "suis",
+                "B": "es",
+                "C": "est",
+                "D": "sont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Je' uses 'suis' — the first person singular form of être."
+        },
+        {
+            "id": 41,
+            "question": "___ livre",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "Les",
+                "D": "Une"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Livre' (book) is masculine singular, so it takes the definite article 'Le'."
+        },
+        {
+            "id": 42,
+            "question": "___ table",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "Les",
+                "D": "Un"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Table' is feminine singular, so it takes the definite article 'La'."
+        },
+        {
+            "id": 43,
+            "question": "___ enfants",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "Les",
+                "D": "Une"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Enfants' is plural, so it takes the definite article 'Les'."
+        },
+        {
+            "id": 44,
+            "question": "___ voiture",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "Les",
+                "D": "Un"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Voiture' (car) is feminine singular, so it takes the definite article 'La'."
+        },
+        {
+            "id": 45,
+            "question": "___ stylo",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "Les",
+                "D": "Une"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Stylo' (pen) is masculine singular, so it takes the definite article 'Le'."
+        },
+        {
+            "id": 46,
+            "question": "___ école",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "L'",
+                "D": "Une"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'École' begins with a vowel, so 'La' elides to 'L'' to avoid a vowel clash."
+        },
+        {
+            "id": 47,
+            "question": "___ homme",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "L'",
+                "D": "Une"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Homme' begins with a vowel sound, so 'Le' elides to 'L''."
+        },
+        {
+            "id": 48,
+            "question": "___ femmes",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "Les",
+                "D": "Une"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Femmes' is plural, so it takes the definite article 'Les'."
+        },
+        {
+            "id": 49,
+            "question": "___ ami",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "L'",
+                "D": "Une"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Ami' begins with a vowel, so 'Le' elides to 'L''."
+        },
+        {
+            "id": 50,
+            "question": "___ maison",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "Les",
+                "D": "Un"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Maison' (house) is feminine singular, so it takes the definite article 'La'."
+        },
+        {
+            "id": 51,
+            "question": "___ professeur",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "Les",
+                "D": "Une"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Professeur' is masculine singular, so it takes the definite article 'Le'."
+        },
+        {
+            "id": 52,
+            "question": "___ orange",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "L'",
+                "D": "Une"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Orange' begins with a vowel, so 'La' elides to 'L''."
+        },
+        {
+            "id": 53,
+            "question": "___ livres",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "Les",
+                "D": "Une"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Livres' is plural, so it takes the definite article 'Les'."
+        },
+        {
+            "id": 54,
+            "question": "___ fille",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "Les",
+                "D": "Un"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Fille' (girl) is feminine singular, so it takes the definite article 'La'."
+        },
+        {
+            "id": 55,
+            "question": "___ garçons",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "Les",
+                "D": "Une"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Garçons' is plural, so it takes the definite article 'Les'."
+        },
+        {
+            "id": 56,
+            "question": "___ université",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "L'",
+                "D": "Une"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Université' begins with a vowel, so 'La' elides to 'L''."
+        },
+        {
+            "id": 57,
+            "question": "___ eau",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "L'",
+                "D": "Une"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Eau' begins with a vowel, so 'La' elides to 'L''."
+        },
+        {
+            "id": 58,
+            "question": "___ chats",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "Les",
+                "D": "Une"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Chats' is plural, so it takes the definite article 'Les'."
+        },
+        {
+            "id": 59,
+            "question": "___ chaise",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "Les",
+                "D": "Un"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Chaise' (chair) is feminine singular, so it takes the definite article 'La'."
+        },
+        {
+            "id": 60,
+            "question": "___ arbre",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "L'",
+                "D": "Une"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Arbre' begins with a vowel, so 'Le' elides to 'L''."
+        },
+        {
+            "id": 61,
+            "question": "\"Livre\" means:",
+            "options": {
+                "A": "Pen",
+                "B": "Book",
+                "C": "Table",
+                "D": "Chair"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Livre' is the French word for 'book'."
+        },
+        {
+            "id": 62,
+            "question": "\"Maison\" means:",
+            "options": {
+                "A": "School",
+                "B": "House",
+                "C": "Car",
+                "D": "Bag"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Maison' is the French word for 'house'."
+        },
+        {
+            "id": 63,
+            "question": "\"Voiture\" means:",
+            "options": {
+                "A": "Car",
+                "B": "Book",
+                "C": "Pen",
+                "D": "Chair"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Voiture' is the French word for 'car'."
+        },
+        {
+            "id": 64,
+            "question": "\"École\" means:",
+            "options": {
+                "A": "Church",
+                "B": "School",
+                "C": "Market",
+                "D": "House"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'École' is the French word for 'school'."
+        },
+        {
+            "id": 65,
+            "question": "\"Faim\" means:",
+            "options": {
+                "A": "Hunger",
+                "B": "Thirst",
+                "C": "Fear",
+                "D": "Joy"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Faim' means 'hunger' in French, as in the expression 'avoir faim' (to be hungry)."
+        },
+        {
+            "id": 66,
+            "question": "\"Soif\" means:",
+            "options": {
+                "A": "Hunger",
+                "B": "Thirst",
+                "C": "Fear",
+                "D": "Joy"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Soif' means 'thirst' in French, as in the expression 'avoir soif' (to be thirsty)."
+        },
+        {
+            "id": 67,
+            "question": "\"Peur\" means:",
+            "options": {
+                "A": "Fear",
+                "B": "Hunger",
+                "C": "Thirst",
+                "D": "Joy"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Peur' means 'fear' in French, as in the expression 'avoir peur' (to be afraid)."
+        },
+        {
+            "id": 68,
+            "question": "\"Ami\" means:",
+            "options": {
+                "A": "Teacher",
+                "B": "Friend",
+                "C": "Student",
+                "D": "Brother"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Ami' is the French word for 'friend'."
+        },
+        {
+            "id": 69,
+            "question": "\"Professeur\" means:",
+            "options": {
+                "A": "Student",
+                "B": "Teacher",
+                "C": "Friend",
+                "D": "Parent"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Professeur' is the French word for 'teacher' or 'professor'."
+        },
+        {
+            "id": 70,
+            "question": "\"Étudiant\" means:",
+            "options": {
+                "A": "Teacher",
+                "B": "Student",
+                "C": "Friend",
+                "D": "Parent"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Étudiant' is the French word for 'student'."
+        },
+        {
+            "id": 71,
+            "question": "\"Fille\" means:",
+            "options": {
+                "A": "Boy",
+                "B": "Girl",
+                "C": "Man",
+                "D": "Woman"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Fille' is the French word for 'girl' (or 'daughter' in family context)."
+        },
+        {
+            "id": 72,
+            "question": "\"Garçon\" means:",
+            "options": {
+                "A": "Boy",
+                "B": "Girl",
+                "C": "Woman",
+                "D": "Child"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Garçon' is the French word for 'boy' (or 'waiter' in a restaurant context)."
+        },
+        {
+            "id": 73,
+            "question": "\"Père\" means:",
+            "options": {
+                "A": "Mother",
+                "B": "Father",
+                "C": "Brother",
+                "D": "Sister"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Père' is the French word for 'father'."
+        },
+        {
+            "id": 74,
+            "question": "\"Mère\" means:",
+            "options": {
+                "A": "Mother",
+                "B": "Father",
+                "C": "Sister",
+                "D": "Friend"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Mère' is the French word for 'mother'."
+        },
+        {
+            "id": 75,
+            "question": "\"Chaise\" means:",
+            "options": {
+                "A": "Table",
+                "B": "Chair",
+                "C": "Bed",
+                "D": "Door"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Chaise' is the French word for 'chair'."
+        },
+        {
+            "id": 76,
+            "question": "\"Table\" means:",
+            "options": {
+                "A": "Table",
+                "B": "Chair",
+                "C": "Bed",
+                "D": "Door"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Table' means 'table' in French — it is a cognate with the English word."
+        },
+        {
+            "id": 77,
+            "question": "\"Temps\" means:",
+            "options": {
+                "A": "Time",
+                "B": "Food",
+                "C": "Water",
+                "D": "Money"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Temps' means 'time' (or 'weather') in French."
+        },
+        {
+            "id": 78,
+            "question": "\"Argent\" means:",
+            "options": {
+                "A": "Time",
+                "B": "Money",
+                "C": "Food",
+                "D": "Water"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Argent' means 'money' (or 'silver') in French."
+        },
+        {
+            "id": 79,
+            "question": "\"Eau\" means:",
+            "options": {
+                "A": "Water",
+                "B": "Food",
+                "C": "Drink",
+                "D": "Juice"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Eau' is the French word for 'water'."
+        },
+        {
+            "id": 80,
+            "question": "\"Chat\" means:",
+            "options": {
+                "A": "Dog",
+                "B": "Cat",
+                "C": "Bird",
+                "D": "Fish"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Chat' is the French word for 'cat'."
+        },
+        {
+            "id": 81,
+            "question": "Ils ___ à l'école.",
+            "options": {
+                "A": "est",
+                "B": "sont",
+                "C": "êtes",
+                "D": "suis"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Ils' uses 'sont' — the third person plural form of être."
+        },
+        {
+            "id": 82,
+            "question": "Je ___ une idée.",
+            "options": {
+                "A": "ai",
+                "B": "as",
+                "C": "a",
+                "D": "ont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Je' uses 'ai' — the first person singular form of avoir."
+        },
+        {
+            "id": 83,
+            "question": "Nous ___ étudiants.",
+            "options": {
+                "A": "êtes",
+                "B": "sommes",
+                "C": "sont",
+                "D": "es"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Nous' uses 'sommes' — the first person plural form of être."
+        },
+        {
+            "id": 84,
+            "question": "Elle ___ faim.",
+            "options": {
+                "A": "a",
+                "B": "ont",
+                "C": "avez",
+                "D": "ai"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Elle' uses 'a' — the third person singular form of avoir."
+        },
+        {
+            "id": 85,
+            "question": "Vous ___ contents.",
+            "options": {
+                "A": "êtes",
+                "B": "sommes",
+                "C": "sont",
+                "D": "es"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Vous' uses 'êtes' — the second person plural form of être."
+        },
+        {
+            "id": 86,
+            "question": "Tu ___ un ami.",
+            "options": {
+                "A": "as",
+                "B": "ai",
+                "C": "a",
+                "D": "ont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Tu' uses 'as' — the second person singular form of avoir."
+        },
+        {
+            "id": 87,
+            "question": "On ___ prêt.",
+            "options": {
+                "A": "est",
+                "B": "suis",
+                "C": "es",
+                "D": "sont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'On' conjugates like 'il/elle' and uses 'est' — third person singular form of être."
+        },
+        {
+            "id": 88,
+            "question": "Elles ___ une voiture.",
+            "options": {
+                "A": "ont",
+                "B": "a",
+                "C": "avez",
+                "D": "ai"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Elles' uses 'ont' — the third person plural form of avoir."
+        },
+        {
+            "id": 89,
+            "question": "Je ___ fatigué.",
+            "options": {
+                "A": "suis",
+                "B": "es",
+                "C": "est",
+                "D": "sont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Je' uses 'suis' — the first person singular form of être."
+        },
+        {
+            "id": 90,
+            "question": "Nous ___ une idée.",
+            "options": {
+                "A": "avons",
+                "B": "avez",
+                "C": "ont",
+                "D": "ai"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Nous' uses 'avons' — the first person plural form of avoir."
+        },
+        {
+            "id": 91,
+            "question": "Il ___ intelligent.",
+            "options": {
+                "A": "est",
+                "B": "suis",
+                "C": "es",
+                "D": "sont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Il' uses 'est' — the third person singular form of être."
+        },
+        {
+            "id": 92,
+            "question": "Vous ___ faim.",
+            "options": {
+                "A": "avez",
+                "B": "avons",
+                "C": "ont",
+                "D": "ai"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Vous' uses 'avez' — the second person plural form of avoir."
+        },
+        {
+            "id": 93,
+            "question": "Tu ___ content.",
+            "options": {
+                "A": "es",
+                "B": "suis",
+                "C": "est",
+                "D": "sont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Tu' uses 'es' — the second person singular form of être."
+        },
+        {
+            "id": 94,
+            "question": "Elles ___ prêtes.",
+            "options": {
+                "A": "est",
+                "B": "sont",
+                "C": "êtes",
+                "D": "suis"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Elles' uses 'sont' — the third person plural form of être."
+        },
+        {
+            "id": 95,
+            "question": "Je ___ un ami.",
+            "options": {
+                "A": "ai",
+                "B": "as",
+                "C": "a",
+                "D": "ont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Je' uses 'ai' — the first person singular form of avoir."
+        },
+        {
+            "id": 96,
+            "question": "Nous ___ heureux.",
+            "options": {
+                "A": "êtes",
+                "B": "sommes",
+                "C": "sont",
+                "D": "es"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Nous' uses 'sommes' — the first person plural form of être."
+        },
+        {
+            "id": 97,
+            "question": "Il ___ une voiture.",
+            "options": {
+                "A": "a",
+                "B": "ont",
+                "C": "avez",
+                "D": "ai"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Il' uses 'a' — the third person singular form of avoir."
+        },
+        {
+            "id": 98,
+            "question": "Vous ___ en classe.",
+            "options": {
+                "A": "êtes",
+                "B": "sommes",
+                "C": "sont",
+                "D": "es"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Vous' uses 'êtes' — the second person plural form of être."
+        },
+        {
+            "id": 99,
+            "question": "Elles ___ peur.",
+            "options": {
+                "A": "a",
+                "B": "avez",
+                "C": "ont",
+                "D": "ai"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Elles' uses 'ont' — the third person plural form of avoir."
+        },
+        {
+            "id": 100,
+            "question": "Je ___ prêt.",
+            "options": {
+                "A": "suis",
+                "B": "es",
+                "C": "est",
+                "D": "sont"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Je' uses 'suis' — the first person singular form of être."
+        }
+    ]
+}
