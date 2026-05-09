@@ -16,20 +16,6 @@ export type Course = {
 
 export const COURSES: Course[] = [
   {
-    id: "cos209",
-    name: "Innovations in Web Design and Development",
-    code: "BU COS 209",
-    department: "Computer Science",
-    banks: [
-      {
-        id: "main",
-        name: "Main Practice Set",
-        file: "./question-bank/practice_questions.json",
-        vendor: "quro",
-      },
-    ],
-  },
-  {
     id: "gst212",
     name: "Philosophy, Logic and Human Existence",
     code: "GST 212",
@@ -134,7 +120,21 @@ export const COURSES: Course[] = [
         vendor: "ad-astra",
       },
     ]
-  }
+  },
+  {
+    id: "cos209",
+    name: "Innovations in Web Design and Development",
+    code: "BU COS 209",
+    department: "Computer Science",
+    banks: [
+      {
+        id: "main",
+        name: "Main Practice Set",
+        file: "./question-bank/practice_questions.json",
+        vendor: "quro",
+      },
+    ],
+  },
 ];
 
 export function courseBanksPath(courseId: string): string {
