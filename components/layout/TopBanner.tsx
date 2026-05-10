@@ -38,7 +38,7 @@ export function TopBanner() {
           New French question bank is now live.
           {" "}
           <Link
-            href="/gst200/french_bank2/setup"
+            href="/courses/gst200/french_bank2/setup"
             className="font-semibold underline decoration-2 underline-offset-2 hover:opacity-80"
           >
             Start practicing
