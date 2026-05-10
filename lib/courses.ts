@@ -150,6 +150,13 @@ export const COURSES: Course[] = [
         vendor: "quro",
         questionCount: 100,
       },
+      {
+        id: "french_bank2",
+        name: "Question Bank 2 for French",
+        file: "./question-bank/french_bank2.json",
+        vendor: "quro",
+        questionCount: 100,
+      },
     ]
   },
   {

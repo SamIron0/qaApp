@@ -1,0 +1,1404 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "L'école mixte est une institution où _____ filles et les garçons étudient ensemble.",
+            "options": {
+                "A": "la",
+                "B": "les",
+                "C": "des",
+                "D": "l'"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'les' is the correct definite article because 'filles' is a plural noun and requires the plural definite article 'les'."
+        },
+        {
+            "id": 2,
+            "question": "Mes parents m'ont remis _____ clé de leur chambre.",
+            "options": {
+                "A": "le",
+                "B": "ta",
+                "C": "la",
+                "D": "l'"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'la' is the correct definite article because 'clé' is a feminine singular noun."
+        },
+        {
+            "id": 3,
+            "question": "_____ chien aboie chaque fois qu'un étranger vient.",
+            "options": {
+                "A": "Le",
+                "B": "Les",
+                "C": "Du",
+                "D": "Un"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Le' is the correct definite article because 'chien' is a masculine singular noun."
+        },
+        {
+            "id": 4,
+            "question": "_____ père de Kofi est malade.",
+            "options": {
+                "A": "Les",
+                "B": "Du",
+                "C": "Le",
+                "D": "La"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Le' is the correct definite article because 'père' is a masculine singular noun."
+        },
+        {
+            "id": 5,
+            "question": "_____ enfant pleure.",
+            "options": {
+                "A": "Les",
+                "B": "Le",
+                "C": "L'",
+                "D": "La"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'L'' is the correct form because 'enfant' begins with a vowel, so the definite article 'le' is elided to 'l''."
+        },
+        {
+            "id": 6,
+            "question": "_____ singe grimpe l'arbre.",
+            "options": {
+                "A": "La",
+                "B": "Le",
+                "C": "De",
+                "D": "Les"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Le' is the correct definite article because 'singe' is a masculine singular noun."
+        },
+        {
+            "id": 7,
+            "question": "Nous sommes assis dans _____ ombre.",
+            "options": {
+                "A": "la",
+                "B": "le",
+                "C": "l'",
+                "D": "les"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'l'' is used because 'ombre' is a feminine singular noun beginning with a vowel, requiring elision."
+        },
+        {
+            "id": 8,
+            "question": "_____ parents sont importants.",
+            "options": {
+                "A": "Des",
+                "B": "Ses",
+                "C": "Les",
+                "D": "La"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Les' is the correct definite article because 'parents' is a plural noun and a general statement is being made."
+        },
+        {
+            "id": 9,
+            "question": "_____ étudiants sont contents.",
+            "options": {
+                "A": "La",
+                "B": "L'",
+                "C": "Les",
+                "D": "Des"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Les' is the correct definite article because 'étudiants' is a masculine plural noun."
+        },
+        {
+            "id": 10,
+            "question": "_____ soleil brille fort à midi.",
+            "options": {
+                "A": "La",
+                "B": "Le",
+                "C": "Lui",
+                "D": "Les"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Le' is the correct definite article because 'soleil' is a masculine singular noun."
+        },
+        {
+            "id": 11,
+            "question": "Il y a _____ stylo bleu sous le banc.",
+            "options": {
+                "A": "une",
+                "B": "des",
+                "C": "un",
+                "D": "le"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'un' is the correct indefinite article because 'stylo' is a masculine singular noun."
+        },
+        {
+            "id": 12,
+            "question": "Mes parents m'ont offert _____ cadeau.",
+            "options": {
+                "A": "une",
+                "B": "un",
+                "C": "des",
+                "D": "le"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'un' is the correct indefinite article because 'cadeau' is a masculine singular noun."
+        },
+        {
+            "id": 13,
+            "question": "Anne et Angèle sont _____ filles.",
+            "options": {
+                "A": "un",
+                "B": "une",
+                "C": "des",
+                "D": "les"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'des' is the correct indefinite article because 'filles' is a feminine plural noun."
+        },
+        {
+            "id": 14,
+            "question": "Ma sœur a acheté _____ nouvelle voiture.",
+            "options": {
+                "A": "un",
+                "B": "une",
+                "C": "des",
+                "D": "la"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'une' is the correct indefinite article because 'voiture' is a feminine singular noun."
+        },
+        {
+            "id": 15,
+            "question": "_____ jour compte 24 heures.",
+            "options": {
+                "A": "Une",
+                "B": "Des",
+                "C": "Un",
+                "D": "Le"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Un' is the correct indefinite article because 'jour' is a masculine singular noun."
+        },
+        {
+            "id": 16,
+            "question": "_____ chat est sur le lit.",
+            "options": {
+                "A": "Une",
+                "B": "Un",
+                "C": "Des",
+                "D": "Le"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Un' is the correct indefinite article because 'chat' is a masculine singular noun."
+        },
+        {
+            "id": 17,
+            "question": "Le professeur parle _____ animaux.",
+            "options": {
+                "A": "les",
+                "B": "des",
+                "C": "ses",
+                "D": "aux"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'des' is correct here as the contracted form of 'de + les', used after 'parler de' with a plural noun."
+        },
+        {
+            "id": 18,
+            "question": "Elle a acheté _____ bic bleu à son fils.",
+            "options": {
+                "A": "une",
+                "B": "l'",
+                "C": "un",
+                "D": "des"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'un' is the correct indefinite article because 'bic' is a masculine singular noun."
+        },
+        {
+            "id": 19,
+            "question": "_____ ami est un frère.",
+            "options": {
+                "A": "De",
+                "B": "Une",
+                "C": "Un",
+                "D": "Des"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Un' is the correct indefinite article because 'ami' is a masculine singular noun."
+        },
+        {
+            "id": 20,
+            "question": "J'ai vu _____ garçon à ta porte.",
+            "options": {
+                "A": "une",
+                "B": "un",
+                "C": "sa",
+                "D": "des"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'un' is the correct indefinite article because 'garçon' is a masculine singular noun."
+        },
+        {
+            "id": 21,
+            "question": "_____ sœur est venue hier.",
+            "options": {
+                "A": "Mon",
+                "B": "Ma",
+                "C": "Mien",
+                "D": "Mes"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Ma' is the correct possessive adjective for a feminine singular noun ('sœur') with a first-person singular possessor."
+        },
+        {
+            "id": 22,
+            "question": "_____ frère est malade.",
+            "options": {
+                "A": "Ton",
+                "B": "Sa",
+                "C": "Leurs",
+                "D": "Mon"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Ton' is the correct possessive adjective for a masculine singular noun ('frère') with a second-person singular possessor."
+        },
+        {
+            "id": 23,
+            "question": "J'ai vu _____ mère devant la maison.",
+            "options": {
+                "A": "votre",
+                "B": "son",
+                "C": "vos",
+                "D": "leur"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'votre' is the correct possessive adjective for a feminine singular noun ('mère') with a second-person plural (formal) possessor."
+        },
+        {
+            "id": 24,
+            "question": "_____ amie a pris le bic.",
+            "options": {
+                "A": "Tes",
+                "B": "Ton",
+                "C": "Ta",
+                "D": "Sa"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Ton' is used instead of 'ta' before a feminine noun beginning with a vowel ('amie') for euphony."
+        },
+        {
+            "id": 25,
+            "question": "Le professeur a garé _____ voiture dans la cour.",
+            "options": {
+                "A": "son",
+                "B": "sa",
+                "C": "nos",
+                "D": "leur"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'sa' is the correct possessive adjective for a feminine singular noun ('voiture') with a third-person singular possessor."
+        },
+        {
+            "id": 26,
+            "question": "_____ père a quarante ans.",
+            "options": {
+                "A": "Ton",
+                "B": "Sa",
+                "C": "Vos",
+                "D": "Mon"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Ton' is the correct possessive adjective for a masculine singular noun ('père') addressing someone informally (second person singular)."
+        },
+        {
+            "id": 27,
+            "question": "Quel âge a _____ mère ?",
+            "options": {
+                "A": "ton",
+                "B": "ta",
+                "C": "son",
+                "D": "ma"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'ta' is the correct possessive adjective for a feminine singular noun ('mère') with a second-person singular possessor in an informal context."
+        },
+        {
+            "id": 28,
+            "question": "Comment s'appellent _____ frères ?",
+            "options": {
+                "A": "ta",
+                "B": "tes",
+                "C": "son",
+                "D": "ses"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'tes' is the correct possessive adjective for a masculine plural noun ('frères') with a second-person singular possessor."
+        },
+        {
+            "id": 29,
+            "question": "_____ mère vous appelle.",
+            "options": {
+                "A": "Votre",
+                "B": "Vos",
+                "C": "Votres",
+                "D": "Leur"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Votre' is the correct possessive adjective for a feminine singular noun ('mère') with a second-person plural possessor."
+        },
+        {
+            "id": 30,
+            "question": "_____ cousins sont métis.",
+            "options": {
+                "A": "Mienne",
+                "B": "Ma",
+                "C": "Mes",
+                "D": "Mon"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Mes' is the correct possessive adjective for a plural noun ('cousins') with a first-person singular possessor."
+        },
+        {
+            "id": 31,
+            "question": "_____ m'appelle Oluwa.",
+            "options": {
+                "A": "Lui",
+                "B": "Moi",
+                "C": "Je",
+                "D": "Il"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Je' is the correct subject pronoun for first-person singular. 'Je' is used before the verb as a subject."
+        },
+        {
+            "id": 32,
+            "question": "_____ est content.",
+            "options": {
+                "A": "Nous",
+                "B": "Elles",
+                "C": "Il",
+                "D": "Ils"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Il' is the correct third-person singular masculine subject pronoun matching the singular adjective 'content'."
+        },
+        {
+            "id": 33,
+            "question": "Nous marchons vers _____.",
+            "options": {
+                "A": "son",
+                "B": "les",
+                "C": "lui",
+                "D": "le"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'lui' is the correct stressed/tonic pronoun used after a preposition ('vers') for a third-person singular masculine referent."
+        },
+        {
+            "id": 34,
+            "question": "C'est la vérité, tu dois _____ admettre.",
+            "options": {
+                "A": "les",
+                "B": "l'",
+                "C": "le",
+                "D": "la"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'le' is the correct direct object pronoun replacing 'la vérité' (a fact/statement), which is treated as a neuter concept."
+        },
+        {
+            "id": 35,
+            "question": "La lune est visible, vous _____ voyez ?",
+            "options": {
+                "A": "lui",
+                "B": "leur",
+                "C": "la",
+                "D": "le"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'la' is the correct direct object pronoun replacing 'la lune', a feminine singular noun."
+        },
+        {
+            "id": 36,
+            "question": "Tes enfants sont venus _____ chercher.",
+            "options": {
+                "A": "lui",
+                "B": "te",
+                "C": "ton",
+                "D": "les"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'te' is the correct second-person singular object pronoun meaning 'you', used as the direct object of 'chercher'."
+        },
+        {
+            "id": 37,
+            "question": "_____ chantent.",
+            "options": {
+                "A": "Vos",
+                "B": "Votre",
+                "C": "Ils",
+                "D": "Il"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Ils' is the correct third-person plural masculine subject pronoun matching the plural verb 'chantent'."
+        },
+        {
+            "id": 38,
+            "question": "Jésus revient bientôt, _____ savez-vous ?",
+            "options": {
+                "A": "lui",
+                "B": "le",
+                "C": "nous",
+                "D": "la"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'le' is the correct neuter direct object pronoun used to replace an entire proposition or fact ('que Jésus revient bientôt')."
+        },
+        {
+            "id": 39,
+            "question": "Ta mère veut savoir, dis-_____ toute la vérité.",
+            "options": {
+                "A": "la",
+                "B": "le",
+                "C": "lui",
+                "D": "leur"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'lui' is the correct indirect object pronoun for 'ta mère' (third-person singular). 'Dire' takes an indirect object for the person told."
+        },
+        {
+            "id": 40,
+            "question": "L'univers est grand mais Dieu _____ contrôle.",
+            "options": {
+                "A": "la",
+                "B": "lui",
+                "C": "le",
+                "D": "les"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'le' is the correct direct object pronoun replacing 'l'univers', a masculine singular noun."
+        },
+        {
+            "id": 41,
+            "question": "How do you write 7:45 PM in French?",
+            "options": {
+                "A": "Il est sept heures quarante-cinq minutes",
+                "B": "Il est quarante-cinq minutes et sept",
+                "C": "Il est vingt heures moins le quart",
+                "D": "Il est dix-neuf heures quarante-cinq"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "7:45 PM = 19:45 in 24-hour time. In French, this is expressed as 'vingt heures moins le quart' (20h minus a quarter hour)."
+        },
+        {
+            "id": 42,
+            "question": "How do you write 12:00 AM in French?",
+            "options": {
+                "A": "Il est midi",
+                "B": "Il est minuit",
+                "C": "Il est douze heures",
+                "D": "Il est zéro heure"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "12:00 AM is midnight, which in French is 'il est minuit'. 'Midi' refers to 12:00 PM (noon)."
+        },
+        {
+            "id": 43,
+            "question": "How do you write 3:30 PM in French?",
+            "options": {
+                "A": "Il est seize heures trente",
+                "B": "Il est et demie de trois",
+                "C": "Il est quinze heures et demie",
+                "D": "Il est trois heures et demie"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "3:30 PM = 15h30. In French formal time, this is 'Il est quinze heures et demie'."
+        },
+        {
+            "id": 44,
+            "question": "How do you write 11:20 PM in French?",
+            "options": {
+                "A": "Onze heures dix et deux",
+                "B": "Vingt-trois heures et vingt minutes",
+                "C": "Vingt minutes onze",
+                "D": "Il est vingt-trois heures vingt"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "11:20 PM = 23h20. In French, this is expressed as 'vingt-trois heures et vingt minutes'."
+        },
+        {
+            "id": 45,
+            "question": "How do you write 8:15 PM in French?",
+            "options": {
+                "A": "Vingt heures et quart",
+                "B": "Neuf heures moins quarante-cinq",
+                "C": "Et quart et huit heures",
+                "D": "Huit heures et quart du soir"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "8:15 PM = 20h15. In French, this is expressed as 'vingt heures et quart'."
+        },
+        {
+            "id": 46,
+            "question": "What is 22h35 in English (12-hour format)?",
+            "options": {
+                "A": "8:35 pm",
+                "B": "10:35 pm",
+                "C": "9:35 am",
+                "D": "10:35 am"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "22h35 in 24-hour format converts to 10:35 PM (22 - 12 = 10)."
+        },
+        {
+            "id": 47,
+            "question": "What is 11h28 in English (12-hour format)?",
+            "options": {
+                "A": "7:28 pm",
+                "B": "9:28 pm",
+                "C": "11:28 am",
+                "D": "11:28 pm"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "11h28 is before noon, so it is 11:28 AM in the 12-hour format."
+        },
+        {
+            "id": 48,
+            "question": "What is 7h58 in English (12-hour format)?",
+            "options": {
+                "A": "7:58 pm",
+                "B": "7:58 am",
+                "C": "5:58 pm",
+                "D": "8:02 am"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "7h58 is in the morning, so it converts to 7:58 AM."
+        },
+        {
+            "id": 49,
+            "question": "What is 19h20 in English (12-hour format)?",
+            "options": {
+                "A": "19:20 pm",
+                "B": "7:20 pm",
+                "C": "8:20 pm",
+                "D": "7:20 am"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "19h20 converts to 7:20 PM (19 - 12 = 7)."
+        },
+        {
+            "id": 50,
+            "question": "What is 21h10 in English (12-hour format)?",
+            "options": {
+                "A": "7:10 am",
+                "B": "7:10 pm",
+                "C": "9:10 pm",
+                "D": "10:10 pm"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "21h10 converts to 9:10 PM (21 - 12 = 9)."
+        },
+        {
+            "id": 51,
+            "question": "How do you write 'March 21, 2016' in French?",
+            "options": {
+                "A": "Mars 21e 2016",
+                "B": "21 Mars 2016",
+                "C": "Marche 21, 2016",
+                "D": "Le 21 de Mars 2016"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "In French, dates are written day first, then month, then year: '21 Mars 2016'. No ordinal is used for most dates."
+        },
+        {
+            "id": 52,
+            "question": "How do you write 'Sunday, 10th February 2016' in French?",
+            "options": {
+                "A": "Dimanche, 10e Febrié 2016",
+                "B": "Dimanche 10 Février 2016",
+                "C": "Dimanch, 10 Fevriar 2016",
+                "D": "Dimanche le dix Février 2016"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The correct French spelling is 'Dimanche 10 Février 2016'. The day name is written in full and the month is spelled correctly."
+        },
+        {
+            "id": 53,
+            "question": "How do you write 'Saturday, 5th March 2016' in French?",
+            "options": {
+                "A": "Samtadi 5 Mars 2016",
+                "B": "Samedi 5 Mars 2016",
+                "C": "Saturdi 5 Mars 2016",
+                "D": "Samedi cinq Mars 2016"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Samedi' is the correct French word for Saturday. The format is day name + date number + month + year."
+        },
+        {
+            "id": 54,
+            "question": "How do you write '1st January 2016' in French?",
+            "options": {
+                "A": "Janvier 1er 2016",
+                "B": "1er Janvion 2016",
+                "C": "1er Janvier 2016",
+                "D": "Premier Janvier 2016"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'1er Janvier 2016' is correct. The first day of the month uses the ordinal '1er' (premier), unlike other days."
+        },
+        {
+            "id": 55,
+            "question": "How do you write '3rd December 2014' in French?",
+            "options": {
+                "A": "3e Décembre 2014",
+                "B": "3 Décembre 2014",
+                "C": "Décembre 3 et 2014",
+                "D": "Troisième Décembre 2014"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'3 Décembre 2014' is correct. For dates other than the 1st, cardinal numbers (not ordinals) are used in French."
+        },
+        {
+            "id": 56,
+            "question": "How do you write '2nd August 2020' in French?",
+            "options": {
+                "A": "2 Août 2020",
+                "B": "2e Août 2020",
+                "C": "Août 2e 2020",
+                "D": "Deuxième Août 2020"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'2 Août 2020' is correct. Cardinal numbers are used for dates other than the 1st in French."
+        },
+        {
+            "id": 57,
+            "question": "How do you write '30th September' in French?",
+            "options": {
+                "A": "30e Septembre",
+                "B": "Septembre 30e",
+                "C": "30 Septembre",
+                "D": "Trentième Septembre"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'30 Septembre' is correct. Cardinal numbers are used for dates in French, and the day comes before the month."
+        },
+        {
+            "id": 58,
+            "question": "How do you write '7th April' in French?",
+            "options": {
+                "A": "7 April",
+                "B": "7 Avril",
+                "C": "7e Avril",
+                "D": "Septième Avril"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'7 Avril' is correct. 'April' is the English spelling; the French word is 'Avril'. Cardinal numbers are used."
+        },
+        {
+            "id": 59,
+            "question": "How do you write '1st May' in French?",
+            "options": {
+                "A": "1 Mai",
+                "B": "1er May",
+                "C": "1er Mai",
+                "D": "Premier de Mai"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'1er Mai' is correct. The first day uses the ordinal '1er', and 'May' in French is spelled 'Mai'."
+        },
+        {
+            "id": 60,
+            "question": "How do you write '5th June' in French?",
+            "options": {
+                "A": "5 Juin",
+                "B": "5e Juin",
+                "C": "Juin 5e",
+                "D": "Cinquième Juin"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'5 Juin' is correct. Cardinal numbers are used for dates in French, and the day comes before the month."
+        },
+        {
+            "id": 61,
+            "question": "How do you write '11th' as an ordinal in French (full letters)?",
+            "options": {
+                "A": "onse",
+                "B": "onzième",
+                "C": "onze",
+                "D": "onziene"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'onzième' is the correct French ordinal for 11th. Ordinals are formed by adding '-ième' to the cardinal number."
+        },
+        {
+            "id": 62,
+            "question": "How do you write '2nd' in French when there are only two elements in the series?",
+            "options": {
+                "A": "deuxième",
+                "B": "second",
+                "C": "deux",
+                "D": "secondaire"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'second' is used when there are only two elements in a series. 'deuxième' is used when there are more than two."
+        },
+        {
+            "id": 63,
+            "question": "How do you write '2nd' in French when there are more than two elements in the series?",
+            "options": {
+                "A": "deuxième",
+                "B": "second",
+                "C": "deux",
+                "D": "secondaire"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'deuxième' is used when there are more than two elements. 'second' is reserved for exactly two-element series."
+        },
+        {
+            "id": 64,
+            "question": "How do you write '10,000th' as an ordinal in French (full letters)?",
+            "options": {
+                "A": "dix-million",
+                "B": "dix-millième",
+                "C": "millième",
+                "D": "dix-mille"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'dix-millième' is correct for 10,000th. 'dix-mille' is the cardinal, and adding '-ième' gives the ordinal."
+        },
+        {
+            "id": 65,
+            "question": "How do you write '9th' as an ordinal in French (full letters)?",
+            "options": {
+                "A": "neufième",
+                "B": "neuvième",
+                "C": "neuve",
+                "D": "nuvième"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'neuvième' is correct. The 'f' in 'neuf' changes to 'v' before adding '-ième', making it 'neuvième'."
+        },
+        {
+            "id": 66,
+            "question": "How do you write '60th' as an ordinal in French (full letters)?",
+            "options": {
+                "A": "soixantième",
+                "B": "soisantième",
+                "C": "soxantième",
+                "D": "soixantiesme"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'soixantième' is the correct spelling. It is derived from 'soixante' (60) + '-ième'."
+        },
+        {
+            "id": 67,
+            "question": "How do you write '48th' as an ordinal in French (full letters)?",
+            "options": {
+                "A": "huit-quattrième",
+                "B": "quarante-huitième",
+                "C": "quarantième",
+                "D": "huitième-quarante"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'quarante-huitième' is correct for 48th, derived from 'quarante-huit' (48) + '-ième'."
+        },
+        {
+            "id": 68,
+            "question": "How do you write '100th' as an ordinal in French (full letters)?",
+            "options": {
+                "A": "centurion",
+                "B": "centimètre",
+                "C": "centième",
+                "D": "centaine"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'centième' is the correct French ordinal for 100th, derived from 'cent' (100) + '-ième'."
+        },
+        {
+            "id": 69,
+            "question": "How do you write '40th' as an ordinal in French (full letters)?",
+            "options": {
+                "A": "quarantième",
+                "B": "cinquantième",
+                "C": "quatrain",
+                "D": "quarante"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'quarantième' is correct for 40th, derived from 'quarante' (40) + '-ième'."
+        },
+        {
+            "id": 70,
+            "question": "Il _____ mon ami.",
+            "options": {
+                "A": "sont",
+                "B": "es",
+                "C": "est",
+                "D": "suis"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'est' is the correct third-person singular form of the verb 'être' (to be), matching the subject 'Il'."
+        },
+        {
+            "id": 71,
+            "question": "Elle _____ gentille.",
+            "options": {
+                "A": "sont",
+                "B": "est",
+                "C": "sommes",
+                "D": "es"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'est' is the correct third-person singular form of 'être', matching the subject 'Elle'."
+        },
+        {
+            "id": 72,
+            "question": "Nous _____ fini.",
+            "options": {
+                "A": "a",
+                "B": "avons",
+                "C": "sont",
+                "D": "ont"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'avons' is the correct first-person plural form of 'avoir' (to have), used to form the passé composé with 'nous'."
+        },
+        {
+            "id": 73,
+            "question": "Vous _____ le regretter.",
+            "options": {
+                "A": "allons",
+                "B": "vont",
+                "C": "allez",
+                "D": "va"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'allez' is the correct second-person plural form of 'aller' (to go), matching the subject 'Vous'."
+        },
+        {
+            "id": 74,
+            "question": "Cette fille _____ bien.",
+            "options": {
+                "A": "chantez",
+                "B": "chantons",
+                "C": "chante",
+                "D": "chantent"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'chante' is the correct third-person singular form of the verb 'chanter', matching the subject 'Cette fille'."
+        },
+        {
+            "id": 75,
+            "question": "Paul _____ l'argent.",
+            "options": {
+                "A": "aimes",
+                "B": "aimet",
+                "C": "aime",
+                "D": "aiment"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'aime' is the correct third-person singular form of 'aimer' (to like/love), matching the subject 'Paul'."
+        },
+        {
+            "id": 76,
+            "question": "Mon cousin _____ devant moi.",
+            "options": {
+                "A": "sont",
+                "B": "es",
+                "C": "est",
+                "D": "suis"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'est' is the correct third-person singular form of 'être', matching the subject 'Mon cousin'."
+        },
+        {
+            "id": 77,
+            "question": "Tu _____ en retard.",
+            "options": {
+                "A": "est",
+                "B": "es",
+                "C": "sont",
+                "D": "suis"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'es' is the correct second-person singular form of 'être', matching the subject 'Tu'."
+        },
+        {
+            "id": 78,
+            "question": "Tes parents _____ bien.",
+            "options": {
+                "A": "a",
+                "B": "allez",
+                "C": "vont",
+                "D": "va"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'vont' is the correct third-person plural form of 'aller', matching the subject 'Tes parents' (ils/elles)."
+        },
+        {
+            "id": 79,
+            "question": "Ma mère _____ au marché.",
+            "options": {
+                "A": "vont",
+                "B": "aller",
+                "C": "va",
+                "D": "allez"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'va' is the correct third-person singular form of 'aller', matching the subject 'Ma mère'."
+        },
+        {
+            "id": 80,
+            "question": "What is the French translation of 'See you soon'?",
+            "options": {
+                "A": "toujours",
+                "B": "à bientôt",
+                "C": "vraiment",
+                "D": "à tout à l'heure"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'à bientôt' means 'see you soon' in French. 'toujours' means 'always' and 'vraiment' means 'really'."
+        },
+        {
+            "id": 81,
+            "question": "What is the French translation of 'Jesus is coming soon'?",
+            "options": {
+                "A": "Jésus revient bientôt",
+                "B": "Jésus vient",
+                "C": "Jésus est au ciel",
+                "D": "Jésus vient bientôt revenir"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Jésus revient bientôt' correctly translates 'Jesus is coming soon'. 'Revient' (comes back) captures the returning aspect."
+        },
+        {
+            "id": 82,
+            "question": "What is the French translation of 'I am 20 years old'?",
+            "options": {
+                "A": "Je suis vingt ans",
+                "B": "J'ai vingt ans",
+                "C": "vingtième âge",
+                "D": "J'ai l'âge de vingt"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'J'ai vingt ans' is correct. In French, age is expressed with 'avoir' (to have), not 'être' (to be)."
+        },
+        {
+            "id": 83,
+            "question": "What is the French translation of 'Good morning'?",
+            "options": {
+                "A": "bon sabbat",
+                "B": "le jour est bon",
+                "C": "bonjour",
+                "D": "bon matin"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'bonjour' is the standard French greeting meaning 'good morning' or 'good day'."
+        },
+        {
+            "id": 84,
+            "question": "What is the French translation of 'Last year'?",
+            "options": {
+                "A": "Année dernier",
+                "B": "année dernière",
+                "C": "bonne fête",
+                "D": "l'an prochain"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'année dernière' is correct. 'Dernière' must agree with the feminine noun 'année'."
+        },
+        {
+            "id": 85,
+            "question": "What is the French translation of 'Tomorrow morning'?",
+            "options": {
+                "A": "demain soir",
+                "B": "demain matin",
+                "C": "demain",
+                "D": "ce matin"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'demain matin' correctly translates 'tomorrow morning'. 'demain soir' means 'tomorrow evening'."
+        },
+        {
+            "id": 86,
+            "question": "What is the French translation of 'Happy birthday'?",
+            "options": {
+                "A": "bonne anniversaire",
+                "B": "bonne celebration",
+                "C": "bon anniversaire",
+                "D": "bonne fête d'anniversaire"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'bon anniversaire' is correct. 'anniversaire' is a masculine noun, so 'bon' (not 'bonne') is used."
+        },
+        {
+            "id": 87,
+            "question": "What is the French translation of 'Enjoy your meal'?",
+            "options": {
+                "A": "bon gout",
+                "B": "bon appétit",
+                "C": "bon repas",
+                "D": "bonne cuisine"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'bon appétit' is the standard French expression meaning 'enjoy your meal'."
+        },
+        {
+            "id": 88,
+            "question": "What is the French translation of 'Happy wedlock!'?",
+            "options": {
+                "A": "bon mariage",
+                "B": "bonnes noces",
+                "C": "bonne année",
+                "D": "bonne union"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'bonnes noces' correctly translates 'happy wedlock/marriage'. 'noces' (wedding/nuptials) is feminine plural."
+        },
+        {
+            "id": 89,
+            "question": "What is the French translation of 'You are blessed'?",
+            "options": {
+                "A": "vous êtes jolis",
+                "B": "vous êtes bons",
+                "C": "vous êtes bénis",
+                "D": "vous êtes saints"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'vous êtes bénis' correctly translates 'you are blessed'. 'bénis' is the masculine plural past participle of 'bénir'."
+        },
+        {
+            "id": 90,
+            "question": "What is the English translation of 'Soyez les bienvenus'?",
+            "options": {
+                "A": "You are welcome",
+                "B": "You are good",
+                "C": "You are coming now",
+                "D": "You are invited"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Soyez les bienvenus' means 'You are welcome' (as a greeting to guests), equivalent to 'Welcome!'."
+        },
+        {
+            "id": 91,
+            "question": "What is the English translation of 'Amusez-vous bien'?",
+            "options": {
+                "A": "enjoy your meal",
+                "B": "go to my hall",
+                "C": "enjoy yourself",
+                "D": "take care of yourself"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Amusez-vous bien' means 'enjoy yourself' or 'have fun'. It is an imperative reflexive expression."
+        },
+        {
+            "id": 92,
+            "question": "What is the English translation of 'Mes condoléances'?",
+            "options": {
+                "A": "My sorry",
+                "B": "My deep sympathy",
+                "C": "Well done",
+                "D": "My regards"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Mes condoléances' translates to 'My deep sympathy' or 'My condolences', expressed during bereavement."
+        },
+        {
+            "id": 93,
+            "question": "What is the English translation of 'Quel âge votre père a-t-il ?'",
+            "options": {
+                "A": "What's your father's name?",
+                "B": "Who is your father?",
+                "C": "How old is your father?",
+                "D": "Where is your father?"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Quel âge... a-t-il?' literally means 'What age does he have?', which translates to 'How old is your father?'"
+        },
+        {
+            "id": 94,
+            "question": "What is the English translation of 'Qui vous a appelé ?'",
+            "options": {
+                "A": "Who is coming?",
+                "B": "Who called you?",
+                "C": "Are you coming?",
+                "D": "Who are you calling?"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Qui vous a appelé?' translates to 'Who called you?' ('Qui' = who, 'a appelé' = called, 'vous' = you)."
+        },
+        {
+            "id": 95,
+            "question": "What is the English translation of 'Pourquoi ce bruit ?'",
+            "options": {
+                "A": "Why this noise?",
+                "B": "Where is your friend?",
+                "C": "How do you feel?",
+                "D": "What is that sound?"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Pourquoi ce bruit?' translates directly to 'Why this noise?' ('Pourquoi' = why, 'ce' = this, 'bruit' = noise)."
+        },
+        {
+            "id": 96,
+            "question": "What is the English translation of 'Bonne et heureuse année !'?",
+            "options": {
+                "A": "This is your year!",
+                "B": "Happy new year!",
+                "C": "Nice to see you!",
+                "D": "Have a great year!"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Bonne et heureuse année!' translates to 'Happy New Year!' — a common New Year's greeting in French."
+        },
+        {
+            "id": 97,
+            "question": "What is the English translation of 'Qu'est-ce que les gens disent de moi ?'",
+            "options": {
+                "A": "What do people say about me?",
+                "B": "How is it possible?",
+                "C": "Who can believe me?",
+                "D": "Why do people talk about me?"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Qu'est-ce que les gens disent de moi?' means 'What do people say about me?' ('les gens' = people, 'disent de' = say about)."
+        },
+        {
+            "id": 98,
+            "question": "What is the English translation of 'C'est vraiment drôle !'?",
+            "options": {
+                "A": "It's hot!",
+                "B": "It's very funny!",
+                "C": "You look sad!",
+                "D": "It's really strange!"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'C'est vraiment drôle!' means 'It's very funny!' ('vraiment' = really/very, 'drôle' = funny)."
+        },
+        {
+            "id": 99,
+            "question": "What is the English translation of 'Vous êtes en retard'?",
+            "options": {
+                "A": "You will come back",
+                "B": "You saw me yesterday",
+                "C": "You are late",
+                "D": "You are behind schedule"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Vous êtes en retard' translates to 'You are late'. 'En retard' is the French expression for being late."
+        },
+        {
+            "id": 100,
+            "question": "What is the English translation of 'Bon voyage'?",
+            "options": {
+                "A": "Safe journey",
+                "B": "Well done",
+                "C": "Come back later",
+                "D": "Travel well"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Bon voyage' is a well-known French expression meaning 'safe journey' or 'have a good trip'."
+        }
+    ]
+}
