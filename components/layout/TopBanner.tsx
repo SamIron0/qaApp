@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { createClient } from "@/utils/supabase/client";
 
 const DISMISS_KEY = "quro:new-french-bank-banner:dismissed";
 
@@ -10,11 +11,35 @@ export function TopBanner() {
   const pathname = usePathname();
   const [isVisible, setIsVisible] = useState(false);
   const [isReady, setIsReady] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   useEffect(() => {
+    const supabase = createClient();
     const wasDismissed = window.localStorage.getItem(DISMISS_KEY) === "true";
-    setIsVisible(!wasDismissed);
-    setIsReady(true);
+    let isMounted = true;
+
+    const initialize = async () => {
+      const { data } = await supabase.auth.getSession();
+      if (!isMounted) return;
+
+      setIsAuthenticated(Boolean(data.session?.user));
+      setIsVisible(!wasDismissed);
+      setIsReady(true);
+    };
+
+    initialize();
+
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, session) => {
+      if (!isMounted) return;
+      setIsAuthenticated(Boolean(session?.user));
+    });
+
+    return () => {
+      isMounted = false;
+      subscription.unsubscribe();
+    };
   }, []);
 
   useEffect(() => {
@@ -29,7 +54,7 @@ export function TopBanner() {
     setIsVisible(false);
   };
 
-  if (!isReady || !isVisible) return null;
+  if (!isReady || !isVisible || !isAuthenticated) return null;
 
   return (
     <div className="border-b border-[#c9a84c]/40 bg-[#fff8e7] text-[#6b4e00] dark:border-[#c9a84c]/30 dark:bg-[#3a2f14] dark:text-[#f0dda0]">
