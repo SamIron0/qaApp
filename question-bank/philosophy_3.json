@@ -6649,6 +6649,1840 @@
                 "B"
             ],
             "explanation": "Locke's empiricism generally accepted that material substances exist and cause our sensory experiences, while Berkeley went further and rejected the existence of material substances altogether, arguing only perceptions exist."
+        },
+        {
+            "id": 476,
+            "question": "According to Hume, what is a fundamental weakness of induction as a method of reasoning?",
+            "options": {
+                "A": "Induction relies too heavily on mathematical proofs",
+                "B": "Induction is not logically certain",
+                "C": "Induction ignores sensory perception entirely",
+                "D": "Induction cannot be applied to scientific observation"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Hume pointed out that induction — reasoning from multiple observed instances to a general conclusion — is not logically certain, meaning past observations cannot guarantee future outcomes."
+        },
+        {
+            "id": 477,
+            "question": "What does empiricism assert is the foundation of knowledge?",
+            "options": {
+                "A": "Rational deduction",
+                "B": "Mathematical reasoning",
+                "C": "Perception",
+                "D": "Divine revelation"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Empiricism asserts that perception is the foundation of knowledge, meaning all knowledge ultimately derives from sensory experience."
+        },
+        {
+            "id": 478,
+            "question": "Which of the following is cited as a challenge to the reliability of sensory experience in empiricism?",
+            "options": {
+                "A": "Logical paradoxes",
+                "B": "Mathematical theorems",
+                "C": "Optical illusions",
+                "D": "Linguistic ambiguity"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text cites optical illusions as an example of challenges to the reliability of sensory experiences, highlighting a weakness in the empiricist claim that perception is a trustworthy foundation of knowledge."
+        },
+        {
+            "id": 479,
+            "question": "According to Berkeley's view described in the text, where do perceptions exist?",
+            "options": {
+                "A": "In the external physical world",
+                "B": "Only in the mind, maintained by a higher power",
+                "C": "In the brain as neural signals",
+                "D": "In a shared collective consciousness"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Berkeley argued that perceptions exist only in the mind and are maintained by a higher power, representing a distinct idealist position within the empiricist tradition."
+        },
+        {
+            "id": 480,
+            "question": "Which of the following best describes the relationship between empiricism and the scientific method?",
+            "options": {
+                "A": "The scientific method developed independently of empiricism",
+                "B": "Empiricism discouraged the use of hypothesis testing",
+                "C": "The empirical approach greatly influenced the development of the scientific method",
+                "D": "The scientific method replaced empiricism entirely"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that the empirical approach greatly influenced the development of the scientific method, which relies on observation, experimentation, and hypothesis testing."
+        },
+        {
+            "id": 481,
+            "question": "What three pillars does the scientific method rely on, as described in the text?",
+            "options": {
+                "A": "Intuition, logic, and deduction",
+                "B": "Observation, experimentation, and hypothesis testing",
+                "C": "Perception, reasoning, and consensus",
+                "D": "Theory, prediction, and verification"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text explicitly states that the scientific method relies on observation, experimentation, and hypothesis testing — all core empiricist principles."
+        },
+        {
+            "id": 482,
+            "question": "Francis Bacon is noted in the text for which contribution?",
+            "options": {
+                "A": "Formulating universal laws of physics",
+                "B": "Developing the theory of perception",
+                "C": "Promoting empirical methods in scientific investigation",
+                "D": "Arguing that perceptions are maintained by a higher power"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Francis Bacon (1561–1626) is noted as a proponent of empirical methods in scientific investigation, helping to establish the empirical approach as central to science."
+        },
+        {
+            "id": 483,
+            "question": "What were the dates of Francis Bacon's life according to the text?",
+            "options": {
+                "A": "1643–1727",
+                "B": "1561–1626",
+                "C": "1500–1580",
+                "D": "1600–1660"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text identifies Francis Bacon as living from 1561 to 1626, during which time he promoted empirical methods in scientific investigation."
+        },
+        {
+            "id": 484,
+            "question": "Isaac Newton's contribution to empiricism, as described in the text, was to:",
+            "options": {
+                "A": "Challenge the reliability of the senses",
+                "B": "Apply empirical observation to formulate universal laws of physics",
+                "C": "Promote hypothesis testing over observation",
+                "D": "Argue that mathematical knowledge is independent of experience"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Isaac Newton (1643–1727) applied empirical observation to formulate universal laws of physics, exemplifying how empirical methods lead to scientific discovery."
+        },
+        {
+            "id": 485,
+            "question": "What were the dates of Isaac Newton's life according to the text?",
+            "options": {
+                "A": "1561–1626",
+                "B": "1600–1680",
+                "C": "1643–1727",
+                "D": "1700–1776"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text identifies Isaac Newton as living from 1643 to 1727, during which time he applied empirical observation to physics."
+        },
+        {
+            "id": 486,
+            "question": "How does modern science uphold empiricist principles, according to the text?",
+            "options": {
+                "A": "By emphasizing rational deduction over experimentation",
+                "B": "By emphasizing testability and repeatability in research",
+                "C": "By prioritizing mathematical proof above sensory observation",
+                "D": "By accepting knowledge derived from authority"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states that modern science continues to uphold empiricist principles by emphasizing testability and repeatability in research."
+        },
+        {
+            "id": 487,
+            "question": "The Problem of Induction, as described in the text, refers to:",
+            "options": {
+                "A": "The difficulty of conducting controlled experiments",
+                "B": "The challenge of translating sensory data into language",
+                "C": "The lack of guarantee that past experiences will always predict future events",
+                "D": "The inability of mathematics to describe physical phenomena"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Hume's Problem of Induction highlights that empiricism relies on induction, but there is no guarantee that past experiences will always predict future events — an issue that remains unresolved in philosophy."
+        },
+        {
+            "id": 488,
+            "question": "According to the text, what is the current status of the Problem of Induction in philosophy?",
+            "options": {
+                "A": "It has been resolved by modern science",
+                "B": "It was disproven by Newton's laws",
+                "C": "It remains unresolved",
+                "D": "It was answered by Berkeley's theory of perception"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text explicitly states that the Problem of Induction remains unresolved in philosophy, making it an ongoing challenge to empiricism."
+        },
+        {
+            "id": 489,
+            "question": "What does 'The Reliability of the Senses' criticism of empiricism argue?",
+            "options": {
+                "A": "Sensory organs are biologically inferior to rational thought",
+                "B": "Illusions and cognitive biases show that human perception is sometimes flawed",
+                "C": "The senses can only be trusted in laboratory conditions",
+                "D": "Sensory data must be confirmed by mathematical proof"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The Reliability of the Senses criticism points out that illusions and cognitive biases demonstrate that human perception is sometimes flawed, undermining empiricism's assumption that sensory perception is a reliable source of knowledge."
+        },
+        {
+            "id": 490,
+            "question": "What assumption does empiricism make about sensory perception that is challenged by illusions and cognitive biases?",
+            "options": {
+                "A": "That sensory perception is a secondary source of knowledge",
+                "B": "That sensory perception is a reliable source of knowledge",
+                "C": "That sensory perception is only valid when combined with logic",
+                "D": "That sensory perception is culturally determined"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Empiricism assumes that sensory perception is a reliable source of knowledge. However, illusions and cognitive biases challenge this assumption by showing perception can be mistaken."
+        },
+        {
+            "id": 491,
+            "question": "The criticism of 'Mathematical and Logical Knowledge' challenges empiricism because:",
+            "options": {
+                "A": "Mathematics requires lab experiments to be verified",
+                "B": "Logical proofs depend on sensory feedback",
+                "C": "Mathematical truths appear to be known independently of sensory experience",
+                "D": "Mathematics has no application in the real world"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Mathematics and logic seem to be known independently of experience, posing a challenge to strict empiricism which holds that all knowledge comes from sensory experience."
+        },
+        {
+            "id": 492,
+            "question": "Which example does the text use to illustrate that mathematical knowledge is independent of sensory perception?",
+            "options": {
+                "A": "E = mc²",
+                "B": "2 + 2 = 4",
+                "C": "The Pythagorean theorem",
+                "D": "Newton's second law"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text uses 2 + 2 = 4 as an example of a truth that holds regardless of sensory perception, illustrating the challenge that mathematical knowledge poses to strict empiricism."
+        },
+        {
+            "id": 493,
+            "question": "What does the Mind and Consciousness criticism argue about empiricism?",
+            "options": {
+                "A": "Empiricism successfully explains all aspects of conscious experience",
+                "B": "Empiricism struggles to fully explain consciousness and subjective experiences",
+                "C": "Consciousness is purely a product of sensory inputs",
+                "D": "Empiricism overemphasizes the role of the mind"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states that empiricism struggles to fully explain consciousness and subjective experiences (qualia), representing a significant limitation of the empiricist framework."
+        },
+        {
+            "id": 494,
+            "question": "What term does the text use to refer to subjective conscious experiences that empiricism struggles to explain?",
+            "options": {
+                "A": "Phenomena",
+                "B": "Cognitions",
+                "C": "Qualia",
+                "D": "Percepts"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text uses the term 'qualia' to refer to subjective experiences that empiricism struggles to fully explain, highlighting a gap in the empiricist account of the mind."
+        },
+        {
+            "id": 495,
+            "question": "Some philosophers argue about consciousness in response to the empiricist framework that:",
+            "options": {
+                "A": "Consciousness is entirely reducible to sensory inputs",
+                "B": "Consciousness involves more than just sensory inputs",
+                "C": "Consciousness can be measured empirically",
+                "D": "Consciousness is irrelevant to epistemology"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text notes that some philosophers argue consciousness involves more than just sensory inputs, challenging the empiricist view that all knowledge and experience originate from the senses."
+        },
+        {
+            "id": 496,
+            "question": "Which philosopher is associated in the text with the view that perceptions exist only in the mind and are maintained by a higher power?",
+            "options": {
+                "A": "Hume",
+                "B": "Newton",
+                "C": "Bacon",
+                "D": "Berkeley"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The text associates Berkeley with the view that perceptions exist only in the mind and are maintained by a higher power, representing a form of idealist empiricism."
+        },
+        {
+            "id": 497,
+            "question": "How many criticisms of empiricism are listed in the 'Criticisms and Limitations' section of the text?",
+            "options": {
+                "A": "Two",
+                "B": "Three",
+                "C": "Four",
+                "D": "Five"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text lists four criticisms of empiricism: The Problem of Induction, The Reliability of the Senses, Mathematical and Logical Knowledge, and The Mind and Consciousness."
+        },
+        {
+            "id": 498,
+            "question": "Which philosopher is primarily associated with identifying the Problem of Induction as a criticism of empiricism?",
+            "options": {
+                "A": "Berkeley",
+                "B": "Bacon",
+                "C": "Hume",
+                "D": "Newton"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text attributes the Problem of Induction to Hume, who pointed out that empiricism relies on induction but that past experiences cannot guarantee future events."
+        },
+        {
+            "id": 499,
+            "question": "A student argues that because the sun has risen every day in recorded history, it will definitely rise tomorrow. According to Hume's criticism discussed in the text, what is the flaw in this reasoning?",
+            "options": {
+                "A": "The student has not used enough mathematical evidence",
+                "B": "Inductive reasoning from past observations cannot provide logical certainty about the future",
+                "C": "The student is relying on perception rather than reason",
+                "D": "The argument is valid because it uses empirical data"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Hume's Problem of Induction holds that reasoning from multiple past instances to a future conclusion is not logically certain — the sun rising every day before does not logically guarantee it will rise tomorrow."
+        },
+        {
+            "id": 500,
+            "question": "Which of the following pairs correctly matches each scientist with their contribution as described in the text?",
+            "options": {
+                "A": "Bacon — universal laws of physics; Newton — empirical methods in investigation",
+                "B": "Bacon — empirical methods in investigation; Newton — universal laws of physics",
+                "C": "Bacon — theory of perception; Newton — hypothesis testing",
+                "D": "Bacon — problem of induction; Newton — reliability of senses"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text clearly states that Bacon promoted empirical methods in scientific investigation, while Newton applied empirical observation to formulate universal laws of physics."
+        },
+        {
+            "id": 501,
+            "question": "Which psychological theory is described as being influenced by empiricism through the modification of behavior via experience and conditioning?",
+            "options": {
+                "A": "Psychoanalysis",
+                "B": "Behaviorism",
+                "C": "Humanism",
+                "D": "Cognitive psychology"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Behaviorism is defined by the modification of behavior through experience and conditioning, making it a theory influenced by empiricism."
+        },
+        {
+            "id": 502,
+            "question": "Which two figures are identified as prominent figures of Behaviorism?",
+            "options": {
+                "A": "Pavlov and Vygotsky",
+                "B": "Bentham and Mill",
+                "C": "Watson and Skinner",
+                "D": "Heidegger and Sartre"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "John B. Watson and B.F. Skinner are identified as prominent figures of Behaviorism, focusing on observable actions over introspective behaviors."
+        },
+        {
+            "id": 503,
+            "question": "What distinguishes Behaviorism's focus compared to introspective approaches?",
+            "options": {
+                "A": "It emphasizes unconscious mental processes",
+                "B": "It focuses on observable actions rather than introspective behaviors",
+                "C": "It prioritizes emotional responses over physical actions",
+                "D": "It relies on self-reported experiences"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Watson and Skinner focused more on observable actions as opposed to introspective behaviors, which is a key characteristic of Behaviorism."
+        },
+        {
+            "id": 504,
+            "question": "What type of learning do modern educational theories derived from empiricism prefer?",
+            "options": {
+                "A": "Rote-based learning",
+                "B": "Memorization-based learning",
+                "C": "Experiential learning",
+                "D": "Lecture-based learning"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Modern educational theories derived from empiricism prefer experiential over rote-based learning."
+        },
+        {
+            "id": 505,
+            "question": "Which educational theory derived from empiricism emphasizes the need for direct interaction with one's surroundings?",
+            "options": {
+                "A": "Behaviorism",
+                "B": "Constructivism",
+                "C": "Rationalism",
+                "D": "Utilitarianism"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Constructivism, supported by Pavlov and Vygotsky, emphasizes the need for direct interaction with the surroundings."
+        },
+        {
+            "id": 506,
+            "question": "Which two thinkers are associated with Constructivism in education?",
+            "options": {
+                "A": "Watson and Skinner",
+                "B": "Bentham and Mill",
+                "C": "Pavlov and Vygotsky",
+                "D": "Heidegger and Merleau-Ponty"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Constructivism is supported by Pavlov and Vygotsky, who emphasized direct interaction with the surroundings."
+        },
+        {
+            "id": 507,
+            "question": "In which fields did empiricism play a role in moral and political philosophy?",
+            "options": {
+                "A": "Psychology and Education",
+                "B": "Ethics and Politics",
+                "C": "Science and Mathematics",
+                "D": "Sociology and Anthropology"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "According to the material, empiricism played a role in moral and political philosophy under the category of Empiricism in Ethics and Politics."
+        },
+        {
+            "id": 508,
+            "question": "Which ethical theory developed by Bentham and Mill is based on empirical assessments of what produces the greatest happiness?",
+            "options": {
+                "A": "Deontology",
+                "B": "Virtue ethics",
+                "C": "Utilitarianism",
+                "D": "Existentialism"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Utilitarianism, developed by Jeremy Bentham and John Stuart Mill, is based on empirical assessments of what produces the greatest happiness."
+        },
+        {
+            "id": 509,
+            "question": "Who are the two thinkers credited with developing Utilitarianism?",
+            "options": {
+                "A": "Watson and Skinner",
+                "B": "Pavlov and Vygotsky",
+                "C": "Heidegger and Sartre",
+                "D": "Bentham and Mill"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Utilitarianism was developed by thinkers like Jeremy Bentham and John Stuart Mill."
+        },
+        {
+            "id": 510,
+            "question": "What is the foundation of Utilitarianism according to the text?",
+            "options": {
+                "A": "Rational deduction of universal moral laws",
+                "B": "Empirical assessments of what produces the greatest happiness",
+                "C": "Divine command and religious doctrine",
+                "D": "Introspective analysis of personal virtue"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Utilitarianism is based on empirical assessments of what produces the greatest happiness, connecting it to the empiricist tradition."
+        },
+        {
+            "id": 511,
+            "question": "Which of the following best defines Phenomenology as described in the text?",
+            "options": {
+                "A": "A philosophy that uses scientific methods to objectively measure human behavior",
+                "B": "A philosophy that investigates how a person consciously feels and experiences something, while ignoring pre-existing rationalizing theories",
+                "C": "A philosophy focused on conditioning behavior through environmental stimuli",
+                "D": "A philosophy that derives moral judgments from empirical data"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Phenomenology looks deeply into how a person feels and experiences something consciously, and investigates and describes that experience while ignoring previously constructed theories that attempt to rationalize the phenomenon."
+        },
+        {
+            "id": 512,
+            "question": "What does a phenomenologist attempt to capture?",
+            "options": {
+                "A": "Objective scientific measurements of behavior",
+                "B": "How universal moral laws apply to individuals",
+                "C": "The way a person senses, thinks about, and acts towards the world and their place in it",
+                "D": "The conditioning patterns that shape human responses"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "A phenomenologist will attempt to capture the way a person senses, thinks about, and acts towards the world around them and their place in it."
+        },
+        {
+            "id": 513,
+            "question": "What does phenomenology achieve by focusing on a person's lived experience?",
+            "options": {
+                "A": "Objective analysis of environmental stimuli",
+                "B": "Experience-to-meaning constitution as secondary adaptations captured during lived experience",
+                "C": "Rote memorization of philosophical doctrines",
+                "D": "Empirical measurement of conscious behavior"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Phenomenology achieves focusing on an experience-to-meaning constitution as secondary adaptations captured during a person's lived experience."
+        },
+        {
+            "id": 514,
+            "question": "How does phenomenology's approach contrast with scientific objectivity?",
+            "options": {
+                "A": "It agrees with and supports the scientifically objective approach",
+                "B": "It relies solely on statistical data rather than personal accounts",
+                "C": "It puts strong emphasis on a person's perspective in phenomena, opposing a scientifically objective approach",
+                "D": "It combines scientific methods with personal introspection equally"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Phenomenology puts strong emphasis on a person's perspective in phenomena, opposing a scientifically objective approach."
+        },
+        {
+            "id": 515,
+            "question": "Rather than focusing on scientific objectivity or external analysis, what does phenomenology concentrate on?",
+            "options": {
+                "A": "Statistical patterns in group behavior",
+                "B": "How entities present in consciousness",
+                "C": "The historical development of philosophical thought",
+                "D": "Observable and measurable actions"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Phenomenology concentrates on how entities present in consciousness, rather than trying to delineate things regarding their scientific objectivity or external analysis."
+        },
+        {
+            "id": 516,
+            "question": "Beyond perception, what aspects does phenomenology's focus include?",
+            "options": {
+                "A": "Only memories and past experiences",
+                "B": "Only physical sensations and reflexes",
+                "C": "Memories, affections, imagining, and wilful activities",
+                "D": "Statistical data and empirical observations"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Phenomenology's focus goes beyond perception to include memories, affections, imagining, and wilful activities, focusing on how people's actions or behaviour correspond to the environment."
+        },
+        {
+            "id": 517,
+            "question": "Which three thinkers are mentioned as having expounded phenomenology into existentialism, hermeneutics, and embodiment?",
+            "options": {
+                "A": "Watson, Skinner, and Pavlov",
+                "B": "Bentham, Mill, and Vygotsky",
+                "C": "Heidegger, Merleau-Ponty, and Sartre",
+                "D": "Pavlov, Vygotsky, and Skinner"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Martin Heidegger, Maurice Merleau-Ponty, and Jean-Paul Sartre had phenomenology expounded into existentialism, hermeneutics, and embodiment."
+        },
+        {
+            "id": 518,
+            "question": "What three branches did Heidegger, Merleau-Ponty, and Sartre further develop through phenomenology?",
+            "options": {
+                "A": "Behaviorism, Constructivism, and Utilitarianism",
+                "B": "Existentialism, hermeneutics, and embodiment",
+                "C": "Ethics, politics, and education",
+                "D": "Psychology, sociology, and anthropology"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Heidegger, Merleau-Ponty, and Sartre expounded phenomenology into existentialism, hermeneutics, and embodiment, which further developed concepts of human experience, identity, and being."
+        },
+        {
+            "id": 519,
+            "question": "What concepts did the branches of existentialism, hermeneutics, and embodiment further develop?",
+            "options": {
+                "A": "Scientific objectivity, rationalism, and deductive reasoning",
+                "B": "Conditioning, reinforcement, and behavior modification",
+                "C": "Human experience, identity, and being",
+                "D": "Moral law, political theory, and social contract"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Existentialism, hermeneutics, and embodiment further developed concepts of human experience, identity, and being."
+        },
+        {
+            "id": 520,
+            "question": "Which branches of study has phenomenology influenced through its method of self-examination?",
+            "options": {
+                "A": "Physics, chemistry, and biology",
+                "B": "Economics, law, and political science",
+                "C": "Psychology, sociology, and cognitive science",
+                "D": "Mathematics, logic, and linguistics"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "By its method of self-examination, phenomenology explains the condition of the human being, influencing branches such as psychology, sociology, and even cognitive science."
+        },
+        {
+            "id": 521,
+            "question": "Which of the following correctly pairs a field with its empiricism-influenced theory or approach?",
+            "options": {
+                "A": "Psychology — Utilitarianism",
+                "B": "Education — Behaviorism",
+                "C": "Ethics and Politics — Constructivism",
+                "D": "Psychology — Behaviorism"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Behaviorism is the empiricism-influenced theory in Psychology. Utilitarianism applies to Ethics and Politics, and Constructivism applies to Education."
+        },
+        {
+            "id": 522,
+            "question": "How does phenomenology treat previously constructed theories when investigating an experience?",
+            "options": {
+                "A": "It builds upon them as foundational frameworks",
+                "B": "It ignores them, focusing purely on the described experience",
+                "C": "It tests them against empirical observations",
+                "D": "It critiques them using logical deduction"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Phenomenology investigates and describes experience while ignoring previously constructed theories that attempt to rationalize that phenomenon."
+        },
+        {
+            "id": 523,
+            "question": "What is the relationship between phenomenology and how people's actions correspond to the environment?",
+            "options": {
+                "A": "Phenomenology ignores environmental factors entirely",
+                "B": "Phenomenology focuses on how people's actions or behaviour correspond to the environment",
+                "C": "Phenomenology only studies environmental stimuli, not personal responses",
+                "D": "Phenomenology measures environmental influence using objective data"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Phenomenology goes beyond perception to focus on how people's actions or behaviour correspond to the environment as part of its broader investigation of consciousness."
+        },
+        {
+            "id": 524,
+            "question": "Which of the following best describes the method phenomenology uses to explain the human condition?",
+            "options": {
+                "A": "External empirical observation",
+                "B": "Controlled scientific experimentation",
+                "C": "Self-examination",
+                "D": "Statistical analysis of group behavior"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "By its method of self-examination, phenomenology explains the condition of the human being."
+        },
+        {
+            "id": 525,
+            "question": "Which of the following statements about Constructivism is accurate based on the text?",
+            "options": {
+                "A": "It was developed by Watson and Skinner to study observable behavior",
+                "B": "It is an ethical theory measuring happiness empirically",
+                "C": "It is an educational theory supported by Pavlov and Vygotsky emphasizing direct interaction with surroundings",
+                "D": "It is a phenomenological method focusing on lived experience"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Constructivism, supported by Pavlov and Vygotsky, is an educational theory derived from empiricism that emphasizes the need for direct interaction with the surroundings."
+        },
+        {
+            "id": 526,
+            "question": "Who is widely regarded as the founder of phenomenology?",
+            "options": {
+                "A": "Martin Heidegger",
+                "B": "Jean-Paul Sartre",
+                "C": "Edmund Husserl",
+                "D": "Maurice Merleau-Ponty"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Edmund Husserl (1859–1938), a German philosopher, is widely regarded as the founder of phenomenology."
+        },
+        {
+            "id": 527,
+            "question": "What was Husserl's primary goal in developing phenomenology?",
+            "options": {
+                "A": "To establish a sociological framework for studying everyday life",
+                "B": "To establish a rigorous scientific basis for philosophy by focusing on the structure of consciousness",
+                "C": "To explore the concept of being-in-the-world",
+                "D": "To argue that human consciousness is fundamentally free"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Husserl sought to establish a rigorous scientific basis for philosophy by focusing on the structure of consciousness and the ways in which objects are experienced."
+        },
+        {
+            "id": 528,
+            "question": "In Husserl's phenomenology, what does 'intentionality' refer to?",
+            "options": {
+                "A": "The deliberate choice to suspend judgment about the natural world",
+                "B": "The idea that consciousness is always directed at something — every act of consciousness has an object",
+                "C": "The distinction between the act of consciousness and the content of experience",
+                "D": "The awareness of mortality as central to authentic existence"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Intentionality is the idea that consciousness is always directed at something — every act of consciousness has an object."
+        },
+        {
+            "id": 529,
+            "question": "What is the Epoché (Phenomenological Reduction) as described by Husserl?",
+            "options": {
+                "A": "A distinction between the act of consciousness and the content of experience",
+                "B": "The awareness that human beings are thrown into the world",
+                "C": "A method of suspending judgment about the natural world to examine pure experience",
+                "D": "The process of identifying objects through embodied perception"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The Epoché (Phenomenological Reduction) is a method of suspending judgment about the natural world to examine pure experience."
+        },
+        {
+            "id": 530,
+            "question": "In Husserl's framework, what is 'Noesis'?",
+            "options": {
+                "A": "The content of experience",
+                "B": "The act of consciousness",
+                "C": "The suspension of natural judgment",
+                "D": "The object toward which consciousness is directed"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Noesis refers to the act of consciousness, as distinguished from Noema, which is the content of experience."
+        },
+        {
+            "id": 531,
+            "question": "In Husserl's framework, what is 'Noema'?",
+            "options": {
+                "A": "The act of consciousness",
+                "B": "The method of suspending judgment",
+                "C": "The content of experience",
+                "D": "The concept of being-in-the-world"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Noema refers to the content of experience, as distinguished from Noesis, which is the act of consciousness."
+        },
+        {
+            "id": 532,
+            "question": "Which of the following best describes the Noesis–Noema distinction in Husserl's phenomenology?",
+            "options": {
+                "A": "The difference between the body and the mind in structuring perception",
+                "B": "The difference between authentic and inauthentic existence",
+                "C": "The distinction between the act of consciousness and the content of experience",
+                "D": "The difference between intentionality and the Epoché"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Noesis and Noema represent the distinction between the act of consciousness (noesis) and the content of experience (noema)."
+        },
+        {
+            "id": 533,
+            "question": "What is the title of Husserl's major work published in 1913?",
+            "options": {
+                "A": "Being and Time",
+                "B": "Being and Nothingness",
+                "C": "Phenomenology of Perception",
+                "D": "Ideas Pertaining to a Pure Phenomenology and to a Phenomenological Philosophy"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Husserl's major work, Ideas Pertaining to a Pure Phenomenology and to a Phenomenological Philosophy (1913), laid the foundation for phenomenological analysis."
+        },
+        {
+            "id": 534,
+            "question": "What was the significance of Husserl's 1913 work?",
+            "options": {
+                "A": "It introduced the concept of Dasein and being-in-the-world",
+                "B": "It laid the foundation for phenomenological analysis",
+                "C": "It argued that consciousness is defined by its negation of fixed identity",
+                "D": "It integrated phenomenology with sociology"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Husserl's Ideas Pertaining to a Pure Phenomenology and to a Phenomenological Philosophy (1913) laid the foundation for phenomenological analysis."
+        },
+        {
+            "id": 535,
+            "question": "What was Martin Heidegger's relationship to Edmund Husserl?",
+            "options": {
+                "A": "Heidegger was Husserl's teacher",
+                "B": "Heidegger was a student of Husserl",
+                "C": "Heidegger and Husserl were contemporaries with no direct connection",
+                "D": "Heidegger rejected phenomenology entirely"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Martin Heidegger was a student of Husserl who took phenomenology in a new direction."
+        },
+        {
+            "id": 536,
+            "question": "In what key way did Heidegger's phenomenology differ from Husserl's?",
+            "options": {
+                "A": "Heidegger focused on consciousness while Husserl focused on being",
+                "B": "Heidegger emphasized being rather than consciousness",
+                "C": "Heidegger rejected the concept of intentionality",
+                "D": "Heidegger focused on embodied perception rather than existence"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "While Husserl focused on consciousness, Heidegger took phenomenology in a new direction, emphasizing being rather than consciousness."
+        },
+        {
+            "id": 537,
+            "question": "What is the title and publication year of Heidegger's magnum opus?",
+            "options": {
+                "A": "Being and Nothingness (1943)",
+                "B": "Phenomenology of Perception (1945)",
+                "C": "Being and Time (1927)",
+                "D": "Ideas Pertaining to a Pure Phenomenology (1913)"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Heidegger's magnum opus is Being and Time, published in 1927."
+        },
+        {
+            "id": 538,
+            "question": "What does the concept of 'Dasein' mean in Heidegger's philosophy?",
+            "options": {
+                "A": "The negation of fixed identity",
+                "B": "The content of conscious experience",
+                "C": "The concept of 'being-there,' describing human existence as being-in-the-world",
+                "D": "The awareness of mortality as central to authentic existence"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Dasein is the concept of 'being-there,' which describes human existence as being-in-the-world."
+        },
+        {
+            "id": 539,
+            "question": "What does Heidegger's concept of 'Being-toward-death' refer to?",
+            "options": {
+                "A": "The notion that humans are thrown into the world without choice",
+                "B": "Awareness of mortality as central to authentic existence",
+                "C": "The idea that consciousness is always directed at an object",
+                "D": "The responsibility humans have to navigate the world with care"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Being-toward-death is Heidegger's concept referring to the awareness of mortality as central to authentic existence."
+        },
+        {
+            "id": 540,
+            "question": "What does Heidegger mean by 'Thrownness'?",
+            "options": {
+                "A": "The idea that consciousness is fundamentally free",
+                "B": "The suspension of judgment about the natural world",
+                "C": "The notion that human beings are thrown into the world and must navigate it with concern and responsibility",
+                "D": "The embodied nature of consciousness"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Thrownness is the notion that human beings are thrown into the world and must navigate it with concern and responsibility."
+        },
+        {
+            "id": 541,
+            "question": "In Heidegger's philosophy, what concept is paired with 'Thrownness' to describe how humans must engage with the world?",
+            "options": {
+                "A": "Intentionality",
+                "B": "Care",
+                "C": "Noema",
+                "D": "Epoché"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Thrownness and Care are paired concepts — humans are thrown into the world and must navigate it with concern and responsibility (Care)."
+        },
+        {
+            "id": 542,
+            "question": "Which of the following themes were introduced in Heidegger's Being and Time?",
+            "options": {
+                "A": "Intentionality, Epoché, and Noesis",
+                "B": "Embodied perception, freedom, and the Other",
+                "C": "Dasein, Being-toward-death, and Thrownness and Care",
+                "D": "Hermeneutics, sociology, and ethical primacy"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Being and Time introduced key existentialist themes: Dasein, Being-toward-death, and Thrownness and Care."
+        },
+        {
+            "id": 543,
+            "question": "What were the life years of Jean-Paul Sartre?",
+            "options": {
+                "A": "1859–1938",
+                "B": "1889–1976",
+                "C": "1905–1980",
+                "D": "1908–1961"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Jean-Paul Sartre lived from 1905 to 1980."
+        },
+        {
+            "id": 544,
+            "question": "In which work did Sartre argue that human consciousness is fundamentally free?",
+            "options": {
+                "A": "Being and Time (1927)",
+                "B": "Being and Nothingness (1943)",
+                "C": "Phenomenology of Perception (1945)",
+                "D": "Ideas Pertaining to a Pure Phenomenology (1913)"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Sartre argued in Being and Nothingness (1943) that human consciousness is fundamentally free and defined by its negation of fixed identity."
+        },
+        {
+            "id": 545,
+            "question": "According to Sartre in Being and Nothingness, how is consciousness defined?",
+            "options": {
+                "A": "By its embodied relationship to the physical world",
+                "B": "By its awareness of mortality and thrownness",
+                "C": "By its negation of fixed identity",
+                "D": "By its intentional directedness toward objects"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Sartre argued that human consciousness is fundamentally free and defined by its negation of fixed identity."
+        },
+        {
+            "id": 546,
+            "question": "What were the life years of Maurice Merleau-Ponty?",
+            "options": {
+                "A": "1859–1938",
+                "B": "1889–1976",
+                "C": "1905–1980",
+                "D": "1908–1961"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Maurice Merleau-Ponty lived from 1908 to 1961."
+        },
+        {
+            "id": 547,
+            "question": "What was the title and year of Merleau-Ponty's major phenomenological work?",
+            "options": {
+                "A": "Being and Nothingness (1943)",
+                "B": "Being and Time (1927)",
+                "C": "Phenomenology of Perception (1945)",
+                "D": "Ideas Pertaining to a Pure Phenomenology (1913)"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Merleau-Ponty's major work is Phenomenology of Perception, published in 1945."
+        },
+        {
+            "id": 548,
+            "question": "What was Merleau-Ponty's key contribution to phenomenology?",
+            "options": {
+                "A": "Emphasizing the concept of Dasein and being-in-the-world",
+                "B": "Arguing that consciousness is defined by the negation of fixed identity",
+                "C": "Emphasizing the embodied nature of consciousness and the role of the body in structuring perception",
+                "D": "Developing an ethical phenomenology based on the primacy of the Other"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Merleau-Ponty emphasized the embodied nature of consciousness and the role of the body in structuring perception."
+        },
+        {
+            "id": 549,
+            "question": "How does Merleau-Ponty's approach differ from Sartre's in their treatment of consciousness?",
+            "options": {
+                "A": "Merleau-Ponty focused on freedom; Sartre focused on embodiment",
+                "B": "Merleau-Ponty emphasized the body's role in perception; Sartre emphasized consciousness as free and defined by negation of fixed identity",
+                "C": "Merleau-Ponty focused on mortality; Sartre focused on hermeneutics",
+                "D": "Merleau-Ponty rejected phenomenology; Sartre embraced it"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Merleau-Ponty emphasized the body's role in structuring perception (embodied consciousness), while Sartre argued consciousness is fundamentally free and defined by negation of fixed identity."
+        },
+        {
+            "id": 550,
+            "question": "What is Emmanuel Levinas known for in the context of phenomenology?",
+            "options": {
+                "A": "Applying phenomenology to hermeneutics (theory of interpretation)",
+                "B": "Developing an ethical phenomenology based on the primacy of the Other",
+                "C": "Integrating phenomenology with sociology to study everyday life",
+                "D": "Emphasizing the embodied nature of consciousness"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Emmanuel Levinas developed an ethical phenomenology based on the primacy of the Other."
+        },
+        {
+            "id": 551,
+            "question": "Which phenomenologist applied phenomenology to hermeneutics (theory of interpretation)?",
+            "options": {
+                "A": "Emmanuel Levinas",
+                "B": "Alfred Schütz",
+                "C": "Hans-Georg Gadamer",
+                "D": "Maurice Merleau-Ponty"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Hans-Georg Gadamer applied phenomenology to hermeneutics, which is the theory of interpretation."
+        },
+        {
+            "id": 552,
+            "question": "What was Alfred Schütz's contribution to phenomenology?",
+            "options": {
+                "A": "He developed an ethical phenomenology focused on the primacy of the Other",
+                "B": "He applied phenomenology to hermeneutics",
+                "C": "He integrated phenomenology with sociology to study everyday life and social interactions",
+                "D": "He emphasized the embodied nature of consciousness and the role of the body"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Alfred Schütz integrated phenomenology with sociology to study everyday life and social interactions."
+        },
+        {
+            "id": 553,
+            "question": "Which of the following correctly matches each philosopher to their primary contribution?",
+            "options": {
+                "A": "Levinas: hermeneutics; Gadamer: ethics of the Other; Schütz: embodied perception",
+                "B": "Levinas: ethics of the Other; Gadamer: hermeneutics; Schütz: sociology of everyday life",
+                "C": "Levinas: sociology; Gadamer: ethics; Schütz: hermeneutics",
+                "D": "Levinas: being-in-the-world; Gadamer: thrownness; Schütz: Epoché"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Levinas developed ethical phenomenology (primacy of the Other), Gadamer applied phenomenology to hermeneutics, and Schütz integrated phenomenology with sociology."
+        },
+        {
+            "id": 554,
+            "question": "Which of the following is NOT listed as one of Husserl's key contributions?",
+            "options": {
+                "A": "Intentionality",
+                "B": "Epoché",
+                "C": "Dasein",
+                "D": "Noesis and Noema"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Dasein is a concept introduced by Heidegger, not Husserl. Husserl's key contributions include Intentionality, Epoché, and the Noesis–Noema distinction."
+        },
+        {
+            "id": 555,
+            "question": "Which philosopher introduced existentialist themes into phenomenology through Being and Time?",
+            "options": {
+                "A": "Edmund Husserl",
+                "B": "Martin Heidegger",
+                "C": "Jean-Paul Sartre",
+                "D": "Hans-Georg Gadamer"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Martin Heidegger's Being and Time (1927) introduced key existentialist themes such as Dasein, Being-toward-death, and Thrownness and Care."
+        },
+        {
+            "id": 556,
+            "question": "Which of the following pairs of philosophers are grouped together in the material as addressing consciousness and perception?",
+            "options": {
+                "A": "Husserl and Heidegger",
+                "B": "Levinas and Gadamer",
+                "C": "Sartre and Merleau-Ponty",
+                "D": "Heidegger and Schütz"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Jean-Paul Sartre and Maurice Merleau-Ponty are discussed together, both addressing consciousness — Sartre from a freedom/negation angle and Merleau-Ponty from an embodied perception angle."
+        },
+        {
+            "id": 557,
+            "question": "Which of the following correctly orders the publication of these phenomenological works from earliest to latest?",
+            "options": {
+                "A": "Being and Time → Ideas Pertaining to a Pure Phenomenology → Being and Nothingness → Phenomenology of Perception",
+                "B": "Ideas Pertaining to a Pure Phenomenology → Being and Time → Being and Nothingness → Phenomenology of Perception",
+                "C": "Being and Nothingness → Ideas Pertaining to a Pure Phenomenology → Being and Time → Phenomenology of Perception",
+                "D": "Phenomenology of Perception → Being and Nothingness → Being and Time → Ideas Pertaining to a Pure Phenomenology"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The correct chronological order is: Ideas Pertaining to a Pure Phenomenology (1913) → Being and Time (1927) → Being and Nothingness (1943) → Phenomenology of Perception (1945)."
+        },
+        {
+            "id": 558,
+            "question": "A student describes their experience of reading as 'consciousness reaching out toward the text.' Which Husserlian concept best describes this idea?",
+            "options": {
+                "A": "Epoché",
+                "B": "Noema",
+                "C": "Intentionality",
+                "D": "Thrownness"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Intentionality is the idea that consciousness is always directed at something — in this case, the text. Every act of consciousness has an object."
+        },
+        {
+            "id": 559,
+            "question": "A philosopher asks colleagues to set aside all assumptions about whether the external world exists and focus only on the structure of their experience. Which Husserlian method is being applied?",
+            "options": {
+                "A": "Noesis",
+                "B": "Dasein",
+                "C": "Epoché (Phenomenological Reduction)",
+                "D": "Being-toward-death"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The Epoché (Phenomenological Reduction) is a method of suspending judgment about the natural world to examine pure experience, which is exactly what is described here."
+        },
+        {
+            "id": 560,
+            "question": "A thinker argues that humans do not choose their circumstances of birth — their culture, language, or era — but must take responsibility for how they engage with those circumstances. Which Heideggerian concept does this best illustrate?",
+            "options": {
+                "A": "Intentionality",
+                "B": "Epoché",
+                "C": "Being-toward-death",
+                "D": "Thrownness and Care"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Thrownness and Care captures the notion that humans are thrown into the world (without choosing their circumstances) and must navigate it with concern and responsibility."
+        },
+        {
+            "id": 561,
+            "question": "Someone argues that a person's awareness of their own death gives their life urgency and authenticity. Which Heideggerian concept does this reflect?",
+            "options": {
+                "A": "Dasein",
+                "B": "Being-toward-death",
+                "C": "Thrownness",
+                "D": "Noema"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Being-toward-death is Heidegger's concept that awareness of mortality is central to authentic existence."
+        },
+        {
+            "id": 562,
+            "question": "Which phenomenologist would most likely argue that the way a person moves through and interacts physically with the world is fundamental to how they understand it?",
+            "options": {
+                "A": "Edmund Husserl",
+                "B": "Martin Heidegger",
+                "C": "Jean-Paul Sartre",
+                "D": "Maurice Merleau-Ponty"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Merleau-Ponty emphasized the embodied nature of consciousness and the role of the body in structuring perception, making him the philosopher most associated with this view."
+        },
+        {
+            "id": 563,
+            "question": "Which phenomenologist would most likely argue that humans have no fixed essential nature and are defined entirely by their choices and freedom?",
+            "options": {
+                "A": "Edmund Husserl",
+                "B": "Martin Heidegger",
+                "C": "Jean-Paul Sartre",
+                "D": "Alfred Schütz"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Sartre argued that human consciousness is fundamentally free and defined by its negation of fixed identity, making him most associated with this view."
+        },
+        {
+            "id": 564,
+            "question": "According to Husserl's notion of intentionality, what is true of all mental acts?",
+            "options": {
+                "A": "They are passive receptions of external stimuli",
+                "B": "They are directed toward objects",
+                "C": "They originate from bodily engagement with the world",
+                "D": "They require bracketing of natural assumptions"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Husserl's intentionality asserts that all mental acts are directed toward objects, meaning consciousness is always 'about' something."
+        },
+        {
+            "id": 565,
+            "question": "How does Husserl characterize the nature of consciousness in relation to the world?",
+            "options": {
+                "A": "Consciousness passively receives impressions from the world",
+                "B": "Consciousness is independent of and detached from the world",
+                "C": "Consciousness actively engages with the world",
+                "D": "Consciousness is determined entirely by bodily states"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Unlike passive reception, Husserl held that consciousness actively engages with the world, which is central to his concept of intentionality."
+        },
+        {
+            "id": 566,
+            "question": "What term did Husserl use to describe the pre-reflective world of everyday experience?",
+            "options": {
+                "A": "Dasein",
+                "B": "Epoché",
+                "C": "Lifeworld (Lebenswelt)",
+                "D": "Embodiment"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Husserl called the pre-reflective world of everyday experience the 'lifeworld' or 'Lebenswelt'."
+        },
+        {
+            "id": 567,
+            "question": "What does the phenomenological concept of the lifeworld include?",
+            "options": {
+                "A": "Only conscious, reflective experiences of individuals",
+                "B": "The shared, taken-for-granted structures that shape perception and meaning",
+                "C": "Purely physical structures of the external environment",
+                "D": "The bracketed assumptions removed during phenomenological reduction"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The lifeworld includes the shared, taken-for-granted structures that shape perception and meaning — the background context of everyday life."
+        },
+        {
+            "id": 568,
+            "question": "Which philosopher is primarily associated with the phenomenological theme of the Body and Embodiment?",
+            "options": {
+                "A": "Edmund Husserl",
+                "B": "Martin Heidegger",
+                "C": "Maurice Merleau-Ponty",
+                "D": "Jean-Paul Sartre"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Merleau-Ponty argued that experience is shaped by our bodily engagement with the world, making him the central figure in phenomenological embodiment theory."
+        },
+        {
+            "id": 569,
+            "question": "According to Merleau-Ponty, what role does the body play in human experience?",
+            "options": {
+                "A": "It is merely an object among other objects in the world",
+                "B": "It is the medium through which we experience space, time, and others",
+                "C": "It is irrelevant to consciousness and perception",
+                "D": "It is a barrier between the mind and the external world"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Merleau-Ponty argued that the body is not merely an object but the medium through which we experience space, time, and others."
+        },
+        {
+            "id": 570,
+            "question": "Which of the following best describes Merleau-Ponty's view of the body?",
+            "options": {
+                "A": "The body is a passive vessel for the mind",
+                "B": "The body determines all cognitive activity without remainder",
+                "C": "The body actively shapes experience through engagement with the world",
+                "D": "The body must be bracketed to achieve pure phenomenological analysis"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Merleau-Ponty's embodiment thesis holds that experience is shaped by bodily engagement — the body is an active participant in how we perceive and interact with the world."
+        },
+        {
+            "id": 571,
+            "question": "What is the process of 'epoché' in phenomenology?",
+            "options": {
+                "A": "The study of the lifeworld through direct observation",
+                "B": "Bracketing natural assumptions to analyse pure experience",
+                "C": "The existential concern with being-in-the-world",
+                "D": "The bodily engagement with space and time"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Epoché involves 'bracketing' natural assumptions, allowing philosophers to focus on the structures of consciousness without presupposing external realities."
+        },
+        {
+            "id": 572,
+            "question": "What is the primary purpose of phenomenological reduction (epoché)?",
+            "options": {
+                "A": "To eliminate consciousness from philosophical analysis",
+                "B": "To confirm the existence of the external world",
+                "C": "To focus on the structures of consciousness without presupposing external realities",
+                "D": "To study how the body interacts with the social environment"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Phenomenological reduction allows philosophers to analyse pure experience by setting aside assumptions about external reality, focusing solely on consciousness itself."
+        },
+        {
+            "id": 573,
+            "question": "Another name for phenomenological reduction is:",
+            "options": {
+                "A": "Lebenswelt",
+                "B": "Intentionality",
+                "C": "Being-in-the-world",
+                "D": "Bracketing"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Phenomenological reduction is also referred to as 'bracketing' because it involves setting aside or bracketing natural assumptions about the world."
+        },
+        {
+            "id": 574,
+            "question": "Which philosopher transformed Husserl's emphasis on consciousness into an existential concern with being-in-the-world?",
+            "options": {
+                "A": "Merleau-Ponty",
+                "B": "Heidegger",
+                "C": "Sartre",
+                "D": "Derrida"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Martin Heidegger transformed Husserl's focus on consciousness into the existential concept of being-in-the-world."
+        },
+        {
+            "id": 575,
+            "question": "What does Heidegger's concept of 'being-in-the-world' assert?",
+            "options": {
+                "A": "Humans exist in isolation from their environment",
+                "B": "Consciousness is directed toward abstract objects",
+                "C": "Humans always exist within a meaningful, situated context",
+                "D": "The body is the sole determinant of human experience"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Heidegger's being-in-the-world holds that humans are always situated in a meaningful context — existence is inherently embedded and relational."
+        },
+        {
+            "id": 576,
+            "question": "How does Heidegger's phenomenology differ from Husserl's?",
+            "options": {
+                "A": "Heidegger focused on consciousness while Husserl focused on the body",
+                "B": "Heidegger shifted the focus from consciousness to an existential concern with situated being",
+                "C": "Heidegger rejected phenomenology entirely in favour of empiricism",
+                "D": "Heidegger emphasized bracketing while Husserl emphasized embodiment"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Heidegger transformed Husserl's emphasis on consciousness into an existential concern with being-in-the-world — a shift from pure consciousness to situated human existence."
+        },
+        {
+            "id": 577,
+            "question": "Who is credited as the founder of phenomenology as a philosophical method?",
+            "options": {
+                "A": "Martin Heidegger",
+                "B": "Maurice Merleau-Ponty",
+                "C": "Edmund Husserl",
+                "D": "Jean-Paul Sartre"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Phenomenology as a philosophical method was created by Edmund Husserl, whose core premise was the explanation of subjective experience alongside the structure of consciousness."
+        },
+        {
+            "id": 578,
+            "question": "In psychology, what does phenomenology primarily inform?",
+            "options": {
+                "A": "Quantitative experimental designs",
+                "B": "Neurological mapping of brain functions",
+                "C": "Qualitative studies, especially in capturing emotion, perception, and mental activity from the first-person viewpoint",
+                "D": "Behavioural conditioning techniques"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "In psychology, phenomenology informs qualitative studies — particularly in capturing emotion, perception, and mental activity from the first-person viewpoint."
+        },
+        {
+            "id": 579,
+            "question": "Under which branch of psychology is cognitive phenomenology subsumed?",
+            "options": {
+                "A": "Developmental psychology",
+                "B": "Cognitive psychology",
+                "C": "Clinical psychology",
+                "D": "Social psychology"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Cognitive phenomenology is subsumed under cognitive psychology, where attention and artificial intelligence theories use phenomenological principles."
+        },
+        {
+            "id": 580,
+            "question": "What do attention and artificial intelligence theories in cognitive science use phenomenological principles to explain?",
+            "options": {
+                "A": "The social construction of cultural norms",
+                "B": "The conscious brain and the actualized mind",
+                "C": "The bodily engagement with the environment",
+                "D": "The bracketing of pre-reflective assumptions"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Attention and AI theories of cognitive perception use phenomenological principles to explain the conscious brain and the actualized mind."
+        },
+        {
+            "id": 581,
+            "question": "In sociology and anthropology, what do phenomenological methods focus on?",
+            "options": {
+                "A": "Statistical analysis of population behaviour",
+                "B": "Neurological structures underlying social behaviour",
+                "C": "Identity and culture as lived experience to be analysed",
+                "D": "The epoché and bracketing of cultural assumptions"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "In sociology and anthropology, phenomenological methods focus on identity and culture as lived experience to be analysed."
+        },
+        {
+            "id": 582,
+            "question": "What is described as being of 'paramount interest' in the sociological and anthropological application of phenomenology?",
+            "options": {
+                "A": "The neurological basis of social behaviour",
+                "B": "The construction of reality by the subjects of social and cultural action",
+                "C": "The aesthetic interpretation of literary works",
+                "D": "The first-person capture of emotional states"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The construction of reality by the subjects of social and cultural action is described as being of paramount interest in phenomenological sociology and anthropology."
+        },
+        {
+            "id": 583,
+            "question": "What processes does phenomenology address when applied to literature and art?",
+            "options": {
+                "A": "The neurological responses to aesthetic stimuli",
+                "B": "The bracketing of artistic assumptions for pure analysis",
+                "C": "The shaping of meaning through aesthetic experience, with emphasis on interpretation and the audience of a literary work",
+                "D": "The social construction of artistic identity and cultural norms"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "For literature and art, phenomenology addresses the processes of shaping meaning through aesthetic experience, with an emphasis on interpretation and the audience of a literary work."
+        },
+        {
+            "id": 584,
+            "question": "Which of the following best summarises the core premise of phenomenology as described in the text?",
+            "options": {
+                "A": "The empirical study of behaviour through controlled experiments",
+                "B": "The explanation of subjective experience alongside the structure of consciousness",
+                "C": "The analysis of social structures through statistical methods",
+                "D": "The reduction of all experience to neurological brain states"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Phenomenology's core premise, as stated in the text, is the explanation of subjective experience alongside the structure of consciousness."
+        },
+        {
+            "id": 585,
+            "question": "Which of the following is NOT listed as a core theme in phenomenology in the text?",
+            "options": {
+                "A": "Intentionality and Consciousness",
+                "B": "The Lifeworld (Lebenswelt)",
+                "C": "Dialectical Materialism",
+                "D": "Being-in-the-World"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Dialectical Materialism is not a phenomenological theme. The core themes listed are: Intentionality and Consciousness, The Lifeworld, The Body and Embodiment, Phenomenological Reduction and Bracketing, and Being-in-the-World."
+        },
+        {
+            "id": 586,
+            "question": "Phenomenology has gained attention in which broader area of study beyond philosophy?",
+            "options": {
+                "A": "Pure mathematics and formal logic",
+                "B": "Social sciences, including psychology, sociology, and anthropology",
+                "C": "Natural sciences such as physics and chemistry",
+                "D": "Engineering and applied technology"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text notes that phenomenology's explanation of subjective experience and consciousness has gained great attention in other areas of social sciences."
+        },
+        {
+            "id": 587,
+            "question": "A researcher wants to study how cancer patients personally experience pain and fear. Which phenomenological application would be most appropriate?",
+            "options": {
+                "A": "Cognitive phenomenology to model AI responses",
+                "B": "Phenomenological qualitative psychology to capture first-person accounts of emotion and perception",
+                "C": "Sociological phenomenology to analyse cultural construction of illness",
+                "D": "Literary phenomenology to interpret the aesthetic meaning of suffering"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Phenomenology in psychology informs qualitative studies in capturing emotion, perception, and mental activity from the first-person viewpoint — ideal for studying personal illness experiences."
+        },
+        {
+            "id": 588,
+            "question": "A philosopher sets aside all beliefs about whether the external world exists in order to examine only what appears in consciousness. Which phenomenological process is this?",
+            "options": {
+                "A": "Being-in-the-world",
+                "B": "Intentionality",
+                "C": "Epoché (phenomenological reduction)",
+                "D": "Embodiment"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Setting aside assumptions about external reality to focus solely on structures of consciousness is the process of epoché (phenomenological reduction/bracketing)."
+        },
+        {
+            "id": 589,
+            "question": "Which pairing of philosopher and concept is CORRECT based on the text?",
+            "options": {
+                "A": "Merleau-Ponty — Being-in-the-World",
+                "B": "Heidegger — The Lifeworld (Lebenswelt)",
+                "C": "Husserl — Intentionality and Consciousness",
+                "D": "Husserl — The Body and Embodiment"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Husserl's notion of intentionality is the correct pairing. Merleau-Ponty is associated with embodiment, and Heidegger with being-in-the-world."
+        },
+        {
+            "id": 590,
+            "question": "According to the text, how does phenomenology influence education?",
+            "options": {
+                "A": "It promotes standardized testing and teacher-led instruction",
+                "B": "It combats teacher-centred learning and advocates for active and situational methods",
+                "C": "It supports lecture-based learning and passive student engagement",
+                "D": "It encourages memorization over experiential understanding"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text explicitly states that phenomenology is used in combating teacher-centred learning and in advocating for active and situational methods of learning."
+        },
+        {
+            "id": 591,
+            "question": "How has phenomenology influenced medicine and healthcare according to the text?",
+            "options": {
+                "A": "By focusing on diagnostic procedures and clinical test results",
+                "B": "By shifting focus toward the disease as it is diagnosed rather than lived",
+                "C": "By shifting toward person-phenomenon and phenomenological centred care focusing on the disease as it is lived",
+                "D": "By promoting evidence-based medicine over patient narratives"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states there is a shift towards person-phenomenon and phenomenological centred care by focusing on the disease as it is lived, not as it is diagnosed."
+        },
+        {
+            "id": 592,
+            "question": "What is the general contribution of phenomenology across all fields according to the text?",
+            "options": {
+                "A": "It provides objective data for scientific analysis",
+                "B": "It leads to a deepening of the understanding of human experience, exclusionary phenomenon, perception, and meaning-making",
+                "C": "It standardizes research methodologies across disciplines",
+                "D": "It replaces empirical research with philosophical reasoning"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text concludes that in all fields, phenomenology leads to a deepening of the understanding of the human experience, exclusionary phenomenon and perception, along with meaning-making."
+        },
+        {
+            "id": 593,
+            "question": "Which criticism argues that phenomenology is too subjective and lacks scientific rigor?",
+            "options": {
+                "A": "Relativism",
+                "B": "Obscure terminology",
+                "C": "Lack of empirical verification",
+                "D": "Difficulty in application"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text identifies 'Lack of empirical verification' as the criticism where critics argue phenomenology is too subjective and lacks scientific rigor."
+        },
+        {
+            "id": 594,
+            "question": "Which two philosophers are specifically cited in the text as having dense writing styles that make phenomenology difficult to interpret?",
+            "options": {
+                "A": "Kant and Descartes",
+                "B": "Heidegger and Husserl",
+                "C": "Sartre and Merleau-Ponty",
+                "D": "Hegel and Nietzsche"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text specifically names Heidegger and Husserl, stating their dense writing style makes phenomenology difficult to interpret under the 'Obscure terminology' criticism."
+        },
+        {
+            "id": 595,
+            "question": "What is the 'Obscure terminology' criticism of phenomenology?",
+            "options": {
+                "A": "Phenomenology uses too many mathematical symbols",
+                "B": "Heidegger's and Husserl's dense writing style makes phenomenology difficult to interpret",
+                "C": "Phenomenological terms are borrowed from other disciplines without proper attribution",
+                "D": "Phenomenology avoids defining its key terms altogether"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Under the 'Obscure terminology' criticism, the text states that Heidegger's and Husserl's dense writing style makes phenomenology difficult to interpret."
+        },
+        {
+            "id": 596,
+            "question": "Why do some critics claim phenomenology leads to relativism?",
+            "options": {
+                "A": "Because it rejects all forms of objective measurement",
+                "B": "Because it emphasizes experience over objective reality",
+                "C": "Because it applies differently across cultural contexts",
+                "D": "Because it denies the existence of universal truths"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states that the relativism criticism arises because phenomenology emphasizes experience over objective reality."
+        },
+        {
+            "id": 597,
+            "question": "How does the 'Relativism' criticism differ from the 'Overemphasis on Subjectivity' criticism as presented in the text?",
+            "options": {
+                "A": "They are identical criticisms using different labels",
+                "B": "Relativism focuses on experience over objective reality, while overemphasis on subjectivity focuses on being too introspective and lacking empirical rigor",
+                "C": "Relativism targets methodology while subjectivity targets terminology",
+                "D": "Relativism is a positive critique while subjectivity is negative"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Relativism criticizes phenomenology for prioritizing experience over objective reality, whereas the overemphasis on subjectivity critique states phenomenology is too introspective and lacks empirical rigor — both are related but distinct criticisms."
+        },
+        {
+            "id": 598,
+            "question": "What does the 'Overemphasis on Subjectivity' criticism specifically argue about phenomenology?",
+            "options": {
+                "A": "It is too culturally biased and ignores universal human experiences",
+                "B": "It is too introspective and lacks empirical rigor",
+                "C": "It places too much focus on language rather than lived experience",
+                "D": "It overvalues the role of the researcher in data collection"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states that the 'Overemphasis on Subjectivity' criticism holds that phenomenology is too introspective and lacks empirical rigor."
+        },
+        {
+            "id": 599,
+            "question": "What is the 'Difficulty in Application' criticism of phenomenology?",
+            "options": {
+                "A": "Phenomenological methods are too expensive to implement",
+                "B": "Phenomenological research is too abstract and hard to apply in real-world scenarios",
+                "C": "Phenomenology requires specialized equipment unavailable in most institutions",
+                "D": "Phenomenological findings cannot be replicated across different researchers"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states that critics say phenomenological research is too abstract and hard to apply in real-world scenarios under the 'Difficulty in Application' criticism."
+        },
+        {
+            "id": 600,
+            "question": "Which philosopher is specifically highlighted in the 'Obscure Language' criticism for using complex and ambiguous terms?",
+            "options": {
+                "A": "Husserl",
+                "B": "Sartre",
+                "C": "Heidegger",
+                "D": "Merleau-Ponty"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text specifically mentions Heidegger (in parentheses as 'especially Heidegger') when discussing the 'Obscure Language' criticism about thinkers using complex and ambiguous terms."
+        },
+        {
+            "id": 601,
+            "question": "How many criticisms of phenomenology are listed in the text?",
+            "options": {
+                "A": "Four",
+                "B": "Five",
+                "C": "Six",
+                "D": "Seven"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text lists six criticisms of phenomenology: (i) Lack of empirical verification, (ii) Obscure terminology, (iii) Relativism, (iv) Overemphasis on Subjectivity, (v) Difficulty in Application, and (vi) Obscure Language."
+        },
+        {
+            "id": 602,
+            "question": "What do the 'Obscure Terminology' and 'Obscure Language' criticisms have in common?",
+            "options": {
+                "A": "Both criticize the lack of empirical basis in phenomenology",
+                "B": "Both focus on how complex or difficult language makes phenomenology hard to understand or interpret",
+                "C": "Both argue that phenomenology leads to relativism",
+                "D": "Both suggest that phenomenology cannot be applied practically"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Both criticisms relate to language difficulty — 'Obscure Terminology' focuses on Heidegger and Husserl's dense writing making it hard to interpret, while 'Obscure Language' focuses on thinkers using complex and ambiguous terms making it hard to understand."
+        },
+        {
+            "id": 603,
+            "question": "In medicine, what does phenomenological centred care focus on, according to the text?",
+            "options": {
+                "A": "Clinical diagnosis and laboratory findings",
+                "B": "The disease as it is diagnosed",
+                "C": "The disease as it is lived by the patient",
+                "D": "Pharmaceutical interventions and treatment outcomes"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The text states that phenomenological centred care focuses on the disease as it is lived, not as it is diagnosed."
+        },
+        {
+            "id": 604,
+            "question": "A researcher argues that phenomenology cannot be trusted because its findings cannot be tested or measured scientifically. Which criticism does this best represent?",
+            "options": {
+                "A": "Relativism",
+                "B": "Lack of empirical verification",
+                "C": "Difficulty in application",
+                "D": "Overemphasis on subjectivity"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The 'Lack of empirical verification' criticism captures the argument that phenomenology is too subjective and lacks scientific rigor — fitting a claim that its findings cannot be scientifically tested or measured."
+        },
+        {
+            "id": 605,
+            "question": "A student reads a phenomenological text and finds the language so complex and ambiguous that they cannot grasp its meaning. Which criticism does this scenario illustrate?",
+            "options": {
+                "A": "Overemphasis on Subjectivity",
+                "B": "Relativism",
+                "C": "Obscure Language",
+                "D": "Difficulty in Application"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The 'Obscure Language' criticism directly addresses how many thinkers, especially Heidegger, use complex and ambiguous terms that make phenomenology difficult to understand."
+        },
+        {
+            "id": 606,
+            "question": "Which of the following best describes phenomenology's approach in education as stated in the text?",
+            "options": {
+                "A": "Teacher-centred and examination-focused",
+                "B": "Active and situational methods of learning",
+                "C": "Passive absorption of theoretical knowledge",
+                "D": "Standardized curriculum delivery"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The text states phenomenology is used in combating teacher-centred learning and advocating for active and situational methods of learning."
         }
     ]
 }
