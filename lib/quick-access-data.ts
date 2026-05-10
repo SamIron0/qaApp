@@ -49,7 +49,7 @@ export async function getQuickAccessData(userId: string): Promise<QuickAccessDat
         courseName: found.course.name,
         courseCode: found.course.code,
         bankName: found.bank.name,
-        questionCount: found.bank.questionCount ?? 0,
+        questionCount: found.bank.questionCount,
         ...extra(row as { course_id: string; bank_id: string; [k: string]: string }),
       });
     }

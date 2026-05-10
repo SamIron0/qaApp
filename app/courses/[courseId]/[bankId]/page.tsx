@@ -4,7 +4,7 @@ import { AppHeader } from "@/components/layout/AppHeader";
 import { PracticeModeClient } from "@/components/PracticeModeClient";
 import { QuizModeClient } from "@/components/QuizModeClient";
 import { getCourseAndBank } from "@/lib/courses";
-import { loadQuestionsFromJsonFile } from "@/lib/questions-server";
+import { loadQuestionsForBank } from "@/lib/questions-server";
 import { recordVisit } from "@/lib/record-visit";
 
 type PageProps = {
@@ -22,7 +22,7 @@ export default async function SessionPage({ params, searchParams }: PageProps) {
   if (!mode) redirect(`/courses/${courseId}/${bankId}/setup`);
 
   const { course, bank } = found;
-  const allQuestions = loadQuestionsFromJsonFile(bank.file);
+  const allQuestions = await loadQuestionsForBank(bank.file);
 
   void recordVisit(courseId, bankId);
 

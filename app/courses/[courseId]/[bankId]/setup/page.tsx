@@ -6,7 +6,6 @@ import { ModeSetupClient } from "@/components/ModeSetupClient";
 import { BankRating } from "@/components/BankRating";
 import { BookmarkButton } from "@/components/ui/bookmark-button";
 import { getCourseAndBank } from "@/lib/courses";
-import { countQuestionsInJsonFile } from "@/lib/questions-server";
 import { createClient } from "@/utils/supabase/server";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
@@ -21,17 +20,19 @@ export default async function SetupPage({ params }: PageProps) {
   if (!found) notFound();
 
   const { course, bank } = found;
-  const totalQuestions = countQuestionsInJsonFile(bank.file);
+  const totalQuestions = bank.questionCount;
 
   const supabase = await createClient();
-  const { data: { user } } = await supabase.auth.getUser();
+  const [{ data: authData }, { data: ratingRows }] = await Promise.all([
+    supabase.auth.getUser(),
+    supabase
+      .from("bank_ratings")
+      .select("rating,user_id")
+      .eq("course_id", courseId)
+      .eq("bank_id", bankId),
+  ]);
+  const user = authData.user;
   const isAuthenticated = !!user;
-
-  const { data: ratingRows } = await supabase
-    .from("bank_ratings")
-    .select("rating,user_id")
-    .eq("course_id", courseId)
-    .eq("bank_id", bankId);
 
   const count = ratingRows?.length ?? 0;
   const average =

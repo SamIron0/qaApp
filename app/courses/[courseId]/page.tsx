@@ -4,7 +4,6 @@ import { Playfair_Display } from "next/font/google";
 import { BankCard } from "@/components/courses/BankCard";
 import { BrowseShell } from "@/components/layout/BrowseShell";
 import { getCourseById } from "@/lib/courses";
-import { countQuestionsInJsonFile } from "@/lib/questions-server";
 import { createClient } from "@/utils/supabase/server";
 
 const playfair = Playfair_Display({
@@ -21,15 +20,15 @@ export default async function CourseBanksPage({ params }: PageProps) {
   if (!course) notFound();
 
   const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const [{ data: authData }, { data: rows }] = await Promise.all([
+    supabase.auth.getUser(),
+    supabase
+      .from("bank_ratings")
+      .select("bank_id,rating,user_id")
+      .eq("course_id", course.id),
+  ]);
+  const user = authData.user;
   const isAuthenticated = Boolean(user);
-
-  const banksWithCounts = course.banks.map((bank) => ({
-    ...bank,
-    questionCount: countQuestionsInJsonFile(bank.file),
-  }));
 
   const bookmarkedBankIds = new Set<string>();
   if (user) {
@@ -45,11 +44,6 @@ export default async function CourseBanksPage({ params }: PageProps) {
     { userRating: number | null; average: number | null; count: number }
   >();
   {
-    const { data: rows } = await supabase
-      .from("bank_ratings")
-      .select("bank_id,rating,user_id")
-      .eq("course_id", course.id);
-
     const aggregates = new Map<string, { sum: number; count: number }>();
     for (const row of rows ?? []) {
       const bankId = row.bank_id as string;
@@ -83,7 +77,7 @@ export default async function CourseBanksPage({ params }: PageProps) {
     }
   }
 
-  const sortedBanks = banksWithCounts
+  const sortedBanks = course.banks
     .map((bank, index) => ({ bank, index }))
     .sort((a, b) => {
       const aBookmarked = bookmarkedBankIds.has(a.bank.id);
