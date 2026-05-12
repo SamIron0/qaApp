@@ -108,8 +108,8 @@
             "id": 9,
             "question": "Given the ODE $x^2\\frac{dy}{dx} + 2xy = 3$, is the ODE exact?",
             "options": {
-                "A": "Yes, because $\\frac{\\partial M}{\\partial y} = \\frac{\\partial N}{\\partial x}$",
-                "B": "No, because $\\frac{\\partial M}{\\partial y} \\neq \\frac{\\partial N}{\\partial x}$",
+                "A": "Yes, because $\\frac{\\dP}{\\dy} = \\frac{\\dQ}{\\dx}$",
+                "B": "No, because $\\frac{\\dP}{\\dy} \\neq \\frac{\\dQ}{\\dx}$",
                 "C": "Yes, because it can be written as $\\frac{d}{dx}(x^2 y) = 3$",
                 "D": "No, because it is a second order equation"
             },
