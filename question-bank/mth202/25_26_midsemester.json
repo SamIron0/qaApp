@@ -62,7 +62,7 @@
                 "D": "$y = 2x(\\ln x - C)$"
             },
             "answerKey": [
-                "C"
+                "B"
             ]
         },
         {
@@ -75,7 +75,7 @@
                 "D": "Advanced type"
             },
             "answerKey": [
-                "C"
+                "B"
             ]
         },
         {
@@ -101,7 +101,7 @@
                 "D": "$y = \\frac{dy}{dx} - \\frac{1}{2}x^2\\frac{d^2y}{dx^2}$"
             },
             "answerKey": [
-                "D"
+                "A"
             ]
         },
         {

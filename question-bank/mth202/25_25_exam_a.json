@@ -1,0 +1,394 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "To solve a given $\\frac{dy}{dx} = f(x)$, we first cross multiply. What is the purpose of cross multiplying?",
+            "options": {
+                "A": "To find $x$",
+                "B": "To separate the variables",
+                "C": "To verify",
+                "D": "None"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "After cross multiplying, to continue solving, we:",
+            "options": {
+                "A": "Differentiate",
+                "B": "Add",
+                "C": "Integrate",
+                "D": "Find $f(x)$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Evaluate $\\int \\frac{2x}{x^2+3}\\, dx$",
+            "options": {
+                "A": "$2x$",
+                "B": "$2x + 3$",
+                "C": "$\\log_e(x^2 + 3)$",
+                "D": "None"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "If $\\frac{dy}{dx} = 2x$, find $y$.",
+            "options": {
+                "A": "$y = \\frac{x}{2}$",
+                "B": "$y = x^2$",
+                "C": "$y = \\frac{x^2}{2} + k$",
+                "D": "$y = \\frac{x^2}{3}$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Solve the differential equation $y\\frac{dy}{dx} = x$",
+            "options": {
+                "A": "$\\frac{y^2}{2} = \\frac{x^2}{2} + k$",
+                "B": "$\\frac{x^2}{y^2} = x + k$",
+                "C": "$y^2 = y^2 + C$",
+                "D": "$y = x + k$"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "If $\\frac{dy}{dx} = \\sin x$, what is $y$?",
+            "options": {
+                "A": "$y = \\cos x$",
+                "B": "$y = -\\sin x$",
+                "C": "$y = \\sec x$",
+                "D": "$y = \\cos x + k$"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Which of the following is CORRECT about Newton's law of cooling?",
+            "options": {
+                "A": "The temperature of the body changes is proportional to the ambient temperature",
+                "B": "The temperature of the body changes is proportional to the difference between ambient temperature and the temperature of the body",
+                "C": "The rate at which the temperature of the body changes is proportional to the difference in the temperature of the body and the temperature of the surrounding medium",
+                "D": "The rate at which the temperature of the body changes is proportional to the sum of the temperature of the body and the temperature of the surrounding medium"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Which of the following linear first-order differential equations represents the mathematical formulation of Newton's law of cooling?",
+            "options": {
+                "A": "$\\frac{dT}{dt} = k(T - T_m)$",
+                "B": "$\\frac{dT}{dt} = k(T_m - T)$",
+                "C": "$\\frac{dT}{dt} = kT$",
+                "D": "$\\frac{dT}{dt} = k(TT_m)$"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Solve the following linear differential equation using the integrating factor method: $\\frac{dy}{dx} - \\frac{5}{x}y = x^6$",
+            "options": {
+                "A": "$\\frac{x^7}{2} + Cx^5$",
+                "B": "$-\\frac{x^7}{2} - Cx^5$",
+                "C": "$\\frac{x^7}{2} - Cx^5$",
+                "D": "$\\frac{x^7}{2} + Cx^5$"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Solve the following exact differential equation: $2xy\\frac{dy}{dx} + y^2 = e^{2x}$",
+            "options": {
+                "A": "$y^2 = \\frac{e^{2x}}{2} + K$",
+                "B": "$xy^2 = -\\frac{e^{2x}}{2} + K$",
+                "C": "$y^2 = \\frac{-e^{2x}}{2} + K$",
+                "D": "$xy^2 = \\frac{e^{2x}}{2} + K$"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 11,
+            "question": "Solve $\\frac{dy}{dx} = \\frac{2x}{y+1}$ using the separating variables method.",
+            "options": {
+                "A": "$-x^2 + A = \\frac{y^2}{2} + y$",
+                "B": "$x^2 + A = -\\frac{y^2}{2} - y$",
+                "C": "$x^2 + A = \\frac{y^2}{2} + y$",
+                "D": "$x^2 + A = -y$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 12,
+            "question": "Solve the homogeneous differential equation $\\frac{dy}{dx} = \\frac{x^2 + y^2}{xy}$",
+            "options": {
+                "A": "$y^2 = 2x^2(\\ln x - C)$",
+                "B": "$y^2 = 2x^2(\\ln x + C)$",
+                "C": "$y = 2\\ln x + C$",
+                "D": "$y = 2\\ln x - C$"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 13,
+            "question": "$a\\frac{d^2y}{dx^2} + b\\frac{dy}{dx} + cy = 0$ is a second order ordinary differential equation with constant coefficient of:",
+            "options": {
+                "A": "Homogeneous type",
+                "B": "Non-homogeneous type",
+                "C": "Partial type",
+                "D": "Advanced type"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 14,
+            "question": "$a\\frac{d^2y}{dx^2} + b\\frac{dy}{dx} + cy = f(x)$ is a second order ordinary differential equation with constant coefficient of:",
+            "options": {
+                "A": "Homogeneous type",
+                "B": "Non-homogeneous type",
+                "C": "Partial type",
+                "D": "Advanced type"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 15,
+            "question": "Given $\\frac{d^2y}{dx^2} + b\\frac{dy}{dx} + cy = f(x)$, if $f(x) = 3e^{2x}$, then the assumed particular solution $y_p$ is:",
+            "options": {
+                "A": "$y_p = Ce^{ax}$",
+                "B": "$y_p = 3e^{ax}$",
+                "C": "$y_p = Ce^{2x}$",
+                "D": "$y_p = ax^2 + bx + c$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 16,
+            "question": "Given $a\\frac{d^2y}{dx^2} + b\\frac{dy}{dx} + cy = f(x)$, if $f(x) = 3x + 2 + e^{3x}$, then the assumed particular solution $y_p$ is:",
+            "options": {
+                "A": "$y_p = (ax + b)e^{3x}$",
+                "B": "$y_p = ax + b + e^{cx}$",
+                "C": "$y_p = ax + b + e^{3x}$",
+                "D": "$y_p = ax + b$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 17,
+            "question": "A complete solution to the second order ordinary differential equation $a\\frac{d^2y}{dx^2} + b\\frac{dy}{dx} + cy = f(x)$ is:",
+            "options": {
+                "A": "$y = \\frac{y_c}{y_p}$",
+                "B": "$y = y_c - y_p$",
+                "C": "$y = y_c y_p$",
+                "D": "$y = y_c + y_p$"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 18,
+            "question": "The solution to $y'' - 5y' + 6y = 0$ is:",
+            "options": {
+                "A": "$Ae^{-6x} + Be^{x}$",
+                "B": "$Ae^{3x} + Be^{2x}$",
+                "C": "$Ae^{-3x} + Be^{-2x}$",
+                "D": "$Ae^{-3x} + Bx$"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 19,
+            "question": "What is the integrating factor for the equation $\\frac{dy}{dx} + y = e^x$?",
+            "options": {
+                "A": "$e^{-x}$",
+                "B": "$x$",
+                "C": "$e^x$",
+                "D": "$\\ln x$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 20,
+            "question": "The equation $\\frac{dy}{dx} = xy$ is:",
+            "options": {
+                "A": "Linear",
+                "B": "Exact",
+                "C": "Separable",
+                "D": "Bernoulli"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 21,
+            "question": "If $M = 3x^2 + 2y$, $N = 2x + 4y$, the equation $M\\,dx + N\\,dy = 0$ will be exact if:",
+            "options": {
+                "A": "$\\frac{\\partial M}{\\partial y} = \\frac{\\partial N}{\\partial x}$",
+                "B": "$\\frac{\\partial M}{\\partial x} = \\frac{\\partial N}{\\partial \\mu}$",
+                "C": "$M = N$",
+                "D": "$\\frac{\\partial M}{\\partial y} = 2\\frac{\\partial N}{\\partial x}$"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 22,
+            "question": "The general solution of the equation $\\frac{dy}{dx} - 3y = 0$ is:",
+            "options": {
+                "A": "$y = e^{3x} + C$",
+                "B": "$y = Ce^{3x}$",
+                "C": "$y = C^{3x}$",
+                "D": "$y = 3e^{3x} + C$"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 23,
+            "question": "Which of the following is NOT a method used for solving first-order ODEs?",
+            "options": {
+                "A": "Separation of variables",
+                "B": "Integrating factor",
+                "C": "Variation of parameters",
+                "D": "Euler's method"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 24,
+            "question": "The equation $\\frac{dy}{dx} + \\frac{2}{x}y = x^2$ is:",
+            "options": {
+                "A": "Linear",
+                "B": "Exact",
+                "C": "Separable",
+                "D": "Nonlinear"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Given the function $y = A\\sin x + B\\cos x$, the ODE that can be formed by this function is:",
+            "options": {
+                "A": "$\\frac{dy}{dx} + xy = 0$",
+                "B": "$\\frac{dy}{dx} + y = 0$",
+                "C": "$\\frac{d^2y}{dx^2} + y = 0$",
+                "D": "$\\frac{d^2y}{dx^2} - y = 0$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 26,
+            "question": "The differential equation $xy\\frac{d^2y}{dx^2} + y^2\\sin x = 0$ is of order:",
+            "options": {
+                "A": "2",
+                "B": "1",
+                "C": "3",
+                "D": "0"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 27,
+            "question": "Given the ODE $ay'' + by' + cy = f(x)$, if $f(x) \\neq 0$, then the ODE is said to be:",
+            "options": {
+                "A": "Linear",
+                "B": "Nonlinear",
+                "C": "Homogeneous",
+                "D": "Non-homogeneous"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 28,
+            "question": "The term \"ordinary\" in ordinary differential equation means:",
+            "options": {
+                "A": "The ODE is of first order",
+                "B": "The ODE is nonlinear",
+                "C": "The ODE is non-homogeneous",
+                "D": "No partial derivative appears in the ODE"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 29,
+            "question": "The differential equation $\\cos^2 x\\frac{dy}{dx} + y = 1$ is of order:",
+            "options": {
+                "A": "2",
+                "B": "1",
+                "C": "3",
+                "D": "0"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 30,
+            "question": "The differential equation $\\frac{dy}{dx} + 2x\\left(\\frac{d^2y}{dx^2}\\right)^3 + 3y = 0$ is of degree:",
+            "options": {
+                "A": "2",
+                "B": "1",
+                "C": "3",
+                "D": "0"
+            },
+            "answerKey": [
+                "C"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,394 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Solve the differential equation $y\\frac{dy}{dx} = x$",
+            "options": {
+                "A": "$y = x + c$",
+                "B": "$\\frac{y}{2} = \\frac{x}{2} + c$",
+                "C": "$\\frac{y^2}{2} = x^2 + c$",
+                "D": "$y^2 = x^2 + c$"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "If $x\\frac{dy}{dx} = x$, find $y$.",
+            "options": {
+                "A": "$y = \\frac{x^2}{2} + k$",
+                "B": "$y = x + k$",
+                "C": "$y = 1 + k$",
+                "D": "$xy = \\frac{x^2}{2} + k$"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Solve $\\frac{dy}{dt} = \\frac{1}{t}$",
+            "options": {
+                "A": "$t = \\ln y + k$",
+                "B": "$y = t + k$",
+                "C": "$y = \\ln t + k$",
+                "D": "$y = e^t + k$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "If $\\frac{dy}{dx} = \\sin x$, obtain the integral of $\\frac{dy}{dx}$",
+            "options": {
+                "A": "$\\cos x + k$",
+                "B": "$\\cot x + k$",
+                "C": "$\\sin x + k$",
+                "D": "$-\\cos x + k$"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Given that $\\frac{dy}{d\\theta} = \\theta$, obtain $y$ in terms of $\\theta$",
+            "options": {
+                "A": "$y = \\frac{\\theta^2}{2} + c$",
+                "B": "$y = 2\\theta + c$",
+                "C": "$y = \\theta^2 + c$",
+                "D": "$y = \\frac{\\theta}{2} + c$"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Given that $\\frac{dy}{d\\theta} = \\theta$, we cross multiply in order to:",
+            "options": {
+                "A": "Cancel $\\theta$",
+                "B": "Separate variables",
+                "C": "Do division",
+                "D": "Cancel $y$"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Which of the following properties is FALSE about the model $m\\frac{d^2x}{dt^2} + kx = 0$?",
+            "options": {
+                "A": "Free vibration",
+                "B": "Undamped",
+                "C": "Homogeneous",
+                "D": "Forced vibration"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Which of the following models represents a damped forced vibration equation?",
+            "options": {
+                "A": "$m\\frac{d^2x}{dt^2} + b\\frac{dx}{dt} + kx = F(t)$",
+                "B": "$m\\frac{d^2x}{dt^2} + kx = 0$",
+                "C": "$m\\frac{d^2x}{dt^2} = 0$",
+                "D": "$m\\frac{d^2x}{dt^2} + kx = F(t)$"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "What does $k$ represent in the model $m\\frac{d^2x}{dt^2} + b\\frac{dx}{dt} + kx = F(t)$?",
+            "options": {
+                "A": "Damping constant",
+                "B": "Spring force",
+                "C": "Spring constant",
+                "D": "Spring unit"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "The integrating factor for the equation $\\frac{dy}{dx} - y = x$ is:",
+            "options": {
+                "A": "$e^x$",
+                "B": "$e^{-x}$",
+                "C": "$e^{2x}$",
+                "D": "$e^{-2x}$"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 11,
+            "question": "What type of equation is of the form $\\frac{dy}{dx} + Py = Q$, where $P$ and $Q$ are functions of $x$ (or constants)?",
+            "options": {
+                "A": "Separable",
+                "B": "Homogeneous",
+                "C": "Linear",
+                "D": "Exact"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 12,
+            "question": "Which of the methods below is best suited for the equation $\\frac{dy}{dx} + 5y = e^{2x}$?",
+            "options": {
+                "A": "Use of substitution $y = vx$",
+                "B": "Separable variable",
+                "C": "Exact method",
+                "D": "Use of integrating factor"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 13,
+            "question": "A differential equation of the form $\\frac{dy}{dx} = \\frac{2xy + y^2}{x^2 - xy}$ is called:",
+            "options": {
+                "A": "Linear differential equation",
+                "B": "Separable differential equation",
+                "C": "Homogeneous differential equation",
+                "D": "Exact differential equation"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 14,
+            "question": "The common substitution when solving homogeneous differential equations is:",
+            "options": {
+                "A": "$y = x + v$",
+                "B": "$y = vx$",
+                "C": "$y = v + x$",
+                "D": "$y = xv^2$"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 15,
+            "question": "The equation $\\frac{dy}{dx} = \\frac{x+y}{x}$ is called:",
+            "options": {
+                "A": "Homogeneous",
+                "B": "Variable Separation",
+                "C": "Bernoulli",
+                "D": "Non-Homogeneous"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 16,
+            "question": "If $y = vx$, then $\\frac{dy}{dx} =$",
+            "options": {
+                "A": "$v$",
+                "B": "$x\\frac{dy}{dx}$",
+                "C": "$v + x\\frac{dv}{dx}$",
+                "D": "$v - x\\frac{dv}{dx}$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 17,
+            "question": "The degree of the terms in a homogeneous function must be:",
+            "options": {
+                "A": "Zero only",
+                "B": "Equal",
+                "C": "Different",
+                "D": "One only"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 18,
+            "question": "The equation $(x + y)dx + (x - y)dy = 0$ can be conveniently solved using:",
+            "options": {
+                "A": "Linear equation",
+                "B": "Variable separable",
+                "C": "Exact equation",
+                "D": "Bernoulli equation"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 19,
+            "question": "Which of the following ODEs is exact?",
+            "options": {
+                "A": "$x\\frac{dy}{dx} + 2xy = -2y$",
+                "B": "$(x^2 + 1)\\frac{dy}{dx} + 2xy = 0$",
+                "C": "$\\sin x\\frac{dy}{dx} - y\\cos x = x$",
+                "D": "$2xy\\frac{dy}{dx} + y^3 = e^{2x}$"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 20,
+            "question": "Which of the following is CORRECT about Newton's law of cooling?",
+            "options": {
+                "A": "The rate at which the temperature of the body changes is proportional to the difference in the temperature of the body and the temperature of the surrounding medium",
+                "B": "The temperature of the body changes is proportional to the difference between ambient temperature and the temperature of the body",
+                "C": "The temperature of the body changes is proportional to the ambient temperature",
+                "D": "The rate at which the temperature of the body changes is proportional to the sum of the temperature of the body and the temperature of the surrounding medium"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 21,
+            "question": "The differential equation $P\\,dx + Q\\,dy = 0$ is exact if:",
+            "options": {
+                "A": "$\\frac{\\partial Q}{\\partial y} = \\frac{\\partial P}{\\partial x}$",
+                "B": "$\\frac{\\partial P}{\\partial P} = \\frac{\\partial Q}{\\partial Q}$",
+                "C": "$\\frac{\\partial Q}{\\partial y} = \\frac{\\partial Q}{\\partial x}$",
+                "D": "$\\frac{\\partial Q}{\\partial x} = -\\frac{\\partial P}{\\partial y}$"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 22,
+            "question": "Which of the following linear first-order differential equations represents the mathematical formulation of Newton's law of cooling?",
+            "options": {
+                "A": "$\\frac{dT}{dt} = k(T_m - T)$",
+                "B": "$\\frac{dT}{dt} = k(T - T_m)$",
+                "C": "$\\frac{dT}{dt} = kT$",
+                "D": "$\\frac{dT}{dt} = k(TT_m)$"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 23,
+            "question": "Consider the differential equation $x^2\\cos y\\frac{dy}{dx} + 2x\\sin y = \\frac{1}{x}$. This equation is:",
+            "options": {
+                "A": "Exact",
+                "B": "Not exact",
+                "C": "Exact only when $x = y$",
+                "D": "Cannot be determined"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 24,
+            "question": "Form the differential equation by eliminating the arbitrary constants $A$ and $B$ from $y = A\\sin x + B\\cos x$",
+            "options": {
+                "A": "$\\frac{d^2y}{dx^2} - y = 0$",
+                "B": "$\\frac{d^2y}{dx^2} = x$",
+                "C": "$\\frac{d^2y}{dx^2} = -2y$",
+                "D": "$\\frac{d^2y}{dx^2} + y = 0$"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 25,
+            "question": "A second order ordinary differential equation $ay'' + by' + cy = 0$ with constant coefficients is known as:",
+            "options": {
+                "A": "Homogeneous",
+                "B": "Separable",
+                "C": "Non-homogeneous",
+                "D": "Exact"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 26,
+            "question": "A second order ordinary differential equation $ay'' + by' + cy = f(x)$ with constant coefficients is known as:",
+            "options": {
+                "A": "Homogeneous",
+                "B": "Separable",
+                "C": "Non-homogeneous",
+                "D": "Exact"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 27,
+            "question": "If $2y'' + 4y' - 6y = 3e^{4x}$, the assumed particular solution $y_p$ is:",
+            "options": {
+                "A": "$3e^{cx}$",
+                "B": "$Ce^{4x}$",
+                "C": "$3Ce^{4x}$",
+                "D": "$Ce^{kx}$"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 28,
+            "question": "The complete solution of $ay'' + by' + cy = f(x)$ is:",
+            "options": {
+                "A": "$y = y_c$",
+                "B": "$y = y_p$",
+                "C": "$y = y_c + y_p$",
+                "D": "$y = y_c y_p$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 29,
+            "question": "If $y'' + 6y' + 5y = x^2$, the general form of $f(x) = x^2$ for $y_p$ is:",
+            "options": {
+                "A": "$ax + b$",
+                "B": "$ax^2$",
+                "C": "$ax^2 + bx + c$",
+                "D": "$ax^2 + b$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 30,
+            "question": "Solve $y'' + 4y' + 3y = 0$",
+            "options": {
+                "A": "$Ae^{-3x} + Be^{-x}$",
+                "B": "$Ae^{3x} + Be^{x}$",
+                "C": "$Ae^{4x} + Be^{-x}$",
+                "D": "$Ae^{4x} + Be^{x}$"
+            },
+            "answerKey": [
+                "A"
+            ]
+        }
+    ]
+}
