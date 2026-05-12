@@ -172,6 +172,13 @@ export const COURSES: Course[] = [
         vendor: "quro",
         questionCount: 15,
       },
+      {
+        id: "24_25_midsemester",
+        name: "24/25 Midsemester",
+        file: "./question-bank/mth202/24_25_midsemester.json",
+        vendor: "quro",
+        questionCount: 10,
+      },
     ]
   },
   {
