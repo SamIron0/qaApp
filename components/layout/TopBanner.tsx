@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { createClient } from "@/utils/supabase/client";
 
-const DISMISS_KEY = "quro:new-french-bank-banner:dismissed";
+const DISMISS_KEY = "quro:new-math-bank-banner:dismissed";
 
 export function TopBanner() {
   const pathname = usePathname();
@@ -43,7 +43,7 @@ export function TopBanner() {
   }, []);
 
   useEffect(() => {
-    if (!pathname?.includes("/french_bank2")) return;
+    if (!pathname?.includes("/mth202/25_26_midsemester")) return;
 
     window.localStorage.setItem(DISMISS_KEY, "true");
     setIsVisible(false);
@@ -60,10 +60,10 @@ export function TopBanner() {
     <div className="border-b border-[#c9a84c]/40 bg-[#fff8e7] text-[#6b4e00] dark:border-[#c9a84c]/30 dark:bg-[#3a2f14] dark:text-[#f0dda0]">
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-2 sm:px-6">
         <p className="text-sm">
-          New French question bank is now live.
+          New Math question bank is now live.
           {" "}
           <Link
-            href="/courses/gst200/french_bank2/setup"
+            href="/courses/mth202/25_26_midsemester/setup"
             className="font-semibold underline decoration-2 underline-offset-2 hover:opacity-80"
           >
             Start practicing
