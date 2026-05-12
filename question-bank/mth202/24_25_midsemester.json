@@ -1,0 +1,134 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Solution of the ODE $\\frac{dy}{dx} = \\frac{3x}{y+1}$ is:",
+            "options": {
+                "A": "$y + 2y^2 - x^2 = A$",
+                "B": "$2y^2 + y = 3x^2 + A$",
+                "C": "$y = 2y^2 + 3x^2 + A$",
+                "D": "$y^2 + 2y - 3x^2 = A$"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "The differential equation $xy\\frac{d^2y}{dx^2} - y^2\\sin x = 0$ is of order:",
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "0"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "In the ODE $\\frac{dy}{dx} + \\frac{y}{x} = 1$, the integrating factor is:",
+            "options": {
+                "A": "$e^x$",
+                "B": "$\\frac{1}{x}$",
+                "C": "$\\ln x$",
+                "D": "$x$"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Which of the following ODEs is NOT homogeneous?",
+            "options": {
+                "A": "$\\frac{dy}{dx} = \\frac{2xy+3y}{x^2+2xy}$",
+                "B": "$\\frac{dy}{dx} = \\frac{x+3y}{2x}$",
+                "C": "$\\frac{dy}{dx} = \\frac{x^2+y^2}{xy}$",
+                "D": "$(x^2+y^2)\\frac{dy}{dx} = xy$"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "In the ODE $\\frac{dy}{dx} + y\\tan x = \\cos x$, the integrating factor is:",
+            "options": {
+                "A": "$\\ln\\cos x$",
+                "B": "$\\tan x$",
+                "C": "$\\sec x$",
+                "D": "$\\cot x$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Which of the following ODEs is NOT exact?",
+            "options": {
+                "A": "$e^y + xe^y\\frac{dy}{dx} = 2$",
+                "B": "$(x^2+1)\\frac{dy}{dx} + 2xy = 0$",
+                "C": "$x\\frac{dy}{dx} + 2xy = -2y$",
+                "D": "$\\sin x\\frac{dy}{dx} + y\\cos x = x$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Given the function $y = A\\sin x + B\\cos x$, the ODE that can be formed by this function is:",
+            "options": {
+                "A": "$\\frac{dy}{dx} + xy = 0$",
+                "B": "$\\frac{dy}{dx} + y = 0$",
+                "C": "$\\frac{d^2y}{dx^2} - y = 0$",
+                "D": "$\\frac{d^2y}{dx^2} + y = 0$"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "The following are methods of solving first order ordinary differential equations EXCEPT:",
+            "options": {
+                "A": "Partial fractions",
+                "B": "Direct integration",
+                "C": "Separating the variables",
+                "D": "Integrating factors"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Given the ODE $x^2\\frac{dy}{dx} + 2xy = 3$, is the ODE exact?",
+            "options": {
+                "A": "Yes, because $\\frac{\\partial M}{\\partial y} = \\frac{\\partial N}{\\partial x}$",
+                "B": "No, because $\\frac{\\partial M}{\\partial y} \\neq \\frac{\\partial N}{\\partial x}$",
+                "C": "Yes, because it can be written as $\\frac{d}{dx}(x^2 y) = 3$",
+                "D": "No, because it is a second order equation"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Given the ODE $x^2\\frac{dy}{dx} + 2xy = 3$, the solution using the exact differential equation method is:",
+            "options": {
+                "A": "$x^2 y = 3x + C$",
+                "B": "$xy = 3x + C$",
+                "C": "$x^2 y = x^3 + C$",
+                "D": "$x^3 y = 3x + C$"
+            },
+            "answerKey": [
+                "A"
+            ]
+        }
+    ]
+}

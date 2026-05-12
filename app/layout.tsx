@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
+import "katex/dist/katex.min.css";
 import { Analytics } from "@vercel/analytics/next"
 import { AuthListener } from "@/components/auth/AuthListener";
 import { TopBanner } from "@/components/layout/TopBanner";

@@ -4,6 +4,7 @@ import Link from "next/link";
 import posthog from "posthog-js";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
+import { MathText } from "@/components/MathText";
 import type { QuizQuestion } from "@/lib/quiz-types";
 import { useResolvedDark } from "@/hooks/use-resolved-dark";
 
@@ -137,19 +138,26 @@ function ResultsScreen({
                     {skipped ? "–" : isCorrect ? "✓" : "✗"}
                   </span>
                   <div className="min-w-0 flex-1">
-                    <p className="text-sm leading-snug">{q.question}</p>
+                    <p className="text-sm leading-snug">
+                      <MathText text={q.question} />
+                    </p>
                     {!skipped && (
                       <p
                         className={`mt-1 text-xs ${isCorrect ? "text-emerald-500" : "text-rose-400"
                           }`}
                       >
-                        Your answer: {sel}. {q.options[sel]}
+                        Your answer: {sel}. <MathText text={q.options[sel]} />
                       </p>
                     )}
                     {(!isCorrect || skipped) && (
                       <p className="mt-0.5 text-xs text-emerald-500">
                         Correct:{" "}
-                        {q.answerKey.map((k) => `${k}. ${q.options[k]}`).join(" · ")}
+                        {q.answerKey.map((k, idx) => (
+                          <span key={k}>
+                            {idx > 0 ? " · " : ""}
+                            {k}. <MathText text={q.options[k]} />
+                          </span>
+                        ))}
                       </p>
                     )}
                   </div>
@@ -439,7 +447,9 @@ export function QuizModeClient({
           <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-zinc-500">
             Question {currentQuestion.id}
           </p>
-          <h2 className="text-base font-medium leading-relaxed sm:text-lg">{currentQuestion.question}</h2>
+          <h2 className="text-base font-medium leading-relaxed sm:text-lg">
+            <MathText text={currentQuestion.question} />
+          </h2>
         </div>
 
         {/* ── Options — no feedback shown ── */}
@@ -473,7 +483,7 @@ export function QuizModeClient({
                     >
                       {key}
                     </span>
-                    <span className="flex-1">{label}</span>
+                    <MathText text={label} className="flex-1" />
                   </span>
                 </button>
               );

@@ -1,0 +1,199 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Evaluate the integral $\\int \\frac{2x}{x^2+3}\\, dx$",
+            "options": {
+                "A": "$\\log 2x$",
+                "B": "$2x + 3$",
+                "C": "$\\log(x^2 + 3)$",
+                "D": "None"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "If $\\frac{dy}{dx} = 2x$, find $y$.",
+            "options": {
+                "A": "$y = \\frac{x^2}{2} + k$",
+                "B": "$y = \\frac{x^2}{2}$",
+                "C": "$y = \\frac{x^2}{2} + k$",
+                "D": "$y = \\frac{x^2}{3} + k$"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Solve the differential equation: $y\\frac{dy}{dx} = x$",
+            "options": {
+                "A": "$\\frac{y^2}{2} = \\frac{x^2}{2} + k$",
+                "B": "$\\frac{x^2}{y^2} = x + k$",
+                "C": "$y^2 = x^2 + Cx$",
+                "D": "$y = x + k$"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Solve $\\frac{dy}{dx} = \\frac{2x}{y+1}$ using the separating variables method.",
+            "options": {
+                "A": "$-x^2 + A = \\frac{y^2}{2} + y$",
+                "B": "$x^2 + A = -\\frac{y^2}{2} - y$",
+                "C": "$x^2 + A = \\frac{y^2}{2} + y$",
+                "D": "$x^2 - A = \\frac{y^2}{2} - y$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Solve the homogeneous differential equation $\\frac{dy}{dx} = \\frac{x^2 + y^2}{xy}$",
+            "options": {
+                "A": "$y^2 = 2x^2(\\ln x - C)$",
+                "B": "$y^2 = 2x^2(\\ln x + C)$",
+                "C": "$y = 2x(\\ln x + C)$",
+                "D": "$y = 2x(\\ln x - C)$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "The equation $a\\frac{d^2y}{dx^2} + b\\frac{dy}{dx} + cy = f(x)$ is a second order ordinary differential equation with constant coefficient of which type?",
+            "options": {
+                "A": "Homogeneous type",
+                "B": "Non-homogeneous type",
+                "C": "Partial type",
+                "D": "Advanced type"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Given $a\\frac{d^2y}{dx^2} + b\\frac{dy}{dx} + cy = f(x)$, if $f(x) = 3x + 2 + e^{3x}$, then the assumed particular solution $y_p$ is:",
+            "options": {
+                "A": "$y_p = (ax + b)e^{3x}$",
+                "B": "$y_p = ax + b + e^{cx}$",
+                "C": "$y_p = ax + b + e^{3x}$",
+                "D": "$y_p = ax + b$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Given the function $y = Ax + Bx^2$, the ordinary differential equation (ODE) that can be formed by this function is:",
+            "options": {
+                "A": "$y = x\\frac{dy}{dx} - \\frac{1}{2}x^2\\frac{d^2y}{dx^2}$",
+                "B": "$y = x\\frac{dy}{dx} + \\frac{1}{2}x^2\\frac{d^2y}{dx^2}$",
+                "C": "$y = x\\frac{dy}{dx} - \\frac{1}{2dx^2}\\frac{d^2y}{dx^2}$",
+                "D": "$y = \\frac{dy}{dx} - \\frac{1}{2}x^2\\frac{d^2y}{dx^2}$"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Which type of equation is $\\frac{dy}{dx} + \\frac{2}{x}y = x^2$?",
+            "options": {
+                "A": "Nonlinear",
+                "B": "Exact",
+                "C": "Separable",
+                "D": "Linear"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "The solution to $\\frac{d^2y}{dx^2} - 5\\frac{dy}{dx} + 6y = 0$ is:",
+            "options": {
+                "A": "$Ae^{-6x} + Be^{x}$",
+                "B": "$Ae^{3x} + Be^{2x}$",
+                "C": "$Ae^{-3x} + Be^{-2x}$",
+                "D": "$Ae^{-x} + Be^{6x}$"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 11,
+            "question": "The integrating factor for the equation $\\frac{dy}{dx} + y = e^x$ is:",
+            "options": {
+                "A": "$e^{-x}$",
+                "B": "$x$",
+                "C": "$e^x$",
+                "D": "$\\ln x$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 12,
+            "question": "The equation $\\frac{dy}{dx} = xy$ is a:",
+            "options": {
+                "A": "Linear",
+                "B": "Bernoulli",
+                "C": "Exact",
+                "D": "Separable"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 13,
+            "question": "The general solution of the equation $\\frac{dy}{dx} - 3y = 0$ is:",
+            "options": {
+                "A": "$y = e^{3x} + C$",
+                "B": "$y = Ce^{3x}$",
+                "C": "$y = C^{3x}$",
+                "D": "$y = 3e^{3x} + C$"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 14,
+            "question": "Given the function $y = A\\sin x + B\\cos x$, the ODE that can be formed by this function is:",
+            "options": {
+                "A": "$\\frac{dy}{dx} + xy = 0$",
+                "B": "$y = \\frac{dy}{dx} + y = 0$",
+                "C": "$\\frac{d^2y}{dx^2} + y = 0$",
+                "D": "$\\frac{d^2y}{dx^2} - y = 0$"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 15,
+            "question": "The differential equation $\\frac{dy}{dx} + 2x\\left(\\frac{d^2y}{dx^2}\\right)^3 + 3y = 0$ is of degree:",
+            "options": {
+                "A": "3",
+                "B": "1",
+                "C": "2",
+                "D": "0"
+            },
+            "answerKey": [
+                "A"
+            ]
+        }
+    ]
+}
