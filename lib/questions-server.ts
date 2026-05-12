@@ -12,18 +12,24 @@ function readQuestionsFromDisk(relativePathFromRoot: string): QuizQuestion[] {
   return data.questions;
 }
 
-/** Use for interactive sessions; cached across requests (static JSON until deploy). */
+function getFileVersion(relativePathFromRoot: string): string {
+  const fullPath = path.join(process.cwd(), relativePathFromRoot);
+  const stats = fs.statSync(fullPath);
+  return String(stats.mtimeMs);
+}
+
+/** Cached across requests; auto-busts when JSON file mtime changes. */
 export function loadQuestionsForBank(
   relativePathFromRoot: string,
 ): Promise<QuizQuestion[]> {
+  const fileVersion = getFileVersion(relativePathFromRoot);
   return unstable_cache(
     async () => readQuestionsFromDisk(relativePathFromRoot),
-    ["question-bank-json", relativePathFromRoot],
+    ["question-bank-json", relativePathFromRoot, fileVersion],
     { revalidate: false },
   )();
 }
 
-/** Prefer `QuestionBank.questionCount` from course metadata to avoid disk I/O. */
 export function countQuestionsInJsonFile(relativePathFromRoot: string): number {
   return readQuestionsFromDisk(relativePathFromRoot).length;
 }
