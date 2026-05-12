@@ -24,7 +24,26 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Quro",
-  description: "Minimalist question and answer practice app",
+  description: "Practice questions with focused, exam-style prep across courses.",
+  openGraph: {
+    title: "Quro",
+    description: "Practice questions with focused, exam-style prep across courses.",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Quro social banner",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Quro",
+    description: "Practice questions with focused, exam-style prep across courses.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
