@@ -1,9 +1,21 @@
 import fs from "fs";
 import path from "path";
-
+import { createHash } from "crypto";
 import { unstable_cache } from "next/cache";
-
 import type { QuizQuestion } from "@/lib/quiz-types";
+
+const fileVersionCache = new Map<string, string>();
+
+function getFileVersion(relativePathFromRoot: string): string {
+  if (fileVersionCache.has(relativePathFromRoot)) {
+    return fileVersionCache.get(relativePathFromRoot)!;
+  }
+  const fullPath = path.join(process.cwd(), relativePathFromRoot);
+  const raw = fs.readFileSync(fullPath, "utf8");
+  const hash = createHash("sha256").update(raw).digest("hex");
+  fileVersionCache.set(relativePathFromRoot, hash);
+  return hash;
+}
 
 function readQuestionsFromDisk(relativePathFromRoot: string): QuizQuestion[] {
   const fullPath = path.join(process.cwd(), relativePathFromRoot);
@@ -12,13 +24,6 @@ function readQuestionsFromDisk(relativePathFromRoot: string): QuizQuestion[] {
   return data.questions;
 }
 
-function getFileVersion(relativePathFromRoot: string): string {
-  const fullPath = path.join(process.cwd(), relativePathFromRoot);
-  const stats = fs.statSync(fullPath);
-  return String(stats.mtimeMs);
-}
-
-/** Cached across requests; auto-busts when JSON file mtime changes. */
 export function loadQuestionsForBank(
   relativePathFromRoot: string,
 ): Promise<QuizQuestion[]> {
