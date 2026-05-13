@@ -182,6 +182,28 @@ export const COURSES: Course[] = [
     ]
   },
   {
+    id: "ift212",
+    name: "Computer Architecture and Organisation",
+    code: "IFT 212",
+    department: "Computer Science",
+    banks: [
+      {
+        id: "25_26_exam_a",
+        name: "25/26 Final Exam A",
+        file: "./question-bank/ift212/25_26_exam_a.json",
+        vendor: "quro",
+        questionCount: 30,
+      },
+      {
+        id: "25_26_exam_b",
+        name: "25/26 Final Exam B",
+        file: "./question-bank/ift212/25_26_exam_b.json",
+        vendor: "quro",
+        questionCount: 40,
+      }
+    ]
+  },
+  {
     id: "cos209",
     name: "Innovations in Web Design and Development",
     code: "BU COS 209",

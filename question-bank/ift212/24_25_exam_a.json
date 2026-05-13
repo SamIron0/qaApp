@@ -1,0 +1,424 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Computer ____________ refers to the logical and functional design of a computer, including its instruction set, data formats, addressing modes, and I/O mechanisms.",
+      "options": {
+        "A": "Organization",
+        "B": "Architecture",
+        "C": "Modelling",
+        "D": "Topology"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "Computer Architecture refers to the logical and functional design visible to a programmer — including instruction sets, data formats, addressing modes, and I/O mechanisms."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following best describes Computer Organization?",
+      "options": {
+        "A": "The attributes visible to a programmer that affect program execution",
+        "B": "The physical implementation of a design, including hardware components and their interconnections",
+        "C": "The design of operating system kernel structures",
+        "D": "The arrangement of data in secondary storage"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "Computer Organization deals with the physical implementation of a computer design — the actual hardware components and how they are interconnected, as opposed to Architecture which is the logical design."
+    },
+    {
+      "id": 3,
+      "question": "Who proposed the stored-program concept that became the foundation of the von Neumann architecture?",
+      "options": {
+        "A": "Alan Turing",
+        "B": "Charles Babbage",
+        "C": "Gordon Moore",
+        "D": "John von Neumann"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "John von Neumann proposed the stored-program concept, where both instructions and data are stored in the same memory, forming the foundation of modern computer architecture."
+    },
+    {
+      "id": 4,
+      "question": "The Harvard architecture improves on von Neumann by:",
+      "options": {
+        "A": "Using only one memory bus for all data",
+        "B": "Separating instruction memory and data memory so both can be accessed simultaneously",
+        "C": "Eliminating the need for an ALU",
+        "D": "Using microprogrammed control for all operations"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The Harvard architecture uses separate memory spaces and buses for instructions and data, allowing simultaneous access and eliminating the von Neumann bottleneck."
+    },
+    {
+      "id": 5,
+      "question": "During the fetch stage of the fetch-execute cycle, the address of the instruction to be retrieved is placed on the address bus from which register?",
+      "options": {
+        "A": "Instruction Register (IR)",
+        "B": "Memory Data Register (MDR)",
+        "C": "Stack Pointer (SP)",
+        "D": "Program Counter (PC)"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The Program Counter (PC) holds the address of the next instruction to be fetched. During the fetch stage, this address is placed on the address bus to retrieve the instruction from memory."
+    },
+    {
+      "id": 6,
+      "question": "After an instruction is fetched from memory, it is placed into the:",
+      "options": {
+        "A": "Program Counter",
+        "B": "Stack Pointer",
+        "C": "Memory Address Register",
+        "D": "Instruction Register"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "After being fetched from memory, an instruction is stored in the Instruction Register (IR), where it is held for decoding and execution."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is NOT a function typically performed by the ALU?",
+      "options": {
+        "A": "Binary addition",
+        "B": "Bitwise XOR",
+        "C": "Fetching instructions from memory",
+        "D": "Comparison of two values"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "Fetching instructions from memory is the responsibility of the Control Unit during the fetch stage, not the ALU. The ALU handles arithmetic and logical operations only."
+    },
+    {
+      "id": 8,
+      "question": "In the instruction MOV AX, [BX+4], the effective address is computed as the contents of BX plus 4. This addressing mode is called:",
+      "options": {
+        "A": "Immediate",
+        "B": "Register",
+        "C": "Direct",
+        "D": "Base-displacement (indexed)"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "Base-displacement (indexed) addressing computes the effective address by adding a constant offset (displacement) to the contents of a base register, as in [BX+4]."
+    },
+    {
+      "id": 9,
+      "question": "A one-address instruction format typically uses a special implied register to hold one operand. That register is called the:",
+      "options": {
+        "A": "Stack pointer",
+        "B": "Index register",
+        "C": "Base register",
+        "D": "Accumulator"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "One-address instructions implicitly use the Accumulator register as one of the operands. The instruction only specifies one explicit address; the other operand is always the accumulator."
+    },
+    {
+      "id": 10,
+      "question": "The opcode field of a machine instruction specifies:",
+      "options": {
+        "A": "The memory address of the operand",
+        "B": "The operation to be performed",
+        "C": "The size of the data in memory",
+        "D": "The number of clock cycles required"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The opcode (operation code) field identifies which operation the CPU should perform, such as ADD, MOV, SUB, etc."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following correctly ranks memory types from LARGEST capacity to SMALLEST?",
+      "options": {
+        "A": "Registers → Cache → RAM → Hard disk",
+        "B": "Hard disk → RAM → Cache → Registers",
+        "C": "Cache → RAM → Registers → Hard disk",
+        "D": "RAM → Cache → Hard disk → Registers"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "In the memory hierarchy, capacity increases as you move away from the CPU: Hard disk (largest) → RAM → Cache → Registers (smallest). Speed is inversely related — registers are fastest, hard disk slowest."
+    },
+    {
+      "id": 12,
+      "question": "The principle that states recently accessed data and data near recently accessed locations are likely to be accessed again soon is called:",
+      "options": {
+        "A": "Spatial redundancy",
+        "B": "Temporal locality",
+        "C": "Cache coherence",
+        "D": "Reference locality"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "Temporal locality states that recently accessed data is likely to be accessed again soon. Spatial locality refers to nearby data also being likely to be accessed soon."
+    },
+    {
+      "id": 13,
+      "question": "When a requested block of data is NOT found in cache and must be retrieved from main memory, this event is called a cache:",
+      "options": {
+        "A": "Hit",
+        "B": "Flush",
+        "C": "Write-back",
+        "D": "Miss"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "A cache miss occurs when the CPU looks for data in cache but does not find it there, requiring a slower access to main memory."
+    },
+    {
+      "id": 14,
+      "question": "Average Memory Access Time (AMAT) is calculated as:",
+      "options": {
+        "A": "Hit time + Miss rate × Miss penalty",
+        "B": "Hit rate × Hit time",
+        "C": "Miss penalty ÷ Hit rate",
+        "D": "Hit time × Miss penalty"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "AMAT = Hit time + (Miss rate × Miss penalty). This formula accounts for the base cache access time plus the additional penalty incurred on cache misses."
+    },
+    {
+      "id": 15,
+      "question": "In virtual memory systems, the table that maps virtual page numbers to physical frame numbers is called the:",
+      "options": {
+        "A": "Segment table",
+        "B": "Interrupt vector",
+        "C": "Cache line table",
+        "D": "Page table"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The page table is a data structure maintained by the OS that maps virtual page numbers used by a process to the physical frame numbers in RAM."
+    },
+    {
+      "id": 16,
+      "question": "A page fault occurs when:",
+      "options": {
+        "A": "The TLB contains a valid address mapping",
+        "B": "A referenced page is not currently loaded in physical memory",
+        "C": "The cache is full and must evict a line",
+        "D": "The CPU attempts to execute a privileged instruction"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "A page fault is triggered when a program accesses a virtual page that is not currently in physical memory (RAM), requiring the OS to load it from disk."
+    },
+    {
+      "id": 17,
+      "question": "The system clock in a computer primarily serves to:",
+      "options": {
+        "A": "Store the current date and time for the operating system",
+        "B": "Regulate the timing and synchronisation of control signals across the CPU",
+        "C": "Control the speed at which data is written to secondary storage",
+        "D": "Generate addresses for memory access operations"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The system clock generates regular electrical pulses that synchronize all CPU operations, ensuring that control signals and data transfers occur in a coordinated, predictable manner."
+    },
+    {
+      "id": 18,
+      "question": "A bus clock is typically slower than the CPU system clock because:",
+      "options": {
+        "A": "Buses require more voltage than the CPU",
+        "B": "Buses connect slower components such as I/O devices that cannot operate at CPU speeds",
+        "C": "The bus clock controls cache operations",
+        "D": "Buses are software-defined and run at OS scheduler speed"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I/O devices and peripheral components connected via the bus cannot operate at the high frequencies of the CPU, so the bus clock runs at a lower speed to accommodate these slower components."
+    },
+    {
+      "id": 19,
+      "question": "The expansion (I/O) bus connects:",
+      "options": {
+        "A": "The CPU to the L1 cache",
+        "B": "The registers to the ALU",
+        "C": "The system bus to I/O devices",
+        "D": "The CPU to main memory directly"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The expansion (I/O) bus connects the system bus to peripheral I/O devices such as network cards, sound cards, USB controllers, and storage controllers."
+    },
+    {
+      "id": 20,
+      "question": "In a multipoint bus configuration, multiple devices share a common pathway. A device that can INITIATE a transfer on the bus is called a:",
+      "options": {
+        "A": "Slave",
+        "B": "Bridge",
+        "C": "Arbiter",
+        "D": "Master"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "A bus master is a device that can initiate data transfers on the bus. A slave responds to transfers initiated by a master. The arbiter manages which device gets bus access when multiple masters compete."
+    },
+    {
+      "id": 21,
+      "question": "At what point in the fetch-execute cycle does the CPU check whether an interrupt has been raised?",
+      "options": {
+        "A": "Before the fetch stage begins",
+        "B": "During the decode stage",
+        "C": "At the end of each fetch-execute cycle",
+        "D": "During the memory-access stage"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The CPU checks for pending interrupts at the end of each fetch-execute cycle. If an interrupt is detected, the CPU saves its current state and branches to the appropriate interrupt handler."
+    },
+    {
+      "id": 22,
+      "question": "Which of the following would typically trigger a Non-Maskable Interrupt (NMI)?",
+      "options": {
+        "A": "A keyboard key press",
+        "B": "A network packet arrival",
+        "C": "A timer expiry event",
+        "D": "A memory parity error or hardware failure"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "Non-Maskable Interrupts (NMIs) are triggered by critical hardware errors such as memory parity errors or catastrophic hardware failures. Unlike regular interrupts, NMIs cannot be disabled by software."
+    },
+    {
+      "id": 23,
+      "question": "A software interrupt generated by an executing program to request services from the operating system is also known as a:",
+      "options": {
+        "A": "Hardware interrupt",
+        "B": "NMI",
+        "C": "Trap / System call",
+        "D": "Fault"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "A trap (also called a system call) is a software-generated interrupt used by programs to request OS services, transitioning the CPU from user mode to kernel mode."
+    },
+    {
+      "id": 24,
+      "question": "An exception classified as an ABORT differs from a Fault or Trap because:",
+      "options": {
+        "A": "It can be restarted after the handler returns",
+        "B": "It is generated by a software INT instruction",
+        "C": "It represents a severe hardware error from which the system cannot recover",
+        "D": "It occurs before the instruction begins executing"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "An abort represents a catastrophic, unrecoverable hardware error. Unlike faults (which can be corrected and the instruction restarted) or traps (which are intentional), aborts indicate the system is in an unrecoverable state."
+    },
+    {
+      "id": 25,
+      "question": "The concept of microprogrammed control was first proposed by:",
+      "options": {
+        "A": "John von Neumann",
+        "B": "Alan Turing",
+        "C": "Maurice Wilkes",
+        "D": "Gordon Moore"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "Maurice Wilkes first proposed microprogrammed control in 1951 as a systematic way to implement the control unit using micro-operations stored in a control memory."
+    },
+    {
+      "id": 26,
+      "question": "In a hardwired control unit, control signals are produced by:",
+      "options": {
+        "A": "Reading micro-operations from a ROM control store",
+        "B": "A fixed combinational logic circuit whose inputs are the opcode, state, and condition codes",
+        "C": "A microprogram counter stepping through a control memory",
+        "D": "Software routines stored in the operating system"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "A hardwired control unit uses fixed combinational and sequential logic circuits. Given the current opcode, CPU state, and condition codes as inputs, the circuits directly generate the appropriate control signals."
+    },
+    {
+      "id": 27,
+      "question": "The component in a microprogrammed control unit that stores all microprograms and is accessed to retrieve the next micro-operation is called the:",
+      "options": {
+        "A": "Control Buffer Register",
+        "B": "Instruction Register",
+        "C": "Control Memory (Control Store)",
+        "D": "Sequence Counter"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The Control Memory (Control Store) is a ROM or writable memory that holds all the microprograms. Each microinstruction specifies a set of control signals for one step of instruction execution."
+    },
+    {
+      "id": 28,
+      "question": "Which of the following is a disadvantage SPECIFIC to microprogrammed control units compared to hardwired control units?",
+      "options": {
+        "A": "They cannot support complex instruction sets",
+        "B": "They require a memory access for each micro-operation, introducing latency",
+        "C": "They are inflexible and cannot be updated without hardware redesign",
+        "D": "They are only suitable for RISC processors"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "Microprogrammed control units are slower than hardwired ones because executing each micro-operation requires a fetch from the control memory, introducing additional latency at each step."
+    },
+    {
+      "id": 29,
+      "question": "RTL (Register Transfer Language) is primarily used in computer architecture to:",
+      "options": {
+        "A": "Write assembly language programs for the 8086",
+        "B": "Describe the movement of data between registers and the operations performed at each step of instruction execution",
+        "C": "Configure the page table for virtual memory management",
+        "D": "Program the Programmable Interrupt Controller (PIC)"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "RTL (Register Transfer Language) is a notation used to formally describe how data moves between registers and what operations are performed during each clock cycle or micro-step of instruction execution."
+    },
+    {
+      "id": 30,
+      "question": "Assembly language uses ____________ to represent machine instructions in a human-readable symbolic form.",
+      "options": {
+        "A": "Binary opcodes",
+        "B": "Hexadecimal literals",
+        "C": "Mnemonics",
+        "D": "Page offsets"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "Assembly language uses mnemonics — short, memorable abbreviations like MOV, ADD, SUB, JMP — to represent machine instructions in a human-readable form that an assembler then converts to binary machine code."
+    }
+  ]
+}
