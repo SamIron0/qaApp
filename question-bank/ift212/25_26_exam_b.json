@@ -234,7 +234,7 @@
         "D": "Reference locality"
       },
       "answerKey": [
-        "B"
+        "D"
       ],
       "explanation": "Temporal locality states that data recently accessed is likely to be accessed again soon. Spatial locality (a related concept) states that data near a recently accessed location is also likely to be accessed soon."
     },
