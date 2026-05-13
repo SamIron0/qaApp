@@ -17,7 +17,7 @@
             "id": 2,
             "question": "If $\\frac{dy}{dx} = 2x$, find $y$.",
             "options": {
-                "A": "$y = \\frac{x^2}{2} + k$",
+                "A": "$y = \\x^2 + k$",
                 "B": "$y = \\frac{x^2}{2}$",
                 "C": "$y = \\frac{x^2}{2} + k$",
                 "D": "$y = \\frac{x^2}{3} + k$"
