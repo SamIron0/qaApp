@@ -1,0 +1,964 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the major challenge of macro evolution in fossil records?",
+      "options": {
+        "A": "Cambrian explosion",
+        "B": "Fossilization",
+        "C": "Lost bones",
+        "D": "Incomplete fossil records"
+      },
+      "answerKey": ["A"],
+      "explanation": "The Cambrian explosion — the sudden appearance of most major animal phyla without clear transitional ancestors — is a major challenge for macro evolution in fossil records."
+    },
+    {
+      "id": 2,
+      "question": "Who was the first philosopher to propose that the Earth is spherical?",
+      "options": {
+        "A": "Anaximenes",
+        "B": "Anaximander",
+        "C": "Aristotle",
+        "D": "Thales"
+      },
+      "answerKey": ["C"],
+      "explanation": "Aristotle is credited as the first philosopher to argue that the Earth is spherical, providing physical and astronomical evidence for this claim."
+    },
+    {
+      "id": 3,
+      "question": "What was Charles Darwin's major contribution to science?",
+      "options": {
+        "A": "Discovering the laws of motion",
+        "B": "Authoring 'On the Origin of Species'",
+        "C": "Developing the heliocentric model",
+        "D": "Founding modern genetics"
+      },
+      "answerKey": ["B"],
+      "explanation": "Darwin's major contribution was authoring 'On the Origin of Species' (1859), which introduced the theory of evolution by natural selection."
+    },
+    {
+      "id": 4,
+      "question": "What is objectivity in science?",
+      "options": {
+        "A": "Relying solely on theoretical reasoning",
+        "B": "Using multiple observers for verification",
+        "C": "Being independent of bias or personal feelings",
+        "D": "Applying mathematical models to observations"
+      },
+      "answerKey": ["C"],
+      "explanation": "Objectivity in science means findings and conclusions are independent of personal bias or feelings, ensuring results are based purely on evidence."
+    },
+    {
+      "id": 5,
+      "question": "What is the first step in the scientific method?",
+      "options": {
+        "A": "Observation and statement of problem",
+        "B": "Forming a hypothesis",
+        "C": "Drawing a conclusion",
+        "D": "Conducting an experiment"
+      },
+      "answerKey": ["A"],
+      "explanation": "The scientific method begins with observation and the statement of a problem, which then guides the formation of a hypothesis and subsequent steps."
+    },
+    {
+      "id": 6,
+      "question": "Pragmatism holds that truth is...",
+      "options": {
+        "A": "An absolute and unchanging reality",
+        "B": "Dependent on judgment or practical consequences",
+        "C": "Derived solely from divine revelation",
+        "D": "A product of logical deduction"
+      },
+      "answerKey": ["B"],
+      "explanation": "Pragmatism holds that truth is determined by its practical consequences and usefulness, not by abstract absolutes."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is NOT a role of philosophy?",
+      "options": {
+        "A": "Solving problems",
+        "B": "Providing alternative ways of thinking",
+        "C": "Developing sensitivity to logic",
+        "D": "Providing intellectual tools"
+      },
+      "answerKey": ["A"],
+      "explanation": "Philosophy's roles include fostering alternative thinking, developing logical sensitivity, and providing intellectual tools. Directly 'solving problems' is not a core role of philosophy."
+    },
+    {
+      "id": 8,
+      "question": "What is aesthetics concerned with?",
+      "options": {
+        "A": "The study of moral conduct",
+        "B": "The appreciation of beauty and art",
+        "C": "The nature of knowledge",
+        "D": "The structure of logical arguments"
+      },
+      "answerKey": ["B"],
+      "explanation": "Aesthetics is the branch of philosophy dealing with the nature of beauty, art, and taste."
+    },
+    {
+      "id": 9,
+      "question": "What does ethics deal with?",
+      "options": {
+        "A": "The study of beauty and art",
+        "B": "The nature of physical reality",
+        "C": "Values and conduct",
+        "D": "The acquisition of knowledge"
+      },
+      "answerKey": ["C"],
+      "explanation": "Ethics is the branch of philosophy concerned with moral values, principles, and the conduct of individuals and groups."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is NOT a concept of Metaphysics?",
+      "options": {
+        "A": "Deistic",
+        "B": "Theistic",
+        "C": "Aesthetic",
+        "D": "Atheistic"
+      },
+      "answerKey": ["C"],
+      "explanation": "Aesthetics belongs to axiology, not metaphysics. Metaphysics deals with concepts like theism, deism, and the nature of existence."
+    },
+    {
+      "id": 11,
+      "question": "What does Realism propose about material things?",
+      "options": {
+        "A": "They are illusions created by the mind",
+        "B": "They are fully existent",
+        "C": "They exist only when perceived",
+        "D": "They are symbolic representations of deeper truths"
+      },
+      "answerKey": ["B"],
+      "explanation": "Realism holds that material things are fully existent in their own right."
+    },
+    {
+      "id": 12,
+      "question": "Realism proposes that the existence of reality is...",
+      "options": {
+        "A": "Dependent on human thought",
+        "B": "A product of cultural belief",
+        "C": "Independent of human perception",
+        "D": "Created through sensory experience"
+      },
+      "answerKey": ["C"],
+      "explanation": "Realism holds that reality exists independently of human perception or thought — things are real whether or not anyone perceives them."
+    },
+    {
+      "id": 13,
+      "question": "Mutation and genetic recombination are features of which type of evolution?",
+      "options": {
+        "A": "Macro evolution",
+        "B": "Convergent evolution",
+        "C": "Micro evolution",
+        "D": "Divergent evolution"
+      },
+      "answerKey": ["C"],
+      "explanation": "Micro evolution refers to small-scale genetic changes within a species or population, driven by mechanisms such as mutation and genetic recombination."
+    },
+    {
+      "id": 14,
+      "question": "Which period is referred to as the Dark Era?",
+      "options": {
+        "A": "The Renaissance",
+        "B": "The Middle Ages",
+        "C": "The Enlightenment",
+        "D": "The Industrial Revolution"
+      },
+      "answerKey": ["B"],
+      "explanation": "The Middle Ages (roughly 5th–15th century) is commonly referred to as the Dark Ages or Dark Era, a period characterized by limited scientific and philosophical progress in Europe."
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is a core value of Babcock University?",
+      "options": {
+        "A": "Accountability",
+        "B": "Diplomacy",
+        "C": "Integrity",
+        "D": "Excellence"
+      },
+      "answerKey": ["C"],
+      "explanation": "Integrity is among the core values of Babcock University, reflecting the institution's commitment to honesty and ethical conduct."
+    },
+    {
+      "id": 16,
+      "question": "Which Greek philosopher wrote the Almagest?",
+      "options": {
+        "A": "Aristotle",
+        "B": "Ptolemy",
+        "C": "Plato",
+        "D": "Anaximander"
+      },
+      "answerKey": ["B"],
+      "explanation": "Ptolemy wrote the Almagest, a comprehensive treatise on the geocentric model of the universe."
+    },
+    {
+      "id": 17,
+      "question": "Who printed the first Bible in Europe?",
+      "options": {
+        "A": "Martin Luther",
+        "B": "William Tyndale",
+        "C": "Johannes Gutenberg",
+        "D": "John Wycliffe"
+      },
+      "answerKey": ["C"],
+      "explanation": "Johannes Gutenberg printed the first Bible in Europe around 1455 using his movable-type printing press."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is knowledge gained from a divine source?",
+      "options": {
+        "A": "Inspiration",
+        "B": "Revelation",
+        "C": "Vision",
+        "D": "Intuition"
+      },
+      "answerKey": ["B"],
+      "explanation": "Revelation refers to knowledge disclosed directly by God or a divine source, and is considered a primary form of divine knowledge in theology."
+    },
+    {
+      "id": 19,
+      "question": "An argument with two premises and a conclusion is called what?",
+      "options": {
+        "A": "Induction",
+        "B": "Syllogism",
+        "C": "Analogy",
+        "D": "Paradox"
+      },
+      "answerKey": ["B"],
+      "explanation": "A syllogism is a form of deductive reasoning consisting of two premises and a conclusion. It is a foundational structure in classical logic."
+    },
+    {
+      "id": 20,
+      "question": "Who is regarded as the first to start Greek philosophy?",
+      "options": {
+        "A": "Socrates",
+        "B": "Plato",
+        "C": "Thales",
+        "D": "Aristotle"
+      },
+      "answerKey": ["C"],
+      "explanation": "Thales of Miletus is widely regarded as the father and founder of Greek philosophy, being the first to offer natural rather than supernatural explanations for the world."
+    },
+    {
+      "id": 21,
+      "question": "Who independently discovered the theory of evolution alongside Darwin?",
+      "options": {
+        "A": "Thomas Huxley",
+        "B": "Gregor Mendel",
+        "C": "Alfred Russel Wallace",
+        "D": "Jean-Baptiste Lamarck"
+      },
+      "answerKey": ["C"],
+      "explanation": "Alfred Russel Wallace independently developed a theory of evolution by natural selection, which prompted the joint publication of his and Darwin's ideas in 1858."
+    },
+    {
+      "id": 22,
+      "question": "Drawing a general conclusion from specific statements is called what?",
+      "options": {
+        "A": "Deductive reasoning",
+        "B": "Inductive reasoning",
+        "C": "Abductive reasoning",
+        "D": "Analogical reasoning"
+      },
+      "answerKey": ["B"],
+      "explanation": "Inductive reasoning moves from specific observations or statements to a broader general conclusion."
+    },
+    {
+      "id": 23,
+      "question": "The theory of the Earth orbiting the Sun is called what?",
+      "options": {
+        "A": "Geocentric theory",
+        "B": "Heliocentric theory",
+        "C": "Ptolemaic theory",
+        "D": "Cosmological theory"
+      },
+      "answerKey": ["B"],
+      "explanation": "The heliocentric theory proposes that the Earth and other planets orbit the Sun. It was championed by Copernicus and later supported by Galileo and Kepler."
+    },
+    {
+      "id": 24,
+      "question": "History and Philosophy of Science refers to what?",
+      "options": {
+        "A": "Only the historical development of science",
+        "B": "Only the philosophical foundations of science",
+        "C": "The history of science and the philosophy of science combined",
+        "D": "The social impact of scientific discoveries"
+      },
+      "answerKey": ["C"],
+      "explanation": "History and Philosophy of Science (HPS) is an interdisciplinary field that combines both the historical development of science and the philosophical inquiry into its methods and foundations."
+    },
+    {
+      "id": 25,
+      "question": "Which of the following is a problem with the evolutionary model?",
+      "options": {
+        "A": "Genetic drift",
+        "B": "The Cambrian explosion",
+        "C": "Natural selection",
+        "D": "Fossil dating methods"
+      },
+      "answerKey": ["B"],
+      "explanation": "The Cambrian explosion — the sudden appearance of most major animal phyla in the fossil record — is considered a significant challenge for gradual evolutionary models."
+    },
+    {
+      "id": 26,
+      "question": "An argument is unsound if the truth of its conclusion cannot be guaranteed by the truthfulness of its premises. True or False?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Uncertain",
+        "D": "Undetermined"
+      },
+      "answerKey": ["A"],
+      "explanation": "A sound argument requires both valid logical form and true premises. If the true premises do not guarantee the conclusion, the argument is unsound."
+    },
+    {
+      "id": 27,
+      "question": "Inference helps differentiate sound from unsound arguments. True or False?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Uncertain",
+        "D": "Undetermined"
+      },
+      "answerKey": ["A"],
+      "explanation": "Inference is the logical process of deriving conclusions from premises. It is central to evaluating whether an argument is sound or unsound."
+    },
+    {
+      "id": 28,
+      "question": "The Law of Identity states that...",
+      "options": {
+        "A": "If A is false, it cannot be true",
+        "B": "If A is true, then it is true",
+        "C": "A cannot be both true and false",
+        "D": "Every statement is either true or false"
+      },
+      "answerKey": ["B"],
+      "explanation": "The Law of Identity states that a thing is identical to itself — if proposition A is true, then A is true."
+    },
+    {
+      "id": 29,
+      "question": "Who invented the movable type printing press?",
+      "options": {
+        "A": "Leonardo da Vinci",
+        "B": "Johannes Gutenberg",
+        "C": "Galileo Galilei",
+        "D": "Francis Bacon"
+      },
+      "answerKey": ["B"],
+      "explanation": "Johannes Gutenberg invented the movable type printing press around 1440, revolutionizing the production and dissemination of books in Europe."
+    },
+    {
+      "id": 30,
+      "question": "Testing a hypothesis to gather facts is known as what?",
+      "options": {
+        "A": "Theoretical modeling",
+        "B": "Empirical verification",
+        "C": "Logical deduction",
+        "D": "Axiomatic reasoning"
+      },
+      "answerKey": ["B"],
+      "explanation": "Empirical verification refers to the process of testing a hypothesis through observation and experimentation to gather factual evidence."
+    },
+    {
+      "id": 31,
+      "question": "Who is the founder of phenomenology?",
+      "options": {
+        "A": "Immanuel Kant",
+        "B": "Martin Heidegger",
+        "C": "Edmund Husserl",
+        "D": "Jean-Paul Sartre"
+      },
+      "answerKey": ["C"],
+      "explanation": "Edmund Husserl founded phenomenology, a philosophical method focused on the structures of conscious experience and the phenomena that appear in acts of consciousness."
+    },
+    {
+      "id": 32,
+      "question": "Who believed that planets must move in perfect circular orbits?",
+      "options": {
+        "A": "Galileo",
+        "B": "Copernicus",
+        "C": "Kepler",
+        "D": "Newton"
+      },
+      "answerKey": ["B"],
+      "explanation": "Copernicus maintained that planets move in perfect circular orbits. It was later Kepler who corrected this, showing planetary orbits are elliptical."
+    },
+    {
+      "id": 33,
+      "question": "What is empirical evidence?",
+      "options": {
+        "A": "Evidence derived purely from logical reasoning",
+        "B": "Evidence obtained through observation and experimentation",
+        "C": "Evidence based on divine revelation",
+        "D": "Evidence taken from authoritative texts"
+      },
+      "answerKey": ["B"],
+      "explanation": "Empirical evidence is information acquired through observation, experience, or experimentation, forming the basis of the scientific method."
+    },
+    {
+      "id": 34,
+      "question": "A theory can be defined as?",
+      "options": {
+        "A": "A random guess about a phenomenon",
+        "B": "A well-substantiated explanation based on evidence and repeated testing",
+        "C": "A proven and absolute fact",
+        "D": "A philosophical belief about nature"
+      },
+      "answerKey": ["B"],
+      "explanation": "In science, a theory is a well-substantiated explanation of some aspect of the natural world, supported by a body of evidence and repeated testing."
+    },
+    {
+      "id": 35,
+      "question": "Which of the following is an example of axiology?",
+      "options": {
+        "A": "Ontology",
+        "B": "Epistemology",
+        "C": "Aesthetics",
+        "D": "Metaphysics"
+      },
+      "answerKey": ["C"],
+      "explanation": "Axiology is the philosophical study of value. It includes both ethics (moral values) and aesthetics (the value of beauty and art)."
+    },
+    {
+      "id": 36,
+      "question": "What makes a scientific result accurate and reliable?",
+      "options": {
+        "A": "Using advanced laboratory equipment",
+        "B": "Having results reviewed by experts",
+        "C": "Conducting multiple experiments",
+        "D": "Publishing in peer-reviewed journals"
+      },
+      "answerKey": ["C"],
+      "explanation": "Conducting multiple experiments (replication) confirms that results are consistent and not due to chance or error, making them accurate and reliable."
+    },
+    {
+      "id": 37,
+      "question": "If an argument is valid and its premises are true, it is considered...",
+      "options": {
+        "A": "Cogent",
+        "B": "Sound",
+        "C": "Deductive",
+        "D": "Inductive"
+      },
+      "answerKey": ["B"],
+      "explanation": "A sound argument is one that is both logically valid and has all true premises."
+    },
+    {
+      "id": 38,
+      "question": "Which of the following does NOT define philosophy?",
+      "options": {
+        "A": "Philos and Sophia",
+        "B": "Alternative method of thinking",
+        "C": "Love of wisdom",
+        "D": "Pursuit of wisdom"
+      },
+      "answerKey": ["B"],
+      "explanation": "Philosophy is etymologically derived from the Greek 'philos' (love) and 'sophia' (wisdom). 'Alternative method of thinking' is not a formal definition of philosophy."
+    },
+    {
+      "id": 39,
+      "question": "What is inductive reasoning?",
+      "options": {
+        "A": "Drawing specific conclusions from general principles",
+        "B": "Making general conclusions from specific observations",
+        "C": "Inferring the best explanation from available evidence",
+        "D": "Applying mathematical logic to real-world problems"
+      },
+      "answerKey": ["B"],
+      "explanation": "Inductive reasoning involves making generalized conclusions based on specific observations, though the conclusion is probable rather than guaranteed."
+    },
+    {
+      "id": 40,
+      "question": "The proposition 'All men are mortal; Socrates is a man; therefore Socrates is mortal' is an example of what kind of reasoning?",
+      "options": {
+        "A": "Inductively sound",
+        "B": "Deductively valid",
+        "C": "Deductively sound",
+        "D": "Deductively cogent"
+      },
+      "answerKey": ["C"],
+      "explanation": "This classic syllogism is deductively sound because it is both logically valid (conclusion follows from premises) and has true premises."
+    },
+    {
+      "id": 41,
+      "question": "What are the two major types of evolution?",
+      "options": {
+        "A": "Convergent and divergent evolution",
+        "B": "Micro and macro evolution",
+        "C": "Natural and artificial evolution",
+        "D": "Gradual and punctuated evolution"
+      },
+      "answerKey": ["B"],
+      "explanation": "The two major types of evolution are micro evolution (small-scale changes within a species) and macro evolution (large-scale changes resulting in new species or higher taxa)."
+    },
+    {
+      "id": 42,
+      "question": "Who is the father of modern philosophy?",
+      "options": {
+        "A": "René Descartes",
+        "B": "Immanuel Kant",
+        "C": "Francis Bacon",
+        "D": "John Locke"
+      },
+      "answerKey": ["C"],
+      "explanation": "Francis Bacon is credited as the father of modern philosophy, particularly for his emphasis on empiricism and inductive reasoning."
+    },
+    {
+      "id": 43,
+      "question": "The theory that studies the existence of nature and being is called...",
+      "options": {
+        "A": "Epistemology",
+        "B": "Axiology",
+        "C": "Ontology",
+        "D": "Cosmology"
+      },
+      "answerKey": ["C"],
+      "explanation": "Ontology is the branch of metaphysics that studies the nature of existence, being, and reality."
+    },
+    {
+      "id": 44,
+      "question": "The desire that leads a person to think deeply into a problem is called...",
+      "options": {
+        "A": "Curiosity",
+        "B": "Penetration",
+        "C": "Intuition",
+        "D": "Reflection"
+      },
+      "answerKey": ["B"],
+      "explanation": "Penetration refers to the deep desire and drive that motivates a person to think critically and thoroughly into a problem."
+    },
+    {
+      "id": 45,
+      "question": "According to natural theology, insects and diseases were created by God to...",
+      "options": {
+        "A": "Destroy sinful people",
+        "B": "Maintain ecological balance",
+        "C": "Teach lessons",
+        "D": "Demonstrate divine power"
+      },
+      "answerKey": ["C"],
+      "explanation": "Natural theology holds that certain natural phenomena, including insects and diseases, were created by God to serve a purpose — including teaching lessons to humanity."
+    },
+    {
+      "id": 46,
+      "question": "Who is the father of Greek philosophy?",
+      "options": {
+        "A": "Socrates",
+        "B": "Aristotle",
+        "C": "Anaximander",
+        "D": "Thales"
+      },
+      "answerKey": ["D"],
+      "explanation": "Thales of Miletus is widely considered the father of Greek philosophy, being the first to offer natural (non-mythological) explanations for natural phenomena."
+    },
+    {
+      "id": 47,
+      "question": "An inductive argument is one in which the truth of its premises is intended to make the conclusion likely but not guaranteed. True or False?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Uncertain",
+        "D": "Undetermined"
+      },
+      "answerKey": ["A"],
+      "explanation": "This is the defining characteristic of inductive arguments — conclusions are probable based on premises, not logically certain."
+    },
+    {
+      "id": 48,
+      "question": "What questions does the theory of metaphysics answer?",
+      "options": {
+        "A": "Questions about knowledge and how we know things",
+        "B": "Questions about moral values and ethics",
+        "C": "Questions about reality, existence, and the nature of being",
+        "D": "Questions about beauty and aesthetic experience"
+      },
+      "answerKey": ["C"],
+      "explanation": "Metaphysics addresses fundamental questions about reality, existence, being, space, time, and causality — going beyond what physical science can explain."
+    },
+    {
+      "id": 49,
+      "question": "Existentialism theory focuses on what?",
+      "options": {
+        "A": "Universal moral laws",
+        "B": "The material structure of the universe",
+        "C": "Individual existence, freedom, and personal choice",
+        "D": "Divine revelation and religious experience"
+      },
+      "answerKey": ["C"],
+      "explanation": "Existentialism focuses on individual existence, freedom, and the responsibility each person has to make authentic choices in life."
+    },
+    {
+      "id": 50,
+      "question": "What is a hypothesis?",
+      "options": {
+        "A": "A proven scientific fact",
+        "B": "A testable, provisional explanation or prediction based on limited evidence",
+        "C": "A final conclusion drawn from experiments",
+        "D": "A philosophical belief about nature"
+      },
+      "answerKey": ["B"],
+      "explanation": "A hypothesis is a tentative, testable explanation or prediction formulated as the starting point for an investigation, subject to verification through experimentation."
+    },
+    {
+      "id": 51,
+      "question": "Philosophy is made from which two Greek words?",
+      "options": {
+        "A": "Philo and Logos",
+        "B": "Philos and Sophia",
+        "C": "Philo and Graphia",
+        "D": "Philos and Episteme"
+      },
+      "answerKey": ["B"],
+      "explanation": "The word 'philosophy' is derived from the Greek words 'philos' (loving) and 'sophia' (wisdom), meaning 'love of wisdom'."
+    },
+    {
+      "id": 52,
+      "question": "What is existentialism?",
+      "options": {
+        "A": "A theory that reality is entirely material",
+        "B": "A philosophy emphasizing individual existence, freedom, and choice",
+        "C": "A doctrine that knowledge comes only from sensory experience",
+        "D": "A belief that truth is coherent with other judgments"
+      },
+      "answerKey": ["B"],
+      "explanation": "Existentialism is a philosophical movement that emphasizes individual existence, personal freedom, and the challenge of making authentic choices in a world without inherent meaning."
+    },
+    {
+      "id": 53,
+      "question": "Which philosopher argued that the mind, not the senses, is the source of truth?",
+      "options": {
+        "A": "John Locke",
+        "B": "David Hume",
+        "C": "Plato",
+        "D": "Aristotle"
+      },
+      "answerKey": ["C"],
+      "explanation": "Plato argued that true knowledge comes from the rational mind, not from sensory experience, as reflected in his Theory of Forms."
+    },
+    {
+      "id": 54,
+      "question": "What is axiology?",
+      "options": {
+        "A": "The study of existence and being",
+        "B": "The study of knowledge and how we acquire it",
+        "C": "The study of values, including ethics and aesthetics",
+        "D": "The study of logical reasoning"
+      },
+      "answerKey": ["C"],
+      "explanation": "Axiology is the branch of philosophy concerned with the study of values. It encompasses both ethics (moral values) and aesthetics (the value of beauty and art)."
+    },
+    {
+      "id": 55,
+      "question": "Which aspect of philosophy deals with the study of man?",
+      "options": {
+        "A": "Ontology",
+        "B": "Epistemology",
+        "C": "Anthropology",
+        "D": "Axiology"
+      },
+      "answerKey": ["C"],
+      "explanation": "Anthropology is the study specifically focused on humans — their origins, societies, cultures, and behavior."
+    },
+    {
+      "id": 56,
+      "question": "What is aesthetic?",
+      "options": {
+        "A": "The study of moral conduct and values",
+        "B": "The philosophical study of beauty, art, and sensory perception",
+        "C": "The study of existence and reality",
+        "D": "The study of logical argumentation"
+      },
+      "answerKey": ["B"],
+      "explanation": "Aesthetics is the branch of philosophy that examines the nature of beauty, art, and sensory or emotional appreciation of these experiences."
+    },
+    {
+      "id": 57,
+      "question": "Which study does NOT concern aesthetics?",
+      "options": {
+        "A": "Smell",
+        "B": "Beauty",
+        "C": "Sight",
+        "D": "Value"
+      },
+      "answerKey": ["D"],
+      "explanation": "Aesthetics concerns sensory and perceptual experiences such as beauty, sight, and smell. 'Value' in a broad moral sense belongs to axiology/ethics, not aesthetics specifically."
+    },
+    {
+      "id": 58,
+      "question": "'Going to war is the worst' — this statement is best classified as a...",
+      "options": {
+        "A": "Statement",
+        "B": "Premise",
+        "C": "Uncertain",
+        "D": "Conclusion"
+      },
+      "answerKey": ["B"],
+      "explanation": "This is a declarative claim that can function as a premise in an argument — it asserts something that can be used to support or lead to a further conclusion."
+    },
+    {
+      "id": 59,
+      "question": "What was the foundation of Christian philosophy?",
+      "options": {
+        "A": "Jesus Christ",
+        "B": "God",
+        "C": "Love",
+        "D": "The Bible"
+      },
+      "answerKey": ["D"],
+      "explanation": "The Bible is considered the foundational text and authority of Christian philosophy, serving as the basis for Christian theological and philosophical reasoning."
+    },
+    {
+      "id": 60,
+      "question": "In which theory is truth dependent on the consistency of a judgment with other judgments?",
+      "options": {
+        "A": "Correspondence theory",
+        "B": "Pragmatic theory",
+        "C": "Coherence theory",
+        "D": "Realism theory"
+      },
+      "answerKey": ["C"],
+      "explanation": "The Coherence theory of truth holds that a statement is true if it coheres (is consistent) with a set of other accepted judgments or beliefs."
+    },
+    {
+      "id": 61,
+      "question": "Who said logic is the 'money of the mind'?",
+      "options": {
+        "A": "Friedrich Engels",
+        "B": "Karl Marx",
+        "C": "Vladimir Lenin",
+        "D": "Georg Hegel"
+      },
+      "answerKey": ["B"],
+      "explanation": "Karl Marx is attributed with describing logic as the 'money of the mind,' highlighting its role as a universal medium for thought."
+    },
+    {
+      "id": 62,
+      "question": "What is a scientific model?",
+      "options": {
+        "A": "A philosophical theory about nature",
+        "B": "A physical or conceptual representation used to understand or explain a scientific phenomenon",
+        "C": "A final proven conclusion in science",
+        "D": "A religious interpretation of natural events"
+      },
+      "answerKey": ["B"],
+      "explanation": "A scientific model is a simplified physical, mathematical, or conceptual representation used to describe, explain, or predict scientific phenomena."
+    },
+    {
+      "id": 63,
+      "question": "Who was the French philosopher that promoted modern philosophy?",
+      "options": {
+        "A": "René Descartes",
+        "B": "Voltaire",
+        "C": "Francis Bacon",
+        "D": "Jean-Paul Sartre"
+      },
+      "answerKey": ["C"],
+      "explanation": "Francis Bacon is credited with promoting modern philosophy and the empirical scientific method, though he was English — this reflects the answer as given in the source material."
+    },
+    {
+      "id": 64,
+      "question": "Anaximenes believed that all matter was made up of which element?",
+      "options": {
+        "A": "Water",
+        "B": "Fire",
+        "C": "Earth",
+        "D": "Air"
+      },
+      "answerKey": ["D"],
+      "explanation": "Anaximenes, a pre-Socratic Greek philosopher, proposed that air was the fundamental substance from which all things were made through processes of condensation and rarefaction."
+    },
+    {
+      "id": 65,
+      "question": "If an argument is valid and its premises are true, it is considered...",
+      "options": {
+        "A": "Cogent",
+        "B": "Sound",
+        "C": "Strong",
+        "D": "Probable"
+      },
+      "answerKey": ["B"],
+      "explanation": "A sound argument satisfies two conditions: it must be logically valid, and all its premises must be true."
+    },
+    {
+      "id": 66,
+      "question": "Philosophy originated from which civilization?",
+      "options": {
+        "A": "Egypt",
+        "B": "Rome",
+        "C": "Greece",
+        "D": "Mesopotamia"
+      },
+      "answerKey": ["C"],
+      "explanation": "Western philosophy originated in ancient Greece, with early thinkers like Thales, Socrates, Plato, and Aristotle laying its foundational ideas."
+    },
+    {
+      "id": 67,
+      "question": "Inductive logic involves...",
+      "options": {
+        "A": "Drawing specific conclusions from universal laws",
+        "B": "Making general conclusions from specific observations",
+        "C": "Deriving truth from divine authority",
+        "D": "Verifying hypotheses through pure reasoning"
+      },
+      "answerKey": ["B"],
+      "explanation": "Inductive logic involves reasoning from specific observed instances to form broader general conclusions or principles."
+    },
+    {
+      "id": 68,
+      "question": "Which of the following contributed to macro evolution?",
+      "options": {
+        "A": "Genetic recombination only",
+        "B": "Mutation and genetic recombination",
+        "C": "Natural selection only",
+        "D": "Environmental adaptation"
+      },
+      "answerKey": ["B"],
+      "explanation": "Note: While mutation and genetic recombination are technically mechanisms of micro evolution, this was the answer provided in the source material for this question."
+    },
+    {
+      "id": 69,
+      "question": "Which of these is a question of reality?",
+      "options": {
+        "A": "Epistemology",
+        "B": "Axiology",
+        "C": "Metaphysics",
+        "D": "Aesthetics"
+      },
+      "answerKey": ["C"],
+      "explanation": "Metaphysics deals with fundamental questions about the nature of reality, existence, and being."
+    },
+    {
+      "id": 70,
+      "question": "Realism believes in...",
+      "options": {
+        "A": "The mind-dependent nature of reality",
+        "B": "Independent existence of reality",
+        "C": "Reality as a social construct",
+        "D": "The primacy of sensory experience"
+      },
+      "answerKey": ["B"],
+      "explanation": "Realism asserts that reality exists independently of human minds and perception."
+    },
+    {
+      "id": 71,
+      "question": "Scientific experiments are based on which type of reasoning?",
+      "options": {
+        "A": "Deductive reasoning",
+        "B": "Inductive reasoning",
+        "C": "Abductive reasoning",
+        "D": "Analogical reasoning"
+      },
+      "answerKey": ["B"],
+      "explanation": "Scientific experiments are largely based on inductive reasoning, where specific observations and results lead to the formation of general laws or theories."
+    },
+    {
+      "id": 72,
+      "question": "Science cannot explain things that are...",
+      "options": {
+        "A": "Too complex to model",
+        "B": "Metaphysical or supernatural",
+        "C": "Not directly observable",
+        "D": "Based on historical evidence"
+      },
+      "answerKey": ["B"],
+      "explanation": "Science is limited to the natural, empirical world and cannot explain metaphysical or supernatural phenomena."
+    },
+    {
+      "id": 73,
+      "question": "Inductive reasoning generates what type of conclusions?",
+      "options": {
+        "A": "Certain conclusions",
+        "B": "Deductive conclusions",
+        "C": "Probable conclusions",
+        "D": "Absolute conclusions"
+      },
+      "answerKey": ["C"],
+      "explanation": "Inductive reasoning produces probable conclusions — generalizations that are supported by evidence but not logically guaranteed."
+    },
+    {
+      "id": 74,
+      "question": "What type of sentence is 'God help our country'?",
+      "options": {
+        "A": "Declarative",
+        "B": "Interrogative",
+        "C": "Appeal",
+        "D": "Imperative"
+      },
+      "answerKey": ["C"],
+      "explanation": "'God help our country' is an appeal — it is a request or plea directed at a higher power, making it an appealing rather than a declarative or imperative sentence in philosophical/logical classification."
+    },
+    {
+      "id": 75,
+      "question": "What do Empiricists see teachers as?",
+      "options": {
+        "A": "Divine authorities",
+        "B": "Facilitators who guide learners to discover knowledge through experience",
+        "C": "The sole source of all knowledge",
+        "D": "Irrelevant to the learning process"
+      },
+      "answerKey": ["B"],
+      "explanation": "Empiricists believe knowledge comes from sensory experience and observation. They therefore view teachers as guides who help learners discover knowledge through experience rather than as direct transmitters of truth."
+    },
+    {
+      "id": 76,
+      "question": "What do Scholastics see teachers as?",
+      "options": {
+        "A": "Facilitators of discovery",
+        "B": "Irrelevant authorities",
+        "C": "Authoritative transmitters of established knowledge and tradition",
+        "D": "Fellow learners"
+      },
+      "answerKey": ["C"],
+      "explanation": "Scholastics view teachers as authoritative figures who transmit established knowledge, doctrine, and tradition — aligning with the scholastic emphasis on received texts and authority."
+    },
+    {
+      "id": 77,
+      "question": "Inferential arguments involve two or three statements as premises with one of them being the conclusion.",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Uncertain",
+        "D": "Undetermined"
+      },
+      "answerKey": ["B"],
+      "explanation": "In inferential arguments, the conclusion is a separate statement derived FROM the premises — it is not one of the premises itself."
+    },
+    {
+      "id": 78,
+      "question": "Which of the following questions did NOT contribute to the three branches of philosophy?",
+      "options": {
+        "A": "What is logic?",
+        "B": "What is reality?",
+        "C": "What is value?",
+        "D": "What is knowledge?"
+      },
+      "answerKey": ["A"],
+      "explanation": "The three core branches of philosophy are Metaphysics (What is reality?), Epistemology (What is knowledge?), and Axiology (What is value?). Logic is a tool used by philosophy, not one of its three foundational branches."
+    },
+    {
+      "id": 79,
+      "question": "Ellen White describes what as the wants of man?",
+      "options": {
+        "A": "Wealth and power",
+        "B": "To know, to do, and to be",
+        "C": "Food, shelter, and community",
+        "D": "Faith, hope, and love"
+      },
+      "answerKey": ["B"],
+      "explanation": "Ellen G. White described the wants of man as 'to know, to do, and to be' — reflecting her educational philosophy that learning should develop the whole person intellectually, practically, and morally."
+    },
+    {
+      "id": 80,
+      "question": "The one and only true source of knowledge is from...",
+      "options": {
+        "A": "Human reason",
+        "B": "Sensory experience",
+        "C": "The Bible",
+        "D": "Scientific inquiry"
+      },
+      "answerKey": ["C"],
+      "explanation": "In the context of Christian/Adventist philosophy as taught at Babcock University, the Bible is held as the one and only true source of ultimate knowledge and truth."
+    }
+  ]
+}

@@ -120,6 +120,13 @@ export const COURSES: Course[] = [
         vendor: "ad-astra",
         questionCount: 59,
       },
+      {
+        id: "bank13",
+        name: "Midsemester",
+        file: "./question-bank/gst212/bank13.json",
+        vendor: "quro",
+        questionCount: 80,
+      }
     ],
   },
   {
