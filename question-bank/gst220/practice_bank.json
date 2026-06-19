@@ -1,0 +1,1544 @@
+{
+    "questions": [
+        {
+            "id": 0,
+            "question": "Where are the Galápagos Islands located?",
+            "options": {
+                "A": "Peru",
+                "B": "Colombia",
+                "C": "Ecuador",
+                "D": "Venezuela"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The Galápagos Islands are an archipelago belonging to Ecuador, located in the Pacific Ocean."
+        },
+        {
+            "id": 1,
+            "question": "What is the major disadvantage of ice core dating?",
+            "options": {
+                "A": "It can only date objects younger than 1,000 years",
+                "B": "Layers can melt or mix, affecting accuracy",
+                "C": "It requires very expensive equipment",
+                "D": "It can only be used in tropical regions"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Ice core dating is limited because ice layers can melt or become mixed, which disrupts the stratigraphic record and affects accuracy."
+        },
+        {
+            "id": 2,
+            "question": "Where was Homo habilis discovered?",
+            "options": {
+                "A": "South Asia",
+                "B": "Western Europe",
+                "C": "Central America",
+                "D": "East Africa"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Homo habilis fossils were found primarily in East Africa, particularly in Tanzania and Kenya."
+        },
+        {
+            "id": 3,
+            "question": "How many working parts does the human eye have?",
+            "options": {
+                "A": "Two",
+                "B": "Three",
+                "C": "Five",
+                "D": "Seven"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The human eye has three primary working parts: the cornea/lens system, the iris, and the retina."
+        },
+        {
+            "id": 4,
+            "question": "Which was the first Hominidae family member to show a significantly increased brain size?",
+            "options": {
+                "A": "Australopithecus",
+                "B": "Homo erectus",
+                "C": "Homo habilis",
+                "D": "Homo neanderthalensis"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Homo habilis is considered the first Hominidae member to show a notable increase in brain size compared to earlier hominids."
+        },
+        {
+            "id": 5,
+            "question": "What does the multiverse theory propose?",
+            "options": {
+                "A": "The universe is infinite in size",
+                "B": "Many universes exist simultaneously",
+                "C": "The universe undergoes cycles of expansion and contraction",
+                "D": "Black holes connect different regions of space"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The multiverse theory proposes that many universes exist beyond our own observable universe."
+        },
+        {
+            "id": 6,
+            "question": "What did the Miller-Urey experiment attempt to simulate?",
+            "options": {
+                "A": "The formation of black holes",
+                "B": "Photosynthesis in early plants",
+                "C": "Early Earth atmospheric conditions to produce organic molecules",
+                "D": "The evolution of cellular respiration"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The Miller-Urey experiment simulated early Earth conditions — including a reducing atmosphere and lightning — to show that organic molecules could form spontaneously."
+        },
+        {
+            "id": 7,
+            "question": "What is dark matter?",
+            "options": {
+                "A": "Matter found only inside black holes",
+                "B": "The material between galaxies",
+                "C": "Invisible matter detected through its gravitational effects",
+                "D": "Antimatter produced during the Big Bang"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Dark matter is matter that does not emit or interact with light but is detected through its gravitational influence on visible matter."
+        },
+        {
+            "id": 8,
+            "question": "What type of celestial object is the Sun?",
+            "options": {
+                "A": "A planet",
+                "B": "A nebula",
+                "C": "A white dwarf",
+                "D": "A star"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The Sun is a G-type main-sequence star at the center of our solar system."
+        },
+        {
+            "id": 9,
+            "question": "What was Carl Anderson's major scientific contribution?",
+            "options": {
+                "A": "Discovery of the neutron",
+                "B": "Discovery of the positron",
+                "C": "Discovery of the proton",
+                "D": "Discovery of cosmic background radiation"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Carl Anderson discovered the positron (the antiparticle of the electron) in 1932, which earned him the Nobel Prize."
+        },
+        {
+            "id": 10,
+            "question": "Who is considered the father of the Big Bang theory?",
+            "options": {
+                "A": "Albert Einstein",
+                "B": "Edwin Hubble",
+                "C": "Fred Hoyle",
+                "D": "Georges Lemaître"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Georges Lemaître, a Belgian priest and physicist, first proposed what became the Big Bang theory, describing the universe as beginning from a 'primeval atom'."
+        },
+        {
+            "id": 11,
+            "question": "What are fossils?",
+            "options": {
+                "A": "Rocks formed from volcanic lava",
+                "B": "Preserved remains or traces of ancient organisms",
+                "C": "Mineral deposits found in sedimentary rock",
+                "D": "Chemical imprints left by ancient atmospheres"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Fossils are the preserved remains, impressions, or traces of organisms from the geological past."
+        },
+        {
+            "id": 12,
+            "question": "What is a galaxy?",
+            "options": {
+                "A": "A massive cloud of hydrogen gas",
+                "B": "A collection of planets orbiting a single star",
+                "C": "A large collection of stars, gas, and dust bound by gravity",
+                "D": "A type of nebula found near the edge of the universe"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "A galaxy is a gravitationally bound system of stars, stellar remnants, gas, dust, and dark matter."
+        },
+        {
+            "id": 13,
+            "question": "What does the Big Bang theory explain?",
+            "options": {
+                "A": "The formation of black holes",
+                "B": "The life cycle of stars",
+                "C": "The origin and expansion of the universe",
+                "D": "The creation of the solar system"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The Big Bang theory describes the origin and subsequent expansion of the universe from an extremely hot, dense state approximately 13.8 billion years ago."
+        },
+        {
+            "id": 14,
+            "question": "What is DNA often called in biology?",
+            "options": {
+                "A": "The blueprint of evolution",
+                "B": "The language of life",
+                "C": "The code of cells",
+                "D": "The matrix of organisms"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "DNA is referred to as the 'language of life' because it encodes the genetic information necessary for all living organisms."
+        },
+        {
+            "id": 15,
+            "question": "What is a geologic column?",
+            "options": {
+                "A": "A vertical sample of soil taken for chemical analysis",
+                "B": "An arrangement of rock layers ordered by age",
+                "C": "A diagram showing the temperature of Earth's interior layers",
+                "D": "A timeline of volcanic eruptions"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "A geologic column is a representation of rock layers arranged in sequence from oldest (bottom) to youngest (top), used to understand Earth's history."
+        },
+        {
+            "id": 16,
+            "question": "Why is the Sun referred to as a second-generation star?",
+            "options": {
+                "A": "It formed after the collapse of a second nebula",
+                "B": "It is the second star in a binary system",
+                "C": "It formed from the material of older, previously existing stars",
+                "D": "It replaced the original star of our solar system"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The Sun is called a second-generation star because it formed from the remnants and materials of earlier, older stars that had already lived and died."
+        },
+        {
+            "id": 17,
+            "question": "What is the altitude range of the stratosphere?",
+            "options": {
+                "A": "0–12 km",
+                "B": "50–80 km",
+                "C": "80–700 km",
+                "D": "12–50 km"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The stratosphere extends from approximately 12 km to 50 km above Earth's surface and contains the ozone layer."
+        },
+        {
+            "id": 18,
+            "question": "What is the scientific study of fossils called?",
+            "options": {
+                "A": "Archaeology",
+                "B": "Geology",
+                "C": "Paleontology",
+                "D": "Anthropology"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Paleontology is the branch of science concerned with the study of fossilized organisms and ancient life."
+        },
+        {
+            "id": 19,
+            "question": "What is the light-sensitive area of the human eye?",
+            "options": {
+                "A": "Cornea",
+                "B": "Iris",
+                "C": "Lens",
+                "D": "Retina"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The retina is the light-sensitive layer at the back of the eye that converts light into neural signals sent to the brain."
+        },
+        {
+            "id": 20,
+            "question": "Approximately what percentage of Earth's surface is covered by water (hydrosphere)?",
+            "options": {
+                "A": "29%",
+                "B": "51%",
+                "C": "71%",
+                "D": "89%"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The hydrosphere covers approximately 71% of Earth's surface, primarily in the form of oceans."
+        },
+        {
+            "id": 21,
+            "question": "Which scientist proposed the Steady State Theory of the universe?",
+            "options": {
+                "A": "Georges Lemaître",
+                "B": "Fred Hoyle",
+                "C": "Edwin Hubble",
+                "D": "Carl Sagan"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Fred Hoyle proposed the Steady State Theory, which argued that the universe has always existed and continuously creates matter to maintain a constant density."
+        },
+        {
+            "id": 22,
+            "question": "What is brachiation, a movement style particularly associated with gibbons?",
+            "options": {
+                "A": "Walking on two legs",
+                "B": "Swinging through trees using arms",
+                "C": "Swimming using arm strokes",
+                "D": "Leaping between tree branches"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Brachiation is the method of locomotion in which an animal swings from branch to branch using its arms, a movement particularly associated with gibbons."
+        },
+        {
+            "id": 23,
+            "question": "What does the Calvin cycle produce?",
+            "options": {
+                "A": "Oxygen",
+                "B": "ATP",
+                "C": "Glucose/sugars",
+                "D": "Carbon dioxide"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The Calvin cycle (light-independent reactions of photosynthesis) uses CO₂ and energy from ATP to synthesize glucose and other sugars."
+        },
+        {
+            "id": 24,
+            "question": "What is the biosphere?",
+            "options": {
+                "A": "The gaseous layer surrounding Earth",
+                "B": "The rocky outer layer of Earth",
+                "C": "All the water on and within Earth",
+                "D": "The part of Earth where living organisms exist"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The biosphere encompasses all regions of Earth where life exists, including parts of the land, water, and atmosphere."
+        },
+        {
+            "id": 25,
+            "question": "In what year did Charles Darwin begin his famous voyage on HMS Beagle?",
+            "options": {
+                "A": "1825",
+                "B": "1831",
+                "C": "1845",
+                "D": "1858"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Charles Darwin began his voyage on HMS Beagle in 1831, a journey that would greatly influence his theory of natural selection."
+        },
+        {
+            "id": 26,
+            "question": "In what year did Darwin and Wallace jointly present their theory of evolution?",
+            "options": {
+                "A": "1831",
+                "B": "1845",
+                "C": "1858",
+                "D": "1871"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "In 1858, Darwin and Wallace jointly presented their papers on natural selection to the Linnean Society of London."
+        },
+        {
+            "id": 27,
+            "question": "What is the approximate diameter of the Milky Way galaxy?",
+            "options": {
+                "A": "10,000 light years",
+                "B": "50,000 light years",
+                "C": "100,000 light years",
+                "D": "1,000,000 light years"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The Milky Way galaxy has a diameter of approximately 100,000 light years."
+        },
+        {
+            "id": 28,
+            "question": "Which planet in our solar system has the most known moons?",
+            "options": {
+                "A": "Jupiter",
+                "B": "Uranus",
+                "C": "Neptune",
+                "D": "Saturn"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Saturn has the most confirmed moons of any planet in the solar system."
+        },
+        {
+            "id": 29,
+            "question": "Which of the following is NOT one of the three main types of galaxies?",
+            "options": {
+                "A": "Spiral",
+                "B": "Elliptical",
+                "C": "Irregular",
+                "D": "Cylindrical"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The three main types of galaxies are spiral, elliptical, and irregular. Cylindrical is not a recognized galaxy classification."
+        },
+        {
+            "id": 30,
+            "question": "Which atmospheric layer is considered the thinnest and outermost?",
+            "options": {
+                "A": "Troposphere",
+                "B": "Stratosphere",
+                "C": "Thermosphere",
+                "D": "Exosphere"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The exosphere is the outermost and thinnest layer of Earth's atmosphere, gradually merging with outer space."
+        },
+        {
+            "id": 31,
+            "question": "Which layer of the atmosphere is known as the 'weather layer'?",
+            "options": {
+                "A": "Stratosphere",
+                "B": "Mesosphere",
+                "C": "Troposphere",
+                "D": "Thermosphere"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The troposphere is where nearly all weather phenomena occur and contains most of Earth's atmospheric mass."
+        },
+        {
+            "id": 32,
+            "question": "How many helical strands (helices) does a DNA molecule contain?",
+            "options": {
+                "A": "One",
+                "B": "Two",
+                "C": "Three",
+                "D": "Four"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "DNA has a double helix structure, consisting of two complementary strands wound around each other."
+        },
+        {
+            "id": 33,
+            "question": "What is the key difference between leptons and hadrons?",
+            "options": {
+                "A": "Leptons have mass; hadrons do not",
+                "B": "Leptons are elementary particles; hadrons are composed of quarks",
+                "C": "Leptons carry charge; hadrons are neutral",
+                "D": "Leptons are found in the nucleus; hadrons orbit it"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Leptons (like electrons and neutrinos) are elementary particles not made of smaller components, while hadrons (like protons and neutrons) are composed of quarks."
+        },
+        {
+            "id": 34,
+            "question": "Why can quarks not exist in isolation?",
+            "options": {
+                "A": "They decay too quickly to be observed alone",
+                "B": "They are held together by the electromagnetic force",
+                "C": "They are confined within hadrons due to color confinement",
+                "D": "They require a surrounding electron cloud to remain stable"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Quarks are always found bound within hadrons due to a property called color confinement — the strong nuclear force increases as quarks are pulled apart, preventing isolation."
+        },
+        {
+            "id": 35,
+            "question": "What is the study of human beings and their origins called?",
+            "options": {
+                "A": "Paleontology",
+                "B": "Anthropology",
+                "C": "Sociology",
+                "D": "Primatology"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Anthropology is the scientific study of humans, including their origins, behavior, societies, and cultures."
+        },
+        {
+            "id": 36,
+            "question": "Which Homo species was the first to leave Africa?",
+            "options": {
+                "A": "Homo habilis",
+                "B": "Homo sapiens",
+                "C": "Homo erectus",
+                "D": "Homo neanderthalensis"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Homo erectus is considered the first Homo species to migrate out of Africa, spreading into Asia and Europe."
+        },
+        {
+            "id": 37,
+            "question": "Which of the following is NOT classified under the family Hominidae?",
+            "options": {
+                "A": "Chimpanzee",
+                "B": "Gorilla",
+                "C": "Orangutan",
+                "D": "Monkey"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Monkeys are not members of Hominidae (the great ape family). Hominidae includes humans, chimpanzees, gorillas, and orangutans."
+        },
+        {
+            "id": 38,
+            "question": "What is the limitation of radiocarbon (Carbon-14) dating for very old samples?",
+            "options": {
+                "A": "It cannot date objects younger than 500 years",
+                "B": "It is not reliable beyond approximately 50,000 years",
+                "C": "It requires the sample to be completely intact",
+                "D": "It only works on marine fossils"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Carbon-14 has a half-life of about 5,730 years, making it unreliable for dating samples older than approximately 50,000 years."
+        },
+        {
+            "id": 39,
+            "question": "The bacterial flagellum is frequently cited as an example of what concept?",
+            "options": {
+                "A": "Natural selection",
+                "B": "Convergent evolution",
+                "C": "Irreducible complexity",
+                "D": "Genetic drift"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Michael Behe used the bacterial flagellum as his primary example of irreducible complexity, arguing it could not have evolved incrementally."
+        },
+        {
+            "id": 40,
+            "question": "What forms the backbone of the DNA molecule?",
+            "options": {
+                "A": "Nitrogen bases",
+                "B": "Hydrogen bonds",
+                "C": "Sugar-phosphate backbone",
+                "D": "Amino acid chains"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The structural backbone of DNA is formed by alternating sugar (deoxyribose) and phosphate groups, with nitrogenous bases attached to each sugar."
+        },
+        {
+            "id": 41,
+            "question": "How does Homo erectus primarily move?",
+            "options": {
+                "A": "Quadrupedally (on all fours)",
+                "B": "By brachiation (arm swinging)",
+                "C": "By knuckle-walking",
+                "D": "Bipedally (upright on two legs)"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Homo erectus walked fully upright in a bipedal manner, similar to modern humans."
+        },
+        {
+            "id": 42,
+            "question": "What does the subfamily Ponginae refer to?",
+            "options": {
+                "A": "Gorillas",
+                "B": "Orangutans",
+                "C": "Chimpanzees",
+                "D": "Gibbons"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Ponginae is the subfamily within Hominidae that contains orangutans (genus Pongo)."
+        },
+        {
+            "id": 43,
+            "question": "Which scientist is most closely associated with the concept of irreducible complexity?",
+            "options": {
+                "A": "Richard Dawkins",
+                "B": "Stephen Jay Gould",
+                "C": "Charles Darwin",
+                "D": "Michael Behe"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Michael Behe, a biochemist, introduced and popularized the concept of irreducible complexity in his 1996 book 'Darwin's Black Box.'"
+        },
+        {
+            "id": 44,
+            "question": "What is Carbon-14?",
+            "options": {
+                "A": "A stable isotope used in industrial processes",
+                "B": "A radioactive isotope used in carbon dating",
+                "C": "The most common form of carbon in the atmosphere",
+                "D": "A synthetic element produced in nuclear reactors"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Carbon-14 is a radioactive isotope of carbon that decays at a known rate, making it useful for dating organic material."
+        },
+        {
+            "id": 45,
+            "question": "What is a photon?",
+            "options": {
+                "A": "A subatomic particle found in the nucleus",
+                "B": "A type of quark carrying electromagnetic charge",
+                "C": "A particle of light (electromagnetic radiation)",
+                "D": "An antiparticle of the electron"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "A photon is a massless particle that is the quantum of electromagnetic radiation, including visible light."
+        },
+        {
+            "id": 46,
+            "question": "What is the Earth's core primarily made of?",
+            "options": {
+                "A": "Silicon and magnesium",
+                "B": "Iron and nickel",
+                "C": "Aluminum and copper",
+                "D": "Carbon and sulfur"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Earth's core is composed primarily of iron and nickel, with the inner core being solid and the outer core being liquid."
+        },
+        {
+            "id": 47,
+            "question": "What type of galaxy is the Milky Way?",
+            "options": {
+                "A": "Elliptical galaxy",
+                "B": "Irregular galaxy",
+                "C": "Lenticular galaxy",
+                "D": "Spiral galaxy"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The Milky Way is a barred spiral galaxy with several spiral arms radiating from a central bar-shaped region."
+        },
+        {
+            "id": 48,
+            "question": "What is the key difference between the biological terms 'Hominidae' and 'Homo'?",
+            "options": {
+                "A": "Hominidae refers to extinct species; Homo refers to living species only",
+                "B": "Hominidae is a family classification; Homo is a genus within that family",
+                "C": "Homo is the broader group; Hominidae is a specific genus",
+                "D": "They are interchangeable terms in modern biology"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Hominidae is the biological family (great apes), while Homo is the genus within that family that includes modern humans and their close relatives."
+        },
+        {
+            "id": 49,
+            "question": "Which planet rotates clockwise (retrograde rotation) unlike most others?",
+            "options": {
+                "A": "Mars",
+                "B": "Neptune",
+                "C": "Venus",
+                "D": "Mercury"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Venus rotates clockwise (retrograde rotation) when viewed from above the North Pole, unlike most planets which rotate counterclockwise."
+        },
+        {
+            "id": 50,
+            "question": "Which of the following is an example of macroevolution?",
+            "options": {
+                "A": "A population of bacteria developing antibiotic resistance",
+                "B": "Color variation in a species of butterfly",
+                "C": "The evolution of whales from land-dwelling mammals",
+                "D": "Seasonal changes in bird feather color"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Macroevolution refers to large-scale evolutionary changes above the species level. The evolution of whales from terrestrial ancestors is a classic example."
+        },
+        {
+            "id": 51,
+            "question": "What are the three subdivisions of the Phanerozoic eon?",
+            "options": {
+                "A": "Hadean, Archean, Proterozoic",
+                "B": "Paleozoic, Mesozoic, Cenozoic",
+                "C": "Jurassic, Cretaceous, Triassic",
+                "D": "Cambrian, Permian, Quaternary"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The Phanerozoic eon is divided into three eras: the Paleozoic (ancient life), Mesozoic (middle life), and Cenozoic (recent life)."
+        },
+        {
+            "id": 52,
+            "question": "What is the innermost layer of Earth called?",
+            "options": {
+                "A": "Mantle",
+                "B": "Crust",
+                "C": "Outer core",
+                "D": "Inner core"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The inner core is Earth's innermost layer, a solid sphere made primarily of iron and nickel."
+        },
+        {
+            "id": 53,
+            "question": "What key assumption underlies radiometric age dating?",
+            "options": {
+                "A": "All rocks were formed at the same time",
+                "B": "The rate of radioactive decay remains constant over time",
+                "C": "Samples must come from the same geological stratum",
+                "D": "The initial amount of daughter isotope is negligible"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Radiometric dating assumes that the rate of radioactive decay (the half-life) has remained constant throughout geologic time."
+        },
+        {
+            "id": 54,
+            "question": "What is dendrochronology and what is one of its main limitations?",
+            "options": {
+                "A": "Dating using rock minerals; limited by mineral solubility",
+                "B": "Dating using pollen records; limited to flowering plants only",
+                "C": "Dating using tree rings; limited to the lifespan of trees and can be affected by damaged rings",
+                "D": "Dating using coral reefs; limited to marine environments"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Dendrochronology dates events using annual tree rings. Its pitfalls include reliance on tree lifespan and the fact that damaged or missing rings can affect accuracy."
+        },
+        {
+            "id": 55,
+            "question": "What physical feature helped Australopithecus climb trees?",
+            "options": {
+                "A": "Long powerful legs",
+                "B": "Prehensile tail",
+                "C": "Curved fingers and toes",
+                "D": "Broad flat feet"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Australopithecus had curved fingers and toes, which are adaptations for gripping tree branches and climbing."
+        },
+        {
+            "id": 56,
+            "question": "What is the main disadvantage of stratigraphic dating?",
+            "options": {
+                "A": "It can only be used in desert environments",
+                "B": "It requires radioactive materials to be present",
+                "C": "Rock layers may have been disturbed by faulting, folding, or erosion",
+                "D": "It cannot determine relative ages, only absolute ages"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Stratigraphy assumes undisturbed rock layers, but geological events like faulting, folding, and erosion can shift, invert, or remove layers, affecting accuracy."
+        },
+        {
+            "id": 57,
+            "question": "What is the smallest planet in our solar system?",
+            "options": {
+                "A": "Mars",
+                "B": "Pluto",
+                "C": "Mercury",
+                "D": "Venus"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Mercury is the smallest planet in the solar system (Pluto is now classified as a dwarf planet)."
+        },
+        {
+            "id": 58,
+            "question": "Which gas makes up the largest proportion of Earth's atmosphere?",
+            "options": {
+                "A": "Oxygen (O₂)",
+                "B": "Carbon dioxide (CO₂)",
+                "C": "Argon (Ar)",
+                "D": "Nitrogen (N₂)"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Nitrogen makes up approximately 78% of Earth's atmosphere, making it the most abundant gas."
+        },
+        {
+            "id": 59,
+            "question": "In what year was Darwin's 'On the Origin of Species' published?",
+            "options": {
+                "A": "1831",
+                "B": "1849",
+                "C": "1858",
+                "D": "1859"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Charles Darwin's groundbreaking work 'On the Origin of Species' was published on November 24, 1859."
+        },
+        {
+            "id": 60,
+            "question": "What does the term 'Hominidae' literally refer to?",
+            "options": {
+                "A": "Human ancestors only",
+                "B": "The great ape family",
+                "C": "Primates with opposable thumbs",
+                "D": "Bipedal mammals"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Hominidae, commonly called the 'great apes,' is the biological family that includes humans, chimpanzees, gorillas, and orangutans."
+        },
+        {
+            "id": 61,
+            "question": "The movement of a bacterial flagellum is often compared to which human-made machine?",
+            "options": {
+                "A": "A piston engine",
+                "B": "A turbine fan",
+                "C": "A rotary engine or outboard motor",
+                "D": "A jet propulsion system"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The bacterial flagellum rotates like a rotary motor or outboard motor, which Behe used as evidence for irreducible complexity and intelligent design."
+        },
+        {
+            "id": 62,
+            "question": "What causes auroras (e.g., Aurora Borealis)?",
+            "options": {
+                "A": "Reflection of sunlight off polar ice caps",
+                "B": "Volcanic gas emissions at high altitudes",
+                "C": "Refraction of moonlight through ice crystals",
+                "D": "Solar particles interacting with Earth's atmosphere"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Auroras are caused by charged particles from the sun (solar wind) interacting with gases in Earth's upper atmosphere, particularly in the thermosphere."
+        },
+        {
+            "id": 63,
+            "question": "What is the approximate diameter of planet Earth?",
+            "options": {
+                "A": "6,371 km",
+                "B": "12,742 km",
+                "C": "40,075 km",
+                "D": "24,901 km"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Earth's mean diameter is approximately 12,742 km (its equatorial diameter is about 12,756 km)."
+        },
+        {
+            "id": 64,
+            "question": "What discovery did Penzias and Wilson make that earned them a Nobel Prize?",
+            "options": {
+                "A": "The existence of dark matter",
+                "B": "Cosmic microwave background (CMB) radiation",
+                "C": "The first black hole observation",
+                "D": "The expansion rate of the universe"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Arno Penzias and Robert Wilson accidentally discovered cosmic microwave background radiation in 1965, providing strong evidence for the Big Bang theory."
+        },
+        {
+            "id": 65,
+            "question": "Which satellite was used to map and study cosmic microwave background (CMB) radiation?",
+            "options": {
+                "A": "Hubble Space Telescope",
+                "B": "Voyager 1",
+                "C": "COBE satellite",
+                "D": "Chandra X-ray Observatory"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The Cosmic Background Explorer (COBE) satellite was used to precisely measure and map cosmic microwave background radiation."
+        },
+        {
+            "id": 66,
+            "question": "What are meteors broken down from?",
+            "options": {
+                "A": "Comets",
+                "B": "Asteroids",
+                "C": "Meteoroids",
+                "D": "Planetesimals"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Meteors are meteoroids (particles of rock and metal in space) that have entered Earth's atmosphere and are burning up due to friction."
+        },
+        {
+            "id": 67,
+            "question": "What is amber?",
+            "options": {
+                "A": "A type of volcanic rock",
+                "B": "A crystallized mineral found in ocean sediment",
+                "C": "Fossilized tree resin that can preserve ancient organisms",
+                "D": "A form of compressed coal"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Amber is fossilized tree resin, often millions of years old, which can preserve insects and other small organisms in remarkable detail."
+        },
+        {
+            "id": 68,
+            "question": "What does 'irreducible complexity' mean in the context of biology?",
+            "options": {
+                "A": "A biological system too complex for current science to understand",
+                "B": "A system that requires all its parts to be present simultaneously to function",
+                "C": "The minimum number of genes required for an organism to survive",
+                "D": "The complexity arising from random mutation alone"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Irreducible complexity, coined by Michael Behe, refers to a system in which removing any single part causes the entire system to cease functioning."
+        },
+        {
+            "id": 69,
+            "question": "What are the four fundamental forces of nature?",
+            "options": {
+                "A": "Gravity, magnetism, nuclear, thermal",
+                "B": "Gravitational, electromagnetic, strong nuclear, weak nuclear",
+                "C": "Electrostatic, kinetic, potential, nuclear",
+                "D": "Gravity, light, heat, chemical"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The four fundamental forces are gravitational, electromagnetic, strong nuclear, and weak nuclear forces."
+        },
+        {
+            "id": 70,
+            "question": "What is the usefulness of an opposing (opposable) thumb in primates?",
+            "options": {
+                "A": "It allows faster bipedal movement",
+                "B": "It enables balance while climbing",
+                "C": "It enables gripping and holding objects precisely",
+                "D": "It is used for signaling between primates"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "An opposable thumb allows primates to grip and manipulate objects with precision, a key evolutionary adaptation."
+        },
+        {
+            "id": 71,
+            "question": "What distinguishes Homo sapiens from other Homo species?",
+            "options": {
+                "A": "Larger physical body size",
+                "B": "Ability to use fire",
+                "C": "Presence of a chin",
+                "D": "Advanced reasoning ability and complex language"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Homo sapiens is distinguished from other Homo species primarily by advanced cognitive abilities, complex language, and abstract reasoning."
+        },
+        {
+            "id": 72,
+            "question": "What is the concept of 'singularity' in cosmology?",
+            "options": {
+                "A": "The point where a black hole evaporates",
+                "B": "An infinitely dense point that existed before the Big Bang",
+                "C": "The moment when two galaxies collide",
+                "D": "The theoretical center of a neutron star"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "In cosmology, singularity refers to the infinitely dense, infinitely hot point from which the Big Bang originated."
+        },
+        {
+            "id": 73,
+            "question": "What dating technique is most appropriate for dating volcanic rocks?",
+            "options": {
+                "A": "Carbon-14 dating",
+                "B": "Dendrochronology",
+                "C": "Potassium-argon dating",
+                "D": "Thermoluminescence dating"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Potassium-argon (K-Ar) dating is used to date volcanic rocks by measuring the ratio of potassium-40 to argon-40, which accumulates as potassium decays."
+        },
+        {
+            "id": 74,
+            "question": "What is the approximate number of stars in the Milky Way galaxy?",
+            "options": {
+                "A": "10–20 million",
+                "B": "1–5 billion",
+                "C": "100–400 billion",
+                "D": "1–2 trillion"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The Milky Way is estimated to contain between 100 and 400 billion stars."
+        },
+        {
+            "id": 75,
+            "question": "What unit is used to measure distances in space?",
+            "options": {
+                "A": "Astronomical units (AU) only",
+                "B": "Parsecs only",
+                "C": "Light years",
+                "D": "Kilometers"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Light years are the standard unit used to express large astronomical distances — the distance light travels in one year."
+        },
+        {
+            "id": 76,
+            "question": "What does ATP synthase convert?",
+            "options": {
+                "A": "Glucose to ATP",
+                "B": "ADP to ATP",
+                "C": "ATP to ADP",
+                "D": "NADH to ATP"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "ATP synthase is the enzyme that uses the proton gradient across the mitochondrial membrane to convert ADP (adenosine diphosphate) to ATP (adenosine triphosphate)."
+        },
+        {
+            "id": 77,
+            "question": "Approximately how many ATP molecules are produced via ATP synthase during cellular respiration?",
+            "options": {
+                "A": "2 ATP",
+                "B": "10 ATP",
+                "C": "24 ATP",
+                "D": "34 ATP"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Approximately 34 ATP molecules are produced by ATP synthase during oxidative phosphorylation (the electron transport chain)."
+        },
+        {
+            "id": 78,
+            "question": "Which of the following represents evidence for macroevolution?",
+            "options": {
+                "A": "Selective breeding of dogs",
+                "B": "Antibiotic resistance in bacteria",
+                "C": "Fossil records, genetics, and comparative anatomy",
+                "D": "Color variation within a single species"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Macroevolution is supported by fossil records showing species transitions, genetic evidence of common ancestry, and comparative anatomy across major groups."
+        },
+        {
+            "id": 79,
+            "question": "What did the Miller-Urey experiment NOT produce?",
+            "options": {
+                "A": "Amino acids",
+                "B": "Organic compounds",
+                "C": "Complete living cells",
+                "D": "Simple sugars"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The Miller-Urey experiment produced amino acids and organic compounds, but did not produce complete living cells or self-replicating organisms."
+        },
+        {
+            "id": 80,
+            "question": "Who discovered the structure of DNA?",
+            "options": {
+                "A": "Gregor Mendel and Charles Darwin",
+                "B": "Louis Pasteur and Robert Koch",
+                "C": "James Watson and Francis Crick",
+                "D": "Rosalind Franklin and Maurice Wilkins"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "James Watson and Francis Crick are credited with discovering the double helix structure of DNA in 1953, using X-ray crystallography data."
+        },
+        {
+            "id": 81,
+            "question": "What does dark energy explain in cosmology?",
+            "options": {
+                "A": "The formation of black holes",
+                "B": "The accelerated expansion of the universe",
+                "C": "The invisible mass holding galaxies together",
+                "D": "The temperature of the cosmic microwave background"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Dark energy is a hypothetical form of energy that is thought to be responsible for the observed accelerated expansion of the universe."
+        },
+        {
+            "id": 82,
+            "question": "What theory proposes the existence of a creator as the source of the universe?",
+            "options": {
+                "A": "Steady State Theory",
+                "B": "Multiverse Theory",
+                "C": "Chance Theory",
+                "D": "Creation Theory"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The Creation Theory proposes that the universe and life were created by an intelligent being or deity."
+        },
+        {
+            "id": 83,
+            "question": "Which atmospheric layer contains the ionosphere's D region?",
+            "options": {
+                "A": "Troposphere",
+                "B": "Stratosphere",
+                "C": "Mesosphere",
+                "D": "Exosphere"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The D region of the ionosphere exists in the mesosphere, roughly 60–90 km above Earth's surface."
+        },
+        {
+            "id": 84,
+            "question": "What is thermoluminescence dating used for?",
+            "options": {
+                "A": "Dating marine sediments",
+                "B": "Dating ancient DNA samples",
+                "C": "Dating heated objects like ceramics using trapped electrons",
+                "D": "Dating ice cores from polar regions"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Thermoluminescence dating measures the energy stored in trapped electrons in crystalline materials (e.g., pottery) since they were last heated."
+        },
+        {
+            "id": 85,
+            "question": "In a geologic column, where is the oldest rock layer found?",
+            "options": {
+                "A": "In the middle of the column",
+                "B": "At the very top",
+                "C": "At the very bottom",
+                "D": "It varies based on the location"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "According to the principle of superposition, older rock layers are found at the bottom of an undisturbed geologic column, with younger layers above them."
+        },
+        {
+            "id": 86,
+            "question": "What is the 'normal' or most common flavor of quark?",
+            "options": {
+                "A": "Strange quark",
+                "B": "Up quark",
+                "C": "Charm quark",
+                "D": "Bottom quark"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The up quark is the lightest and most common quark, found in protons and neutrons along with down quarks."
+        },
+        {
+            "id": 87,
+            "question": "In which atmospheric layer is the International Space Station (ISS) found?",
+            "options": {
+                "A": "Stratosphere",
+                "B": "Mesosphere",
+                "C": "Exosphere",
+                "D": "Thermosphere"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The ISS orbits Earth within the thermosphere, at an altitude of approximately 400 km."
+        },
+        {
+            "id": 88,
+            "question": "What is the effect of the cosmological constant on the universe?",
+            "options": {
+                "A": "It causes the universe to contract",
+                "B": "It keeps the universe in a steady state",
+                "C": "It drives the accelerated expansion of the universe",
+                "D": "It explains the formation of galaxies"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The cosmological constant, reintroduced into physics to model dark energy, is associated with the accelerated expansion of the universe."
+        },
+        {
+            "id": 89,
+            "question": "How old is the Earth estimated to be?",
+            "options": {
+                "A": "1 billion years",
+                "B": "2.5 billion years",
+                "C": "4.5 billion years",
+                "D": "13.8 billion years"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Scientific dating of Earth's oldest rocks and meteorites indicates the Earth is approximately 4.5 billion years old."
+        },
+        {
+            "id": 90,
+            "question": "Which planet has the highest gravitational pull in the solar system (among planets)?",
+            "options": {
+                "A": "Saturn",
+                "B": "Neptune",
+                "C": "Uranus",
+                "D": "Jupiter"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Jupiter is the largest planet and has the strongest gravitational pull of all the planets in the solar system."
+        },
+        {
+            "id": 91,
+            "question": "What is 'junk DNA'?",
+            "options": {
+                "A": "DNA that has been damaged by radiation",
+                "B": "Non-coding DNA sequences that do not code for proteins",
+                "C": "DNA found only in viruses and bacteria",
+                "D": "DNA strands that have lost their complementary pair"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Junk DNA' refers to non-coding sequences in the genome that do not directly code for proteins, though some are now known to have regulatory functions."
+        },
+        {
+            "id": 92,
+            "question": "What kind of locomotion is particularly characteristic of gibbons?",
+            "options": {
+                "A": "Bipedal walking",
+                "B": "Quadrupedal knuckle-walking",
+                "C": "Brachiation using long arms",
+                "D": "Saltatorial leaping"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Gibbons are known for brachiation — swinging through the forest canopy using their exceptionally long arms."
+        },
+        {
+            "id": 93,
+            "question": "What is the body of Earth that is occupied by all living organisms?",
+            "options": {
+                "A": "Hydrosphere",
+                "B": "Lithosphere",
+                "C": "Atmosphere",
+                "D": "Biosphere"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The biosphere is the global ecological system encompassing all living beings and where life exists — in the air, water, and on land."
+        },
+        {
+            "id": 94,
+            "question": "What is the relationship between irreducible complexity and intelligent design?",
+            "options": {
+                "A": "Irreducible complexity disproves intelligent design",
+                "B": "They are unrelated concepts in different scientific fields",
+                "C": "Irreducible complexity is cited as supporting evidence for intelligent design",
+                "D": "Intelligent design was proposed before irreducible complexity"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Irreducible complexity, proposed by Behe, is used as a central argument in support of intelligent design, suggesting that complex biological systems could not arise through evolution alone."
+        },
+        {
+            "id": 95,
+            "question": "What is the theory of chance as it relates to the origin of life?",
+            "options": {
+                "A": "Life was directed by cosmic forces over time",
+                "B": "Life arose purely through random, undirected chemical processes",
+                "C": "Life was seeded on Earth by extraterrestrial organisms",
+                "D": "Life emerged from mineral crystals acting as templates"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The theory of chance (abiogenesis by random processes) proposes that life arose spontaneously from non-living matter through undirected chemical reactions."
+        },
+        {
+            "id": 96,
+            "question": "Why is science limited in fully explaining the origin of the universe?",
+            "options": {
+                "A": "Scientists lack advanced enough telescopes",
+                "B": "The universe is too large to be studied",
+                "C": "Science requires direct observation, which is impossible before the Big Bang",
+                "D": "Mathematical models are not sophisticated enough"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Science depends on observation and experimentation, but the moment before the Big Bang cannot be directly observed, limiting its explanatory reach."
+        },
+        {
+            "id": 97,
+            "question": "What fossil evidence supports the Out of Africa theory for Homo sapiens?",
+            "options": {
+                "A": "Homo sapiens fossils found only in Europe",
+                "B": "Fossilized tools found in Southeast Asia predating African fossils",
+                "C": "African Homo sapiens fossils that predate those found outside Africa",
+                "D": "Neanderthal DNA found in African fossil specimens"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The Out of Africa theory is supported by fossil evidence showing that the oldest Homo sapiens fossils are found in Africa, predating those from other continents."
+        },
+        {
+            "id": 98,
+            "question": "What was the first anatomically modern human species?",
+            "options": {
+                "A": "Homo habilis",
+                "B": "Homo heidelbergensis",
+                "C": "Homo neanderthalensis",
+                "D": "Homo sapiens"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Homo sapiens is the first species considered anatomically and taxonomically modern, with fully developed brain capacity and skeletal structure."
+        },
+        {
+            "id": 99,
+            "question": "What is the mystery surrounding dark matter and dark energy?",
+            "options": {
+                "A": "Scientists disagree on whether they obey the laws of gravity",
+                "B": "Their true nature and composition remain unknown",
+                "C": "They have been detected but cannot be measured",
+                "D": "They only exist in theoretical models, not in actual observations"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Despite evidence for their existence through gravitational effects and cosmic expansion, the true nature and composition of dark matter and dark energy remain unknown."
+        },
+        {
+            "id": 100,
+            "question": "Which family do gorillas and chimpanzees belong to?",
+            "options": {
+                "A": "Cercopithecidae",
+                "B": "Hylobatidae",
+                "C": "Hominidae",
+                "D": "Callitrichidae"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Gorillas and chimpanzees are members of Hominidae, the great ape family, which also includes humans and orangutans."
+        },
+        {
+            "id": 101,
+            "question": "How long does the Earth take to complete one full rotation on its axis?",
+            "options": {
+                "A": "12 hours",
+                "B": "24 hours",
+                "C": "365 days",
+                "D": "28 days"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Earth completes one full rotation on its axis every 24 hours, which defines one day."
+        },
+        {
+            "id": 102,
+            "question": "Which is the strongest gravitational body in our solar system?",
+            "options": {
+                "A": "Jupiter",
+                "B": "Earth",
+                "C": "The Moon",
+                "D": "The Sun"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The Sun, containing over 99% of the solar system's total mass, exerts the strongest gravitational force in the solar system."
+        },
+        {
+            "id": 103,
+            "question": "What geological conditions can disturb stratified (layered) rock sequences?",
+            "options": {
+                "A": "Rainfall and temperature fluctuations",
+                "B": "Faulting, folding, and erosion",
+                "C": "Magnetic pole reversals",
+                "D": "Ocean tidal forces"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Geological events such as faulting, folding, and erosion can disrupt the original sequence of rock layers, complicating stratigraphic dating."
+        },
+        {
+            "id": 104,
+            "question": "What does the theory of chance propose about the origin of life?",
+            "options": {
+                "A": "Life was designed by an intelligence",
+                "B": "Life was brought to Earth by asteroids",
+                "C": "Life arose randomly without any external guidance",
+                "D": "Life emerged from a universal evolutionary law"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The theory of chance proposes that life originated entirely through random, spontaneous chemical events without any guiding principle or creator."
+        },
+        {
+            "id": 105,
+            "question": "What does the term 'macroevolution' describe?",
+            "options": {
+                "A": "Rapid evolution within a single generation",
+                "B": "Large-scale evolutionary changes that produce new species or higher taxa over time",
+                "C": "Evolution directed by human selective breeding",
+                "D": "Small genetic changes within a population"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Macroevolution refers to evolutionary processes and changes occurring at or above the species level, resulting in the emergence of new species, genera, or even larger groups."
+        },
+        {
+            "id": 106,
+            "question": "What does the cosmological constant represent in physics?",
+            "options": {
+                "A": "The speed of light in a vacuum",
+                "B": "The rate at which the universe is cooling",
+                "C": "A value linked to the energy of empty space driving universal expansion",
+                "D": "The gravitational constant between celestial bodies"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The cosmological constant represents the energy density of empty space (vacuum energy) and is associated with the observed accelerated expansion of the universe."
+        },
+        {
+            "id": 107,
+            "question": "What does potassium-argon dating specifically date?",
+            "options": {
+                "A": "Organic material like bones and wood",
+                "B": "Volcanic rocks and ash deposits",
+                "C": "Ice cores from polar regions",
+                "D": "Marine sediments and coral reefs"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Potassium-argon dating is particularly useful for dating volcanic rocks and ash layers, as the clock resets when rock melts."
+        },
+        {
+            "id": 108,
+            "question": "Which part of the atmosphere is where weather phenomena primarily occur?",
+            "options": {
+                "A": "Mesosphere",
+                "B": "Stratosphere",
+                "C": "Exosphere",
+                "D": "Troposphere"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The troposphere is the lowest atmospheric layer where virtually all weather — rain, clouds, storms — occurs."
+        },
+        {
+            "id": 109,
+            "question": "What does the biosphere consist of?",
+            "options": {
+                "A": "Only plants and animals visible to the naked eye",
+                "B": "All living organisms and the ecosystems they inhabit",
+                "C": "The physical and chemical components of Earth's surface",
+                "D": "The hydrosphere and lithosphere combined"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The biosphere encompasses all living organisms on Earth — plants, animals, fungi, and microorganisms — along with the ecosystems they form."
+        }
+    ]
+}
