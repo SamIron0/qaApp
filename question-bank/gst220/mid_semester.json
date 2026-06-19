@@ -1,0 +1,578 @@
+{
+    "questions": [
+        {
+            "id": 0,
+            "question": "Who conducted the experiment related to abiogenesis (origin of life)?",
+            "options": {
+                "A": "Louis Pasteur",
+                "B": "Miller and Urey",
+                "C": "Charles Darwin",
+                "D": "Alexander Oparin"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Stanley Miller and Harold Urey conducted the famous 1953 experiment simulating early Earth conditions to test abiogenesis."
+        },
+        {
+            "id": 1,
+            "question": "Who is credited with modeling the structure of DNA?",
+            "options": {
+                "A": "Watson and Crick",
+                "B": "Rosalind Franklin",
+                "C": "Gregor Mendel",
+                "D": "Charles Darwin"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "James Watson and Francis Crick proposed the double helix model of DNA in 1953."
+        },
+        {
+            "id": 2,
+            "question": "When did Charles Darwin visit the Galapagos Islands?",
+            "options": {
+                "A": "1832",
+                "B": "1835",
+                "C": "1859",
+                "D": "1882"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Darwin visited the Galapagos Islands in 1835 during the voyage of the HMS Beagle."
+        },
+        {
+            "id": 3,
+            "question": "What is the pigment responsible for vision in rod cells?",
+            "options": {
+                "A": "Chlorophyll",
+                "B": "Rhodopsin",
+                "C": "Retinol",
+                "D": "Hemoglobin"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Rhodopsin is the light-sensitive pigment found in rod photoreceptor cells of the retina."
+        },
+        {
+            "id": 4,
+            "question": "Which of the following is NOT a feature of hominids?",
+            "options": {
+                "A": "Bipedalism",
+                "B": "Large brain size",
+                "C": "Prehensile tail",
+                "D": "Tool usage"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Hominids do not have prehensile tails; this trait is found in some New World monkeys, not hominids."
+        },
+        {
+            "id": 5,
+            "question": "What evidence supports the 'Out of Africa' theory of human migration?",
+            "options": {
+                "A": "Fossil records",
+                "B": "Genetic diversity",
+                "C": "Language patterns",
+                "D": "Both A and B"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The 'Out of Africa' theory is supported by both fossil records and genetic diversity data."
+        },
+        {
+            "id": 6,
+            "question": "What tool did Homo erectus create?",
+            "options": {
+                "A": "Oldowan tools",
+                "B": "Acheulean hand axes",
+                "C": "Bow and arrow",
+                "D": "Pottery"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Homo erectus is associated with the development of Acheulean hand axes, a more advanced toolkit than Oldowan tools."
+        },
+        {
+            "id": 7,
+            "question": "What is the subgroup classification for gorillas and chimpanzees?",
+            "options": {
+                "A": "Hominidae",
+                "B": "Pongidae",
+                "C": "Cercopithecidae",
+                "D": "Hylobatidae"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Gorillas and chimpanzees were traditionally classified under the subgroup Pongidae."
+        },
+        {
+            "id": 8,
+            "question": "What trait allows hominids to walk upright?",
+            "options": {
+                "A": "Opposable thumbs",
+                "B": "Bipedalism",
+                "C": "Large cranium",
+                "D": "Spinal curvature"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Bipedalism is the trait that enables hominids to walk upright on two legs."
+        },
+        {
+            "id": 9,
+            "question": "Which group of humans were the first to migrate out of Africa?",
+            "options": {
+                "A": "Homo habilis",
+                "B": "Homo erectus",
+                "C": "Homo sapiens",
+                "D": "Neanderthals"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Homo erectus was the first hominin species to migrate out of Africa and spread to other continents."
+        },
+        {
+            "id": 10,
+            "question": "What is the structure of DNA?",
+            "options": {
+                "A": "Triple helix",
+                "B": "Single strand",
+                "C": "Double helix",
+                "D": "Circular"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "DNA has a double helix structure, consisting of two complementary strands wound around each other."
+        },
+        {
+            "id": 11,
+            "question": "How many base pairs are there in one turn of the DNA helix?",
+            "options": {
+                "A": "10.5",
+                "B": "12",
+                "C": "8.5",
+                "D": "20"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "There are approximately 10.5 base pairs per turn of the DNA double helix."
+        },
+        {
+            "id": 12,
+            "question": "Which concept is used by evolutionists to argue against creationism?",
+            "options": {
+                "A": "Microevolution",
+                "B": "Natural selection",
+                "C": "Macroevolution",
+                "D": "Lamarckism"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Macroevolution, the large-scale change in species over long periods, is often cited as evidence against creationist claims."
+        },
+        {
+            "id": 13,
+            "question": "The progress of humans is marked by all of the following EXCEPT:",
+            "options": {
+                "A": "Materialism",
+                "B": "Bipedalism",
+                "C": "Parental care",
+                "D": "Language"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "Materialism is a philosophical/economic concept, not a biological or evolutionary marker of human progress like bipedalism, parental care, or language."
+        },
+        {
+            "id": 14,
+            "question": "What is a key differentiating characteristic of Homo sapiens compared to other hominins?",
+            "options": {
+                "A": "Large cranium",
+                "B": "Language communication",
+                "C": "Tool use",
+                "D": "Bipedalism"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "A notably large cranium (and associated brain capacity) is a key distinguishing feature of Homo sapiens compared to earlier hominins."
+        },
+        {
+            "id": 15,
+            "question": "What is a singularity?",
+            "options": {
+                "A": "A star cluster",
+                "B": "Infinite density, zero volume",
+                "C": "A black hole's event horizon",
+                "D": "A planet"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "A singularity is a point of infinite density and zero volume, such as the theoretical center of a black hole."
+        },
+        {
+            "id": 16,
+            "question": "Who is considered the father of the Big Bang Theory?",
+            "options": {
+                "A": "Albert Einstein",
+                "B": "Edwin Hubble",
+                "C": "Georges Lemaître",
+                "D": "Carl Sagan"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Georges Lemaître, a Belgian priest and physicist, first proposed the theory that became known as the Big Bang Theory."
+        },
+        {
+            "id": 17,
+            "question": "What is the approximate diameter of the Milky Way galaxy?",
+            "options": {
+                "A": "10,000 light-years",
+                "B": "50,000 light-years",
+                "C": "100,000 light-years",
+                "D": "1,000,000 light-years"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The Milky Way galaxy is estimated to be about 100,000 light-years in diameter."
+        },
+        {
+            "id": 18,
+            "question": "Which of the following is a fundamental physical constant?",
+            "options": {
+                "A": "Gravity",
+                "B": "Speed of light (c)",
+                "C": "Atmospheric pressure",
+                "D": "Earth's mass"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The speed of light (c) is a fundamental physical constant, unlike atmospheric pressure or Earth's mass, which vary by location."
+        },
+        {
+            "id": 19,
+            "question": "What distinguishes Leptons from Hadrons?",
+            "options": {
+                "A": "Mass",
+                "B": "Leptons don't experience the strong force",
+                "C": "Charge",
+                "D": "Location"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Leptons are fundamental particles that do not interact via the strong nuclear force, unlike hadrons which are made of quarks bound by the strong force."
+        },
+        {
+            "id": 20,
+            "question": "What did Carl Anderson discover?",
+            "options": {
+                "A": "Neutrons",
+                "B": "Positrons",
+                "C": "Quarks",
+                "D": "Black holes"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Carl Anderson discovered the positron, the antimatter counterpart of the electron, in 1932."
+        },
+        {
+            "id": 21,
+            "question": "What is the main source of energy for the planets in the solar system?",
+            "options": {
+                "A": "Core heat",
+                "B": "The Sun",
+                "C": "Tidal forces",
+                "D": "Supernovae"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The Sun is the primary source of energy for all planets in the solar system."
+        },
+        {
+            "id": 22,
+            "question": "Distances in space are commonly measured in which unit?",
+            "options": {
+                "A": "Kilometers",
+                "B": "AU",
+                "C": "Light-years",
+                "D": "Parsecs"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Light-years are a common unit used to measure vast distances in space, especially between stars and galaxies."
+        },
+        {
+            "id": 23,
+            "question": "In which atmospheric layer is the International Space Station (ISS) located?",
+            "options": {
+                "A": "Troposphere",
+                "B": "Stratosphere",
+                "C": "Exosphere",
+                "D": "Thermosphere"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The ISS orbits within the thermosphere, at an altitude of roughly 400 km above Earth."
+        },
+        {
+            "id": 24,
+            "question": "Which of the following is NOT a recognized type of galaxy?",
+            "options": {
+                "A": "Spiral",
+                "B": "Elliptical",
+                "C": "Lenticular",
+                "D": "Nebular"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "Spiral, elliptical, and lenticular are recognized galaxy types, while 'nebular' is not a galaxy classification."
+        },
+        {
+            "id": 25,
+            "question": "What type of galaxy is the Milky Way?",
+            "options": {
+                "A": "Irregular",
+                "B": "Barred spiral",
+                "C": "Elliptical",
+                "D": "Lenticular"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The Milky Way is classified as a barred spiral galaxy."
+        },
+        {
+            "id": 26,
+            "question": "How long does it take for the Earth to complete one rotation on its axis?",
+            "options": {
+                "A": "12 hours",
+                "B": "24 hours",
+                "C": "365 days",
+                "D": "30 days"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Earth completes one full rotation on its axis in approximately 24 hours, defining a day."
+        },
+        {
+            "id": 27,
+            "question": "What would happen if gravity increased by one (unit)?",
+            "options": {
+                "A": "Objects weigh more",
+                "B": "Objects become weightless",
+                "C": "Time speeds up",
+                "D": "Orbits stabilize"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "An increase in gravitational force would cause objects to weigh more due to increased gravitational pull."
+        },
+        {
+            "id": 28,
+            "question": "What was used to estimate that there are about 2 trillion galaxies in the universe?",
+            "options": {
+                "A": "Satellite mapping",
+                "B": "Hubble Deep Field",
+                "C": "Radio waves",
+                "D": "Solar flares"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Data from the Hubble Deep Field observations were used to estimate the total number of galaxies in the observable universe at about 2 trillion."
+        },
+        {
+            "id": 29,
+            "question": "Which of the following is a baryonic particle?",
+            "options": {
+                "A": "Electrons",
+                "B": "Neutrinos",
+                "C": "Protons",
+                "D": "Photons"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "Protons are baryons, composed of three quarks, unlike electrons (leptons) or photons (bosons)."
+        },
+        {
+            "id": 30,
+            "question": "Who unified the electromagnetic and weak nuclear forces?",
+            "options": {
+                "A": "Einstein",
+                "B": "Glashow, Salam, Weinberg",
+                "C": "Maxwell",
+                "D": "Bohr"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Sheldon Glashow, Abdus Salam, and Steven Weinberg developed the electroweak theory unifying electromagnetism and the weak force."
+        },
+        {
+            "id": 31,
+            "question": "What is the main pigment involved in photosynthesis?",
+            "options": {
+                "A": "Carotene",
+                "B": "Chlorophyll",
+                "C": "Xanthophyll",
+                "D": "Melanin"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Chlorophyll is the primary pigment responsible for absorbing light energy during photosynthesis."
+        },
+        {
+            "id": 32,
+            "question": "Where does photosynthesis occur within a plant cell?",
+            "options": {
+                "A": "Mitochondria",
+                "B": "Chloroplasts",
+                "C": "Nucleus",
+                "D": "Cytoplasm"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Photosynthesis takes place in the chloroplasts, which contain chlorophyll and the necessary machinery for light-dependent and light-independent reactions."
+        },
+        {
+            "id": 33,
+            "question": "Where is ATP synthase found within the cell?",
+            "options": {
+                "A": "Cell wall",
+                "B": "Nuclear membrane",
+                "C": "Mitochondrial membrane",
+                "D": "Vacuole"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "ATP synthase is located in the inner mitochondrial membrane, where it produces ATP during cellular respiration."
+        },
+        {
+            "id": 34,
+            "question": "What is the role of ATP synthase?",
+            "options": {
+                "A": "Break down glucose",
+                "B": "Forms ATP",
+                "C": "Store DNA",
+                "D": "Transport oxygen"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "ATP synthase catalyzes the formation of ATP from ADP and inorganic phosphate, using the energy from a proton gradient."
+        },
+        {
+            "id": 35,
+            "question": "Approximately how old is the Earth?",
+            "options": {
+                "A": "4.5 million years",
+                "B": "4.5 billion years",
+                "C": "13.8 billion years",
+                "D": "1 billion years"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The Earth is estimated to be approximately 4.5 billion years old, based on radiometric dating of meteorites and rocks."
+        },
+        {
+            "id": 36,
+            "question": "Radiocarbon dating is primarily used to date what kind of material?",
+            "options": {
+                "A": "Metals",
+                "B": "Organic materials",
+                "C": "Rocks",
+                "D": "Water"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Radiocarbon dating measures carbon-14 decay and is used to date organic materials such as bones, wood, and plant remains."
+        },
+        {
+            "id": 37,
+            "question": "What is the approximate upper limit of radiocarbon dating?",
+            "options": {
+                "A": "10,000 years",
+                "B": "60,000 years",
+                "C": "1 million years",
+                "D": "500 years"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Radiocarbon dating is generally reliable only up to about 60,000 years due to the limited half-life of carbon-14."
+        },
+        {
+            "id": 38,
+            "question": "Thermoluminescence dating is typically used for what kind of materials?",
+            "options": {
+                "A": "Bones",
+                "B": "Ceramics and minerals",
+                "C": "DNA",
+                "D": "Gases"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Thermoluminescence dating is used to date ceramics and minerals by measuring trapped electron energy released as light when heated."
+        },
+        {
+            "id": 39,
+            "question": "Which geological time period is characterized by rare fossil occurrences?",
+            "options": {
+                "A": "Phanerozoic",
+                "B": "Proterozoic/Precambrian",
+                "C": "Cenozoic",
+                "D": "Mesozoic"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "The Proterozoic/Precambrian era has comparatively rare fossil records due to the scarcity of complex, easily fossilized organisms during that time."
+        },
+        {
+            "id": 40,
+            "question": "Who were notable American vertebrate fossil experts known for their rivalry in fossil discovery?",
+            "options": {
+                "A": "Darwin and Wallace",
+                "B": "Marsh and Cope",
+                "C": "Watson and Crick",
+                "D": "Curie and Curie"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "Othniel Charles Marsh and Edward Drinker Cope were American paleontologists famous for their fierce rivalry, known as the 'Bone Wars,' in vertebrate fossil discovery."
+        }
+    ]
+}

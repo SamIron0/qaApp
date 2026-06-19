@@ -29,6 +29,13 @@ export const COURSES: Course[] = [
         vendor: "quro",
         questionCount: 110,
       },
+      {
+        id: "mid_semester",
+        name: "Mid Semester",
+        file: "./question-bank/gst220/mid_semester.json",
+        vendor: "quro",
+        questionCount: 110,
+      },
     ]
   },
   {
