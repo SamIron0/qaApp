@@ -34,7 +34,7 @@ export const COURSES: Course[] = [
         name: "Mid Semester",
         file: "./question-bank/gst220/mid_semester.json",
         vendor: "quro",
-        questionCount: 41,
+        questionCount: 50,
       },
     ]
   },
@@ -45,11 +45,11 @@ export const COURSES: Course[] = [
     department: "General Studies",
     banks: [
       {
-        id: "bank13",
+        id: "mid_semester",
         name: "Midsemester",
-        file: "./question-bank/gst212/bank13.json",
+        file: "./question-bank/gst212/mid_semester.json",
         vendor: "quro",
-        questionCount: 80,
+        questionCount: 84,
       },
     ],
   },
