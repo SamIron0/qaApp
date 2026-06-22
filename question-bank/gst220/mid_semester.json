@@ -426,13 +426,13 @@
             "options": {
                 "A": "6",
                 "B": "8.5",
-                "C": "10.5",
+                "C": "10.4",
                 "D": "12"
             },
             "answerKey": [
                 "C"
             ],
-            "explanation": "In the B-form of DNA (the most common form under physiological conditions), one complete helical turn contains approximately 10.5 base pairs. This measurement was established through X-ray crystallography studies."
+            "explanation": "In the B-form of DNA (the most common form under physiological conditions), one complete helical turn contains approximately 10.4 base pairs. This measurement was established through X-ray crystallography studies."
         },
         {
             "id": 31,
