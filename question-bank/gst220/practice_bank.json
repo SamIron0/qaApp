@@ -44,17 +44,17 @@
         },
         {
             "id": 3,
-            "question": "How many working parts does the human eye have?",
+            "question": "Approximately how many working components/parts does the human eye contain?",
             "options": {
-                "A": "Two",
-                "B": "Three",
-                "C": "Five",
-                "D": "Seven"
+                "A": "2 million",
+                "B": "7 million",
+                "C": "40 million",
+                "D": "100 billion"
             },
             "answerKey": [
-                "B"
+                "A"
             ],
-            "explanation": "The human eye has three primary working parts: the cornea/lens system, the iris, and the retina."
+            "explanation": "The human eye is estimated to contain approximately 2 million working parts, making it one of the most complex organs in the human body. The retina alone contains about 120 million rod cells and 6–7 million cone cells."
         },
         {
             "id": 4,
