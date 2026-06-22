@@ -1,0 +1,172 @@
+{
+    "questions": [
+        {
+            "id": 0,
+            "question": "What is the French translation of 'Tomorrow morning'?",
+            "options": {
+                "A": "Demain matin",
+                "B": "Demain soir",
+                "C": "Demain",
+                "D": "Demain après-midi"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Demain matin' literally means 'tomorrow morning'. 'Demain soir' means 'tomorrow evening', 'Demain' means 'tomorrow', and 'Demain après-midi' means 'tomorrow afternoon'."
+        },
+        {
+            "id": 1,
+            "question": "Le jour de sabbat est ___.",
+            "options": {
+                "A": "Dimanche",
+                "B": "Vendredi",
+                "C": "Lundi",
+                "D": "Samedi"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "The Sabbath day (le jour de sabbat) is Saturday (Samedi) in the French calendar tradition."
+        },
+        {
+            "id": 2,
+            "question": "___ est le premier jour de la semaine.",
+            "options": {
+                "A": "Dimanche",
+                "B": "Lundi",
+                "C": "Samedi",
+                "D": "Mardi"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "In the traditional French calendar week, Sunday (Dimanche) is considered the first day of the week."
+        },
+        {
+            "id": 3,
+            "question": "Il y a trente jours dans un ___.",
+            "options": {
+                "A": "Mois",
+                "B": "Semaine",
+                "C": "Année",
+                "D": "Journée"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "There are (approximately) thirty days in a month (un mois). A week (semaine) has 7 days, a year (année) has 365 days, and a journée refers to a single daytime period."
+        },
+        {
+            "id": 4,
+            "question": "What does 'Soyez les bienvenus' mean in English?",
+            "options": {
+                "A": "You are welcome",
+                "B": "You are coming",
+                "C": "You are leaving",
+                "D": "You are invited"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Soyez les bienvenus' is a formal/plural greeting meaning 'You are welcome' or 'Welcome to you all'. It is used to greet a group of people."
+        },
+        {
+            "id": 5,
+            "question": "What does 'Jean veut de l'argent' mean in English?",
+            "options": {
+                "A": "Jean sees money",
+                "B": "Jean and money",
+                "C": "Jean has money",
+                "D": "Jean wants money"
+            },
+            "answerKey": [
+                "D"
+            ],
+            "explanation": "'Vouloir' means 'to want', so 'Jean veut de l'argent' translates to 'Jean wants money'. 'Voir' would mean 'to see' and 'avoir' would mean 'to have'."
+        },
+        {
+            "id": 6,
+            "question": "What is the correct French translation of 'Good morning'?",
+            "options": {
+                "A": "Bon journée",
+                "B": "Bonne journée",
+                "C": "Bonjour",
+                "D": "Bonsoir"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Bonjour' is the standard French greeting for 'Good morning' or 'Good day'. 'Bonne journée' means 'Have a good day', 'Bonsoir' means 'Good evening', and 'Bon journée' is grammatically incorrect."
+        },
+        {
+            "id": 7,
+            "question": "___ arbre est grand. (Choose the correct article for 'arbre')",
+            "options": {
+                "A": "Le",
+                "B": "La",
+                "C": "L'",
+                "D": "Les"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "'Arbre' (tree) is a masculine noun beginning with a vowel, so the definite article 'le' contracts to 'L'' via elision. 'La' is feminine, 'Les' is plural, and 'Le' cannot precede a vowel — it must contract."
+        },
+        {
+            "id": 8,
+            "question": "Ces hommes ___ des belles femmes.",
+            "options": {
+                "A": "a",
+                "B": "sont",
+                "C": "ont",
+                "D": "est"
+            },
+            "answerKey": [
+                "C"
+            ],
+            "explanation": "The correct verb is 'ont' (have), from 'avoir'. The sentence means 'These men have beautiful women.' 'Sont' (are) would be used with 'être', 'est' and 'a' are singular forms and do not agree with the plural subject 'ces hommes'."
+        },
+        {
+            "id": 9,
+            "question": "___ est un jour saint.",
+            "options": {
+                "A": "Dimanche",
+                "B": "Samedi",
+                "C": "Vendredi",
+                "D": "Lundi"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "In the context of this question, Saturday (Samedi) is identified as a holy day (un jour saint), consistent with the Sabbath observed in Jewish and some Christian traditions."
+        },
+        {
+            "id": 10,
+            "question": "Mes parents m'ont offert ___ moto.",
+            "options": {
+                "A": "un",
+                "B": "une",
+                "C": "le",
+                "D": "la"
+            },
+            "answerKey": [
+                "B"
+            ],
+            "explanation": "'Moto' (motorcycle) is a feminine noun in French, so it takes the feminine indefinite article 'une'. 'Un' is masculine, 'le' and 'la' are definite articles used for known/specific nouns."
+        },
+        {
+            "id": 11,
+            "question": "Mes parents m'ont offert ___ cadeau.",
+            "options": {
+                "A": "un",
+                "B": "une",
+                "C": "le",
+                "D": "la"
+            },
+            "answerKey": [
+                "A"
+            ],
+            "explanation": "'Cadeau' (gift) is a masculine noun in French, so it takes the masculine indefinite article 'un'. 'Une' is feminine, while 'le' and 'la' are definite articles used for specific/known nouns."
+        }
+    ]
+}

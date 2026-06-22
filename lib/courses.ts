@@ -60,6 +60,13 @@ export const COURSES: Course[] = [
     department: "General Studies",
     banks: [
       {
+        id: "mid_semester",
+        name: "Midsemester",
+        file: "./question-bank/gst200/mid_semester.json",
+        vendor: "quro",
+        questionCount: 12,
+      },
+      {
         id: "french_main",
         name: "Question Bank for French",
         file: "./question-bank/gst200/french_main.json",
