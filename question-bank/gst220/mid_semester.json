@@ -370,13 +370,13 @@
             "options": {
                 "A": "Spiral",
                 "B": "Elliptical",
-                "C": "Lenticular",
+                "C": "Irregular",
                 "D": "Nebular"
             },
             "answerKey": [
                 "D"
             ],
-            "explanation": "The three main types of galaxies are spiral, elliptical, and lenticular (lens-shaped). A nebula is a cloud of gas and dust in space — it is not a galaxy type. 'Nebular' is therefore not a recognized galaxy classification."
+            "explanation": "The three main types of galaxies are spiral, elliptical, and irregular. A nebula is a cloud of gas and dust in space — it is not a galaxy type. 'Nebular' is therefore not a recognized galaxy classification."
         },
         {
             "id": 27,
@@ -385,12 +385,12 @@
                 "A": "Elliptical galaxy",
                 "B": "Irregular galaxy",
                 "C": "Spiral galaxy",
-                "D": "Barred spiral galaxy"
+                "D": "Lenticular galaxy"
             },
             "answerKey": [
                 "D"
             ],
-            "explanation": "The Milky Way is classified as a barred spiral galaxy, characterized by a central bar-shaped structure composed of stars, from which spiral arms radiate outward."
+            "explanation": "The Milky Way is classified as a spiral galaxy."
         },
         {
             "id": 28,
