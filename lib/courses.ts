@@ -51,6 +51,104 @@ export const COURSES: Course[] = [
         vendor: "quro",
         questionCount: 84,
       },
+      {
+        id: "bank12",
+        name: "Chapter 1",
+        file: "./question-bank/gst212/bank12.json",
+        vendor: "quro",
+        questionCount: 424,
+      },
+      {
+        id: "philosophy_2",
+        name: "Chapter 2",
+        file: "./question-bank/gst212/philosophy_2.json",
+        vendor: "quro",
+        questionCount: 82,
+      },
+      {
+        id: "philosophy_3",
+        name: "Chapter 3",
+        file: "./question-bank/gst212/philosophy_3.json",
+        vendor: "quro",
+        questionCount: 606,
+      },
+      {
+        id: "bank1",
+        name: "Comprehensive Test on Propositions, Arguments, and Reasoning",
+        file: "./question-bank/gst212/bank1.json",
+        vendor: "ad-astra",
+        questionCount: 84,
+      },
+      {
+        id: "bank2",
+        name: "QUESTIONS ON CATEGORICAL PROPOSITIONS",
+        file: "./question-bank/gst212/bank2.json",
+        vendor: "ad-astra",
+        questionCount: 65,
+      },
+      {
+        id: "bank3",
+        name: "CHAPTER 3 - MAJOR BRANCHES OF PHILOSOPHY",
+        file: "./question-bank/gst212/bank3.json",
+        vendor: "ad-astra",
+        questionCount: 26,
+      },
+      {
+        id: "bank4",
+        name: "CHAPTER 6 - LOGIC AND ITS RELEVANCE",
+        file: "./question-bank/gst212/bank4.json",
+        vendor: "ad-astra",
+        questionCount: 49,
+      },
+      {
+        id: "bank5",
+        name: "THEROTICAL UNDERSTANDING OF CATEGORICAL PREPOSITION",
+        file: "./question-bank/gst212/bank5.json",
+        vendor: "ad-astra",
+        questionCount: 25,
+      },
+      {
+        id: "bank6",
+        name: "Chapter 1",
+        file: "./question-bank/gst212/bank6.json",
+        vendor: "ad-astra",
+        questionCount: 32,
+      },
+      {
+        id: "bank7",
+        name: "Chapter 2",
+        file: "./question-bank/gst212/bank7.json",
+        vendor: "ad-astra",
+        questionCount: 12,
+      },
+      {
+        id: "bank8",
+        name: "Chapter 3",
+        file: "./question-bank/gst212/bank8.json",
+        vendor: "ad-astra",
+        questionCount: 26,
+      },
+      {
+        id: "bank9",
+        name: "Chapter 4",
+        file: "./question-bank/gst212/bank9.json",
+        vendor: "ad-astra",
+        questionCount: 15,
+      },
+      {
+        id: "bank10",
+        name: "Chapter 5",
+        file: "./question-bank/gst212/bank10.json",
+        vendor: "ad-astra",
+        questionCount: 15,
+      },
+      {
+        id: "bank11",
+        name: "Chapter 6&7",
+        file: "./question-bank/gst212/bank11.json",
+        vendor: "ad-astra",
+        questionCount: 59,
+      }
     ],
   },
   {
@@ -126,7 +224,7 @@ export const COURSES: Course[] = [
       }
     ]
   },
-  ];
+];
 
 export function courseBanksPath(courseId: string): string {
   return `/courses/${courseId}`;
