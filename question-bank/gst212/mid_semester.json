@@ -366,7 +366,7 @@
         },
         {
             "id": 26,
-            "question": "Which of the following is a core value of Babcock University?",
+            "question": "Which of the following is not a core value of Babcock University?",
             "options": {
                 "A": "Accountability",
                 "B": "Reliability",
@@ -374,7 +374,7 @@
                 "D": "Excellence"
             },
             "answerKey": [
-                "C"
+                "B"
             ],
             "explanation": "Integrity is one of the core values of Babcock University, consistent with its Seventh-day Adventist Christian foundation emphasizing honesty, ethical conduct, and moral uprightness."
         },
